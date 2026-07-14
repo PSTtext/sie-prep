@@ -1,0 +1,567 @@
+[
+  {
+    "id": "ch7-q001",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Open-end mutual fund shares are purchased at:",
+    "choices": [
+      "the current market price on an exchange",
+      "NAV plus any applicable sales charge (the public offering price)",
+      "a discount to NAV",
+      "par value"
+    ],
+    "correctIndex": 1,
+    "explanation": "Open-end funds continuously issue shares at POP = NAV + sales charge, and redeem at NAV. They do not trade in the secondary market; pricing is forward (next calculated NAV).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q002",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Class A mutual fund shares typically feature:",
+    "choices": [
+      "a front-end sales charge with breakpoint discounts for larger purchases",
+      "a back-end load that declines over time",
+      "a level annual load forever",
+      "no fees of any kind"
+    ],
+    "correctIndex": 0,
+    "explanation": "A shares: front-end load, reduced at breakpoints, plus low 12b-1 fees — usually best for large or long-term investors. B shares carry CDSCs; C shares are level-load.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q003",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "A customer investing $95,000 in a fund with a $100,000 breakpoint should be told about the breakpoint because failing to do so is:",
+    "choices": [
+      "acceptable if the customer doesn't ask",
+      "a prohibited breakpoint sale",
+      "required only for institutional buyers",
+      "a violation only above $1 million"
+    ],
+    "correctIndex": 1,
+    "explanation": "Selling just below a breakpoint without disclosing the discount is a breakpoint sale violation. Letters of intent (13 months, backdated up to 90 days) and rights of accumulation help customers qualify.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q004",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "A fund's 12b-1 fee pays for:",
+    "choices": [
+      "portfolio management",
+      "distribution and marketing costs, charged against fund assets",
+      "custodial services",
+      "shareholder taxes"
+    ],
+    "correctIndex": 1,
+    "explanation": "12b-1 fees cover distribution/marketing (and service fees), deducted annually from assets — part of the expense ratio. A fund calling itself 'no-load' may charge at most 0.25%.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q005",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Mutual fund NAV per share is calculated:",
+    "choices": [
+      "continuously during trading hours",
+      "once per business day, typically at the market close",
+      "weekly",
+      "only when shares are sold"
+    ],
+    "correctIndex": 1,
+    "explanation": "Funds price once daily after the close (assets − liabilities ÷ shares). Orders received during the day get that day's closing NAV — forward pricing.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q006",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "Closed-end fund shares differ from open-end shares in that they:",
+    "choices": [
+      "are redeemable with the issuer at NAV",
+      "trade on exchanges at prices that may be above or below NAV",
+      "must sell at NAV plus a load",
+      "cannot be margined"
+    ],
+    "correctIndex": 1,
+    "explanation": "Closed-end funds issue a fixed number of shares in an IPO and then trade in the secondary market at premiums or discounts to NAV, driven by supply and demand.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q007",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "Which feature is an advantage of ETFs over traditional open-end index funds?",
+    "choices": [
+      "Forward pricing once per day",
+      "Intraday trading, margin eligibility, and generally high tax efficiency",
+      "Guaranteed returns",
+      "No expense ratios"
+    ],
+    "correctIndex": 1,
+    "explanation": "ETFs trade like stocks all day, can be bought on margin and sold short, and the in-kind creation/redemption process limits taxable capital gains distributions.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q008",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "A unit investment trust (UIT) is characterized by:",
+    "choices": [
+      "an actively managed portfolio",
+      "a fixed portfolio with no board of directors or investment adviser",
+      "daily portfolio turnover",
+      "unlimited life"
+    ],
+    "correctIndex": 1,
+    "explanation": "UITs assemble a fixed, supervised (not managed) portfolio with a termination date; units are redeemable with the trust. No adviser, no board, no active trading.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q009",
+    "chapterId": 7,
+    "sectionTag": "7-3",
+    "question": "To qualify for conduit (pass-through) tax treatment, a REIT must distribute at least ___ of its taxable income to shareholders:",
+    "choices": ["50%", "75%", "90%", "100%"],
+    "correctIndex": 2,
+    "explanation": "REITs distributing 90%+ of taxable income avoid corporate tax on the distributed amount. Note: 75% of assets/income must be real-estate related; REIT dividends are generally taxed as ordinary income.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q010",
+    "chapterId": 7,
+    "sectionTag": "7-3",
+    "question": "An investor seeking liquid exposure to commercial real estate income would be BEST served by:",
+    "choices": [
+      "a direct real estate limited partnership",
+      "an exchange-listed equity REIT",
+      "a non-traded REIT",
+      "raw land purchases"
+    ],
+    "correctIndex": 1,
+    "explanation": "Listed REITs trade on exchanges — liquid, income-producing (rents), professionally managed. DPPs and non-traded REITs are illiquid.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q011",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "During the accumulation phase of a variable annuity, the contract owner's payments purchase:",
+    "choices": ["annuity units", "accumulation units", "fund shares directly", "bond coupons"],
+    "correctIndex": 1,
+    "explanation": "Contributions buy accumulation units of the separate account subaccounts. At annuitization, accumulation units convert to a fixed number of annuity units whose value varies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q012",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "Variable annuity earnings grow:",
+    "choices": [
+      "tax-free permanently",
+      "tax-deferred, taxed as ordinary income when withdrawn",
+      "taxed annually as capital gains",
+      "exempt from all taxation after age 59½"
+    ],
+    "correctIndex": 1,
+    "explanation": "Earnings compound tax-deferred; withdrawals of earnings are ordinary income (LIFO for non-qualified contracts), plus a 10% penalty before 59½.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q013",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "Because a variable annuity's separate account performance determines its value, the product is regulated as:",
+    "choices": [
+      "insurance only",
+      "a security (plus insurance), requiring prospectus delivery and securities registration",
+      "a bank product",
+      "a commodity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Investment risk falls on the owner, making variable contracts securities — sold with a prospectus by registered persons — in addition to state insurance regulation. Fixed annuities are insurance only.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q014",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "The AIR (assumed interest rate) of a variable annuity matters during the payout phase because monthly payments rise when:",
+    "choices": [
+      "separate account performance exceeds the AIR",
+      "performance is positive at all",
+      "performance merely equals the AIR",
+      "the insurer's general account earns more"
+    ],
+    "correctIndex": 0,
+    "explanation": "Payments compare actual performance to the AIR benchmark: beat it, payments increase; match it, payments stay level; trail it, payments fall — even if returns were positive.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch7-q015",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "A letter of intent (LOI) for breakpoint pricing:",
+    "choices": [
+      "obligates the investor to complete the purchase",
+      "gives 13 months to reach the breakpoint and may be backdated up to 90 days",
+      "cannot be backdated",
+      "applies only to Class C shares"
+    ],
+    "correctIndex": 1,
+    "explanation": "An LOI is non-binding on the investor (the fund holds escrowed shares in case it isn't met), covers 13 months, and may be backdated 90 days to include prior purchases.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q016",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Rights of accumulation allow a fund investor to:",
+    "choices": [
+      "vote additional shares",
+      "count existing holdings toward breakpoints on new purchases",
+      "avoid all sales charges",
+      "redeem at POP"
+    ],
+    "correctIndex": 1,
+    "explanation": "ROA aggregates the current value of existing holdings (often across related accounts and funds in the family) with new money to reach breakpoint discounts — no time limit, unlike an LOI.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q017",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "The maximum sales charge on a mutual fund under FINRA rules is:",
+    "choices": ["5% of NAV", "8.5% of the offering price", "10% of NAV", "2% of assets annually"],
+    "correctIndex": 1,
+    "explanation": "8.5% of POP is the ceiling — and only for funds offering breakpoints, ROA, and reinvestment at NAV. Most funds charge far less.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q018",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "An inverse (short) leveraged ETF is generally suitable for:",
+    "choices": [
+      "long-term buy-and-hold retirement investors",
+      "sophisticated investors making short-term tactical trades who understand daily reset risk",
+      "all customers seeking diversification",
+      "custodial accounts for minors"
+    ],
+    "correctIndex": 1,
+    "explanation": "Leveraged/inverse ETFs reset daily; compounding makes long-run returns diverge from the index multiple. Regulators treat them as short-term trading tools requiring special diligence.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q019",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "A money market mutual fund seeks to maintain:",
+    "choices": [
+      "a $1.00 stable NAV, though it is not guaranteed",
+      "a guaranteed $1.00 NAV insured by FDIC",
+      "maximum capital gains",
+      "a fixed 5% yield"
+    ],
+    "correctIndex": 0,
+    "explanation": "Retail money funds target a stable $1 NAV using short-term paper, but 'breaking the buck' is possible — they are investments, not insured deposits.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q020",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Which statement about mutual fund expense ratios is TRUE?",
+    "choices": [
+      "They include front-end sales loads",
+      "They are annual operating costs (management, 12b-1, admin) as a percentage of assets",
+      "They are charged only at redemption",
+      "Index funds always have higher ratios than active funds"
+    ],
+    "correctIndex": 1,
+    "explanation": "The expense ratio is the fund's annual operating cost drag, deducted from assets. Sales loads are separate transaction charges. Passive funds typically run cheaper than active.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q021",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "A closed-end fund with NAV of $20 trades at $18. The fund is trading at:",
+    "choices": ["a 10% premium", "a 10% discount", "NAV", "parity"],
+    "correctIndex": 1,
+    "explanation": "($18 − $20) ÷ $20 = −10% — a discount to NAV, common for closed-end funds. Investors buy/sell at market price plus commission, not NAV.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q022",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "Which annuity payout option provides the LARGEST monthly payment?",
+    "choices": [
+      "Life only (straight life)",
+      "Life with 10-year period certain",
+      "Joint and last survivor",
+      "Unit refund"
+    ],
+    "correctIndex": 0,
+    "explanation": "Straight life pays only while the annuitant lives — no guarantees to beneficiaries — so the insurer can pay the most per month. Every added guarantee lowers the payment.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q023",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "A 1035 exchange permits:",
+    "choices": [
+      "tax-free exchange of one annuity contract for another",
+      "penalty-free early IRA withdrawals",
+      "converting mutual funds to ETFs tax-free",
+      "swapping stocks for bonds without tax"
+    ],
+    "correctIndex": 0,
+    "explanation": "IRC Section 1035 allows tax-free exchanges between insurance products (annuity→annuity, life→annuity). Suitability scrutiny applies — new surrender periods and costs can hurt the customer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q024",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Mutual fund dividends and capital gains distributions are taxable to the shareholder:",
+    "choices": [
+      "only if taken in cash",
+      "whether received in cash or reinvested",
+      "only at redemption",
+      "never, if held over a year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Distributions are taxable in the year received even when automatically reinvested (reinvestment does raise cost basis). Capital gains distributions are typically long-term.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q025",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "Which investment company type has NO management fee?",
+    "choices": ["Open-end fund", "Closed-end fund", "UIT", "Hedge fund"],
+    "correctIndex": 2,
+    "explanation": "UITs are unmanaged — the portfolio is fixed at creation, so there's no adviser to pay. Sales charges and small supervisory fees still exist.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q026",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Which fund type would be MOST suitable for a client whose objective is maximum current income with high credit quality?",
+    "choices": [
+      "Aggressive growth fund",
+      "Government bond fund",
+      "Sector technology fund",
+      "Small-cap value fund"
+    ],
+    "correctIndex": 1,
+    "explanation": "Match objective to portfolio: government bond funds emphasize income with minimal credit risk (rate risk remains). Equity funds target growth, not income.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q027",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "The death benefit in a variable annuity's accumulation phase typically guarantees beneficiaries at least:",
+    "choices": [
+      "the contract value or total premiums paid, whichever is greater",
+      "double the premiums",
+      "nothing",
+      "the AIR compounded"
+    ],
+    "correctIndex": 0,
+    "explanation": "The standard death benefit pays the greater of account value or net premiums — one of the insurance features (with M&E charges paying for it).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q028",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "ETF investors buying and selling shares pay:",
+    "choices": [
+      "sales loads to the sponsor",
+      "brokerage commissions/spreads like any exchange-traded stock",
+      "redemption fees to the fund",
+      "nothing at all"
+    ],
+    "correctIndex": 1,
+    "explanation": "ETF trades are stock trades: commission (if any) plus bid-ask spread. There are no loads; the fund's expense ratio still applies internally.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q029",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "A fund investor's redemption request must be paid within ___ of receipt under the Investment Company Act:",
+    "choices": ["1 day", "3 days", "7 days", "30 days"],
+    "correctIndex": 2,
+    "explanation": "Open-end funds must pay redemptions within seven days at the next-computed NAV (less any redemption fee/CDSC).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q030",
+    "chapterId": 7,
+    "sectionTag": "7-3",
+    "question": "Which of the following is TRUE of REIT taxation for shareholders?",
+    "choices": [
+      "Dividends are usually qualified",
+      "Most REIT dividends are taxed as ordinary income",
+      "Distributions are tax-free",
+      "Losses pass through to shareholders"
+    ],
+    "correctIndex": 1,
+    "explanation": "REIT dividends are mostly non-qualified ordinary income (a 20% QBI deduction may apply). REITs pass through income but NOT losses — unlike DPPs.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch7-q031",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Class B mutual fund shares:",
+    "choices": [
+      "charge a front-end load",
+      "carry a contingent deferred sales charge that declines and usually convert to A shares",
+      "never charge 12b-1 fees",
+      "are cheapest for very large purchases"
+    ],
+    "correctIndex": 1,
+    "explanation": "B shares: no front load, but a CDSC declining over ~6-8 years plus higher 12b-1s, then conversion to A. Large purchases in B shares are a classic suitability red flag.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q032",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "Which customer is the LEAST appropriate candidate for a deferred variable annuity?",
+    "choices": [
+      "A 40-year-old maxing out her 401(k) seeking additional tax-deferred growth",
+      "A 78-year-old needing access to funds within two years",
+      "A 50-year-old with a long horizon and high income",
+      "A 35-year-old business owner without a retirement plan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Long surrender periods, surrender charges, and the deferred design make VAs unsuitable for elderly clients with near-term liquidity needs — a heavily tested suitability scenario.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q033",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "The investment adviser of a mutual fund is responsible for:",
+    "choices": [
+      "safekeeping fund assets",
+      "managing the portfolio according to the fund's objective for a fee",
+      "distributing shares",
+      "auditing the fund"
+    ],
+    "correctIndex": 1,
+    "explanation": "The adviser manages investments per the objective in the prospectus, earning an asset-based fee (largest fund expense). The custodian safeguards assets; the underwriter/distributor sells shares.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q034",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "Which product may be purchased on margin and sold short?",
+    "choices": ["Open-end fund shares", "ETF shares", "UIT units", "Variable annuity units"],
+    "correctIndex": 1,
+    "explanation": "ETFs trade like listed stocks — marginable and shortable. Open-end fund shares are newly issued each purchase (not marginable for 30 days) and cannot be shorted.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q035",
+    "chapterId": 7,
+    "sectionTag": "7-3",
+    "question": "An equity REIT earns its income primarily from:",
+    "choices": [
+      "interest on mortgages",
+      "rents and gains on owned properties",
+      "underwriting fees",
+      "oil and gas royalties"
+    ],
+    "correctIndex": 1,
+    "explanation": "Equity REITs own and operate income property (apartments, malls, offices). Mortgage REITs lend and earn interest — with more rate sensitivity.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q036",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "M&E (mortality and expense) charges in a variable annuity compensate the insurer for:",
+    "choices": [
+      "portfolio management",
+      "the death benefit guarantee and annuitization (longevity) guarantees",
+      "state premium taxes",
+      "fund transfer fees"
+    ],
+    "correctIndex": 1,
+    "explanation": "M&E pays for insurance guarantees — the death benefit and the promise of lifetime income regardless of longevity. It's a major ongoing cost distinguishing VAs from plain funds.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q037",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Which document must precede or accompany every solicited mutual fund sale?",
+    "choices": [
+      "The statement of additional information",
+      "The prospectus (or summary prospectus)",
+      "The annual report",
+      "A research report"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fund shares are continuously offered new issues — a prospectus (summary or statutory) must precede or accompany solicitations/sales. The SAI is available on request.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q038",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "An interval fund is BEST described as a fund that:",
+    "choices": [
+      "trades intraday on exchanges",
+      "offers to repurchase a limited percentage of shares at NAV at set intervals",
+      "guarantees daily liquidity",
+      "invests only in Treasuries"
+    ],
+    "correctIndex": 1,
+    "explanation": "Interval funds are closed-end funds that don't list; liquidity comes only through periodic repurchase offers (e.g., quarterly, 5-25% of shares) — a liquidity risk customers must understand.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch7-q039",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Selling a customer shares of two different fund families rather than concentrating in one to reach a breakpoint most likely:",
+    "choices": [
+      "benefits the customer with diversification only",
+      "raises concern the rep is avoiding breakpoints to earn higher commissions",
+      "is required by FINRA",
+      "eliminates sales charges"
+    ],
+    "correctIndex": 1,
+    "explanation": "Splitting purchases across families ('breakpoint avoidance') can deny the customer quantity discounts. It's a supervisory red flag unless justified by the customer's needs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q040",
+    "chapterId": 7,
+    "sectionTag": "7-3",
+    "question": "Compared with listed REITs, non-traded REITs typically involve:",
+    "choices": [
+      "greater liquidity",
+      "higher upfront fees and limited liquidity, with valuation uncertainty",
+      "SEC guarantees of distributions",
+      "daily NAV pricing on exchanges"
+    ],
+    "correctIndex": 1,
+    "explanation": "Non-traded REITs carry high selling costs, redemption restrictions, and distributions that may include return of capital — heavily tested suitability territory.",
+    "difficulty": "medium"
+  }
+]

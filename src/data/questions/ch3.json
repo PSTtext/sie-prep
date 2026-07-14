@@ -1,0 +1,522 @@
+[
+  {
+    "id": "ch3-q001",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "Congress passes a bill cutting personal income taxes and increasing infrastructure spending. These actions are examples of:",
+    "choices": ["monetary policy", "fiscal policy", "open-market operations", "reserve management"],
+    "correctIndex": 1,
+    "explanation": "Fiscal policy is taxation and government spending, controlled by Congress and the President. Monetary policy — money supply and interest rates — belongs to the Federal Reserve.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q002",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "Which of the following is the Federal Reserve's most frequently used monetary policy tool?",
+    "choices": [
+      "Changing reserve requirements",
+      "Open-market operations",
+      "Changing the discount rate",
+      "Setting income tax rates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Open-market operations — buying and selling Treasury securities to influence the fed funds rate — are the Fed's day-to-day tool. Reserve requirement changes are rare and drastic; taxes are fiscal policy.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q003",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "To fight rising inflation, the Federal Reserve would most likely:",
+    "choices": [
+      "buy Treasuries and lower the discount rate",
+      "sell Treasuries and raise the discount rate",
+      "urge Congress to cut taxes",
+      "lower reserve requirements"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tightening: selling Treasuries drains reserves and raising the discount rate makes borrowing costlier, slowing money growth and cooling inflation. The opposite actions ease policy.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q004",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "Keynesian economic theory holds that the best way to influence the economy is through:",
+    "choices": [
+      "government taxation and spending decisions",
+      "control of the money supply",
+      "eliminating all regulation",
+      "fixed exchange rates"
+    ],
+    "correctIndex": 0,
+    "explanation": "Keynesians emphasize fiscal policy (demand management via government spending and taxes). Monetarists emphasize steady control of the money supply instead.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q005",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "The correct order of the four phases of the business cycle is:",
+    "choices": [
+      "expansion, peak, contraction, trough",
+      "peak, expansion, trough, contraction",
+      "trough, contraction, peak, expansion",
+      "expansion, trough, peak, contraction"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cycle runs expansion → peak → contraction (recession) → trough, then repeats. Two consecutive quarters of declining GDP is the common definition of recession.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q006",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "A recession is commonly defined as a decline in real GDP lasting at least:",
+    "choices": ["one quarter", "two consecutive quarters", "one year", "18 months"],
+    "correctIndex": 1,
+    "explanation": "Two consecutive quarters (6 months) of falling real GDP is the standard shorthand definition of recession; a depression is a severe, prolonged downturn (often cited as 6+ quarters).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q007",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "Which industries are considered defensive — least affected by the business cycle?",
+    "choices": [
+      "Autos and home construction",
+      "Food, utilities, and pharmaceuticals",
+      "Airlines and hotels",
+      "Capital equipment manufacturers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Demand for necessities — food, power, medicine, tobacco — persists in downturns, making these defensive industries. Autos, housing, and travel are cyclical: they swing with the economy.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q008",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "Which of the following is a LEADING economic indicator?",
+    "choices": [
+      "Average duration of unemployment",
+      "Stock prices (S&P 500)",
+      "Industrial production",
+      "Average prime rate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Stock prices, building permits, new unemployment claims, and new orders lead the economy. Industrial production is coincident; unemployment duration and the prime rate are lagging indicators.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q009",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "Inflation combined with stagnant growth and high unemployment is called:",
+    "choices": ["deflation", "stagflation", "disinflation", "hyperinflation"],
+    "correctIndex": 1,
+    "explanation": "Stagflation = stagnation + inflation, an unusual combination that resists standard policy fixes. Disinflation is a slowing of the inflation rate; deflation is falling prices.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q010",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "The rate that large U.S. banks charge their most creditworthy corporate customers is the:",
+    "choices": ["discount rate", "federal funds rate", "prime rate", "broker call rate"],
+    "correctIndex": 2,
+    "explanation": "The prime rate is the benchmark banks charge top corporate borrowers; it moves with Fed policy. Fed funds is interbank overnight; the discount rate is the Fed's own lending rate; broker call funds margin loans.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q011",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "A normal (positive) yield curve shows:",
+    "choices": [
+      "short-term yields higher than long-term yields",
+      "long-term yields higher than short-term yields",
+      "equal yields at all maturities",
+      "yields unrelated to maturity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normally investors demand more yield for lending longer, so the curve slopes upward. An inverted curve — short rates above long rates — is a classic recession warning.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q012",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "An inverted yield curve is most often interpreted as a signal that:",
+    "choices": [
+      "inflation will accelerate sharply",
+      "investors expect an economic slowdown and falling rates",
+      "the Fed is easing aggressively",
+      "long-term bonds are riskier than usual"
+    ],
+    "correctIndex": 1,
+    "explanation": "When short rates exceed long rates, markets are pricing in future rate cuts and slower growth — historically a recession predictor. It often follows aggressive Fed tightening, not easing.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q013",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "When market interest rates rise, prices of outstanding bonds:",
+    "choices": ["rise", "fall", "stay unchanged", "rise only for long maturities"],
+    "correctIndex": 1,
+    "explanation": "Bond prices and interest rates move inversely: new bonds pay higher coupons, so older, lower-coupon bonds must sell at a discount to compete. Longer maturities fall more.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q014",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "Which measure of inflation tracks the prices urban consumers pay for a market basket of goods and services?",
+    "choices": ["GDP deflator", "CPI", "PPI", "M2"],
+    "correctIndex": 1,
+    "explanation": "The Consumer Price Index (CPI) measures retail price changes for a consumer basket and is the most-watched inflation gauge. PPI measures wholesale prices; M2 is a money-supply measure.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q015",
+    "chapterId": 3,
+    "sectionTag": "3-4",
+    "question": "The U.S. dollar strengthens sharply against foreign currencies. The likely effect on U.S. companies is that:",
+    "choices": [
+      "exporters benefit and importers suffer",
+      "exporters suffer and importers benefit",
+      "both exporters and importers benefit",
+      "neither is affected"
+    ],
+    "correctIndex": 1,
+    "explanation": "A strong dollar makes U.S. goods more expensive abroad (hurting exporters) while making foreign goods cheaper for U.S. buyers (helping importers). A weak dollar does the reverse.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q016",
+    "chapterId": 3,
+    "sectionTag": "3-4",
+    "question": "A U.S. investor holds bonds denominated in euros. If the euro weakens against the dollar, the investor's returns in dollar terms will:",
+    "choices": ["increase", "decrease", "be unaffected", "double"],
+    "correctIndex": 1,
+    "explanation": "Currency risk: when the investment currency weakens versus the investor's home currency, converted returns shrink — even if the bond itself performs as expected.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q017",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "Which of the following actions would the Fed take to increase the money supply?",
+    "choices": [
+      "Raise the reserve requirement",
+      "Sell securities to primary dealers",
+      "Lower the discount rate",
+      "Raise the fed funds target"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lowering the discount rate encourages bank borrowing and lending, expanding money. Raising reserve requirements, selling securities, and raising rate targets all tighten.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q018",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "The federal budget deficit is most directly a product of:",
+    "choices": [
+      "Federal Reserve policy",
+      "fiscal policy decisions on spending and taxation",
+      "the trade balance",
+      "currency exchange rates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Deficits arise when government spending exceeds tax revenue — fiscal policy territory. The Treasury finances deficits by issuing debt; the Fed does not set spending or taxes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q019",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "During the early expansion phase of the business cycle, which asset class has historically performed BEST?",
+    "choices": ["Cyclical stocks", "Long-term bonds", "Cash equivalents", "Gold"],
+    "correctIndex": 0,
+    "explanation": "Cyclical companies (autos, housing, industrials, discretionary) see earnings rebound fastest as the economy accelerates. Bonds tend to lag as rates begin rising with growth.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q020",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "Which of the following is a LAGGING indicator?",
+    "choices": [
+      "Building permits",
+      "Initial unemployment claims",
+      "Average prime rate charged by banks",
+      "New orders for consumer goods"
+    ],
+    "correctIndex": 2,
+    "explanation": "The prime rate, unemployment duration, and outstanding loans confirm trends after they occur — lagging. Permits, claims, and new orders are leading indicators.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q021",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "The discount rate is the rate at which:",
+    "choices": [
+      "banks lend excess reserves to each other overnight",
+      "the Federal Reserve lends directly to member banks",
+      "broker-dealers borrow to finance margin loans",
+      "corporations issue commercial paper"
+    ],
+    "correctIndex": 1,
+    "explanation": "The discount rate is charged at the Fed's discount window for direct loans to banks. Interbank overnight lending is the fed funds rate; broker loans use the call rate.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q022",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "Deflation — a general decline in prices — most benefits:",
+    "choices": [
+      "borrowers with fixed-rate debt",
+      "holders of fixed-income investments",
+      "companies with large inventories",
+      "commodity producers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Falling prices raise the purchasing power of fixed payments, benefiting bondholders and other fixed-income recipients. Debtors are hurt because they repay with more valuable dollars.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch3-q023",
+    "chapterId": 3,
+    "sectionTag": "3-4",
+    "question": "The balance of payments account that records a country's imports and exports of goods and services is the:",
+    "choices": ["capital account", "current account", "reserve account", "discount account"],
+    "correctIndex": 1,
+    "explanation": "The current account tracks trade in goods and services (plus income flows). A trade deficit means imports exceed exports. The capital account tracks investment flows.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q024",
+    "chapterId": 3,
+    "sectionTag": "3-4",
+    "question": "Higher U.S. interest rates relative to other countries would most likely cause the U.S. dollar to:",
+    "choices": ["weaken", "strengthen", "be unaffected", "float freely for the first time"],
+    "correctIndex": 1,
+    "explanation": "Higher relative rates attract foreign capital seeking yield; buying dollar assets requires buying dollars, pushing the currency up.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q025",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "Which combination represents EASING monetary policy?",
+    "choices": [
+      "Buying Treasuries, lowering the discount rate, lowering reserve requirements",
+      "Selling Treasuries, raising the discount rate, raising reserve requirements",
+      "Raising taxes and cutting spending",
+      "Cutting taxes and raising spending"
+    ],
+    "correctIndex": 0,
+    "explanation": "All three Fed tools pointed toward expansion: buy securities (inject reserves), cut the discount rate, cut reserve requirements. Choices C and D are fiscal, not monetary, policy.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q026",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "Gross domestic product (GDP) measures:",
+    "choices": [
+      "the total value of goods and services produced within a country",
+      "only manufacturing output",
+      "the money supply",
+      "government tax receipts"
+    ],
+    "correctIndex": 0,
+    "explanation": "GDP is the broadest output measure: all final goods and services produced domestically. Real GDP adjusts for inflation and is the standard growth gauge.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q027",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "Which yield curve shape suggests investors expect little difference between short- and long-term conditions?",
+    "choices": ["Normal", "Inverted", "Flat", "Humped only at 30 years"],
+    "correctIndex": 2,
+    "explanation": "A flat curve — similar yields across maturities — often appears during transitions between normal and inverted curves as expectations shift.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q028",
+    "chapterId": 3,
+    "sectionTag": "3-4",
+    "question": "A U.S. multinational expects to receive a large payment in Japanese yen in 90 days and fears the yen will weaken. The company's exposure is BEST described as:",
+    "choices": ["credit risk", "currency (exchange-rate) risk", "liquidity risk", "political risk"],
+    "correctIndex": 1,
+    "explanation": "The value of the future yen payment in dollars depends on the exchange rate — currency risk. Companies commonly hedge such exposure with forwards or currency futures.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q029",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "Monetarist theory, associated with Milton Friedman, argues that economic stability is best achieved by:",
+    "choices": [
+      "active fiscal fine-tuning",
+      "steady, predictable growth of the money supply",
+      "wage and price controls",
+      "eliminating the central bank"
+    ],
+    "correctIndex": 1,
+    "explanation": "Monetarists hold that money supply growth is the dominant driver of prices and output, favoring a steady growth rule over discretionary intervention.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q030",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "Rising inventories at businesses alongside slowing sales would most likely signal:",
+    "choices": [
+      "the start of an expansion",
+      "an approaching contraction",
+      "a currency crisis",
+      "immediate hyperinflation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unwanted inventory buildup means production has outpaced demand — firms respond by cutting output and jobs, a classic sign the cycle is rolling over toward contraction.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q031",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "Which security's yield is used as the benchmark 'risk-free rate' in U.S. markets?",
+    "choices": [
+      "AAA corporate bonds",
+      "U.S. Treasury securities",
+      "Prime-rated commercial paper",
+      "Insured municipal bonds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Treasuries carry no practical default risk (backed by the U.S. government), so their yields serve as the risk-free baseline against which other yields are compared (credit spreads).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q032",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "The difference between yields on corporate bonds and Treasuries of the same maturity is called the:",
+    "choices": ["coupon", "credit spread", "current yield", "discount"],
+    "correctIndex": 1,
+    "explanation": "The credit (yield) spread compensates for default risk. Widening spreads signal investor pessimism about credit conditions; narrowing spreads signal confidence.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q033",
+    "chapterId": 3,
+    "sectionTag": "3-4",
+    "question": "Political instability in a developing country causing investors to fear expropriation of assets is an example of:",
+    "choices": ["market risk", "political (sovereign) risk", "reinvestment risk", "inflation risk"],
+    "correctIndex": 1,
+    "explanation": "Political risk — nationalization, capital controls, regime change — is a hallmark concern of emerging-market investing, layered on top of currency and liquidity risks.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q034",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "Reserve requirements refer to the:",
+    "choices": [
+      "capital broker-dealers must maintain",
+      "percentage of deposits banks must hold rather than lend",
+      "margin customers must deposit under Reg T",
+      "Treasury's gold reserves"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reserve requirements set the fraction of customer deposits banks must keep at the Fed or as vault cash. Raising the requirement reduces lendable funds — a (rarely used) tightening tool.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q035",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "Consumer staples companies tend to outperform during contractions because:",
+    "choices": [
+      "their products are luxury goods",
+      "demand for necessities is relatively constant regardless of the economy",
+      "they carry the most debt",
+      "they benefit most from rising rates"
+    ],
+    "correctIndex": 1,
+    "explanation": "People keep buying food, household goods, and medicine in recessions, so staples' earnings hold up — the defining trait of defensive stocks.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q036",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "If the Fed unexpectedly raises its fed funds target, the most immediate market reaction is typically:",
+    "choices": [
+      "short-term yields rise",
+      "short-term yields fall",
+      "bond prices rise across the curve",
+      "the dollar weakens sharply"
+    ],
+    "correctIndex": 0,
+    "explanation": "Short-term rates track Fed policy most directly, so a surprise hike lifts short yields immediately (and usually pressures bond prices down and supports the dollar).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q037",
+    "chapterId": 3,
+    "sectionTag": "3-4",
+    "question": "A country that exports more than it imports is running a:",
+    "choices": ["trade deficit", "trade surplus", "budget deficit", "capital deficit"],
+    "correctIndex": 1,
+    "explanation": "Exports exceeding imports = trade surplus (positive current account balance from trade). A trade deficit is the reverse — the chronic U.S. position.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q038",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "Which entity is politically independent in setting its policy tools?",
+    "choices": ["The Federal Reserve", "The U.S. Treasury", "Congress", "The Office of Management and Budget"],
+    "correctIndex": 0,
+    "explanation": "The Fed sets monetary policy independent of the executive and legislative branches (though it reports to Congress). Fiscal authorities are inherently political bodies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q039",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "Long-term bonds are more sensitive than short-term bonds to interest-rate changes because:",
+    "choices": [
+      "they always carry lower coupons",
+      "their cash flows are discounted over a longer period, magnifying price moves",
+      "they trade only OTC",
+      "they carry no reinvestment risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Duration rises with maturity: the longer the wait for fixed cash flows, the more a rate change compounds through the discounting — so long bonds swing hardest in price.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch3-q040",
+    "chapterId": 3,
+    "sectionTag": "3-4",
+    "question": "An American investor buys an international mutual fund. A falling U.S. dollar would generally:",
+    "choices": [
+      "reduce the fund's dollar returns",
+      "increase the fund's dollar returns",
+      "have no effect on returns",
+      "eliminate the fund's market risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "When the dollar falls, foreign-currency assets translate into more dollars — boosting returns for U.S. holders of international investments. A rising dollar drags them down.",
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "id": "ch12-q001",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "In a JTWROS account, when one owner dies, that owner's interest:",
+    "choices": [
+      "passes to the deceased's estate",
+      "passes to the surviving owner(s)",
+      "escheats to the state",
+      "is frozen for one year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Joint tenants with rights of survivorship: the survivor absorbs the decedent's interest, bypassing probate. Tenants in common (JTIC) instead send the decedent's share to the estate.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q002",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "Which account type allows unequal ownership percentages among owners?",
+    "choices": ["JTWROS", "tenants in common", "individual", "UGMA"],
+    "correctIndex": 1,
+    "explanation": "JTIC permits fractional interests (e.g., 60/40) with each share passing to the owner's estate. JTWROS requires equal, undivided interests.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q003",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "Opening a new account requires all of the following customer information EXCEPT:",
+    "choices": [
+      "name and date of birth",
+      "Social Security or tax ID number",
+      "residential address",
+      "college transcripts"
+    ],
+    "correctIndex": 3,
+    "explanation": "The CIP essentials: name, DOB, address, and taxpayer ID, verified per the firm's Customer Identification Program under the USA PATRIOT Act.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q004",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "Under Regulation T, the initial margin requirement for purchasing marginable stock is:",
+    "choices": ["25%", "50%", "70%", "100%"],
+    "correctIndex": 1,
+    "explanation": "Reg T (set by the Fed) requires 50% initial deposit on long marginable purchases. FINRA minimum maintenance is 25% long / 30% short.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q005",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "A customer buys $20,000 of stock in a margin account. The required Reg T deposit is:",
+    "choices": ["$5,000", "$10,000", "$20,000", "$2,000"],
+    "correctIndex": 1,
+    "explanation": "50% × $20,000 = $10,000; the firm lends the rest (the debit balance), charging interest, with the stock as collateral held in street name.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q006",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "Which documents are required to open a margin account?",
+    "choices": [
+      "credit agreement and hypothecation agreement (loan consent optional)",
+      "loan consent only",
+      "a trust agreement",
+      "none beyond the new account form"
+    ],
+    "correctIndex": 0,
+    "explanation": "The margin agreement's mandatory parts: credit agreement (loan terms/interest) and hypothecation agreement (pledging securities). The loan consent (lending shares to shorts) is optional. A risk disclosure document is also required.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q007",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "Which securities may NEVER be bought on margin?",
+    "choices": [
+      "NYSE-listed stocks",
+      "new issues (IPOs) for the first 30 days and mutual fund shares",
+      "Treasury bonds",
+      "Nasdaq stocks"
+    ],
+    "correctIndex": 1,
+    "explanation": "New issues and open-end fund shares cannot be purchased on margin (both are 'new issues'); they may serve as collateral after 30 days of ownership.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q008",
+    "chapterId": 12,
+    "sectionTag": "12-3",
+    "question": "FINRA's suitability rule requires a recommendation to be suitable based on the customer's:",
+    "choices": [
+      "investment profile, including objectives, finances, tax status, and risk tolerance",
+      "age alone",
+      "past performance expectations",
+      "account size only"
+    ],
+    "correctIndex": 0,
+    "explanation": "The customer profile drives suitability: age, other investments, financial situation/needs, tax status, objectives, experience, time horizon, liquidity needs, risk tolerance.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q009",
+    "chapterId": 12,
+    "sectionTag": "12-3",
+    "question": "Regulation Best Interest applies when a broker-dealer makes recommendations to:",
+    "choices": [
+      "institutional clients only",
+      "retail customers",
+      "other broker-dealers",
+      "issuers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reg BI requires broker-dealers to act in a retail customer's best interest at the time of recommendation, without placing the firm's interests first — with disclosure (Form CRS), care, conflict, and compliance obligations.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q010",
+    "chapterId": 12,
+    "sectionTag": "12-4",
+    "question": "In an UGMA account, the securities are owned by:",
+    "choices": ["the custodian", "the minor, under the minor's Social Security number", "the parents jointly", "the state"],
+    "correctIndex": 1,
+    "explanation": "UGMA/UTMA gifts are irrevocable and belong to the minor (taxed to the minor, kiddie-tax rules aside). One custodian manages one minor's account until majority.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q011",
+    "chapterId": 12,
+    "sectionTag": "12-4",
+    "question": "Which is permitted in an UGMA custodial account?",
+    "choices": [
+      "margin trading",
+      "prudent investments in securities like stocks, bonds, and funds",
+      "naked option writing",
+      "pledging the minor's assets for the custodian's loan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Custodians must invest prudently; no margin, no speculative naked options, no self-dealing. Cash and securities gifts of any amount are allowed; gifts are irrevocable.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q012",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "Traditional IRA contributions may be fully tax-deductible; distributions of deductible contributions and earnings are taxed as:",
+    "choices": ["capital gains", "ordinary income", "tax-free income", "gift income"],
+    "correctIndex": 1,
+    "explanation": "Traditional IRAs: potentially deductible going in, tax-deferred growth, ordinary income coming out; 10% penalty before 59½ (with exceptions); RMDs apply.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q013",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "Roth IRA qualified distributions are tax-free if the account is at least five years old and the owner is:",
+    "choices": ["any age", "59½ or older (or meets an exception)", "70 or older", "still employed"],
+    "correctIndex": 1,
+    "explanation": "Roths: after-tax contributions, tax-free qualified withdrawals (5-year rule + 59½/death/disability/first home). No lifetime RMDs for the owner.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q014",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "An investor withdraws from her traditional IRA at age 45 with no exception applying. She owes:",
+    "choices": [
+      "ordinary income tax only",
+      "ordinary income tax plus a 10% early-withdrawal penalty",
+      "no tax",
+      "capital gains tax"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pre-59½ distributions add a 10% penalty to ordinary income tax, absent exceptions (death, disability, first home $10k, higher education, substantially equal payments, etc.).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q015",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "A 401(k) differs from an IRA in that the 401(k):",
+    "choices": [
+      "has lower contribution limits",
+      "is an employer-sponsored plan, often with matching contributions",
+      "cannot hold mutual funds",
+      "has no tax advantages"
+    ],
+    "correctIndex": 1,
+    "explanation": "401(k)s are qualified employer plans with salary deferral, higher limits than IRAs, and frequently employer matches — 'free money' that suitability analysis should prioritize.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q016",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "A durable power of attorney differs from a non-durable one in that it:",
+    "choices": [
+      "expires at the grantor's incapacity",
+      "survives the grantor's mental incapacity (but not death)",
+      "survives death",
+      "requires court approval yearly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Durable POAs continue through incapacity — vital for aging clients. All POAs terminate at the grantor's death.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q017",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "Which account can a 16-year-old open directly in his own name?",
+    "choices": ["individual cash account", "margin account", "none — minors lack contractual capacity", "options account"],
+    "correctIndex": 2,
+    "explanation": "Minors cannot open accounts or trade; an adult opens an UGMA/UTMA custodial account instead.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q018",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "In a long margin account, a decline in market value could trigger a maintenance call when equity falls below:",
+    "choices": ["50% of market value", "25% of market value", "30% of the debit", "10% of market value"],
+    "correctIndex": 1,
+    "explanation": "FINRA minimum maintenance for long accounts is 25% of current market value (firms often set higher 'house' requirements). Short accounts require 30%.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q019",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "The primary risk warning for margin customers is that they can:",
+    "choices": [
+      "lose more than their initial investment and have securities sold without prior notice",
+      "only lose the initial deposit",
+      "never be charged interest",
+      "avoid market risk"
+    ],
+    "correctIndex": 0,
+    "explanation": "The margin disclosure statement highlights: losses can exceed deposits, firms can force-sell without notice or choice of which securities, and firms can raise house requirements anytime.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q020",
+    "chapterId": 12,
+    "sectionTag": "12-3",
+    "question": "Which of the following is one of Reg BI's four obligations?",
+    "choices": [
+      "guarantee obligation",
+      "care obligation",
+      "profit obligation",
+      "insurance obligation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reg BI = Disclosure, Care, Conflict of Interest, and Compliance obligations. The care obligation echoes and strengthens suitability for retail recommendations.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q021",
+    "chapterId": 12,
+    "sectionTag": "12-3",
+    "question": "Form CRS is:",
+    "choices": [
+      "a customer relationship summary describing services, fees, and conflicts, delivered to retail investors",
+      "a tax form",
+      "an account transfer form",
+      "an options approval form"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both broker-dealers and RIAs deliver Form CRS at or before recommendation/engagement — plain-English disclosure of relationship type, costs, conflicts, and disciplinary history.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q022",
+    "chapterId": 12,
+    "sectionTag": "12-4",
+    "question": "When the minor in an UTMA account reaches the age of transfer, the assets:",
+    "choices": [
+      "revert to the donor",
+      "must be re-registered to the (now former) minor",
+      "stay with the custodian",
+      "escheat"
+    ],
+    "correctIndex": 1,
+    "explanation": "At majority/transfer age (varies by state; UTMA can extend to 21-25), the custodianship ends and assets transfer to the beneficiary outright.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q023",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "Required minimum distributions from a traditional IRA must generally begin:",
+    "choices": [
+      "at age 59½",
+      "by April 1 following the year the owner reaches the RMD age set by law (currently 73)",
+      "at retirement regardless of age",
+      "never"
+    ],
+    "correctIndex": 1,
+    "explanation": "SECURE 2.0 set the RMD age at 73 (rising to 75 in 2033). Missing an RMD triggers an excise tax penalty. Roth IRAs have no lifetime RMDs for owners.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q024",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "A SEP IRA is designed primarily for:",
+    "choices": [
+      "large public companies",
+      "self-employed individuals and small businesses, funded by employer contributions",
+      "government employees",
+      "minors"
+    ],
+    "correctIndex": 1,
+    "explanation": "SEPs allow employers (including the self-employed) to make deductible contributions to employees' IRAs with high limits and simple administration. SIMPLE plans suit small employers with employee deferrals plus required employer contributions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q025",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "A fiduciary account (e.g., trustee for a trust) must be managed:",
+    "choices": [
+      "for the fiduciary's own benefit",
+      "according to the governing document and the prudent investor standard for the beneficiary",
+      "with maximum speculation",
+      "only in Treasuries by law"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fiduciaries act for beneficiaries under the trust document and state prudent-investor rules. No margin or options unless expressly authorized.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q026",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "Transfer on death (TOD) registration allows an individual account to:",
+    "choices": [
+      "avoid estate tax",
+      "pass directly to named beneficiaries at death, avoiding probate",
+      "be traded by beneficiaries now",
+      "convert to a joint account automatically"
+    ],
+    "correctIndex": 1,
+    "explanation": "TOD names beneficiaries who receive assets outside probate; it does not avoid estate tax, and beneficiaries have no rights while the owner lives.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q027",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "Interest charged on a margin debit balance is based on the:",
+    "choices": ["prime rate", "broker call (call money) rate plus a spread", "discount rate", "fed funds rate directly"],
+    "correctIndex": 1,
+    "explanation": "Firms borrow at the call money rate and lend to margin customers at that rate plus a markup, disclosed in the credit agreement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q028",
+    "chapterId": 12,
+    "sectionTag": "12-3",
+    "question": "A customer refuses to provide financial information for a cash account. The firm may:",
+    "choices": [
+      "never open the account",
+      "open the account but make no recommendations without a basis for suitability",
+      "guess the suitability profile",
+      "open it as a margin account instead"
+    ],
+    "correctIndex": 1,
+    "explanation": "Accounts may be opened with limited info, but recommendations require a suitability basis — unsolicited orders can still be accepted and marked as such.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q029",
+    "chapterId": 12,
+    "sectionTag": "12-4",
+    "question": "How many custodians and minors may an UGMA account have?",
+    "choices": [
+      "multiple custodians, multiple minors",
+      "one custodian and one minor",
+      "two custodians maximum",
+      "one custodian, unlimited minors"
+    ],
+    "correctIndex": 1,
+    "explanation": "One custodian, one minor per account. Parents wanting accounts for three children open three accounts.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q030",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "An employee leaves her job and wants to move her 401(k) to an IRA without tax. The cleanest method is a:",
+    "choices": [
+      "60-day rollover with 20% withholding",
+      "direct trustee-to-trustee transfer",
+      "cash distribution",
+      "loan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Direct transfers avoid the 20% mandatory withholding and the 60-day deadline that apply when the employee takes possession of the funds. Indirect rollovers are limited to one per 12 months for IRAs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q031",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "Numbered (or symbol-titled) accounts are permitted if:",
+    "choices": [
+      "the customer signs a statement of ownership kept on file",
+      "the SEC approves",
+      "the account is under $10,000",
+      "they are never permitted"
+    ],
+    "correctIndex": 0,
+    "explanation": "Accounts may be identified by number for privacy as long as the firm holds a signed document attesting to ownership.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q032",
+    "chapterId": 12,
+    "sectionTag": "12-3",
+    "question": "Which recommendation raises the clearest quantitative suitability concern?",
+    "choices": [
+      "a one-time index fund purchase",
+      "frequent in-and-out mutual fund A-share switches generating repeated sales loads",
+      "quarterly rebalancing",
+      "dollar-cost averaging"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quantitative suitability targets excessive trading in light of the profile — churning. A-shares are long-term vehicles; rapid switching mainly generates commissions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q033",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "Which investment is generally considered INAPPROPRIATE inside an IRA?",
+    "choices": [
+      "growth mutual funds",
+      "municipal bonds",
+      "blue-chip stocks",
+      "Treasury notes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Munis' tax-free yield is wasted in a tax-deferred account (and their yields are lower for that exemption). Collectibles and life insurance are outright prohibited.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q034",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "Under the FINRA rule on financial exploitation of seniors, a firm may place a temporary hold on disbursements when it:",
+    "choices": [
+      "reasonably suspects exploitation of a specified adult",
+      "disagrees with the customer's investment ideas",
+      "wants to retain assets",
+      "receives any third-party request"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rule 2165 permits temporary holds on suspicious disbursements for specified adults (65+ or vulnerable), paired with Rule 4512's trusted contact person requirement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q035",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "A customer with $10,000 cash could purchase how much marginable stock under Reg T?",
+    "choices": ["$5,000", "$10,000", "$20,000", "$40,000"],
+    "correctIndex": 2,
+    "explanation": "50% initial requirement gives 2:1 buying power: $10,000 supports a $20,000 purchase — leverage that doubles both gains and losses.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q036",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "Contributions to a traditional IRA may be made until:",
+    "choices": [
+      "December 31 of the tax year",
+      "the tax filing deadline (without extensions) of the following year",
+      "June 30 of the following year",
+      "anytime with amended returns"
+    ],
+    "correctIndex": 1,
+    "explanation": "IRA contributions for a tax year are allowed until that year's filing deadline (mid-April), not including extensions. Earned income is required to contribute.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q037",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "An account owner dies. The firm should FIRST:",
+    "choices": [
+      "cancel open orders and freeze the account pending proper documents",
+      "liquidate everything immediately",
+      "transfer assets to the spouse automatically",
+      "continue accepting the deceased's standing instructions"
+    ],
+    "correctIndex": 0,
+    "explanation": "On notice of death: cancel open orders, mark the account deceased, await death certificate/letters testamentary, and follow the registration's disposition (JTWROS, TOD, estate).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q038",
+    "chapterId": 12,
+    "sectionTag": "12-3",
+    "question": "Which customer objective pairing is MOST internally inconsistent, warranting clarification before recommendations?",
+    "choices": [
+      "growth with 20-year horizon",
+      "capital preservation with aggressive speculation",
+      "income with intermediate bonds",
+      "tax relief with municipal bonds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Preservation and speculation conflict directly; the rep must reconcile the profile before recommending. The other pairs align naturally.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q039",
+    "chapterId": 12,
+    "sectionTag": "12-4",
+    "question": "Income in a custodial account for a young child is taxed:",
+    "choices": [
+      "to the custodian",
+      "to the minor, with 'kiddie tax' rules applying unearned income above thresholds at the parents' rate",
+      "not at all",
+      "to the donor always"
+    ],
+    "correctIndex": 1,
+    "explanation": "The minor owns the income; kiddie-tax rules tax excess unearned income at the parents' marginal rate to prevent income-shifting.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch12-q040",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "A 403(b) plan is available to employees of:",
+    "choices": [
+      "any corporation",
+      "public schools and certain non-profit organizations",
+      "banks only",
+      "the federal government only"
+    ],
+    "correctIndex": 1,
+    "explanation": "403(b) (tax-sheltered annuity) plans cover public education and 501(c)(3) non-profit employees — salary-deferral retirement plans similar to 401(k)s. Federal employees use the TSP.",
+    "difficulty": "easy"
+  }
+]

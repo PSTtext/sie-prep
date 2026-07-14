@@ -1,0 +1,697 @@
+[
+  {
+    "id": "ch1-q041",
+    "chapterId": 1,
+    "sectionTag": "1-2",
+    "question": "Which regulator oversees U.S. futures and commodities markets?",
+    "choices": ["SEC", "CFTC", "MSRB", "FDIC"],
+    "correctIndex": 1,
+    "explanation": "The Commodity Futures Trading Commission regulates futures/derivatives markets; the SEC covers securities. Security futures are jointly regulated.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q042",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "A person who receives compensation for referring customers to a broker-dealer but never discusses securities may be:",
+    "choices": [
+      "unregistered in all cases",
+      "required to register depending on the activity — compensation tied to securities business generally requires registration",
+      "exempt as a finder always",
+      "registered with the MSRB only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Transaction-based compensation is the classic trigger for broker registration. 'Finders' operating unregistered are a persistent enforcement target.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch1-q043",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "Which pair correctly matches insurer to what it protects?",
+    "choices": [
+      "SIPC — bank CDs; FDIC — brokerage accounts",
+      "FDIC — bank deposits; SIPC — customer assets at failed broker-dealers",
+      "FDIC — market losses; SIPC — fraud",
+      "Both protect against market declines"
+    ],
+    "correctIndex": 1,
+    "explanation": "FDIC = deposits at insured banks ($250k). SIPC = securities/cash custody at failed BDs ($500k/$250k cash). Neither covers market losses.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q044",
+    "chapterId": 1,
+    "sectionTag": "1-5",
+    "question": "Institutional investors include all of the following EXCEPT:",
+    "choices": ["pension funds", "insurance companies", "a retail customer with $30,000", "mutual funds"],
+    "correctIndex": 2,
+    "explanation": "Institutions manage pooled or large-scale assets (pensions, insurers, funds, endowments, banks). Individual investors are retail regardless of account size until they meet institutional thresholds.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q045",
+    "chapterId": 1,
+    "sectionTag": "1-1",
+    "question": "The Securities Investor Protection Corporation is:",
+    "choices": [
+      "a government agency",
+      "a nonprofit membership corporation funded by broker-dealers",
+      "part of the Federal Reserve",
+      "an SRO writing conduct rules"
+    ],
+    "correctIndex": 1,
+    "explanation": "SIPC is neither a regulator nor a government agency — it's an industry-funded nonprofit that liquidates failed BDs and restores customer assets within limits.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q041",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "The spread between bid and ask tends to WIDEN when:",
+    "choices": ["liquidity is high", "trading is thin or volatility spikes", "many market makers compete", "settlement shortens"],
+    "correctIndex": 1,
+    "explanation": "Dealers widen spreads to price the risk of holding inventory in illiquid or volatile names; competition and volume compress spreads.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q042",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "'Going public' through a direct listing differs from an IPO because a direct listing:",
+    "choices": [
+      "issues new shares through underwriters",
+      "lists existing shares for trading without an underwritten offering raising new capital",
+      "avoids all SEC filings",
+      "requires no exchange"
+    ],
+    "correctIndex": 1,
+    "explanation": "Direct listings register existing holders' shares to trade publicly — no syndicate, no new capital (traditionally). Registration/disclosure still applies.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch2-q043",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "Which market venue is MOST associated with high-frequency electronic market making?",
+    "choices": ["the primary market", "modern electronic exchanges and ATSs", "the fourth market of the 1970s", "bank trust departments"],
+    "correctIndex": 1,
+    "explanation": "Today's liquidity is largely algorithmic, quoted on electronic venues in fractions of a second — context for why Reg NMS ties venues together.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q044",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "OTC equity securities (non-exchange-listed) are quoted through:",
+    "choices": ["the NYSE tape", "OTC Markets Group systems (e.g., OTCQX/OTCQB/Pink)", "the Fedwire", "Form 10-K"],
+    "correctIndex": 1,
+    "explanation": "Unlisted equities quote via OTC Markets' tiers, ranked by disclosure level (OTCQX highest, Pink least). FINRA regulates the dealers quoting there.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q045",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "The 'aftermarket' of an IPO refers to:",
+    "choices": [
+      "the syndicate allocation",
+      "secondary trading that begins once the new issue is distributed",
+      "the cooling-off period",
+      "the shelf period"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aftermarket = the immediate secondary market for the new issue, where price discovery takes over from the fixed POP (with stabilization permitted briefly).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q041",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "The unemployment measure most watched as a coincident indicator of the economy is:",
+    "choices": ["initial claims", "the unemployment rate/payroll employment", "duration of unemployment", "job postings"],
+    "correctIndex": 1,
+    "explanation": "Payroll employment moves with the cycle (coincident); initial claims lead; unemployment duration lags.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch3-q042",
+    "chapterId": 3,
+    "sectionTag": "3-3",
+    "question": "'Real' interest rate equals the nominal rate:",
+    "choices": ["plus inflation", "minus inflation", "times inflation", "unrelated to inflation"],
+    "correctIndex": 1,
+    "explanation": "Real return strips out inflation: a 5% coupon with 3% inflation yields ~2% real — the purchasing-power gain.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch3-q043",
+    "chapterId": 3,
+    "sectionTag": "3-1",
+    "question": "Quantitative easing describes the Fed:",
+    "choices": [
+      "raising reserve requirements",
+      "purchasing longer-term securities at scale to push down long rates",
+      "selling gold",
+      "setting the prime rate"
+    ],
+    "correctIndex": 1,
+    "explanation": "QE extends open-market purchases to longer maturities and larger scale, easing financial conditions when short rates are already near zero.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q044",
+    "chapterId": 3,
+    "sectionTag": "3-4",
+    "question": "A weak dollar tends to make U.S. inflation:",
+    "choices": ["lower, since imports get cheaper", "higher, since imports cost more", "unchanged", "negative"],
+    "correctIndex": 1,
+    "explanation": "Currency depreciation raises import prices, feeding inflation — one channel linking exchange rates to Fed policy.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch3-q045",
+    "chapterId": 3,
+    "sectionTag": "3-2",
+    "question": "Cyclical stocks would be expected to outperform during:",
+    "choices": ["contraction", "early recovery/expansion", "stagflation", "any period equally"],
+    "correctIndex": 1,
+    "explanation": "Autos, housing, industrials, and discretionary names lever to accelerating growth; defensives shine in downturns.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q041",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "The quiet period/gun-jumping restrictions exist to prevent:",
+    "choices": [
+      "underwriters from earning fees",
+      "conditioning the market with hype outside the prospectus",
+      "issuers from filing early",
+      "analysts from ever writing"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 1933 Act channels offering information through the registration statement/prospectus — promotional statements around an offering can be illegal 'offers.'",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q042",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "In a negotiated municipal underwriting versus a competitive bid, the underwriter is chosen by:",
+    "choices": [
+      "sealed bids for the lowest interest cost",
+      "direct selection and negotiation with the issuer",
+      "FINRA assignment",
+      "a lottery"
+    ],
+    "correctIndex": 1,
+    "explanation": "Negotiated deals (common for revenue bonds) pick the underwriter directly; competitive sales (common for GOs) award to the lowest-cost sealed bid.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q043",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Crowdfunding offerings under Regulation CF permit small issuers to raise limited amounts:",
+    "choices": [
+      "only from QIBs",
+      "from the general public through registered funding portals, with investor contribution limits",
+      "without any intermediary",
+      "with no dollar caps"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reg CF: capped raises through registered portals/BDs, per-investor limits tied to income/net worth, resale restrictions for one year.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q044",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "An issuer's annual and quarterly reports (10-K, 10-Q) are filed under the:",
+    "choices": ["1933 Act", "1934 Act's ongoing reporting requirements", "Investment Company Act", "Trust Indenture Act"],
+    "correctIndex": 1,
+    "explanation": "Once public, issuers report continuously under the Exchange Act via EDGAR — the disclosure regime replacing prospectus delivery for seasoned trading.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q045",
+    "chapterId": 4,
+    "sectionTag": "4-2",
+    "question": "A 'well-known seasoned issuer' (WKSI) enjoys which registration advantage?",
+    "choices": [
+      "exemption from antifraud rules",
+      "automatic shelf registration effective upon filing",
+      "no prospectus ever",
+      "guaranteed pricing"
+    ],
+    "correctIndex": 1,
+    "explanation": "WKSIs (large, timely-reporting issuers) file automatic shelves effective immediately — maximum financing flexibility.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q046",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Securities acquired by an affiliate in the OPEN MARKET (control stock) are subject under Rule 144 to:",
+    "choices": [
+      "a six-month holding period",
+      "volume limits when sold, but no holding period",
+      "no restrictions",
+      "registration before any sale"
+    ],
+    "correctIndex": 1,
+    "explanation": "Control stock (affiliate-owned, market-acquired) has no holding period but faces the volume limits and Form 144 filing; restricted stock adds the holding period.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q041",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "'Not held' on an order means the customer:",
+    "choices": [
+      "cancels the order",
+      "gives the floor broker time/price discretion without holding them responsible for missing the market",
+      "requires immediate execution",
+      "refuses to pay"
+    ],
+    "correctIndex": 1,
+    "explanation": "Not-held orders grant execution discretion on time and price only — not requiring written discretionary authority — common for large orders.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q042",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "ACATS is the system for:",
+    "choices": [
+      "automated customer account transfers between broker-dealers",
+      "reporting insider trades",
+      "settling options",
+      "municipal disclosures"
+    ],
+    "correctIndex": 0,
+    "explanation": "ACATS standardizes account transfers: the receiving firm submits, the carrying firm validates within one business day and transfers within three.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q043",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "A fill-or-kill (FOK) order requires:",
+    "choices": [
+      "immediate execution in full or cancellation",
+      "partial fills allowed immediately",
+      "execution by day end",
+      "execution at the close"
+    ],
+    "correctIndex": 0,
+    "explanation": "FOK = all now or cancel. Immediate-or-cancel (IOC) allows partial immediate fills; all-or-none (AON) allows waiting but no partials.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q044",
+    "chapterId": 11,
+    "sectionTag": "11-3",
+    "question": "A stock trades ex-rights. Compared with cum-rights, a buyer now:",
+    "choices": [
+      "receives the rights",
+      "does not receive the rights distribution",
+      "gets double rights",
+      "must exercise immediately"
+    ],
+    "correctIndex": 1,
+    "explanation": "Like ex-dividend, ex-rights buyers no longer receive the distribution; the price adjusts accordingly.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q045",
+    "chapterId": 11,
+    "sectionTag": "11-4",
+    "question": "Which best describes a 'net' transaction in municipal securities with a customer?",
+    "choices": [
+      "dealer trades at a price including its compensation, disclosed as principal",
+      "no compensation at all",
+      "agency trade with commission",
+      "illegal in all cases"
+    ],
+    "correctIndex": 0,
+    "explanation": "Muni dealers commonly act as principals with markups built into the net price; confirmations must disclose capacity and (for retail) markup where required.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q046",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "Regulation T applies to:",
+    "choices": [
+      "credit extended by broker-dealers to customers",
+      "bank mortgages",
+      "credit cards",
+      "Treasury auctions"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Fed's Reg T governs BD-to-customer credit: 50% initial margin, payment deadlines, and cash-account rules (exempt securities excluded).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q047",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "Freeriding in a cash account means:",
+    "choices": [
+      "buying and selling a security without ever paying for the purchase",
+      "borrowing shares to short",
+      "using margin properly",
+      "receiving free stock"
+    ],
+    "correctIndex": 0,
+    "explanation": "Selling before paying violates Reg T; the penalty is a 90-day freeze requiring cash in advance for purchases.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q048",
+    "chapterId": 11,
+    "sectionTag": "11-3",
+    "question": "A company spins off a division, distributing new shares of the subsidiary to holders. The cost basis of the original shares is:",
+    "choices": [
+      "unchanged; the new shares are free",
+      "allocated between the parent and spun-off shares proportionally",
+      "doubled",
+      "reset to zero"
+    ],
+    "correctIndex": 1,
+    "explanation": "Spin-offs split basis between old and new shares by relative value — generally not taxable at distribution.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch12-q041",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "An account opened 'in trust for' another person under a bank-style arrangement, revocable during the owner's life, is a:",
+    "choices": ["Totten trust/informal trust account", "UGMA", "estate account", "partnership account"],
+    "correctIndex": 0,
+    "explanation": "Totten trusts (payable-on-death style) let the owner control assets for life with the beneficiary taking at death, outside probate.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch12-q042",
+    "chapterId": 12,
+    "sectionTag": "12-3",
+    "question": "The trusted contact person requested at account opening exists so the firm can:",
+    "choices": [
+      "grant trading authority to them",
+      "reach someone about possible exploitation, diminished capacity, or contact problems",
+      "share performance reports monthly",
+      "collect debts"
+    ],
+    "correctIndex": 1,
+    "explanation": "The TCP has no authority over the account — it's a safety valve for senior-protection situations under Rules 4512/2165.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q043",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "Which account may NOT be opened as a margin account?",
+    "choices": [
+      "individual",
+      "corporate (with authorization)",
+      "UGMA custodial account",
+      "JTWROS"
+    ],
+    "correctIndex": 2,
+    "explanation": "Custodial accounts for minors are cash-only; margin, short selling, and uncovered options are prohibited. IRAs are similarly cash-type accounts.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q044",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "Excess contributions to an IRA incur a penalty of:",
+    "choices": ["6% per year until removed", "10% once", "50%", "no penalty"],
+    "correctIndex": 0,
+    "explanation": "The 6% excise tax applies each year the excess (plus earnings) stays in the account — remove by the filing deadline to avoid it.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch12-q045",
+    "chapterId": 12,
+    "sectionTag": "12-3",
+    "question": "An RR recommends a complex leveraged product to a retail customer without understanding it herself. She has violated Reg BI's:",
+    "choices": ["disclosure obligation only", "care obligation (reasonable-basis)", "conflict obligation", "recordkeeping rule"],
+    "correctIndex": 1,
+    "explanation": "Reasonable-basis care requires understanding the product's risks/costs and having a basis to believe it can be in SOME retail customer's best interest — before customer-specific analysis.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q046",
+    "chapterId": 12,
+    "sectionTag": "12-1",
+    "question": "Which registration change requires a new account document signed by all owners?",
+    "choices": [
+      "address update",
+      "adding/removing an owner on a joint account",
+      "phone number change",
+      "email update"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ownership changes alter the contract — all parties document consent. Contact-info updates are administrative (with verification safeguards).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch12-q047",
+    "chapterId": 12,
+    "sectionTag": "12-5",
+    "question": "A defined benefit pension plan promises:",
+    "choices": [
+      "contributions only, with market-based outcomes",
+      "a formula-based retirement benefit, with the employer bearing investment risk",
+      "employee-directed investing",
+      "no ERISA coverage"
+    ],
+    "correctIndex": 1,
+    "explanation": "DB plans fix the payout (salary/service formula) — the employer funds and bears the risk. Defined contribution plans (401(k)) shift risk to employees.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch12-q048",
+    "chapterId": 12,
+    "sectionTag": "12-2",
+    "question": "Hypothecation refers to a margin customer:",
+    "choices": [
+      "guessing at prices",
+      "pledging securities to the firm as loan collateral",
+      "borrowing shares to short",
+      "paying interest"
+    ],
+    "correctIndex": 1,
+    "explanation": "Customers hypothecate securities to the BD; the firm may rehypothecate a limited amount (140% of the debit) to banks to finance the loan.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q031",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "Trading ahead of a firm's own research report before customers can act on it is:",
+    "choices": ["permitted for principals", "a prohibited form of front running", "required hedging", "stabilization"],
+    "correctIndex": 1,
+    "explanation": "Firms must not trade for their own benefit on the anticipated market impact of their unpublished research.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q032",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "Sharing commissions with an unregistered person is:",
+    "choices": ["fine with disclosure", "prohibited", "allowed under $1,000", "allowed for family"],
+    "correctIndex": 1,
+    "explanation": "Commissions may be paid only to appropriately registered persons/firms — paying unregistered finders or assistants violates FINRA rules.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q033",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "FinCEN is the bureau responsible for:",
+    "choices": [
+      "listing standards",
+      "collecting and analyzing BSA reports (CTRs, SARs) to combat money laundering",
+      "margin rules",
+      "proxy processing"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Treasury's Financial Crimes Enforcement Network administers the Bank Secrecy Act reporting regime that firms' AML programs feed.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q034",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "An investor and an accomplice repeatedly trade a stock between their accounts at rising prices to attract buyers. These are:",
+    "choices": ["bona fide trades", "matched orders — manipulation", "odd lots", "stabilizing bids"],
+    "correctIndex": 1,
+    "explanation": "Pre-arranged offsetting trades painting the tape are manipulation under the 1934 Act — no real change in ownership, false appearance of demand.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q035",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "'Twisting' refers to:",
+    "choices": [
+      "excessive stock trading",
+      "inducing unnecessary replacement of insurance/annuity contracts to generate commissions",
+      "rebalancing",
+      "exchange-traded arbitrage"
+    ],
+    "correctIndex": 1,
+    "explanation": "Twisting is churning's insurance cousin — replacing policies/contracts without benefit to the customer, triggering new charges and surrender periods.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q036",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "Which customer conduct is an AML red flag?",
+    "choices": [
+      "monthly retirement contributions",
+      "wiring funds to unrelated third parties in high-risk jurisdictions shortly after deposits",
+      "buying index funds",
+      "asking about fees"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rapid in-and-out movement to unrelated parties — especially offshore — suggests layering; firms must monitor and consider SAR filing.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q037",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "Using a customer's funds or securities for the firm's or rep's own purposes is:",
+    "choices": ["rehypothecation", "conversion/misappropriation — among the gravest violations", "hypothecation", "netting"],
+    "correctIndex": 1,
+    "explanation": "Conversion of customer assets typically ends careers and draws criminal referral — distinct from authorized margin hypothecation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q038",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "Which is TRUE about information barriers ('Chinese walls') at broker-dealers?",
+    "choices": [
+      "they are optional courtesies",
+      "firms must have policies preventing MNPI from flowing between departments (e.g., investment banking and trading)",
+      "they apply only to small firms",
+      "they prevent all communication among employees"
+    ],
+    "correctIndex": 1,
+    "explanation": "Section 15(g) requires written procedures to prevent misuse of MNPI across functions — watch lists, restricted lists, physical/electronic separation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q031",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "Fingerprinting is required for:",
+    "choices": [
+      "no one",
+      "partners, officers, and personnel handling securities/monies/records of a member firm",
+      "customers",
+      "only principals"
+    ],
+    "correctIndex": 1,
+    "explanation": "SEC Rule 17f-2 requires fingerprints for registered persons and employees with access to securities, funds, or original books/records.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch14-q032",
+    "chapterId": 14,
+    "sectionTag": "14-4",
+    "question": "Testimonials in retail communications must disclose:",
+    "choices": [
+      "nothing",
+      "that the experience may not be typical and whether compensation was paid",
+      "the customer's account number",
+      "the firm's net capital"
+    ],
+    "correctIndex": 1,
+    "explanation": "Testimonial rules require disclosing paid arrangements and that results aren't guaranteed/typical; qualifications matter if opinions imply special expertise.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q033",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "State securities laws are administered under a framework commonly called:",
+    "choices": ["the Uniform Securities Act (blue-sky laws)", "the Maloney Act", "ERISA", "Reg NMS"],
+    "correctIndex": 0,
+    "explanation": "States register securities, BDs, agents, and advisers under blue-sky law; NASAA coordinates model rules. Federal covered securities preempt state registration.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q034",
+    "chapterId": 14,
+    "sectionTag": "14-3",
+    "question": "FINRA disciplinary sanctions can include all EXCEPT:",
+    "choices": ["censure and fines", "suspension or bar from the industry", "imprisonment", "restitution orders"],
+    "correctIndex": 2,
+    "explanation": "SROs impose civil/administrative sanctions; only criminal courts imprison. FINRA can fine, suspend, bar, expel firms, and order restitution.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q035",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "A registered person's felony DUI conviction from 12 years ago:",
+    "choices": [
+      "is a current statutory disqualification",
+      "is outside the 10-year disqualification window but remains disclosed on the U4/CRD",
+      "was never reportable",
+      "requires immediate termination"
+    ],
+    "correctIndex": 1,
+    "explanation": "Felony disqualification runs 10 years from conviction; the event stays in disclosure history. (Answer choices testing the 10-year window are common.)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch14-q036",
+    "chapterId": 14,
+    "sectionTag": "14-4",
+    "question": "Which communication is 'institutional' under FINRA rules?",
+    "choices": [
+      "an email to 30 retail prospects",
+      "material distributed only to entities like banks, funds, and plans with $50M+ (and similar institutions)",
+      "a public website",
+      "a seminar flyer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Institutional communications go solely to institutional investors and are exempt from pre-approval (subject to supervision and no-retail-forwarding policies).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q037",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "ERISA primarily governs:",
+    "choices": [
+      "municipal issuance",
+      "private-sector employee retirement plans' fiduciary and funding standards",
+      "government pensions",
+      "bank deposits"
+    ],
+    "correctIndex": 1,
+    "explanation": "ERISA sets fiduciary duties, vesting, funding, and disclosure for private employer plans (governmental/church plans largely exempt).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q038",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "Who must approve and evidence review of a new registered representative's U4?",
+    "choices": ["the SEC", "an authorized principal of the firm", "the state governor", "the OCC"],
+    "correctIndex": 1,
+    "explanation": "Principals supervise registrations, communications, and accounts — the firm attests to the accuracy of filings through its principals.",
+    "difficulty": "easy"
+  }
+]

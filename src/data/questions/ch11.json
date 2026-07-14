@@ -1,0 +1,537 @@
+[
+  {
+    "id": "ch11-q001",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "A market order guarantees:",
+    "choices": ["a specific price", "execution, but not price", "price, but not execution", "neither price nor execution"],
+    "correctIndex": 1,
+    "explanation": "Market orders execute immediately at the best available price — execution is certain (in a functioning market), price is not. Limit orders reverse the trade-off.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q002",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "A customer enters 'Sell 100 XYZ at 55 limit' with the stock at $52. The order will execute:",
+    "choices": [
+      "immediately at 52",
+      "only at 55 or better (higher)",
+      "at 55 or lower",
+      "at the close"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sell limits set a minimum acceptable price and are placed above the market. Buy limits set a maximum and sit below the market.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q003",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "An investor long 500 shares at $40 wants to protect gains after the stock hits $60, without selling now. The appropriate order is a:",
+    "choices": [
+      "sell limit at 60",
+      "sell stop at 55",
+      "buy stop at 65",
+      "market order"
+    ],
+    "correctIndex": 1,
+    "explanation": "A sell stop below the market becomes a market order if the stock falls to the stop price — the classic protective stop for a long position. (Buy stops above the market protect shorts.)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q004",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "A sell stop order at 38 is triggered when the stock trades at or below 38, and then:",
+    "choices": [
+      "executes only at exactly 38",
+      "becomes a market order, executing at the next available price",
+      "is canceled",
+      "waits for 38 to reappear"
+    ],
+    "correctIndex": 1,
+    "explanation": "Stops are triggers: once elected, the order becomes a market order and may fill above or below the stop price. A stop-limit adds a limit after election but risks not executing.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q005",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "Which orders are placed BELOW the current market price?",
+    "choices": [
+      "buy limits and sell stops",
+      "buy stops and sell limits",
+      "all limit orders",
+      "all stop orders"
+    ],
+    "correctIndex": 0,
+    "explanation": "Memory aid 'BLiSS': Buy Limits and Sell Stops below the market; buy stops and sell limits go above.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q006",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "A day order not executed by the close is:",
+    "choices": ["carried to tomorrow", "canceled automatically", "converted to GTC", "executed at the close"],
+    "correctIndex": 1,
+    "explanation": "Day orders expire at the end of the trading session. Good-til-canceled orders persist until executed or canceled (firms often set expiration cycles).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q007",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "Selling short involves:",
+    "choices": [
+      "selling owned shares",
+      "selling borrowed shares hoping to repurchase lower",
+      "buying at the ask",
+      "writing a call"
+    ],
+    "correctIndex": 1,
+    "explanation": "Short sellers borrow and sell shares, profiting if the price falls. Losses are unlimited (no ceiling on price), and shorts must occur in margin accounts.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q008",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "The maximum potential loss on a short sale of 100 shares at $50 is:",
+    "choices": ["$5,000", "$2,500", "unlimited", "zero"],
+    "correctIndex": 2,
+    "explanation": "The repurchase price has no upper bound — the defining risk of short selling. Maximum gain is $5,000 (stock to zero).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q009",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "Regular-way settlement for corporate stocks and bonds is:",
+    "choices": ["T+2", "T+1", "T+3", "same-day"],
+    "correctIndex": 1,
+    "explanation": "Since May 2024, regular-way settlement is T+1 — one business day after trade date. Government securities and options also settle T+1; cash settlement is same day.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q010",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "A trade in U.S. Treasury notes settles regular way on:",
+    "choices": ["T+2", "the next business day (T+1)", "trade date", "T+5"],
+    "correctIndex": 1,
+    "explanation": "Government securities settle next business day. With the 2024 move to T+1, corporates now match Treasuries.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q011",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "Which of the following describes 'cash settlement'?",
+    "choices": [
+      "settlement in cash rather than securities",
+      "same-day settlement agreed by both parties",
+      "T+1 settlement",
+      "weekly settlement"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cash settlement means trade date settlement, arranged between the parties (typically for urgent needs like an expiring tax year); it commands price concessions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q012",
+    "chapterId": 11,
+    "sectionTag": "11-3",
+    "question": "A company announces a 3-for-2 split. A holder of 200 shares at $45 will end up with:",
+    "choices": [
+      "300 shares at $30",
+      "133 shares at $67.50",
+      "300 shares at $45",
+      "400 shares at $22.50"
+    ],
+    "correctIndex": 0,
+    "explanation": "200 × 3/2 = 300 shares; price adjusts 45 × 2/3 = $30. Value unchanged at $9,000.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q013",
+    "chapterId": 11,
+    "sectionTag": "11-3",
+    "question": "In a tender offer, shareholders are invited to:",
+    "choices": [
+      "vote for directors",
+      "sell their shares to the bidder at a stated (usually premium) price",
+      "buy additional shares at a discount",
+      "exchange stock for bonds automatically"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tender offers solicit shareholders to sell at a fixed price for a limited window, usually at a premium. Investors may only tender shares they actually own (net long).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q014",
+    "chapterId": 11,
+    "sectionTag": "11-4",
+    "question": "A broker-dealer filling a customer buy order from its own inventory acts as a:",
+    "choices": ["broker", "principal (dealer)", "agent", "fiduciary trustee"],
+    "correctIndex": 1,
+    "explanation": "Trading from inventory = principal capacity, compensated by a markup (disclosed on the confirmation). Acting for the customer's account as agent earns a commission instead.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q015",
+    "chapterId": 11,
+    "sectionTag": "11-4",
+    "question": "A firm may NOT charge both a markup and a commission on the same trade because doing so:",
+    "choices": [
+      "is permitted if disclosed",
+      "constitutes acting as both principal and agent on one transaction",
+      "violates Reg T",
+      "requires SEC pre-approval"
+    ],
+    "correctIndex": 1,
+    "explanation": "One capacity per trade: markup/markdown as principal OR commission as agent — never both. Capacity must be disclosed on the confirmation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q016",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "A quote of 25.10 – 25.15 (10 × 5) means:",
+    "choices": [
+      "1,000 shares bid at 25.10; 500 offered at 25.15",
+      "10 shares bid; 5 offered",
+      "the spread is 10.5",
+      "25.10 is the ask"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sizes are in round lots of 100: 10 = 1,000 shares bid, 5 = 500 shares offered. Bid always precedes ask.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q017",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "A customer fails to pay for a purchase by the Reg T deadline (S+2). The firm must:",
+    "choices": [
+      "extend credit indefinitely",
+      "freeze or liquidate the position and freeze the account for 90 days",
+      "report the customer to the IRS",
+      "nothing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reg T payment is due within two business days after settlement (S+2 = T+3 under T+1 settlement). Failure triggers sell-out and a 90-day cash-in-advance freeze (small amounts under $1,000 excepted).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q018",
+    "chapterId": 11,
+    "sectionTag": "11-3",
+    "question": "XYZ pays a $0.50 dividend. A GTC buy limit order at 40 will, on the ex-date, be:",
+    "choices": [
+      "canceled",
+      "reduced to 39.50 unless marked do-not-reduce (DNR)",
+      "increased to 40.50",
+      "unchanged always"
+    ],
+    "correctIndex": 1,
+    "explanation": "Open orders below the market (buy limits, sell stops) are reduced by the dividend on the ex-date unless DNR. The stock itself opens lower by the dividend.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q019",
+    "chapterId": 11,
+    "sectionTag": "11-4",
+    "question": "Best execution requires a firm to:",
+    "choices": [
+      "always charge the lowest commission",
+      "use reasonable diligence to obtain the most favorable terms available for customer orders",
+      "route all orders to exchanges",
+      "guarantee price improvement"
+    ],
+    "correctIndex": 1,
+    "explanation": "Best execution weighs price, speed, and likelihood of execution across venues — it's owed regardless of payment for order flow and regardless of capacity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q020",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "Which order type risks NOT being executed even when its price is touched?",
+    "choices": ["market", "stop", "stop-limit", "market-on-close"],
+    "correctIndex": 2,
+    "explanation": "After the stop triggers, the limit takes over — in a fast-falling market the stock can blow through the limit and never fill, leaving the customer unprotected.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q021",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "The ex-dividend date for a regular-way cash dividend (under T+1) is:",
+    "choices": [
+      "the business day before the record date",
+      "the same day as the record date",
+      "two days after the record date",
+      "the payable date"
+    ],
+    "correctIndex": 1,
+    "explanation": "With T+1 settlement, ex-date = record date: buying on the ex-date settles the day after record, missing the dividend. Buy before the ex-date to receive it.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q022",
+    "chapterId": 11,
+    "sectionTag": "11-4",
+    "question": "A markup charged by a dealer must be:",
+    "choices": [
+      "exactly 5%",
+      "fair and reasonable considering all relevant circumstances",
+      "waived for large orders",
+      "approved by the SEC per trade"
+    ],
+    "correctIndex": 1,
+    "explanation": "FINRA's 5% policy is a guideline, not a rule — markups must be fair given security type, availability, price, and service. Riskless-principal trades warrant lower charges.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q023",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "'Buy 100 ABC 52 stop 52.50 limit' means:",
+    "choices": [
+      "buy at 52 or lower now",
+      "once ABC trades at/above 52, buy at no more than 52.50",
+      "buy at exactly 52.50",
+      "sell if ABC hits 52"
+    ],
+    "correctIndex": 1,
+    "explanation": "A buy stop-limit: the stop (52) elects the order; the limit (52.50) caps what the buyer will pay. Used by shorts or breakout buyers who fear paying up.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q024",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "'Good delivery' of certificated stock requires, among other things:",
+    "choices": [
+      "any denomination of certificates",
+      "properly endorsed certificates in round-lot-divisible denominations",
+      "notarized letters only",
+      "delivery directly to the issuer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Good delivery: endorsed (or with stock power), in units summing to round lots (100s or divisors), delivered to the buying firm. Most delivery today is book-entry via DTCC.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q025",
+    "chapterId": 11,
+    "sectionTag": "11-3",
+    "question": "A rights offering gives existing shareholders:",
+    "choices": [
+      "an obligation to buy new shares",
+      "a short-term right to subscribe to new shares below market price",
+      "extra dividends",
+      "a takeover defense"
+    ],
+    "correctIndex": 1,
+    "explanation": "Corporate action mechanics: one right per share, subscription price below market, roughly 30-45 days. Holders may exercise, sell, or let expire.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q026",
+    "chapterId": 11,
+    "sectionTag": "11-4",
+    "question": "A trade confirmation must disclose all of the following EXCEPT:",
+    "choices": [
+      "the firm's capacity (agent or principal)",
+      "commission if acting as agent",
+      "the firm's profit on a principal trade in an equity security",
+      "trade date and settlement details"
+    ],
+    "correctIndex": 2,
+    "explanation": "Confirms show capacity, commission (agency), price, and settlement — but a dealer's markup on many principal equity trades isn't separately stated unless riskless-principal (Nasdaq/NMS trades do require markup disclosure). Best-known exception territory.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q027",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "Confirmations must be sent to customers no later than:",
+    "choices": ["trade date", "at or before completion of the transaction (settlement)", "one week after trade", "month end"],
+    "correctIndex": 1,
+    "explanation": "Confirms are due at or before settlement — under T+1, effectively the next business day.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q028",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "Which customer instruction creates a discretionary order requiring written authorization?",
+    "choices": [
+      "'Buy 200 shares of XYZ whenever you think the price is right today'",
+      "'Buy 200 XYZ at the market'",
+      "'Choose whether to buy XYZ or ABC for me'",
+      "'Sell my 100 XYZ at 45 limit'"
+    ],
+    "correctIndex": 2,
+    "explanation": "Discretion covers the 3 A's: Asset, Action (buy/sell), or Amount. Choosing WHICH security requires written discretionary authority. Price/time alone ('when you think best today') is not discretion.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q029",
+    "chapterId": 11,
+    "sectionTag": "11-3",
+    "question": "An odd-lot trade is one involving:",
+    "choices": ["more than 10,000 shares", "fewer than 100 shares", "exactly 100 shares", "restricted stock"],
+    "correctIndex": 1,
+    "explanation": "Round lots are 100 shares; anything less (e.g., 37 shares) is an odd lot. Mixed lots combine both.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q030",
+    "chapterId": 11,
+    "sectionTag": "11-4",
+    "question": "In a riskless-principal transaction, a dealer:",
+    "choices": [
+      "buys a security into inventory only after receiving a customer order to fill from it",
+      "guarantees the customer against loss",
+      "acts as agent for both sides",
+      "trades without any compensation"
+    ],
+    "correctIndex": 0,
+    "explanation": "The firm, holding a customer order in hand, buys the security and immediately resells it to the customer — principal in form but riskless in substance; compensation must be disclosed like a commission.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q031",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "Regulation SHO's locate requirement mandates that before accepting a short sale, a firm must:",
+    "choices": [
+      "reasonably believe the security can be borrowed for delivery",
+      "own the security itself",
+      "obtain SEC approval",
+      "notify the issuer"
+    ],
+    "correctIndex": 0,
+    "explanation": "The locate rule prevents naked shorting: firms must identify a borrowable source before executing customer short sales.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q032",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "DK ('don't know') procedures are used when:",
+    "choices": [
+      "a customer forgets an order",
+      "two broker-dealers' trade records disagree at comparison",
+      "a dividend is missed",
+      "a certificate is lost"
+    ],
+    "correctIndex": 1,
+    "explanation": "Interdealer trade comparison mismatches (price, quantity, security) get DK'd back to the contra party for resolution before settlement.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q033",
+    "chapterId": 11,
+    "sectionTag": "11-3",
+    "question": "Which corporate action requires NO investor decision?",
+    "choices": ["tender offer", "rights offering", "forward stock split", "voluntary exchange offer"],
+    "correctIndex": 2,
+    "explanation": "Splits (and stock dividends) are mandatory corporate actions applied automatically to all holders. Tenders, rights, and exchanges are voluntary choices.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q034",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "Trading halts imposed marketwide by circuit breakers are triggered by declines in the S&P 500 of:",
+    "choices": ["3%, 8%, 15%", "7%, 13%, 20%", "10%, 20%, 30%", "5% only"],
+    "correctIndex": 1,
+    "explanation": "Level 1 (7%) and Level 2 (13%) trigger 15-minute halts (before 3:25 pm ET); Level 3 (20%) halts trading for the day.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch11-q035",
+    "chapterId": 11,
+    "sectionTag": "11-4",
+    "question": "An agency cross occurs when a firm:",
+    "choices": [
+      "matches one customer's buy order with another customer's sell order",
+      "trades against its inventory",
+      "routes to a dark pool",
+      "shorts against the box"
+    ],
+    "correctIndex": 0,
+    "explanation": "Crossing two customer orders as agent for both is permitted with proper disclosure and best-execution care; the firm may earn a commission from each side.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q036",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "Customer account statements must be sent at least:",
+    "choices": ["weekly", "monthly in all cases", "quarterly (monthly when there is activity)", "annually"],
+    "correctIndex": 2,
+    "explanation": "Statements go quarterly at minimum; months with activity generate monthly statements. Penny-stock positions require monthly statements.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q037",
+    "chapterId": 11,
+    "sectionTag": "11-1",
+    "question": "A customer wants to buy a volatile IPO stock 'at whatever price' on its first trade. The rep should warn that a market order in a fast market may:",
+    "choices": [
+      "be rejected automatically",
+      "fill far above the last quoted price",
+      "guarantee the opening price",
+      "convert to a limit order"
+    ],
+    "correctIndex": 1,
+    "explanation": "Market orders in volatile openings can fill at extreme prices. Limit orders control price — the standard advice for hot IPO aftermarkets.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch11-q038",
+    "chapterId": 11,
+    "sectionTag": "11-3",
+    "question": "In a merger where shareholders receive cash for shares, a customer's stock is:",
+    "choices": [
+      "exchanged automatically at closing, a mandatory action",
+      "kept unless tendered",
+      "converted to bonds",
+      "escheated to the state"
+    ],
+    "correctIndex": 0,
+    "explanation": "Completed cash mergers are mandatory: all shares convert to the deal consideration at closing regardless of shareholder action (appraisal rights aside).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q039",
+    "chapterId": 11,
+    "sectionTag": "11-4",
+    "question": "Which is TRUE of a dealer's quote that it stands ready to honor?",
+    "choices": [
+      "It is a 'subject' quote",
+      "It is a firm quote for at least one round lot",
+      "It is nominal only",
+      "It binds the customer, not the dealer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Firm quotes obligate the market maker to trade at least 100 shares at the stated prices. Backing away from a firm quote is a violation. Subject/nominal quotes are informational.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch11-q040",
+    "chapterId": 11,
+    "sectionTag": "11-2",
+    "question": "A customer sells stock on Monday, June 1 (regular way). She will be paid and the trade settles on:",
+    "choices": ["Monday, June 1", "Tuesday, June 2", "Wednesday, June 3", "Friday, June 5"],
+    "correctIndex": 1,
+    "explanation": "T+1: settlement the next business day. Proceeds are available at settlement.",
+    "difficulty": "easy"
+  }
+]

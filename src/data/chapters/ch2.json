@@ -1,0 +1,64 @@
+{
+  "chapterId": 2,
+  "sections": [
+    {
+      "id": "2-1",
+      "blocks": [
+        { "type": "paragraph", "text": "Markets have two fundamental jobs: raising money for issuers and letting investors trade with each other. Those are the primary and secondary markets, and telling them apart is one of the most reliable point-scorers on the SIE." },
+        { "type": "keyTerm", "term": "Primary market", "definition": "Where NEW securities are sold and the proceeds go to the issuer — IPOs, follow-on stock offerings, new bond issues. Governed by the Securities Act of 1933, which requires registration and a prospectus." },
+        { "type": "keyTerm", "term": "Secondary market", "definition": "Where investors trade OUTSTANDING securities with each other. The issuer receives nothing. Governed by the Securities Exchange Act of 1934, which regulates the markets, exchanges, and broker-dealers." },
+        { "type": "example", "title": "Example", "text": "NovaGrid sells 5 million new shares at $20 in its IPO — a primary transaction raising $100 million for NovaGrid. A week later, an investor sells 200 of those shares to another investor at $23 on the exchange — a secondary transaction; NovaGrid gets none of it." },
+        { "type": "heading", "level": 3, "text": "IPO, follow-on, and 'secondary offering' traps" },
+        { "type": "paragraph", "text": "An initial public offering (IPO) is the issuer's first-ever sale of stock to the public. Any later registered sale of NEW shares by the now-public company is a follow-on (or additional/subsequent) primary offering — still primary, because new shares are created and the issuer keeps the proceeds. A registered secondary distribution, by contrast, sells EXISTING shareholders' stock (founders, early investors, insiders), and those selling shareholders keep the proceeds. A single offering can even be both — a 'split' or combined offering with a primary piece and a secondary piece." },
+        { "type": "examTip", "text": "Follow the money. If the issuer receives the proceeds, it's primary — no matter how seasoned the company is. If a shareholder receives the proceeds, it's secondary. 'Follow-on offering' = primary; 'secondary distribution' = existing holders selling." },
+        { "type": "paragraph", "text": "The two markets feed each other: investors buy new issues more willingly because a liquid secondary market lets them exit, and secondary prices (price discovery) tell issuers what new capital will cost. When secondary prices fall, issuers must offer new bonds at higher yields or new stock at lower prices — the markets are one conversation." },
+        { "type": "list", "items": [
+          "Primary: issuer sells new securities, gets the proceeds (1933 Act rules — Chapter 4 covers the registration process).",
+          "Secondary: investor sells to investor; issuer gets nothing (1934 Act rules).",
+          "Follow-on/APO: new shares from a public issuer — primary.",
+          "Secondary distribution: insiders' existing shares — secondary, even if underwritten and registered."
+        ] }
+      ]
+    },
+    {
+      "id": "2-2",
+      "blocks": [
+        { "type": "paragraph", "text": "Secondary trading happens in two structures. Exchanges (NYSE, Nasdaq, Cboe) are auction markets: public buy and sell orders interact under price-time priority, with designated market makers committing capital to keep trading fair and orderly. The over-the-counter (OTC) market is a negotiated dealer market: a decentralized network of market makers quoting prices electronically." },
+        { "type": "table", "caption": "Exchange vs OTC", "headers": ["", "Exchange (auction)", "OTC (negotiated)"], "rows": [
+          ["Structure", "Central order book / floor", "Dealer network, no central place"],
+          ["Prices set by", "Competing public orders", "Market-maker quotes"],
+          ["Listing standards", "Yes — financial and governance", "Minimal (quotation tiers)"],
+          ["What trades there", "Listed stocks, options, ETFs", "Unlisted stocks, most bonds"],
+          ["Typical participant", "DMM/specialist (NYSE)", "Multiple competing market makers"]
+        ] },
+        { "type": "heading", "level": 3, "text": "Listing, delisting, and the OTC tiers" },
+        { "type": "paragraph", "text": "Exchanges impose listing standards — minimum share price, market cap, shareholder count, and corporate-governance requirements — and companies pay to stay listed. Falling below the standards gets a company delisted, after which its shares usually keep trading OTC with thinner liquidity. Unlisted and delisted equities quote through OTC Markets Group tiers: OTCQX (highest disclosure), OTCQB (venture-stage), and Pink Open Market (minimal or no disclosure — home of many penny stocks). Most debt — corporate and municipal bonds — trades OTC through dealers, not on exchanges, even when the issuer's stock is listed." },
+        { "type": "keyTerm", "term": "Inside market / NBBO", "definition": "The National Best Bid and Offer — the highest bid and lowest ask for a security across all market centers. Under Regulation NMS, a market center may not 'trade through' (execute at a price worse than) a better protected quote displayed elsewhere." },
+        { "type": "example", "title": "Example — reading the inside market", "text": "Three market makers quote ABCD: 15.05–15.20, 15.08–15.18, and 15.06–15.22. The inside market (NBBO) is 15.08 bid / 15.18 ask — best bid is the HIGHEST bid, best ask is the LOWEST ask. A market order to buy executes at 15.18." },
+        { "type": "examTip", "text": "Customers BUY at the ask and SELL at the bid. The spread between them is the dealer's compensation — and spreads widen when trading is thin or volatile." },
+        { "type": "heading", "level": 3, "text": "ECNs and extended hours" },
+        { "type": "paragraph", "text": "Electronic communication networks (ECNs) are electronic systems that match customer orders automatically for a fee — agency-only, no inventory — and they are the main venue for pre-market and after-hours trading. Regular exchange hours are 9:30 a.m. to 4:00 p.m. Eastern; outside them, firms must disclose the extended-hours risks to customers: thinner liquidity, wider spreads, sharper volatility, prices that may not reflect the next regular-session open, and competition from institutions with better information." },
+        { "type": "warning", "text": "Extended-hours trading disclosures are testable as a list: lower liquidity, higher volatility, wider spreads, price uncertainty vs the regular session, and (on some systems) limit-order-only handling. If a question describes an investor surprised by a bad after-hours fill, the missing step was this risk disclosure." },
+        { "type": "paragraph", "text": "All completed trades, wherever executed — exchange, ECN, OTC, or dark pool — are reported to the consolidated tape, the real-time public record of last-sale prices. Equity trades away from exchanges are reported through FINRA's Trade Reporting Facilities (TRFs); corporate and agency bond trades are reported through TRACE; municipal bond trades through the MSRB's EMMA/RTRS system." }
+      ]
+    },
+    {
+      "id": "2-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Two more labels complete the map. The first market is exchange trading of listed securities; the second market is OTC trading of unlisted securities. The third market is OTC trading of exchange-LISTED securities — institutions and market makers trading listed stocks off-exchange (reported through the TRF). The fourth market is institutions trading directly with each other, no broker-dealer in the middle, historically through systems like Instinet." },
+        { "type": "table", "caption": "The four 'markets'", "headers": ["Label", "What trades", "Where"], "rows": [
+          ["First market", "Listed securities", "On the exchange"],
+          ["Second market", "Unlisted securities", "OTC"],
+          ["Third market", "LISTED securities", "OTC (off-exchange)"],
+          ["Fourth market", "Any — institution to institution", "Direct, no broker-dealer"]
+        ] },
+        { "type": "keyTerm", "term": "Dark pool", "definition": "An alternative trading system (ATS) that displays no quotes before execution. Institutions use dark pools to work large blocks without tipping off the market. Trades are still reported to the consolidated tape after execution." },
+        { "type": "paragraph", "text": "Why hide an order? Market impact. If a pension fund shows a 2-million-share sell order on a lit exchange, the price collapses before the order fills. Pre-trade opacity protects the block; post-trade reporting keeps the public tape honest. Dark pools are legal and SEC-regulated — they register as broker-dealers and operate under Regulation ATS, not as exchanges." },
+        { "type": "keyTerm", "term": "Block trade", "definition": "Traditionally 10,000+ shares or roughly $200,000+ in value — the institutional order size that third-market firms and dark pools exist to handle." },
+        { "type": "example", "title": "Example", "text": "An insurance company wants to sell 500,000 shares of a listed industrial. Routed to a dark pool, the order quietly crosses against another institution's buy interest at a price near the NBBO midpoint. The tape shows the print after execution — the market never saw it coming." },
+        { "type": "examTip", "text": "Rank pre-trade transparency: lit exchange (full order book) → dark pool (nothing before, reported after) → direct private negotiation (least visible). 'No pre-trade display, still reports trades' = dark pool. 'Institutions trading with NO intermediary' = fourth market." },
+        { "type": "paragraph", "text": "One connective concept: whatever the venue, best execution applies. A firm routing customer orders must regularly and rigorously evaluate where it can get the most favorable terms reasonably available — price, speed, and likelihood of execution — and payment for order flow it receives must be disclosed and can never justify an inferior fill." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ch13-q001",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "Trading on material, nonpublic information is prohibited for:",
+    "choices": [
+      "corporate insiders only",
+      "anyone who trades while in possession of it, including tippees",
+      "only officers and directors",
+      "only registered persons"
+    ],
+    "correctIndex": 1,
+    "explanation": "Insider trading liability reaches insiders, tippers, and tippees — anyone trading on MNPI or passing it along. Both tipper and tippee can be liable even if only one trades.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q002",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "Civil penalties for insider trading can reach:",
+    "choices": [
+      "the amount of the loss avoided only",
+      "up to three times the profit gained or loss avoided (treble damages)",
+      "a flat $10,000",
+      "10% of the trade"
+    ],
+    "correctIndex": 1,
+    "explanation": "Under the Insider Trading and Securities Fraud Enforcement Act, civil penalties run to treble damages; criminal penalties add fines and up to 20 years' imprisonment.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q003",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "Entering trades to create a false appearance of active trading, with no change in beneficial ownership, describes:",
+    "choices": ["stabilization", "wash trades / matched orders (market manipulation)", "arbitrage", "hedging"],
+    "correctIndex": 1,
+    "explanation": "Wash trades and matched orders manufacture fake volume to lure investors — classic manipulation. (Distinguish from the tax 'wash sale' rule, which is about loss disallowance.)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q004",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "Spreading false rumors online to pump a thinly traded stock before selling your position is:",
+    "choices": [
+      "permissible marketing",
+      "a pump-and-dump manipulation scheme",
+      "stabilization",
+      "front running"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pump-and-dump: inflate the price with hype or misinformation, then unload on the buyers. Common in penny stocks and now social media.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q005",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "A trader who buys a security for his own account ahead of a large customer order he knows will move the price is:",
+    "choices": ["position trading", "front running", "interpositioning", "marking the close"],
+    "correctIndex": 1,
+    "explanation": "Front running exploits knowledge of pending customer orders (or research) for personal/firm profit — prohibited misuse of order information.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q006",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "Excessive trading in a customer's account primarily to generate commissions is:",
+    "choices": ["churning", "twisting", "rebalancing", "laddering"],
+    "correctIndex": 0,
+    "explanation": "Churning is measured against the customer's objectives and resources (turnover, cost-to-equity). Twisting is the insurance analog — excessive policy replacement.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q007",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "A representative sells private real-estate notes to customers outside her firm without notifying the firm. This is:",
+    "choices": [
+      "permissible private business",
+      "selling away — a prohibited private securities transaction",
+      "a borrowing arrangement",
+      "acceptable if under $50,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Private securities transactions require prior written notice to the firm — and written approval if compensated. Undisclosed deals are 'selling away.'",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q008",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "Guaranteeing a customer against loss on a recommended stock is:",
+    "choices": [
+      "good customer service",
+      "prohibited under FINRA rules",
+      "allowed with principal approval",
+      "required for seniors"
+    ],
+    "correctIndex": 1,
+    "explanation": "Guarantees against loss and sharing in customer accounts (absent proportionate contribution and written approvals) are flatly prohibited.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q009",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "The three stages of money laundering, in order, are:",
+    "choices": [
+      "placement, layering, integration",
+      "layering, placement, integration",
+      "integration, placement, layering",
+      "structuring, smurfing, placement"
+    ],
+    "correctIndex": 0,
+    "explanation": "Placement inserts dirty cash into the system; layering obscures its origin through transactions; integration returns it as apparently legitimate funds.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q010",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "A Currency Transaction Report (CTR) must be filed for cash transactions exceeding:",
+    "choices": ["$3,000", "$5,000", "$10,000", "$25,000"],
+    "correctIndex": 2,
+    "explanation": "Cash transactions over $10,000 in a day require a CTR filed with FinCEN. Breaking deposits into smaller amounts to evade it is 'structuring' — itself a crime.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q011",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "A Suspicious Activity Report (SAR) must generally be filed for suspicious transactions aggregating at least:",
+    "choices": ["$1,000", "$5,000", "$10,000", "$50,000"],
+    "correctIndex": 1,
+    "explanation": "SARs cover suspicious activity of $5,000+ with no legitimate purpose apparent. Filing is confidential — the firm must NOT tell the customer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q012",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "A customer deposits $9,900 in cash on three consecutive days. This pattern suggests:",
+    "choices": [
+      "normal activity",
+      "structuring to evade CTR reporting",
+      "a wash sale",
+      "front running"
+    ],
+    "correctIndex": 1,
+    "explanation": "Structuring (smurfing) breaks cash amounts under the $10,000 threshold — a red flag requiring SAR consideration regardless of the money's source.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q013",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "A rep may share in a customer account's gains and losses only if:",
+    "choices": [
+      "the customer agrees orally",
+      "sharing is proportionate to contributions with prior written approval of the firm (proportionality waived for immediate family)",
+      "the account exceeds $1 million",
+      "never under any conditions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Joint accounts with customers demand firm approval and proportionate sharing; the proportionality requirement is waived for immediate family members.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch13-q014",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "Borrowing money from a customer is permitted only when:",
+    "choices": [
+      "the amount is under $5,000",
+      "the customer is a bank/lending institution, family member, or falls under other firm-approved exceptions",
+      "the loan is repaid within 30 days",
+      "the rep discloses to FINRA directly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Borrowing/lending with customers requires firm procedures and generally falls under five exceptions (family, financial institutions, registered persons of the same firm, personal/business relationships outside the broker-customer relationship).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q015",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "'Marking the close' refers to:",
+    "choices": [
+      "executing trades at the end of the day to influence the closing price",
+      "recording accurate closing prices",
+      "closing an account",
+      "settling trades same-day"
+    ],
+    "correctIndex": 0,
+    "explanation": "Manipulating the closing print (which drives fund NAVs, margin values, and option settlements) is a form of market manipulation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q016",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "An unregistered assistant accepts an order and offers advice while the rep is at lunch. This is:",
+    "choices": [
+      "fine for small orders",
+      "prohibited — unregistered persons may not take orders or give advice",
+      "allowed with principal sign-off",
+      "allowed for existing customers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Securities activities — soliciting, advising, accepting orders — require registration. Administrative staff may perform clerical functions only.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q017",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "The purpose of OFAC's SDN (Specially Designated Nationals) list is to:",
+    "choices": [
+      "rank credit quality",
+      "identify parties with whom U.S. persons are prohibited from doing business",
+      "list accredited investors",
+      "track short sellers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Firms screen customers against OFAC sanctions lists; matches require blocking assets and reporting — part of AML compliance alongside CIP.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q018",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "A rep receives a customer complaint alleging misappropriated funds. The rep should:",
+    "choices": [
+      "resolve it privately with a personal check",
+      "forward it to a supervisor/principal immediately",
+      "ignore it if unfounded",
+      "delete the email"
+    ],
+    "correctIndex": 1,
+    "explanation": "Written complaints go to supervision; settling privately conceals the complaint and is itself a violation. Firms must retain and (for certain allegations) report complaints.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q019",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "Which activity is PERMITTED?",
+    "choices": [
+      "trading ahead of a research report release",
+      "stabilizing bids at or below the POP during a distribution, as disclosed",
+      "matched orders with a friend",
+      "trading on a pending merger overheard at work"
+    ],
+    "correctIndex": 1,
+    "explanation": "Disclosed stabilization is the lone sanctioned form of price support. The others are front running, manipulation, and insider trading.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q020",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "Marking an order ticket 'unsolicited' when the rep actually recommended the trade is:",
+    "choices": [
+      "harmless bookkeeping",
+      "falsifying records — a prohibited practice",
+      "required for penny stocks",
+      "acceptable if the customer agrees"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mismarking tickets evades suitability responsibility and falsifies books and records — a serious violation compounding the underlying issue.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q021",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "AML compliance programs must include all of the following EXCEPT:",
+    "choices": [
+      "a designated AML compliance officer",
+      "independent testing",
+      "employee training",
+      "guaranteed detection of all laundering"
+    ],
+    "correctIndex": 3,
+    "explanation": "The four pillars: policies/procedures, designated officer, ongoing training, independent audit (plus customer due diligence). No program guarantees detection.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q022",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "An employee of an issuer tells his barber about an unannounced acquisition; the barber trades. Who has potential liability?",
+    "choices": [
+      "only the barber",
+      "only the employee",
+      "both the employee (tipper) and the barber (tippee)",
+      "neither — barbers aren't insiders"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tipper liability attaches to disclosing MNPI for benefit; tippee liability attaches to trading on it knowing (or being reckless about) its source.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q023",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "Recommending a security by promising 'it will double in six months — I've never been wrong' violates rules against:",
+    "choices": [
+      "performance guarantees and misleading statements",
+      "front running",
+      "structuring",
+      "interpositioning"
+    ],
+    "correctIndex": 0,
+    "explanation": "Predictions presented as certainties, exaggerated claims, and guarantees are prohibited communications — fair and balanced presentation is required.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q024",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "Under FINRA's gift limit, business-related gifts to a customer's employees (or between firms' personnel) may not exceed:",
+    "choices": ["$100 per person per year", "$500 per year", "$25 per gift", "no limit with disclosure"],
+    "correctIndex": 0,
+    "explanation": "The gift limit is $100 per recipient per year (occasional meals/tickets attended together count as business entertainment, not gifts, if reasonable).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q025",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "'Interpositioning' is prohibited because it:",
+    "choices": [
+      "inserts an unnecessary third party between the firm and the best market, worsening the customer's price",
+      "involves too many exchanges",
+      "settles too quickly",
+      "requires extra paperwork"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adding a needless dealer into the execution chain violates best execution — customers pay the extra spread.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch13-q026",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "Rule 10b-5 under the Exchange Act broadly prohibits:",
+    "choices": [
+      "any fraud, misstatement, or deceit in connection with the purchase or sale of any security",
+      "only exchange-floor violations",
+      "only insider trading",
+      "short selling"
+    ],
+    "correctIndex": 0,
+    "explanation": "10b-5 is the catch-all antifraud rule covering manipulation, misrepresentation, and insider trading in any securities transaction, registered or exempt.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q027",
+    "chapterId": 13,
+    "sectionTag": "13-2",
+    "question": "An RR moonlights as a paid consultant without telling her firm. This violates rules on:",
+    "choices": [
+      "outside business activities requiring prior written notice",
+      "selling away",
+      "churning",
+      "front running"
+    ],
+    "correctIndex": 0,
+    "explanation": "Any outside business activity for compensation requires prior written notice to the firm (approval per firm procedures). Selling away specifically involves securities transactions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q028",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "Firms must verify new customers' identities and check them against terrorist lists under:",
+    "choices": [
+      "Regulation T",
+      "the USA PATRIOT Act's Customer Identification Program requirements",
+      "Regulation SHO",
+      "the Trust Indenture Act"
+    ],
+    "correctIndex": 1,
+    "explanation": "CIP (Bank Secrecy Act/PATRIOT Act) requires identity verification, recordkeeping, and government-list screening at account opening.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch13-q029",
+    "chapterId": 13,
+    "sectionTag": "13-1",
+    "question": "A firm's registered persons buying shares of a hot IPO for their own accounts violates:",
+    "choices": [
+      "nothing, if fully paid",
+      "FINRA Rule 5130's restrictions on new-issue purchases by restricted persons",
+      "Reg T",
+      "Rule 144"
+    ],
+    "correctIndex": 1,
+    "explanation": "Industry insiders (restricted persons) may not buy new equity issues at the offering — preventing them from skimming hot-issue profits owed to the public.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch13-q030",
+    "chapterId": 13,
+    "sectionTag": "13-3",
+    "question": "When a firm files a SAR on a customer, it must:",
+    "choices": [
+      "notify the customer within 30 days",
+      "keep the filing confidential and not disclose it to the subject",
+      "close the account immediately",
+      "freeze all assets permanently"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tipping off the subject of a SAR is prohibited. The firm continues monitoring; account decisions follow firm AML procedures.",
+    "difficulty": "easy"
+  }
+]

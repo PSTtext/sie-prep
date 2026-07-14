@@ -1,0 +1,82 @@
+{
+  "chapterId": 5,
+  "sections": [
+    {
+      "id": "5-1",
+      "blocks": [
+        { "type": "paragraph", "text": "Common stock is ownership — equity — in a corporation. Buy 100 shares of a company with 1 million shares outstanding and you own 0.01% of the business: a claim on its growth, a vote in its governance, and last place in line if it fails." },
+        { "type": "keyTerm", "term": "Authorized, issued, outstanding, treasury", "definition": "Authorized: the maximum shares the charter permits. Issued: shares actually sold to investors. Treasury: issued shares the company bought back — no vote, no dividend. Outstanding = issued minus treasury." },
+        { "type": "example", "title": "Example", "text": "A charter authorizes 10 million shares. The company has issued 6 million and repurchased 500,000 into treasury. Outstanding = 5,500,000 — that's the number used for EPS and for Rule 144's 1% test. Buybacks shrink outstanding shares, which raises EPS — one reason companies repurchase stock." },
+        { "type": "heading", "level": 3, "text": "Shareholder rights" },
+        { "type": "paragraph", "text": "Shareholder rights: vote for directors and on major corporate matters like stock splits and mergers (never on dividends — the board declares those), receive dividends when declared, inspect books (annual report and audited financials), transfer shares freely (this is what makes stock 'negotiable'), maintain proportional ownership via preemptive rights, and claim residual assets in liquidation — after every creditor and preferred holder is paid." },
+        { "type": "paragraph", "text": "Shareholders who can't attend the annual meeting vote by proxy — a power of attorney to vote their shares, solicited by the company under SEC proxy rules. Voting itself comes in two systems, and the difference matters for small holders." },
+        { "type": "table", "caption": "Statutory vs cumulative voting (3 board seats, 100 shares)", "headers": ["Method", "How votes work", "Favors"], "rows": [
+          ["Statutory", "Up to 100 votes per seat, per seat", "Large shareholders"],
+          ["Cumulative", "300 votes total, allocated any way — even all 300 on one seat", "Small (minority) shareholders"]
+        ] },
+        { "type": "keyTerm", "term": "Limited liability", "definition": "A shareholder's maximum loss is the amount invested. Creditors of the corporation can never reach a stockholder's personal assets." },
+        { "type": "heading", "level": 3, "text": "Why own common stock — and what it costs you" },
+        { "type": "list", "items": [
+          "Benefits: capital appreciation (growth), income if dividends are paid, a hedge against inflation over long periods, limited liability, and liquidity in listed shares.",
+          "Risks: market risk (prices swing), dividends are never guaranteed, and in bankruptcy common is LAST in line — often wiped out entirely.",
+          "Tax note: qualified dividends and long-term capital gains (held over one year) are taxed at preferential rates; short-term gains are taxed as ordinary income."
+        ] },
+        { "type": "examTip", "text": "Shareholders vote on directors, stock splits, and issuing new shares — NOT on dividends. And in liquidation, the priority order is: secured creditors, unpaid wages/taxes, general (unsecured) creditors, subordinated debt, preferred stock, then common. Memorize that ladder — it's tested from both directions." }
+      ]
+    },
+    {
+      "id": "5-2",
+      "blocks": [
+        { "type": "paragraph", "text": "Preferred stock is equity that behaves like a bond: a fixed dividend based on par (usually $100), no maturity, and priority over common for dividends and liquidation. The trade-off — normally no voting rights, no preemptive rights, and no share in the company's growth. Its buyers are income investors." },
+        { "type": "example", "title": "Example", "text": "A 6% preferred with $100 par pays $6 per share per year — fixed, whether the company's earnings double or stall. Because that payment is fixed, preferred prices move inversely with interest rates, just like bonds: rates up, preferred prices down. Interest-rate risk, not business growth, drives most of its price action." },
+        { "type": "keyTerm", "term": "Cumulative preferred", "definition": "Skipped (accrued) dividends accumulate as 'dividends in arrears' and must be paid in full before common shareholders receive anything. Straight (non-cumulative) preferred loses skipped dividends forever." },
+        { "type": "example", "title": "Example — cumulative math", "text": "A company skips two years of dividends on its $6 cumulative preferred, then wants to pay common a dividend this year. It must first pay preferred $18 per share: $6 + $6 in arrears plus this year's $6. Holders of straight preferred in the same situation would get only this year's $6." },
+        { "type": "table", "caption": "Preferred flavors", "headers": ["Type", "Feature", "Yield vs straight"], "rows": [
+          ["Cumulative", "Missed dividends accrue", "Lower (safer)"],
+          ["Participating", "Can share in extra common dividends", "Lower"],
+          ["Convertible", "Exchangeable into common shares", "Lower (upside potential)"],
+          ["Callable", "Issuer can redeem at a set price", "Higher (compensates call risk)"],
+          ["Adjustable-rate", "Dividend resets with a benchmark rate", "Price stays near par"]
+        ] },
+        { "type": "heading", "level": 3, "text": "Convertible math" },
+        { "type": "keyTerm", "term": "Conversion parity", "definition": "The point where a convertible's value equals the value of the common it converts into. Conversion ratio = par ÷ conversion price. A $100-par preferred convertible at $25 = 4 shares; if common trades at $27, parity for the preferred is $108." },
+        { "type": "example", "title": "Example — parity two ways", "text": "That same 4:1 convertible preferred trades at $110 while the common is $26. Parity for the preferred is 4 × $26 = $104 — the preferred trades above parity (a conversion premium). Flip it: parity for the COMMON is preferred price ÷ ratio = $110 ÷ 4 = $27.50. Conversion is attractive when the stock trades above the conversion price." },
+        { "type": "examTip", "text": "Issuers call securities when interest rates FALL (to refinance cheaply) — bad timing for the investor, which is why callable preferred pays more. Adjustable-rate preferred barely moves in price because its dividend resets with rates. And remember: preferred dividends still require a board declaration — 'fixed' means the amount, not a guarantee." }
+      ]
+    },
+    {
+      "id": "5-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Rights and warrants both let holders buy the issuer's stock at a set price, but they live on opposite ends of the timeline. Preemptive rights are short-term (typically 30-60 days), issued to EXISTING shareholders in a new-issue rights offering — one right per share owned — priced BELOW the current market. Warrants are long-term (often 5+ years, some perpetual), usually attached to a bond or preferred deal as a 'sweetener,' with an exercise price ABOVE the market at issuance." },
+        { "type": "table", "caption": "Rights vs warrants", "headers": ["", "Rights", "Warrants"], "rows": [
+          ["Who gets them", "Existing common shareholders (one per share)", "Buyers of a bond/preferred offering"],
+          ["Term", "Short (weeks)", "Long (years, sometimes perpetual)"],
+          ["Exercise price vs market", "Below market", "Above market at issuance"],
+          ["Intrinsic value at issue", "Yes", "No — value is all time value"],
+          ["Purpose", "Preserve proportional ownership", "Sweeten a deal's terms"]
+        ] },
+        { "type": "paragraph", "text": "A shareholder receiving rights has three choices: exercise them (buy the new shares at the discount), sell them (rights trade separately and have market value), or let them expire (worst option — the holder is diluted AND throws away value). In a standby underwriting (Chapter 4), an investment bank agrees to buy whatever shares rights holders don't subscribe." },
+        { "type": "example", "title": "Example", "text": "TerraFoods stock trades at $50. In a rights offering, holders get one right per share; 10 rights plus $45 buys one new share — the below-market price makes the right itself worth about $0.50. Separately, TerraFoods bonds come with warrants to buy stock at $65 anytime in 5 years — worthless to exercise today, valuable if the stock climbs. Neither rights nor warrants pay dividends or carry votes." },
+        { "type": "heading", "level": 3, "text": "ADRs — foreign stocks in dollar wrapping" },
+        { "type": "keyTerm", "term": "American Depositary Receipt (ADR)", "definition": "A U.S.-traded, dollar-denominated receipt for shares of a foreign company held by a U.S. bank's branch abroad. Lets Americans buy foreign stocks without dealing with foreign exchanges or currencies. Sponsored ADRs (issuer participates, provides English disclosure) can list on the NYSE or Nasdaq; unsponsored ADRs trade OTC." },
+        { "type": "paragraph", "text": "ADR holders receive dividends in dollars (converted by the bank, often minus a foreign withholding tax that may generate a U.S. tax credit) and can sell the ADR in U.S. markets. What they DON'T escape: currency risk. If the foreign currency weakens against the dollar, the ADR's value and its dividends shrink even when the underlying stock is flat. Holders also typically don't vote directly; the depositary bank holds the shares, and preemptive rights are usually sold off with the cash credited to the holder." },
+        { "type": "examTip", "text": "ADR question? The answer is usually currency (exchange-rate) risk — it's the risk investors keep despite the dollar packaging. Dividends arrive in dollars, but their size depends on the foreign currency. Also: ADR holders generally do NOT have voting or preemptive rights." }
+      ]
+    },
+    {
+      "id": "5-4",
+      "blocks": [
+        { "type": "paragraph", "text": "Dividends are paid at the board's discretion — cash, stock, or occasionally property/product. Four dates govern who gets one. Declaration date: the board announces the dividend and sets the record date. Record date: you must be an owner of record ON this date to be paid. Ex-dividend date: the first day a buyer is NOT entitled to the dividend — with T+1 settlement, the ex-date is the SAME DAY as the record date. Payable date: checks go out." },
+        { "type": "keyTerm", "term": "Ex-dividend date", "definition": "First trading day the stock trades without the dividend. Set by the exchange or FINRA (not the board). Under T+1 settlement, ex-date = record date. Buy BEFORE the ex-date to get the dividend; on the ex-date the stock opens reduced by the dividend amount." },
+        { "type": "example", "title": "Example", "text": "Record date Thursday. The ex-date is also Thursday. Buy Wednesday and your trade settles Thursday — you're an owner of record, dividend yours. Buy Thursday and you settle Friday — too late. Thursday morning the stock opens lower by about the dividend: a $40 stock paying $0.50 opens around $39.50." },
+        { "type": "warning", "text": "'Selling dividends' — urging a customer to buy a fund or stock just before the ex-date 'to grab the dividend' — is a violation. The price drops by the dividend on the ex-date, and the customer just bought an immediate tax bill." },
+        { "type": "heading", "level": 3, "text": "Splits and stock dividends" },
+        { "type": "paragraph", "text": "Stock dividends and splits change the share count, not the value. A forward split (2-for-1, 3-for-2) increases shares and lowers the price — often to make the stock look more affordable. A reverse split (1-for-5) shrinks the count and raises the price — often to avoid delisting. A stock dividend (say 5%) adds shares instead of cash — common for growth companies preserving cash. In each case total market value stays the same; only the per-share numbers move. Neither is taxable when received — the investor's cost basis per share adjusts instead." },
+        { "type": "example", "title": "Example — split math", "text": "You own 100 shares at $60 (cost basis $50): position worth $6,000. After a 3-for-2 split you own 150 shares at $40, basis $33.33 — still $6,000 of stock, still $5,000 of total basis. After a 1-for-5 REVERSE split, 100 shares at $2 become 20 shares at $10. Forward splits (and stock dividends over a threshold) require a shareholder vote; the board alone declares cash and stock dividends." },
+        { "type": "keyTerm", "term": "Current yield (stock)", "definition": "Annual dividend ÷ current market price. A stock at $50 paying $0.50 quarterly yields (0.50 × 4) ÷ 50 = 4%. If the price falls and the dividend holds, yield rises — yield and price move inversely here too." },
+        { "type": "example", "title": "Example — total return", "text": "Buy at $50; a year later the stock is $54 and paid $2 of dividends. Total return = (4 gain + 2 income) ÷ 50 = 12%. The exam distinguishes yield (income only) from total return (income plus appreciation)." },
+        { "type": "examTip", "text": "DERP: Declaration, Ex-date, Record, Payable — and under T+1, E and R land on the same day. Splits and stock dividends are NOT taxable events; they just re-slice the same pie and lower your per-share basis. Cash dividends ARE taxable in the year received." }
+      ]
+    }
+  ]
+}

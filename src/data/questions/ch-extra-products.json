@@ -1,0 +1,572 @@
+[
+  {
+    "id": "ch5-q041",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Book-entry (uncertificated) ownership held in street name means the securities are registered to:",
+    "choices": ["the customer directly", "the broker-dealer, with the customer as beneficial owner", "the transfer agent", "SIPC"],
+    "correctIndex": 1,
+    "explanation": "Street name: the firm is the nominal owner; the customer is beneficial owner receiving all economic rights. Proxies and issuer communications must be forwarded to beneficial owners.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q042",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "Which preferred type would MOST likely trade with the widest price swings alongside the common stock?",
+    "choices": ["straight preferred", "convertible preferred", "adjustable-rate preferred", "callable preferred trading near its call price"],
+    "correctIndex": 1,
+    "explanation": "Convertible preferred tracks the common when conversion nears the money, adding equity-like volatility to a preferred instrument.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q043",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "An investor sells stock at a loss and repurchases the same stock 15 days later. For tax purposes the loss is:",
+    "choices": ["fully deductible", "disallowed under the wash sale rule and added to the new basis", "deductible at half value", "converted to ordinary income"],
+    "correctIndex": 1,
+    "explanation": "Buying substantially identical securities within 30 days before or after a loss sale triggers the wash sale rule — the loss defers into the replacement shares' basis.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q044",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "A stock position held 14 months is sold at a gain. The gain is taxed as:",
+    "choices": ["ordinary income", "long-term capital gain at preferential rates", "short-term gain", "tax-exempt"],
+    "correctIndex": 1,
+    "explanation": "Holding over one year makes gains long-term (preferential rates). One year or less = short-term, taxed as ordinary income. Capital losses offset gains, then up to $3,000 of ordinary income yearly.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q045",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Which measure equals a company's stock price times shares outstanding?",
+    "choices": ["book value", "market capitalization", "par value", "net asset value"],
+    "correctIndex": 1,
+    "explanation": "Market cap sizes companies (large/mid/small cap) — a key classification for funds, risk profiles, and index membership.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q046",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "A rights offering uses a subscription price of $38 with the stock at $44; each new share requires 4 rights. The theoretical value of one right (cum-rights) is approximately:",
+    "choices": ["$1.20", "$1.50", "$6.00", "$0.75"],
+    "correctIndex": 0,
+    "explanation": "Cum-rights value = (market − subscription) ÷ (rights needed + 1) = 6 ÷ 5 = $1.20. Ex-rights drops the +1.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch6-q041",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "An 'industrial development revenue bond' is ultimately backed by:",
+    "choices": ["the municipality's taxes", "the lease payments of the corporate tenant", "federal grants", "the MSRB"],
+    "correctIndex": 1,
+    "explanation": "IDRs finance facilities leased to corporations; credit depends on the corporate lessee, not the municipality. Interest may be a tax-preference item under AMT.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch6-q042",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "Duration is BEST described as a measure of a bond's:",
+    "choices": ["credit quality", "price sensitivity to interest-rate changes", "liquidity", "tax treatment"],
+    "correctIndex": 1,
+    "explanation": "Duration blends maturity and coupon size into a single rate-sensitivity gauge: longer duration = bigger price swings per 1% rate change.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q043",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "T-bills are quoted:",
+    "choices": ["as a percentage of par in 32nds", "on a discount yield basis", "in eighths", "at NAV"],
+    "correctIndex": 1,
+    "explanation": "Bills quote on annualized discount yield — the bid yield is higher than the ask yield because a higher yield means a lower price.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch6-q044",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "A guaranteed corporate bond is guaranteed by:",
+    "choices": ["the U.S. government", "another corporation, typically a parent company", "SIPC", "the exchange"],
+    "correctIndex": 1,
+    "explanation": "'Guaranteed' means a third-party corporate guarantee (often parent guaranteeing subsidiary debt) — strengthening credit, but never a government backing.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q045",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "A basis point equals:",
+    "choices": ["1%", "0.1%", "0.01%", "0.001%"],
+    "correctIndex": 2,
+    "explanation": "100 basis points = 1%. A yield move from 4.25% to 4.50% is 25 bps.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q046",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "Which municipal bond feature is analyzed via the 'debt service coverage ratio'?",
+    "choices": ["GO tax collections", "revenue bond project income versus required principal and interest", "underwriter spreads", "insurance premiums"],
+    "correctIndex": 1,
+    "explanation": "Coverage = pledged revenues ÷ debt service. A 2:1 coverage means revenues double the requirement — the core revenue-bond credit metric.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q047",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "Commercial paper is typically issued by:",
+    "choices": ["municipalities for schools", "corporations for short-term working capital, at a discount", "the Treasury", "banks as equity"],
+    "correctIndex": 1,
+    "explanation": "CP is unsecured short-term corporate debt (≤270 days for the registration exemption), sold at a discount — a money-market staple.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q048",
+    "chapterId": 6,
+    "sectionTag": "6-5",
+    "question": "Which money-market instrument arises from international trade finance?",
+    "choices": ["banker's acceptance", "T-note", "ADR", "repurchase agreement"],
+    "correctIndex": 0,
+    "explanation": "BAs are time drafts guaranteed by banks financing import/export transactions — short-term, discounted, highly liquid.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q041",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "A balanced fund's portfolio would contain:",
+    "choices": ["only growth stocks", "a mix of equities and bonds", "only municipal bonds", "cash exclusively"],
+    "correctIndex": 1,
+    "explanation": "Balanced funds hold both stocks and bonds for growth plus income with moderated volatility — matching moderate-risk objectives.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q042",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "Which fund feature lets investors move between funds in the same family without a new sales charge?",
+    "choices": ["conversion/exchange privilege", "reinstatement", "12b-1 waiver", "conduit rule"],
+    "correctIndex": 0,
+    "explanation": "Exchange privileges swap shares at NAV within a family — though the exchange is still a taxable event.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q043",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "An index ETF's intraday market price stays near NAV primarily because:",
+    "choices": ["the SEC pegs it", "authorized participants arbitrage creation/redemption baskets", "dividends adjust it", "trading halts"],
+    "correctIndex": 1,
+    "explanation": "APs create/redeem large in-kind baskets whenever price diverges from NAV, arbitraging the gap away — the ETF mechanism's heart.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch7-q044",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "A fixed annuity primarily exposes the owner to:",
+    "choices": ["market risk", "purchasing-power (inflation) risk", "currency risk", "prepayment risk"],
+    "correctIndex": 1,
+    "explanation": "Fixed payments guaranteed by the insurer's general account are safe from market swings but erode with inflation — the reason variable annuities exist.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q045",
+    "chapterId": 7,
+    "sectionTag": "7-1",
+    "question": "The conduit (pipeline) theory under Subchapter M allows a regulated investment company to avoid tax on earnings if it distributes at least:",
+    "choices": ["50%", "75%", "90%", "99%"],
+    "correctIndex": 2,
+    "explanation": "Distributing 90%+ of net investment income makes the fund a conduit taxed only on retained amounts — shareholders pay the tax instead.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q046",
+    "chapterId": 7,
+    "sectionTag": "7-4",
+    "question": "Annuity units during the payout phase of a variable annuity are:",
+    "choices": ["fixed in number, fluctuating in value", "fluctuating in number", "fixed in both number and value", "converted to cash"],
+    "correctIndex": 0,
+    "explanation": "At annuitization the number of units locks; each payment = units × current unit value, which moves with the separate account versus the AIR.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch7-q047",
+    "chapterId": 7,
+    "sectionTag": "7-2",
+    "question": "Which is TRUE of mutual fund share classes for the SAME portfolio?",
+    "choices": [
+      "returns are identical across classes",
+      "the underlying portfolio is identical; fees and loads differ by class",
+      "each class has a different manager",
+      "only A shares receive dividends"
+    ],
+    "correctIndex": 1,
+    "explanation": "A/B/C shares own the same portfolio — differing only in how the investor pays (front load, CDSC, level load), which changes net returns.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch7-q048",
+    "chapterId": 7,
+    "sectionTag": "7-3",
+    "question": "A mortgage REIT primarily bears which risk?",
+    "choices": ["tenant vacancy", "interest-rate risk on its lending spread", "commodity risk", "elimination of dividends by law"],
+    "correctIndex": 1,
+    "explanation": "mREITs borrow short and lend long against real estate; rate moves squeeze the spread and book value — more rate-sensitive than equity REITs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q041",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "A long straddle (buy 1 call + buy 1 put, same strike/expiration) profits when the stock:",
+    "choices": ["stays flat", "moves sharply in either direction", "rises slightly", "pays a dividend"],
+    "correctIndex": 1,
+    "explanation": "Straddle buyers bet on volatility: the move must exceed the combined premiums either way. Sellers of straddles bet on stability.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q042",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "All standardized listed option contracts in the U.S. are issued and guaranteed by the OCC, which also:",
+    "choices": ["sets premiums", "assigns exercises to short positions randomly among member firms", "insures profits", "approves customer accounts"],
+    "correctIndex": 1,
+    "explanation": "Exercise assignment flows OCC → firm (random) → customer (random, FIFO, or other fair method). Premiums are set by the market.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch8-q043",
+    "chapterId": 8,
+    "sectionTag": "8-3",
+    "question": "An investor writes a covered call for income. The tax status of the premium received is:",
+    "choices": [
+      "taxed immediately as ordinary income",
+      "a short-term capital gain when the option expires or is closed",
+      "tax-exempt",
+      "added to the dividend"
+    ],
+    "correctIndex": 1,
+    "explanation": "Premiums from expired short options are short-term capital gains at expiration (or adjust sale proceeds if assigned) — not taxed on receipt.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch8-q044",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "Index options settle in:",
+    "choices": ["shares of an ETF", "cash based on the index value", "futures contracts", "Treasury bills"],
+    "correctIndex": 1,
+    "explanation": "Index option exercise delivers cash equal to intrinsic value × the multiplier; most are European-style.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q045",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "Breakeven for a long 60 call purchased at 3.50 is:",
+    "choices": ["56.50", "60", "63.50", "3.50"],
+    "correctIndex": 2,
+    "explanation": "Call breakeven = strike + premium = 63.50 — for buyer and writer alike; above it the buyer profits.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q046",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "Which spreads or combinations require BOTH options to move to profit maximally?",
+    "choices": [
+      "a covered call",
+      "a debit call spread (buy lower strike, sell higher strike)",
+      "a protective put",
+      "cash-secured put"
+    ],
+    "correctIndex": 1,
+    "explanation": "Debit spreads cap risk (net premium) and reward (strike difference − premium), profiting as the stock rises through both strikes. Basic SIE spread awareness.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch8-q047",
+    "chapterId": 8,
+    "sectionTag": "8-3",
+    "question": "A collar (own stock, buy put, sell call) is designed to:",
+    "choices": [
+      "maximize upside",
+      "bracket the position — cheap downside protection paid for by surrendering upside",
+      "increase leverage",
+      "generate unlimited income"
+    ],
+    "correctIndex": 1,
+    "explanation": "The short call's premium finances the protective put; the holder accepts a ceiling in exchange for a floor — common for concentrated positions.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch8-q048",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "Options positions must be exercised through, and disputes resolved by, the holder's:",
+    "choices": ["exchange directly", "broker-dealer, which processes exercise to the OCC", "transfer agent", "the issuer"],
+    "correctIndex": 1,
+    "explanation": "Customers instruct their firm; the firm submits exercise notices to the OCC, which assigns a short. Expiring in-the-money longs are auto-exercised by threshold.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q031",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "Coverdell ESAs differ from 529 plans in that Coverdells:",
+    "choices": [
+      "have no contribution limit",
+      "cap annual contributions ($2,000 per beneficiary) and phase out for higher-income donors",
+      "cannot pay K-12 expenses",
+      "are state-sponsored"
+    ],
+    "correctIndex": 1,
+    "explanation": "Coverdells: $2,000/year per beneficiary, income limits on contributors, use by age 30 — versus 529s' large limits and no income phase-out.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch9-q032",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "A limited partner may do all of the following without endangering limited status EXCEPT:",
+    "choices": ["vote on dissolving the partnership", "inspect books and records", "sue the general partner", "negotiate contracts for the business daily"],
+    "correctIndex": 3,
+    "explanation": "Taking part in day-to-day management makes an LP liable as a general partner. Voting on major matters, inspection, and derivative suits are protected rights.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q033",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "'High-water mark' provisions in hedge funds ensure that:",
+    "choices": [
+      "performance fees apply only to gains above the fund's previous peak value",
+      "the fund never loses money",
+      "management fees are refunded",
+      "redemptions are unlimited"
+    ],
+    "correctIndex": 0,
+    "explanation": "After a drawdown, the manager earns incentive fees only once losses are recovered — protecting investors from paying twice for the same gains.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q034",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "Which DPP is most associated with depreciation deductions sheltering cash flow?",
+    "choices": ["oil income programs", "real estate programs", "commodity pools", "hedge funds"],
+    "correctIndex": 1,
+    "explanation": "Real estate DPPs depreciate buildings, sheltering rental income; raw land, notably, cannot be depreciated.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q035",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "Qualified 529 expenses now include, in addition to higher education costs:",
+    "choices": [
+      "up to $10,000/year of K-12 tuition and limited student-loan repayment",
+      "family vacations",
+      "any household expense",
+      "retirement income"
+    ],
+    "correctIndex": 0,
+    "explanation": "Federal law extends 529s to K-12 tuition ($10k/yr) and lifetime $10k student-loan repayment per beneficiary; state treatment can differ.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q036",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "Reverse convertibles are structured notes that may repay the investor in:",
+    "choices": [
+      "cash only, always at par",
+      "shares of the linked stock (worth less than par) if the stock falls below a trigger",
+      "gold",
+      "additional notes"
+    ],
+    "correctIndex": 1,
+    "explanation": "High coupons compensate for a knock-in put: if the underlying falls through the barrier, the investor receives depreciated shares instead of principal.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch9-q037",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "The document a DPP investor signs to apply, attesting to income/net-worth suitability, is the:",
+    "choices": ["partnership agreement", "subscription agreement", "certificate", "indenture"],
+    "correctIndex": 1,
+    "explanation": "The subscription agreement collects investor representations; the GP's signature accepts the investor into the program.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q038",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "Which is a signature risk of investing in a commodity pool or managed futures fund?",
+    "choices": ["guaranteed returns", "high leverage and volatility with substantial fees", "FDIC coverage limits", "no professional management"],
+    "correctIndex": 1,
+    "explanation": "Futures strategies embed leverage; drawdowns can be fast and fees layered — sophisticated-investor territory.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q039",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "Municipal fund securities are regulated by rules of the:",
+    "choices": ["MSRB", "OCC", "CFTC", "FDIC"],
+    "correctIndex": 0,
+    "explanation": "529s, ABLEs, and LGIPs are municipal fund securities; MSRB rules govern the dealers who sell them (FINRA enforces).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q040",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "'Phantom income' in a limited partnership refers to:",
+    "choices": [
+      "taxable income allocated to partners without matching cash distributions",
+      "hidden dividends",
+      "insider profits",
+      "tax-free gains"
+    ],
+    "correctIndex": 0,
+    "explanation": "After crossover (or from debt forgiveness), partners can owe tax on allocated income they never received in cash — a hallmark DPP risk.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch10-q031",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "Standard deviation of returns measures an investment's:",
+    "choices": ["credit rating", "total volatility around its average return", "beta only", "tax efficiency"],
+    "correctIndex": 1,
+    "explanation": "Standard deviation captures total risk (systematic + nonsystematic); beta isolates market-related volatility.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q032",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "Extension risk in mortgage-backed securities appears when:",
+    "choices": [
+      "rates fall and prepayments accelerate",
+      "rates rise, prepayments slow, and the security's effective life lengthens",
+      "the issuer defaults",
+      "the pool is government-guaranteed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rising rates freeze refinancing; MBS holders are stuck with below-market coupons longer — extension is prepayment risk's mirror image.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch10-q033",
+    "chapterId": 10,
+    "sectionTag": "10-4",
+    "question": "Dollar-cost averaging results in:",
+    "choices": [
+      "a guaranteed profit",
+      "an average cost per share below the average price per share when prices fluctuate",
+      "buying more shares at high prices",
+      "eliminating market risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fixed-dollar periodic investing buys more shares when cheap, fewer when dear — lowering average cost versus average price, though never guaranteeing profit.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q034",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "A non-traded REIT's disclosure that redemptions may be suspended highlights:",
+    "choices": ["credit risk", "liquidity risk", "inflation risk", "exchange risk"],
+    "correctIndex": 1,
+    "explanation": "Products without secondary markets depend on issuer repurchase programs that can close — the definition of liquidity risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q035",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "Which portfolio has the LEAST interest-rate risk?",
+    "choices": [
+      "30-year zeros",
+      "laddered short-term notes maturing 1-3 years",
+      "20-year corporate bonds",
+      "long-duration bond fund"
+    ],
+    "correctIndex": 1,
+    "explanation": "Short maturities and laddering (staggered maturities reinvested regularly) minimize duration and smooth reinvestment — the standard rate-risk management tool.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q036",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "An investor holding one country's emerging-market bonds could reduce political and currency risk MOST by:",
+    "choices": [
+      "buying more of the same bonds",
+      "diversifying across countries and hedging currency exposure",
+      "moving to that country's stocks",
+      "using margin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Geographic diversification spreads sovereign risk; currency hedges (forwards/futures) address exchange risk directly.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q037",
+    "chapterId": 10,
+    "sectionTag": "10-4",
+    "question": "Rebalancing a portfolio annually back to target weights primarily controls:",
+    "choices": [
+      "trading costs",
+      "risk drift — preventing winners from concentrating the portfolio",
+      "tax rates",
+      "dividend yields"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unrebalanced portfolios drift toward whatever rallied, silently raising risk. Rebalancing enforces the chosen allocation (sell high, buy low mechanically).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q038",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "Which rating combination is the FIRST rung of speculative grade?",
+    "choices": ["AAA/Aaa", "BBB-/Baa3", "BB+/Ba1", "D"],
+    "correctIndex": 2,
+    "explanation": "BB+/Ba1 is the top of junk; BBB-/Baa3 is the bottom of investment grade. 'Fallen angels' cross that line downward.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q039",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "A retiree living on bond income complains her income no longer covers expenses after years of rising prices. Her portfolio failed to manage:",
+    "choices": ["default risk", "purchasing-power risk", "call risk", "marketability"],
+    "correctIndex": 1,
+    "explanation": "All-fixed-income portfolios erode against inflation; the standard fix adds equities or TIPS for growth of income.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q040",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "Currency-hedged international funds trade away currency risk in exchange for:",
+    "choices": ["higher currency gains", "hedging costs and loss of favorable currency moves", "government guarantees", "zero volatility"],
+    "correctIndex": 1,
+    "explanation": "Hedging costs money and forfeits gains when the foreign currency strengthens — risk management is always a trade-off.",
+    "difficulty": "medium"
+  }
+]

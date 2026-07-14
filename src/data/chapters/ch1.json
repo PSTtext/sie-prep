@@ -1,0 +1,132 @@
+{
+  "chapterId": 1,
+  "sections": [
+    {
+      "id": "1-1",
+      "blocks": [
+        { "type": "paragraph", "text": "Every SIE exam starts here: who regulates the U.S. securities markets, and what can each regulator actually do? The top of the pyramid is the Securities and Exchange Commission (SEC) — a federal government agency created by the Securities Exchange Act of 1934 in the aftermath of the 1929 crash." },
+        { "type": "keyTerm", "term": "SEC", "definition": "The federal agency that administers U.S. securities laws. It requires issuers to register public offerings, oversees the self-regulatory organizations, registers broker-dealers, and brings civil enforcement actions against violators." },
+        { "type": "paragraph", "text": "The SEC is run by five commissioners appointed by the President and confirmed by the Senate; no more than three may come from the same political party. Its jurisdiction covers issuers offering securities to the public, broker-dealers, investment advisers, investment companies, transfer agents, and the SROs themselves." },
+        { "type": "heading", "level": 3, "text": "Disclosure, not approval" },
+        { "type": "paragraph", "text": "The SEC's power is disclosure and enforcement, not endorsement. When the SEC lets a registration become 'effective,' it means the paperwork met disclosure standards — nothing more. The SEC never guarantees accuracy, never judges whether an investment is good, and never protects you from losing money." },
+        { "type": "examTip", "text": "If an answer choice says the SEC 'approves,' 'guarantees,' or 'passes on the merits of' a security, it's wrong. The SEC only requires full and fair disclosure. Claiming otherwise is itself a violation — every prospectus carries a disclaimer saying exactly this." },
+        { "type": "example", "title": "Example", "text": "StreamCo files a registration statement for a $100 million IPO. The SEC reviews it and lets it go effective. Six months later the stock has dropped 40%. Investors have no claim against the SEC — effectiveness meant the disclosure was complete, not that the business was sound." },
+        { "type": "heading", "level": 3, "text": "Enforcement powers — and their limits" },
+        { "type": "paragraph", "text": "The SEC's enforcement toolkit is civil and administrative: injunctions, cease-and-desist orders, civil money penalties, disgorgement of ill-gotten profits, and bars from serving as an officer or director of a public company or from the industry. When conduct is criminal — fraud, insider trading rings — the SEC refers the case to the Department of Justice, because only the criminal courts can imprison anyone." },
+        { "type": "list", "items": [
+          "SEC CAN: subpoena witnesses and records, sue in federal court, fine, order disgorgement, suspend trading in a stock for up to 10 business days, and revoke a firm's registration.",
+          "SEC CANNOT: send anyone to prison (that requires DOJ criminal prosecution), guarantee investments, or set commission rates."
+        ] },
+        { "type": "heading", "level": 3, "text": "State regulators and blue-sky laws" },
+        { "type": "paragraph", "text": "Below the federal level, each state has its own securities regulator (often the state Attorney General or a securities commissioner) operating under 'blue-sky laws,' most modeled on the Uniform Securities Act. States register securities offered within the state, plus broker-dealers, their agents, investment advisers, and IA representatives doing business there. The North American Securities Administrators Association (NASAA) coordinates the state regulators and writes model rules." },
+        { "type": "keyTerm", "term": "Blue-sky laws", "definition": "State securities statutes requiring registration of securities, broker-dealers, and agents doing business in the state — named for schemes selling building lots in the 'blue sky.' Issuers and professionals often must register federally AND in each state where they do business." },
+        { "type": "paragraph", "text": "One more federal body to keep straight: the Commodity Futures Trading Commission (CFTC) regulates futures, options on futures, and swaps — commodities markets, not securities. A question about wheat futures, oil futures, or a commodity pool belongs to the CFTC, not the SEC." },
+        { "type": "examTip", "text": "Securities = SEC. Futures and commodities = CFTC. An option on a stock is a security (SEC); a future on gold is a commodity (CFTC). SIPC does not cover commodity futures positions for the same reason — they aren't securities." }
+      ]
+    },
+    {
+      "id": "1-2",
+      "blocks": [
+        { "type": "paragraph", "text": "The SEC doesn't police day-to-day industry conduct itself. It delegates that to self-regulatory organizations (SROs) — industry bodies that write and enforce rules for their own members, always under SEC oversight. Every SRO rule change must be filed with and approved by the SEC before it takes effect." },
+        { "type": "keyTerm", "term": "FINRA", "definition": "The Financial Industry Regulatory Authority — the SRO for virtually all broker-dealers doing public business in the U.S. It registers firms and individuals, administers qualification exams (including the SIE), writes conduct rules, and disciplines violators." },
+        { "type": "paragraph", "text": "FINRA is not a government agency. It's a not-for-profit membership organization funded by its member firms. But its reach is enormous: a firm expelled from FINRA effectively can't do securities business with the public, and FINRA can censure, fine, suspend, or bar individuals — everything except send them to prison or (unlike the SEC) issue injunctions." },
+        { "type": "heading", "level": 3, "text": "FINRA's four major rulebooks" },
+        { "type": "list", "items": [
+          "Conduct Rules — how firms deal with customers: suitability, communications, compensation.",
+          "Uniform Practice Code — firm-to-firm mechanics: settlement dates, good delivery, ex-dates.",
+          "Code of Procedure — how FINRA investigates and disciplines rule violations (Department of Enforcement).",
+          "Code of Arbitration — how monetary disputes between firms, reps, and customers get resolved. Arbitration awards are final and binding; industry members must arbitrate, and customers must arbitrate if they signed a pre-dispute arbitration agreement (nearly all new-account forms include one)."
+        ] },
+        { "type": "heading", "level": 3, "text": "The MSRB — rule-writer without an enforcement arm" },
+        { "type": "paragraph", "text": "The Municipal Securities Rulemaking Board (MSRB) writes the rules for firms and banks that deal in municipal securities, plus municipal advisors. Two quirks the exam loves: the MSRB has no enforcement arm (FINRA enforces its rules on securities firms; bank regulators — the Fed, FDIC, and OCC — enforce them on bank dealers), and it regulates dealers and advisors — never the municipal issuers themselves, because municipal issuers are exempt from SEC registration." },
+        { "type": "examTip", "text": "MSRB = writes rules, doesn't enforce them, and never regulates issuers. If a question asks who enforces MSRB rules at a broker-dealer, the answer is FINRA. At a dealer bank, it's the bank's federal regulator." },
+        { "type": "paragraph", "text": "National exchanges like the NYSE and Cboe are also SROs — they write listing standards and trading rules for their markets. Historically the NYSE regulated its member firms directly; today most member regulation is consolidated in FINRA. The Chicago Board Options Exchange (Cboe) sets rules for listed options trading, and the Options Clearing Corporation (OCC) — met again in Chapter 8 — issues and guarantees every listed option contract." },
+        { "type": "table", "caption": "Who regulates what", "headers": ["Body", "Type", "Regulates"], "rows": [
+          ["SEC", "Government agency", "The whole securities industry, including SROs"],
+          ["FINRA", "SRO", "Broker-dealers and their associated persons"],
+          ["MSRB", "SRO (rule-writer only)", "Municipal securities dealers and municipal advisors"],
+          ["Exchanges (NYSE, Cboe)", "SRO", "Their listed companies and trading rules"],
+          ["State regulators (NASAA)", "Government", "Registration within the state (blue-sky)"],
+          ["CFTC", "Government agency", "Futures and commodities markets"],
+          ["Department of the Treasury / IRS", "Government", "Federal debt issuance; tax rules"]
+        ] },
+        { "type": "warning", "text": "Watch the phrase 'government agency.' Of the bodies above, only the SEC, CFTC, state regulators, and Treasury are government. FINRA, the MSRB, and the exchanges are SROs — industry organizations. SIPC (next section) is neither: it's a nonprofit membership corporation and not a regulator at all." }
+      ]
+    },
+    {
+      "id": "1-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Three more bodies show up constantly on the SIE, and none of them is a securities regulator in the FINRA sense: the Federal Reserve, SIPC, and the FDIC." },
+        { "type": "heading", "level": 3, "text": "The Federal Reserve" },
+        { "type": "paragraph", "text": "The Federal Reserve is the U.S. central bank. It conducts monetary policy (Chapter 3 covers this in depth) and supervises bank holding companies. For the securities industry its key touchpoint is Regulation T: under the Securities Exchange Act of 1934, the Fed sets the rules for credit that broker-dealers extend to customers — margin. Reg T currently requires a 50% initial deposit on margin purchases and governs payment deadlines in cash accounts." },
+        { "type": "paragraph", "text": "Structure worth knowing: a seven-member Board of Governors, twelve regional Federal Reserve Banks, and the Federal Open Market Committee (FOMC) — the body that actually sets rate policy by directing open-market operations." },
+        { "type": "heading", "level": 3, "text": "SIPC — when the firm fails" },
+        { "type": "keyTerm", "term": "SIPC", "definition": "The Securities Investor Protection Corporation — a nonprofit, industry-funded corporation (not a government agency, not a regulator, not an insurance company in the ordinary sense) that protects customers when a broker-dealer fails financially. Coverage: up to $500,000 per separate customer capacity, of which no more than $250,000 may be cash." },
+        { "type": "paragraph", "text": "SIPC is liquidation protection, not market insurance. If your broker-dealer goes under and customer assets are missing, a court-appointed trustee uses SIPC funds to restore them within limits. If your stock simply loses value, SIPC does nothing. Also outside coverage: commodity futures contracts, fixed annuities, and currency — they aren't securities. Nearly every registered broker-dealer must be a SIPC member and must display SIPC membership." },
+        { "type": "example", "title": "Example — SIPC math", "text": "A customer has $400,000 in securities and $300,000 in cash at a failed firm. SIPC covers the $400,000 of securities plus $100,000 of the cash (hitting the $500,000 overall ceiling; the cash stayed under its own $250,000 sub-limit). The remaining $200,000 of cash becomes a general creditor claim against the failed firm." },
+        { "type": "example", "title": "Example — separate capacities", "text": "Maria has an individual account ($500,000 of securities), a joint account with her spouse ($500,000), and an IRA ($500,000) at the same failed firm. Each is a separate capacity, so each gets its own $500,000 of SIPC protection — $1.5 million total. Two individual accounts in the same name, by contrast, are combined as one capacity." },
+        { "type": "paragraph", "text": "During a SIPC liquidation, securities registered in the customer's own name are returned directly. Street-name securities and cash claims are satisfied from the pool, topped up by SIPC to the limits. Many large firms buy 'excess SIPC' private insurance above the statutory limits — that's a selling point, not a legal requirement." },
+        { "type": "heading", "level": 3, "text": "FDIC — when the bank fails" },
+        { "type": "keyTerm", "term": "FDIC", "definition": "The Federal Deposit Insurance Corporation — a U.S. government corporation insuring bank deposits (checking, savings, CDs, money market deposit accounts) up to $250,000 per depositor, per insured bank, per ownership category." },
+        { "type": "warning", "text": "FDIC covers bank deposits only — never securities, never market losses, even when the investment was sold inside a bank branch. Mutual funds bought at a bank are NOT FDIC insured, and reps selling securities on bank premises must disclose exactly that: not FDIC insured, not bank guaranteed, may lose value. Mixing up SIPC and FDIC is one of the SIE's favorite traps." },
+        { "type": "table", "caption": "SIPC vs FDIC", "headers": ["", "SIPC", "FDIC"], "rows": [
+          ["Protects", "Brokerage customers of a failed broker-dealer", "Depositors of a failed bank"],
+          ["Status", "Nonprofit industry-funded corporation", "U.S. government corporation"],
+          ["Limit", "$500,000 per capacity ($250,000 cash sub-limit)", "$250,000 per depositor, per bank, per ownership category"],
+          ["Never covers", "Market losses, futures, fixed annuities", "Securities of any kind, market losses"]
+        ] },
+        { "type": "paragraph", "text": "The U.S. Treasury rounds out the picture: it issues the federal government's debt (T-bills, notes, bonds), and houses both the IRS and FinCEN — the Financial Crimes Enforcement Network, the anti-money-laundering bureau that receives the SARs and CTRs you'll meet in Chapter 13." }
+      ]
+    },
+    {
+      "id": "1-4",
+      "blocks": [
+        { "type": "paragraph", "text": "Now the private-sector players. The most important is the broker-dealer — and the name is two jobs in one. A broker acts as an agent, arranging trades for customers and charging a commission. A dealer acts as a principal, trading from its own inventory and earning a markup (selling to you) or markdown (buying from you)." },
+        { "type": "keyTerm", "term": "Broker-dealer", "definition": "A firm that effects securities transactions for others (broker/agent) and/or trades for its own account (dealer/principal). One capacity per trade — a firm can't charge both a commission and a markup on the same transaction." },
+        { "type": "table", "caption": "Broker vs dealer", "headers": ["", "Broker (agency)", "Dealer (principal)"], "rows": [
+          ["Acts as", "Agent for the customer", "Party to the trade (own account)"],
+          ["Compensation", "Commission", "Markup / markdown / spread"],
+          ["Risk", "None on the trade", "Inventory (capital) risk"],
+          ["Confirmation shows", "Capacity: agent, commission amount", "Capacity: principal, markup (when required)"]
+        ] },
+        { "type": "heading", "level": 3, "text": "Carrying, introducing, and prime brokers" },
+        { "type": "paragraph", "text": "Broker-dealers come in flavors. A carrying (clearing) firm holds customer cash and securities and settles trades — it must meet higher net-capital requirements and send the account statements. An introducing firm has the customer relationship but passes execution and custody to a clearing firm under a carrying agreement — its customers' statements actually come from the clearing firm. A prime broker centralizes custody and reporting for an institutional customer (typically a hedge fund) that executes through many different firms ('executing brokers')." },
+        { "type": "list", "items": [
+          "Carrying/clearing firm: custody + settlement + statements; higher capital requirements.",
+          "Introducing firm: opens the relationship, takes the order, introduces it to the clearing firm; holds no customer assets.",
+          "Prime broker: one custodian, many executing brokers, consolidated reporting for institutional clients.",
+          "Municipal advisor: advises municipal issuers on structuring bond deals — a separate registered role created by Dodd-Frank; owes the issuer a fiduciary duty."
+        ] },
+        { "type": "heading", "level": 3, "text": "Investment advisers — the fiduciaries" },
+        { "type": "keyTerm", "term": "Investment adviser", "definition": "A person or firm compensated for providing securities advice as a business. Registered under the Investment Advisers Act of 1940 (generally $100 million+ in assets under management registers with the SEC; smaller advisers register with states) and held to a fiduciary standard — the client's interest comes first, always." },
+        { "type": "paragraph", "text": "The adviser definition uses the ABC test: Advice about securities, as a Business, for Compensation. All three prongs, and you must register. Excluded: broker-dealers whose advice is solely incidental to brokerage and who receive no special compensation for it; lawyers, accountants, teachers, and engineers (LATE) whose advice is incidental to their profession; publishers of bona fide general-circulation publications; and those advising only on U.S. government securities." },
+        { "type": "paragraph", "text": "Advisers typically charge a fee based on a percentage of assets under management — which aligns their pay with account growth — while broker-dealers charge per transaction. That difference drives the different legal standards: advisers owe an ongoing fiduciary duty; broker-dealers owe best interest at the time of each recommendation under Regulation Best Interest (Chapter 14)." },
+        { "type": "examTip", "text": "Broker-dealers are held to Regulation Best Interest on recommendations; investment advisers owe an ongoing fiduciary duty. The exam tests that advisers are fiduciaries — and that conflicts (like receiving 12b-1 fees on funds they recommend) must be disclosed, not necessarily eliminated." },
+        { "type": "paragraph", "text": "Associated persons round out the firm side: registered representatives (who take the SIE plus a top-off exam like the Series 7) deal with customers; principals (Series 24 and similar) supervise them. Anyone actively involved in the firm's securities business must register — clerical and ministerial staff are the classic exception." }
+      ]
+    },
+    {
+      "id": "1-5",
+      "blocks": [
+        { "type": "paragraph", "text": "A handful of specialized participants keep the machinery running. Market makers are dealers who publish firm two-sided quotes — a bid (the price they'll pay to buy) and an ask or offer (the price they'll charge to sell) — and stand ready to trade at those prices for at least one round lot (100 shares). Their profit is the spread." },
+        { "type": "example", "title": "Example — reading a quote", "text": "A market maker quotes XYZ at 20.00 – 20.05. A customer selling receives the 20.00 bid; a customer buying pays the 20.05 ask. The 5-cent spread compensates the market maker for committing capital and bearing inventory risk. A 'firm quote' means the market maker must honor it for the displayed size; backing away from a firm quote is a violation." },
+        { "type": "heading", "level": 3, "text": "Transfer agent and registrar" },
+        { "type": "keyTerm", "term": "Transfer agent", "definition": "The issuer's record-keeper: cancels old certificates, issues new ones, maintains the list of shareholders (so dividends and proxies reach the right people), and replaces lost, stolen, or destroyed certificates." },
+        { "type": "keyTerm", "term": "Registrar", "definition": "The auditor of the share count — ensures shares outstanding never exceed shares authorized. Works alongside (and checks) the transfer agent; for exchange-listed issues the two functions must be independent of each other." },
+        { "type": "examTip", "text": "Transfer agent vs registrar is a classic pairing question: the transfer agent RECORDS ownership changes; the registrar COUNTS shares so the total never exceeds what's authorized." },
+        { "type": "heading", "level": 3, "text": "Custodians, depositories, and clearing" },
+        { "type": "paragraph", "text": "Custodians — often banks — safeguard assets for institutions, mutual funds, and advisory accounts, keeping client property segregated from anyone else's. Behind nearly every trade sits the DTCC (Depository Trust & Clearing Corporation): its NSCC subsidiary nets and guarantees trades between firms (acting as central counterparty, removing counterparty risk), and its DTC subsidiary holds securities in book-entry form so ownership moves electronically instead of by paper certificate." },
+        { "type": "keyTerm", "term": "Clearing agency / clearing corporation", "definition": "An intermediary (like NSCC for equities or OCC for listed options) that steps between buyer and seller after the trade, guaranteeing performance and netting each firm's obligations down to one daily position per security." },
+        { "type": "paragraph", "text": "Securities held at a broker-dealer are usually registered in 'street name' — the firm is the nominal owner of record, the customer the beneficial owner. Street name is what makes T+1 settlement, margin lending, and instant transfer practical." },
+        { "type": "heading", "level": 3, "text": "Investor categories" },
+        { "type": "paragraph", "text": "Finally, know your investor categories. Retail investors are individuals (and their personal trusts) investing their own money — they receive the fullest regulatory protection. Institutional investors — banks, insurance companies, registered investment companies, pension plans, and any entity or person with at least $50 million in assets under FINRA's communications rules — are presumed sophisticated and get lighter protections. Accredited investors (a Chapter 4 concept) meet income ($200,000 single / $300,000 joint) or net-worth ($1 million excluding primary residence) standards that unlock private offerings. Qualified institutional buyers (QIBs) — institutions managing at least $100 million in securities — can trade unregistered securities among themselves under Rule 144A." },
+        { "type": "table", "caption": "Investor categories at a glance", "headers": ["Category", "Threshold", "Why it matters"], "rows": [
+          ["Retail", "Any individual", "Fullest protection; Reg BI applies to recommendations"],
+          ["Institutional (FINRA comms)", "Banks, funds, plans; $50M+ entities", "Institutional communications need no pre-approval"],
+          ["Accredited investor", "$200k/$300k income or $1M net worth (ex-home)", "May buy private placements (Reg D)"],
+          ["QIB", "$100M+ securities managed (institutions only)", "May trade restricted securities under Rule 144A"]
+        ] }
+      ]
+    }
+  ]
+}

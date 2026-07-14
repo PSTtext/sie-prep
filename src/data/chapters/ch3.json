@@ -1,0 +1,89 @@
+{
+  "chapterId": 3,
+  "sections": [
+    {
+      "id": "3-1",
+      "blocks": [
+        { "type": "paragraph", "text": "Two levers steer the U.S. economy, and the SIE wants you to know who pulls which one. Monetary policy is the Federal Reserve managing money supply and credit. Fiscal policy is Congress and the President taxing and spending. Different actors, different tools, different speeds." },
+        { "type": "keyTerm", "term": "Monetary policy", "definition": "The Federal Reserve's control of money supply and interest rates through open market operations, the discount rate, and reserve requirements. Set by the FOMC (the seven governors plus five Reserve Bank presidents, meeting roughly every six weeks)." },
+        { "type": "keyTerm", "term": "Fiscal policy", "definition": "Government taxation and spending decisions made by Congress and the President — Keynesian economics in action. The Fed has no role in fiscal policy, and Congress has no role in monetary policy." },
+        { "type": "heading", "level": 3, "text": "The Fed's tools" },
+        { "type": "paragraph", "text": "The Fed's workhorse tool is open market operations: buying and selling U.S. government securities through the FOMC's trading desk. Buying securities pumps money INTO the banking system (easing — rates fall); selling securities pulls money OUT (tightening — rates rise). This is the tool used most often because it's fast, fine-grained, and reversible. Repurchase agreements (repos) are the short-term version: the Fed buys with an agreement to resell, easing temporarily; reverse repos tighten temporarily." },
+        { "type": "table", "caption": "Fed tools: easy vs tight money", "headers": ["Tool", "To stimulate (ease)", "To cool inflation (tighten)"], "rows": [
+          ["Open market operations (most used)", "Buy securities", "Sell securities"],
+          ["Discount rate", "Lower it", "Raise it"],
+          ["Reserve requirement", "Lower it (rarely used)", "Raise it (most drastic)"],
+          ["Margin (Reg T) — technically available", "Lower initial margin", "Raise initial margin"]
+        ] },
+        { "type": "keyTerm", "term": "Discount rate", "definition": "The rate the Fed charges member banks that borrow directly from it — the only rate the Fed sets directly. The federal funds rate (bank-to-bank overnight lending) is a market rate the Fed targets but does not set." },
+        { "type": "examTip", "text": "'Fed buys = money supply rises = rates fall = bond prices rise.' If you remember one chain on this exam, make it that one — then reverse every arrow for Fed selling. Easy money also tends to weaken the dollar; tight money strengthens it." },
+        { "type": "example", "title": "Example", "text": "Inflation is running hot. The FOMC sells Treasuries, draining reserves from banks. With less to lend, banks raise loan rates; borrowing slows, spending cools, and inflation pressure eases. Meanwhile, if Congress wanted to help, it could raise taxes or cut spending — that would be fiscal policy, and it moves far more slowly because it requires legislation." },
+        { "type": "heading", "level": 3, "text": "Fiscal policy and the deficit" },
+        { "type": "paragraph", "text": "Fiscal stimulus means cutting taxes or increasing government spending — putting money in the economy's hands to boost aggregate demand. Fiscal restraint is the reverse: raise taxes, cut spending. Deficit spending (spending more than tax revenue) is financed by issuing Treasury debt, which links fiscal policy back to the bond market: bigger deficits mean more Treasury supply, which pressures rates upward." },
+        { "type": "list", "items": [
+          "Keynesians: government demand management (fiscal policy) is the main tool for smoothing cycles.",
+          "Monetarists (Milton Friedman): steady, predictable money-supply growth matters most — the Fed's domain.",
+          "Supply-siders: cut taxes and regulation to stimulate production; the economy grows from the supply side."
+        ] }
+      ]
+    },
+    {
+      "id": "3-2",
+      "blocks": [
+        { "type": "paragraph", "text": "The economy moves in a repeating four-phase cycle: expansion, peak, contraction, trough — then back to expansion. The SIE tests the order, the vocabulary attached to each phase, and which investments and indicators do what along the way." },
+        { "type": "keyTerm", "term": "Recession vs depression", "definition": "Recession: commonly, two or more consecutive quarters of declining GDP. Depression: a severe, prolonged downturn — often described as six or more quarters. The NBER officially dates U.S. cycles." },
+        { "type": "paragraph", "text": "During expansion: GDP grows, unemployment falls, corporate profits rise, consumer spending climbs, and inflation tends to creep up. The peak is the top — the moment growth stops. During contraction: output falls, unemployment rises, inventories pile up. The trough is the bottom, where the next expansion begins. Rising inventories relative to sales are an early clue that contraction is coming — goods are being produced but not bought." },
+        { "type": "heading", "level": 3, "text": "Cyclical, defensive, and growth" },
+        { "type": "paragraph", "text": "Cyclical industries (autos, airlines, homebuilders, steel, luxury goods) swing hard with the cycle because their purchases can be postponed. Defensive industries (utilities, food, pharmaceuticals, tobacco, alcohol) hold steady because people buy them in any economy. Growth industries (technology) expand faster than the economy in most conditions. Counter-cyclical businesses — think discount retailers — can actually improve in downturns." },
+        { "type": "keyTerm", "term": "Inflation, deflation, stagflation", "definition": "Inflation: rising general price level, measured by the Consumer Price Index (CPI). Deflation: falling prices, typical of severe recessions. Stagflation: the ugly combination of stagnant growth/high unemployment WITH high inflation — hard to fix because the cures conflict." },
+        { "type": "heading", "level": 3, "text": "Indicators: leading, coincident, lagging" },
+        { "type": "paragraph", "text": "Economic indicators come in three flavors. Leading indicators move BEFORE the economy: stock prices (the S&P 500), building permits, initial (new) unemployment claims, consumer expectations, manufacturers' new orders, average weekly manufacturing hours, and the interest-rate spread. Coincident indicators move WITH it: nonfarm payrolls, personal income, industrial production, manufacturing and trade sales. Lagging indicators confirm AFTER the fact: average duration of unemployment, the prime rate, outstanding consumer credit, and unit labor costs." },
+        { "type": "table", "caption": "Indicator sorting — the exam's favorites", "headers": ["Leading (predict)", "Coincident (confirm now)", "Lagging (confirm after)"], "rows": [
+          ["Stock prices (S&P 500)", "Nonfarm payrolls", "Average duration of unemployment"],
+          ["Building permits", "Personal income", "Prime rate"],
+          ["Initial jobless claims", "Industrial production", "Consumer credit outstanding"],
+          ["New orders; consumer expectations", "Manufacturing/trade sales", "Unit labor costs"]
+        ] },
+        { "type": "examTip", "text": "The stock market is a LEADING indicator — it turns down before recessions and up before recoveries. GDP measures output within U.S. borders regardless of who produces it; GNP follows U.S. nationals wherever they produce. Real GDP is inflation-adjusted; nominal is not." },
+        { "type": "example", "title": "Example", "text": "Building permits jump 12% and jobless claims fall for three straight months — leading indicators pointing to expansion ahead. An investor rotating into cyclicals (say, an airline at $40) is betting on that signal; a defensive investor holding a utility yielding 4% is positioned for either outcome." }
+      ]
+    },
+    {
+      "id": "3-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Interest rates are the price of money, and several benchmark rates ladder up from safest to riskiest borrower. The federal funds rate (overnight, bank to bank) is the most sensitive and most watched. The discount rate is what the Fed charges banks. The prime rate is what banks charge their best corporate customers. The broker call rate is what banks charge broker-dealers on loans collateralized by securities — the basis for margin interest charged to customers (typically call rate plus a percentage)." },
+        { "type": "keyTerm", "term": "Federal funds rate", "definition": "The market rate banks charge each other for overnight loans of reserves. The FOMC sets a TARGET for it; the exam's 'most volatile' and 'most closely watched' rate. Normally the lowest of the benchmark rates, with prime the highest." },
+        { "type": "list", "items": [
+          "Typical low-to-high ordering: federal funds rate → discount rate → broker call rate → prime rate.",
+          "SOFR (Secured Overnight Financing Rate) replaced LIBOR as the benchmark for floating-rate instruments."
+        ] },
+        { "type": "heading", "level": 3, "text": "The yield curve" },
+        { "type": "paragraph", "text": "The yield curve plots Treasury yields from shortest to longest maturity. A normal (upward-sloping, positive) curve — long rates above short rates — signals a healthy economy: lenders demand more yield to tie money up longer. A flat curve signals transition. An inverted (negative) curve — short rates ABOVE long rates — is the market's classic recession warning, usually caused by aggressive Fed tightening at the short end while investors lock in long yields." },
+        { "type": "keyTerm", "term": "Inverted yield curve", "definition": "Short-term yields exceed long-term yields. Historically the strongest bond-market predictor of recession, and a favorite SIE answer." },
+        { "type": "example", "title": "Example", "text": "The 2-year Treasury yields 4.8% while the 10-year yields 4.1%. That's an inverted curve: investors expect the Fed to cut rates in a slowdown, so they lock in long yields now, bidding long-term prices up and yields down." },
+        { "type": "heading", "level": 3, "text": "Credit spreads and the flight to quality" },
+        { "type": "paragraph", "text": "Credit quality creates a second spread: corporate bonds always yield more than Treasuries of the same maturity, and the gap (the credit spread) widens when investors get nervous and 'fly to quality' — dumping risky bonds for Treasuries — and narrows when confidence returns. Lower-rated bonds carry wider spreads at all times; in a panic, high-yield spreads blow out fastest." },
+        { "type": "examTip", "text": "Widening credit spreads = fear (economy weakening). Narrowing spreads = confidence. Pair that with the inverted curve and you can answer nearly every yield-curve question on the exam." },
+        { "type": "paragraph", "text": "Remember the inflation link: bondholders' real return is the nominal yield minus inflation. When inflation expectations rise, investors demand higher nominal yields, so bond prices fall — inflation is the bond market's enemy, and long-term bonds suffer most (Chapter 10 returns to this as interest-rate risk and inflation risk)." }
+      ]
+    },
+    {
+      "id": "3-4",
+      "blocks": [
+        { "type": "paragraph", "text": "Currencies trade against each other, and the dollar's strength changes who wins and who loses in global trade. A strong dollar buys more foreign currency; a weak dollar buys less. Exchange rates float with supply and demand — driven by trade flows, relative interest rates, and relative inflation. The exam tests this almost entirely through imports and exports." },
+        { "type": "table", "caption": "Who benefits from the dollar's moves", "headers": ["", "Strong dollar", "Weak dollar"], "rows": [
+          ["U.S. importers / consumers", "Win — foreign goods cheaper", "Lose — foreign goods pricier"],
+          ["U.S. exporters", "Lose — U.S. goods cost more abroad", "Win — U.S. goods cheaper abroad"],
+          ["U.S. tourists abroad", "Win", "Lose"],
+          ["Foreign investors in U.S. assets", "Existing holdings gain value", "Holdings lose value in their currency"],
+          ["U.S. investors in foreign assets", "Foreign returns shrink in dollars", "Foreign returns grow in dollars"]
+        ] },
+        { "type": "example", "title": "Example", "text": "A U.S. machine sells for $100,000. At €1 = $1.00, a German buyer pays €100,000. If the dollar strengthens to €1 = $0.80, that same machine now costs €125,000 — the exporter's product just got 25% more expensive abroad without changing its price. Weak dollar, strong exports; strong dollar, strong imports." },
+        { "type": "keyTerm", "term": "Balance of payments", "definition": "The ledger of all money flowing into and out of a country. Its largest component is the current account, dominated by the balance of trade (exports vs imports). More imports than exports = trade deficit (a debit balance); more exports = surplus." },
+        { "type": "paragraph", "text": "Interest rates link back in: higher U.S. rates attract foreign capital chasing yield, which increases demand for dollars and strengthens the currency. That's why Fed tightening tends to lift the dollar — and squeeze U.S. exporters. A weak domestic currency, meanwhile, tends to shrink a trade deficit because exports get cheaper and imports get dearer." },
+        { "type": "keyTerm", "term": "Currency (exchange-rate) risk", "definition": "The risk that exchange-rate moves reduce the dollar value of a foreign investment. A U.S. investor holding European stocks loses purchasing power when the euro weakens against the dollar — even if the stocks themselves are flat. ADRs (Chapter 5) carry this risk too." },
+        { "type": "examTip", "text": "Memorize the cross: WEAK dollar helps EXPORTS (and hurts imports); STRONG dollar helps IMPORTS (and hurts exports). The exam loves phrasing this from the foreign buyer's perspective to trip you up. For a U.S. investor abroad: strong FOREIGN currency is good, weak foreign currency is bad." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ch14-q001",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "The Securities Act of 1933 regulates:",
+    "choices": [
+      "the secondary trading markets",
+      "the issuance of new securities and required disclosure",
+      "investment advisers",
+      "margin lending"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 1933 Act ('paper act') governs primary offerings: registration and prospectus disclosure. The 1934 Act ('people act') covers markets, exchanges, broker-dealers, and trading.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q002",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "The Securities Exchange Act of 1934 addresses all of the following EXCEPT:",
+    "choices": [
+      "registration of broker-dealers",
+      "antifraud rules for trading",
+      "prospectus requirements for new issues",
+      "proxy solicitation rules"
+    ],
+    "correctIndex": 2,
+    "explanation": "Prospectuses belong to the 1933 Act. The 1934 Act created the SEC and regulates markets: BDs, exchanges, proxies, insider reporting, manipulation, and credit (delegated to the Fed via Reg T).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q003",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "Form U4 is used to:",
+    "choices": [
+      "terminate a registered person",
+      "register an associated person with a firm and disclose their history",
+      "report suspicious activity",
+      "open customer accounts"
+    ],
+    "correctIndex": 1,
+    "explanation": "The U4 registers individuals (fingerprints, employment/disciplinary history) via CRD. The U5 reports termination — filed within 30 days, with a copy to the individual.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q004",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "After leaving a member firm, a person's registration lapses if not re-registered within:",
+    "choices": ["6 months", "1 year", "2 years", "5 years"],
+    "correctIndex": 2,
+    "explanation": "Registration terminates after two years unregistered; requalification by exam is then required. The Maintaining Qualifications Program can extend exam validity up to five years for those who enroll and complete annual CE.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q005",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "The Regulatory Element of continuing education must be completed:",
+    "choices": [
+      "every three years",
+      "annually by December 31",
+      "once per career",
+      "only after a violation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Since 2023, the Regulatory Element is an annual requirement (by year-end). The Firm Element is the firm's own annual ongoing training program.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q006",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "Passing the SIE exam alone entitles a person to:",
+    "choices": [
+      "solicit securities orders",
+      "nothing by itself — a representative-level 'top-off' exam and firm association are required to register",
+      "open a broker-dealer",
+      "give investment advice for fees"
+    ],
+    "correctIndex": 1,
+    "explanation": "The SIE is a prerequisite, valid four years, open to the public. Registration requires firm sponsorship plus a qualification exam like the Series 7.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q007",
+    "chapterId": 14,
+    "sectionTag": "14-3",
+    "question": "Which event results in statutory disqualification from the securities industry?",
+    "choices": [
+      "a speeding ticket",
+      "a felony conviction (any) or securities-related misdemeanor within the past 10 years",
+      "a civil traffic dispute",
+      "personal bankruptcy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Any felony, or misdemeanors involving securities/money (theft, forgery, bribery, etc.), within 10 years disqualifies — as do certain injunctions, bars, and false statements on the U4. Bankruptcy is disclosable but not disqualifying.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q008",
+    "chapterId": 14,
+    "sectionTag": "14-3",
+    "question": "A person subject to statutory disqualification may work at a member firm only if:",
+    "choices": [
+      "ten years pass",
+      "the firm obtains regulatory approval (e.g., through FINRA's eligibility proceedings)",
+      "the person works unregistered",
+      "no mechanism exists"
+    ],
+    "correctIndex": 1,
+    "explanation": "Firms may seek permission to associate with a disqualified person via the MC-400 eligibility process with heightened supervision — approval is discretionary.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch14-q009",
+    "chapterId": 14,
+    "sectionTag": "14-4",
+    "question": "Under FINRA's communications rules, 'retail communication' means any written communication distributed to:",
+    "choices": [
+      "more than 25 retail investors within 30 days",
+      "any single customer",
+      "institutional investors",
+      "employees only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Retail communications (>25 retail investors/30 days) generally require principal pre-approval. Correspondence (≤25) and institutional communications are supervised post-use.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q010",
+    "chapterId": 14,
+    "sectionTag": "14-4",
+    "question": "All member firm communications must be:",
+    "choices": [
+      "fair, balanced, and not misleading",
+      "approved by the SEC",
+      "limited to performance data",
+      "filed with the MSRB"
+    ],
+    "correctIndex": 0,
+    "explanation": "The content standard: fair and balanced, no exaggerated or unwarranted claims, no predictions of performance, risks disclosed alongside benefits.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q011",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "Corporate insiders (officers, directors, 10%+ owners) must report their trades in company stock under the:",
+    "choices": [
+      "Securities Act of 1933",
+      "Securities Exchange Act of 1934 (Section 16)",
+      "Investment Company Act",
+      "Bank Secrecy Act"
+    ],
+    "correctIndex": 1,
+    "explanation": "Section 16 requires insider reporting and disgorgement of short-swing profits (6 months); insiders may not short their own company's stock.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q012",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "Information disclosed on a rep's U4 is available to the public through:",
+    "choices": ["BrokerCheck", "EDGAR", "the consolidated tape", "Form CRS"],
+    "correctIndex": 0,
+    "explanation": "FINRA BrokerCheck exposes registration, employment, and disciplinary history from CRD to investors. EDGAR holds issuer filings.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q013",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "A registered rep moves to a new member firm. Which forms are involved?",
+    "choices": [
+      "U5 filed by the old firm; U4 filed by the new firm",
+      "only a letter",
+      "U4 by the old firm; U5 by the new",
+      "Form 144"
+    ],
+    "correctIndex": 0,
+    "explanation": "Termination triggers a U5 within 30 days; the hiring firm files a new U4. The rep must receive a copy of the U5 and can view its contents.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q014",
+    "chapterId": 14,
+    "sectionTag": "14-4",
+    "question": "A rep wants to use a personal social media account to recommend specific securities. This activity:",
+    "choices": [
+      "is outside firm jurisdiction",
+      "is a business communication subject to firm approval, supervision, and retention",
+      "is exempt if after hours",
+      "requires SEC registration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Business communications are regulated regardless of platform or device. Static posts are retail communications (pre-approval); interactive posts are supervised like correspondence, and all must be retained.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q015",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "The Investment Advisers Act of 1940 requires registration of:",
+    "choices": [
+      "broker-dealers",
+      "persons compensated for providing securities advice as a business",
+      "all financial journalists",
+      "transfer agents"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Advisers Act (with its ABC test — advice, business, compensation) governs RIAs; larger advisers register with the SEC, smaller with states.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q016",
+    "chapterId": 14,
+    "sectionTag": "14-3",
+    "question": "A rep's U4 must be amended for which event?",
+    "choices": [
+      "a change of home address or a reportable compromise with creditors",
+      "a family vacation",
+      "a raise",
+      "changing branch parking spots"
+    ],
+    "correctIndex": 0,
+    "explanation": "Material changes — address, outside business activities, liens/bankruptcies, arrests/charges for disqualifying offenses, complaints — require prompt U4 amendment (generally 30 days; 10 days for statutory disqualification events).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q017",
+    "chapterId": 14,
+    "sectionTag": "14-4",
+    "question": "Regulation BI's disclosure obligation is satisfied in part by delivering:",
+    "choices": ["Form CRS", "a prospectus", "Form U4", "an official statement"],
+    "correctIndex": 0,
+    "explanation": "The customer relationship summary discloses the relationship's nature, fees, conflicts, and disciplinary history to retail investors at or before a recommendation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q018",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "Who must register as a representative?",
+    "choices": [
+      "a receptionist scheduling appointments",
+      "anyone soliciting or effecting securities transactions for the firm's customers",
+      "the firm's IT staff",
+      "building security"
+    ],
+    "correctIndex": 1,
+    "explanation": "Functions define registration: solicitation, sales, trading, and supervision require it; purely clerical/administrative roles do not.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q019",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "Which act created FINRA's predecessor authority for OTC self-regulation?",
+    "choices": [
+      "the Maloney Act amendment to the 1934 Act",
+      "the 1933 Act",
+      "the Glass-Steagall Act",
+      "the Uniform Securities Act"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 1938 Maloney Act authorized national securities associations (the NASD, now FINRA) to self-regulate the OTC market under SEC oversight.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch14-q020",
+    "chapterId": 14,
+    "sectionTag": "14-4",
+    "question": "Which statement in a retail communication is acceptable?",
+    "choices": [
+      "'Guaranteed 12% returns'",
+      "'Past performance does not guarantee future results'",
+      "'This fund cannot lose money'",
+      "'The SEC has approved this investment'"
+    ],
+    "correctIndex": 1,
+    "explanation": "The standard disclaimer is required context for performance data. Guarantees, impossibility-of-loss claims, and SEC-approval statements are all prohibited.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q021",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "The SIE exam result remains valid as a prerequisite for how long?",
+    "choices": ["1 year", "2 years", "4 years", "indefinitely"],
+    "correctIndex": 2,
+    "explanation": "An SIE pass is good for four years toward pairing with a top-off exam. Representative-level registrations lapse after two years unregistered (extendable via MQP).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q022",
+    "chapterId": 14,
+    "sectionTag": "14-3",
+    "question": "Lying on the Form U4 about a past conviction:",
+    "choices": [
+      "is cured after five years",
+      "is itself grounds for statutory disqualification",
+      "is a minor infraction",
+      "only matters for principals"
+    ],
+    "correctIndex": 1,
+    "explanation": "Willfully false or misleading U4 statements are an independent basis for disqualification — often worse than the underlying disclosure would have been.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q023",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "SEC Regulation FD requires issuers to:",
+    "choices": [
+      "disclose material information broadly rather than selectively to analysts",
+      "file daily reports",
+      "guarantee earnings forecasts",
+      "register all employees"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fair Disclosure: material information shared with market professionals must be simultaneously (intentional) or promptly (accidental) disclosed to the public.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch14-q024",
+    "chapterId": 14,
+    "sectionTag": "14-4",
+    "question": "Correspondence under FINRA rules is written communication to:",
+    "choices": [
+      "25 or fewer retail investors within 30 days",
+      "any number of institutions",
+      "more than 25 investors",
+      "the press"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correspondence (≤25 retail investors/30 days) is subject to supervision and review procedures, not mandatory pre-approval.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q025",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "Firm Element continuing education requires member firms to:",
+    "choices": [
+      "administer FINRA's computer-based session",
+      "deliver annual training tailored to the firm's business and its covered persons",
+      "retest all reps on the SIE",
+      "train only new hires"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Firm Element is the firm's own annual needs-based training plan for covered registered persons; the Regulatory Element is FINRA's annual online content.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q026",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "Which legislation subjected broker-dealer credit extension to Federal Reserve rules?",
+    "choices": [
+      "the 1934 Act (leading to Regulation T)",
+      "the 1933 Act",
+      "the Investment Company Act",
+      "the PATRIOT Act"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Exchange Act delegated margin/credit regulation to the Fed — hence Reg T governs broker-dealer credit to customers.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q027",
+    "chapterId": 14,
+    "sectionTag": "14-3",
+    "question": "Arbitration of disputes between customers and member firms:",
+    "choices": [
+      "is optional for firms once the customer signed a pre-dispute arbitration agreement",
+      "is binding, with awards generally final and non-appealable",
+      "always occurs in court",
+      "is limited to claims under $1,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "FINRA arbitration is mandatory for firms/persons when customers demand it (and typically compelled by account-agreement clauses); decisions are final and binding with narrow appeal grounds.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch14-q028",
+    "chapterId": 14,
+    "sectionTag": "14-4",
+    "question": "A rep's seminar slide deck for 40 prospective retail clients must be:",
+    "choices": [
+      "approved by a principal before use",
+      "filed with the SEC",
+      "used freely — seminars are exempt",
+      "approved by each attendee"
+    ],
+    "correctIndex": 0,
+    "explanation": "Materials for >25 retail investors are retail communications requiring prior principal approval (and, for some content like fund materials, FINRA filing).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch14-q029",
+    "chapterId": 14,
+    "sectionTag": "14-2",
+    "question": "A statutory disqualification event must be reported by U4 amendment within:",
+    "choices": ["10 days", "30 days", "90 days", "1 year"],
+    "correctIndex": 0,
+    "explanation": "Disqualifying events get the accelerated 10-day amendment deadline; other material changes generally have 30 days.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch14-q030",
+    "chapterId": 14,
+    "sectionTag": "14-1",
+    "question": "The Securities Investor Protection Act of 1970 created:",
+    "choices": ["the FDIC", "SIPC", "FINRA", "the OCC"],
+    "correctIndex": 1,
+    "explanation": "SIPA established SIPC, the nonprofit member-funded corporation that protects customers of failed broker-dealers up to $500,000 ($250,000 cash).",
+    "difficulty": "easy"
+  }
+]

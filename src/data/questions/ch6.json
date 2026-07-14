@@ -1,0 +1,527 @@
+[
+  {
+    "id": "ch6-q001",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "A bond with a 5% coupon trades at 90. Its current yield is approximately:",
+    "choices": ["5.0%", "5.6%", "4.5%", "6.2%"],
+    "correctIndex": 1,
+    "explanation": "Current yield = annual interest ÷ market price = $50 ÷ $900 ≈ 5.6%. Discount bonds yield more than their coupon; premium bonds yield less.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q002",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "For a bond trading at a premium, rank the yields from HIGHEST to LOWEST:",
+    "choices": [
+      "nominal → current → YTM → YTC",
+      "YTC → YTM → current → nominal",
+      "current → nominal → YTC → YTM",
+      "YTM → YTC → nominal → current"
+    ],
+    "correctIndex": 0,
+    "explanation": "Premium bond: coupon (nominal) is highest, then current yield, then yield to maturity, with yield to call lowest (the premium is amortized over a shorter period). A discount bond reverses the order.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch6-q003",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "A corporate bond quoted at 98½ is priced at:",
+    "choices": ["$98.50", "$985.00", "$9,850.00", "$980.50"],
+    "correctIndex": 1,
+    "explanation": "Corporate bonds are quoted as a percentage of $1,000 par in eighths: 98½% × $1,000 = $985.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q004",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "Which bond is MOST exposed to interest-rate (price) risk?",
+    "choices": [
+      "A 30-year zero-coupon bond",
+      "A 2-year 6% note",
+      "A 5-year 8% bond",
+      "A 1-year T-bill"
+    ],
+    "correctIndex": 0,
+    "explanation": "Price sensitivity rises with maturity and falls with coupon. A long-term zero (longest duration — no interim cash flows) swings hardest when rates move.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q005",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "Which Treasury security is sold at a discount and pays no periodic interest?",
+    "choices": ["T-bill", "T-note", "T-bond", "TIPS"],
+    "correctIndex": 0,
+    "explanation": "T-bills (maturities up to 52 weeks) are pure discount instruments — the return is the difference between the discounted purchase price and par at maturity.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q006",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "TIPS protect investors against inflation by:",
+    "choices": [
+      "paying a floating coupon rate",
+      "adjusting the principal by CPI, with the fixed coupon rate applied to the adjusted principal",
+      "guaranteeing a real return of 5%",
+      "resetting the maturity date"
+    ],
+    "correctIndex": 1,
+    "explanation": "TIPS principal rises (or falls) with CPI; the fixed rate is applied to the adjusted principal, so interest payments grow with inflation. At maturity the holder receives the greater of adjusted or original par.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q007",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "Interest on U.S. Treasury securities is:",
+    "choices": [
+      "exempt from federal tax",
+      "taxable federally but exempt from state and local tax",
+      "fully taxable at all levels",
+      "tax-free if held to maturity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Treasury interest is subject to federal income tax but exempt from state and local taxes — the mirror image of municipal bond interest.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q008",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "Ginnie Mae (GNMA) pass-through certificates are:",
+    "choices": [
+      "backed by the full faith and credit of the U.S. government",
+      "backed only by mortgage insurers",
+      "free of reinvestment risk",
+      "exempt from federal taxation"
+    ],
+    "correctIndex": 0,
+    "explanation": "GNMA is the only agency MBS with a direct U.S. government guarantee. Investors still face prepayment/reinvestment risk, and interest is fully taxable (federal, state, local).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q009",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "A general obligation (GO) bond is backed by:",
+    "choices": [
+      "revenues of a specific project",
+      "the issuer's full faith, credit, and taxing power",
+      "federal grants",
+      "a corporate guarantor"
+    ],
+    "correctIndex": 1,
+    "explanation": "GOs are supported by taxes (property taxes for local issuers) and generally require voter approval. Revenue bonds rely solely on project income — user fees, tolls.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q010",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "Debt service on a toll-road revenue bond is paid from:",
+    "choices": [
+      "property taxes",
+      "tolls collected by the facility",
+      "state income taxes",
+      "the state's general fund"
+    ],
+    "correctIndex": 1,
+    "explanation": "Revenue bonds are self-supporting: only the enterprise's earnings back the debt. A feasibility study evaluates whether projected revenues cover debt service.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q011",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "Interest on most municipal bonds is:",
+    "choices": [
+      "exempt from federal income tax",
+      "exempt from all taxes for all investors",
+      "taxable federally",
+      "taxed as capital gains"
+    ],
+    "correctIndex": 0,
+    "explanation": "Muni interest is federally tax-exempt (and usually state-exempt for in-state residents). Capital gains on munis, however, are fully taxable. This makes munis most valuable to high-bracket investors.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q012",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "An investor in the 37% federal bracket compares a 4% municipal bond with a corporate bond. The corporate must yield at least ___ to match the muni's after-tax return:",
+    "choices": ["4.00%", "5.48%", "6.35%", "2.52%"],
+    "correctIndex": 2,
+    "explanation": "Tax-equivalent yield = muni yield ÷ (1 − bracket) = 4% ÷ 0.63 ≈ 6.35%. The higher the bracket, the more attractive the muni.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q013",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "A debenture is backed by:",
+    "choices": [
+      "specific real estate",
+      "equipment liens",
+      "the issuer's general credit and no specific collateral",
+      "U.S. government guarantee"
+    ],
+    "correctIndex": 2,
+    "explanation": "Debentures are unsecured corporate debt backed only by the issuer's promise. Mortgage bonds (real estate) and equipment trust certificates (rolling stock) are secured debt.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q014",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "An issuer is most likely to call its bonds when interest rates have:",
+    "choices": ["risen", "fallen", "stayed flat", "become more volatile"],
+    "correctIndex": 1,
+    "explanation": "Falling rates let issuers refinance at lower cost — bad for investors, who get principal back just when reinvestment rates are poor (call/reinvestment risk). Call protection and premiums partially compensate.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q015",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "Which bond feature benefits the INVESTOR rather than the issuer?",
+    "choices": ["call feature", "put feature", "refunding provision", "sinking fund call"],
+    "correctIndex": 1,
+    "explanation": "A put lets the holder sell the bond back to the issuer at par (typically when rates rise). Calls and refundings serve the issuer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q016",
+    "chapterId": 6,
+    "sectionTag": "6-5",
+    "question": "An investor buys a corporate bond between coupon dates. The buyer pays the seller accrued interest because:",
+    "choices": [
+      "the buyer will receive the full next coupon, part of which the seller earned",
+      "it is a tax penalty",
+      "FINRA requires it as a fee",
+      "the issuer demands it"
+    ],
+    "correctIndex": 0,
+    "explanation": "Interest accrues daily to the seller until settlement; the buyer advances that amount and recoups it in the next full coupon payment.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q017",
+    "chapterId": 6,
+    "sectionTag": "6-5",
+    "question": "Accrued interest on corporate and municipal bonds is calculated using:",
+    "choices": [
+      "actual/actual days",
+      "30-day months and a 360-day year",
+      "365-day years always",
+      "business days only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Corporates and munis accrue on a 30/360 basis. Government notes and bonds use actual/actual. Accrual runs up to but not including settlement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q018",
+    "chapterId": 6,
+    "sectionTag": "6-5",
+    "question": "Which bonds trade WITHOUT accrued interest (flat)?",
+    "choices": [
+      "All premium bonds",
+      "Zero-coupon bonds and bonds in default",
+      "All municipal bonds",
+      "Treasury notes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Zeroes pay no coupon (nothing to accrue) and defaulted bonds aren't paying — both trade flat.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q019",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "Bond ratings from Baa3/BBB- and above are considered:",
+    "choices": ["speculative", "investment grade", "in default", "unrated"],
+    "correctIndex": 1,
+    "explanation": "Investment grade runs from AAA/Aaa down to BBB-/Baa3. Below that is high-yield ('junk') territory with materially higher default risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q020",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "A bond's yield to maturity reflects:",
+    "choices": [
+      "only the annual coupon",
+      "the total return if held to maturity, including coupon income and any discount or premium",
+      "the return if called at the first date",
+      "current yield plus inflation"
+    ],
+    "correctIndex": 1,
+    "explanation": "YTM annualizes all cash flows to maturity — coupons plus accretion of a discount or amortization of a premium — assuming coupons are reinvested at the same rate.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q021",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "Treasury notes are issued with maturities of:",
+    "choices": ["4, 8, 13, 26, and 52 weeks", "2 to 10 years", "20 to 30 years", "over 30 years only"],
+    "correctIndex": 1,
+    "explanation": "Notes: 2-10 years, semiannual coupons. Bills: up to 52 weeks at a discount. Bonds: 20 and 30 years.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q022",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "A Treasury bond quoted 101.16 costs:",
+    "choices": ["$1,011.60", "$1,015.00", "$1,011.16", "$1,016.00"],
+    "correctIndex": 1,
+    "explanation": "Treasuries are quoted in 32nds: 101 and 16/32 = 101.5% of $1,000 = $1,015. Don't read .16 as decimal cents.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch6-q023",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "STRIPS are:",
+    "choices": [
+      "corporate zero-coupon bonds",
+      "Treasury securities separated into individually traded principal and interest components",
+      "municipal notes",
+      "agency floating-rate notes"
+    ],
+    "correctIndex": 1,
+    "explanation": "STRIPS are zero-coupon Treasuries created by separating coupons and principal. Backed by the government but subject to annual 'phantom income' taxation and high duration.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q024",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "Which factor is MOST relevant when analyzing a GO bond's credit?",
+    "choices": [
+      "project feasibility studies",
+      "the issuer's tax base and overall debt burden",
+      "flow of funds covenants",
+      "user-fee projections"
+    ],
+    "correctIndex": 1,
+    "explanation": "GO analysis looks at taxing power: property values, population/economic trends, and debt per capita. Feasibility studies and flow-of-funds analysis belong to revenue bonds.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q025",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "Short-term municipal notes such as TANs, RANs, and BANs are issued to:",
+    "choices": [
+      "fund long-term capital projects permanently",
+      "provide interim financing until taxes, revenues, or bond proceeds arrive",
+      "pay dividends",
+      "refinance corporate debt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Anticipation notes bridge timing gaps: tax anticipation (TAN), revenue anticipation (RAN), bond anticipation (BAN) — repaid from the anticipated receipts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q026",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "Convertible bonds typically carry ___ coupons than comparable non-convertible bonds:",
+    "choices": ["higher", "lower", "identical", "floating"],
+    "correctIndex": 1,
+    "explanation": "The equity conversion privilege has value, so investors accept lower interest. The bond also tends to track the stock when conversion is in the money.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q027",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "A bond is convertible at $25. With the bond trading at par, the stock trades at $22. The conversion ratio is:",
+    "choices": ["25 shares", "40 shares", "45.45 shares", "22 shares"],
+    "correctIndex": 1,
+    "explanation": "Conversion ratio = par ÷ conversion price = $1,000 ÷ $25 = 40 shares. Parity price of the stock would be $25; at $22 the stock trades below parity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q028",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "In a corporate liquidation, which claim ranks HIGHEST?",
+    "choices": [
+      "Subordinated debentures",
+      "Preferred stock",
+      "Secured bonds (e.g., mortgage bonds)",
+      "Common stock"
+    ],
+    "correctIndex": 2,
+    "explanation": "Secured creditors are paid from their collateral first, then unsecured (debentures), then subordinated debt, then preferred, then common.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q029",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "When interest rates fall, which bond will appreciate MOST?",
+    "choices": [
+      "Short maturity, high coupon",
+      "Long maturity, low coupon",
+      "Short maturity, low coupon",
+      "A floating-rate note"
+    ],
+    "correctIndex": 1,
+    "explanation": "Long maturity + low coupon = longest duration = biggest price gain when rates drop (and biggest loss when they rise). Floaters barely move — their coupons reset.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q030",
+    "chapterId": 6,
+    "sectionTag": "6-5",
+    "question": "Regular-way settlement for corporate bonds is:",
+    "choices": ["T+2", "T+1", "same day", "T+3"],
+    "correctIndex": 1,
+    "explanation": "Since May 2024, corporate securities (stocks and bonds) settle T+1 — one business day after trade date. Cash settlement is same-day by agreement.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q031",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "Which municipal security requires voter approval before issuance?",
+    "choices": [
+      "Revenue bonds",
+      "General obligation bonds",
+      "Industrial development bonds",
+      "BANs"
+    ],
+    "correctIndex": 1,
+    "explanation": "Because GOs pledge taxing power, they typically need voter approval and face statutory debt limits. Revenue bonds don't tap taxes and skip both requirements.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q032",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "The trust indenture of a corporate bond issue specifies:",
+    "choices": [
+      "the underwriting spread",
+      "the covenants, collateral, and duties of the trustee protecting bondholders",
+      "shareholder voting procedures",
+      "SEC fee schedules"
+    ],
+    "correctIndex": 1,
+    "explanation": "Under the Trust Indenture Act of 1939, corporate issues over the threshold need an indenture appointing an independent trustee and detailing bondholder protections (covenants, call terms, collateral).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q033",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "Compared with Treasuries, agency securities such as FNMA and FHLMC debt generally offer:",
+    "choices": [
+      "lower yields due to a stronger guarantee",
+      "slightly higher yields because they are not direct U.S. obligations",
+      "tax-free interest",
+      "no credit risk whatsoever"
+    ],
+    "correctIndex": 1,
+    "explanation": "GSE debt carries an implicit (not full-faith) government backing, so it yields a bit more than Treasuries. Only GNMA is directly guaranteed.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q034",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "The primary risk of holding a high-yield ('junk') bond is:",
+    "choices": ["call risk", "default (credit) risk", "currency risk", "inflation risk"],
+    "correctIndex": 1,
+    "explanation": "Below-investment-grade issuers have a materially higher chance of failing to pay — that's why the yield is high. Junk bonds also carry liquidity risk in stressed markets.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q035",
+    "chapterId": 6,
+    "sectionTag": "6-5",
+    "question": "A bond purchased at a premium and held to maturity will return:",
+    "choices": [
+      "par, resulting in a loss of the premium if not amortized in yield terms",
+      "the purchase price",
+      "par plus the premium",
+      "twice the premium"
+    ],
+    "correctIndex": 0,
+    "explanation": "All bonds mature at par. The premium erodes over the holding period — captured in YTM being below current yield. (For munis, premium amortization is mandatory for tax basis.)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q036",
+    "chapterId": 6,
+    "sectionTag": "6-3",
+    "question": "Which entity's bonds would be analyzed with a 'flow of funds' statement?",
+    "choices": [
+      "A school district GO issue",
+      "A municipal water and sewer revenue authority",
+      "A Treasury auction",
+      "A corporate debenture"
+    ],
+    "correctIndex": 1,
+    "explanation": "Flow of funds — the priority order for applying project revenues (operations, debt service, reserves) — is a revenue-bond concept found in the indenture.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch6-q037",
+    "chapterId": 6,
+    "sectionTag": "6-1",
+    "question": "The 'coupon' or nominal yield of a bond is:",
+    "choices": [
+      "fixed as a percentage of par at issuance",
+      "recalculated as prices change",
+      "equal to YTM at all times",
+      "set by the SEC"
+    ],
+    "correctIndex": 0,
+    "explanation": "The stated rate × $1,000 par sets the fixed annual interest (paid semiannually). Market yields fluctuate; the coupon does not (except floaters).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch6-q038",
+    "chapterId": 6,
+    "sectionTag": "6-4",
+    "question": "An equipment trust certificate would most likely be issued by a(n):",
+    "choices": ["railroad or airline", "municipality", "bank", "REIT"],
+    "correctIndex": 0,
+    "explanation": "Transportation companies finance rolling stock (planes, railcars) with ETCs secured by the equipment itself — historically strong collateral.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch6-q039",
+    "chapterId": 6,
+    "sectionTag": "6-2",
+    "question": "Which investor benefit is unique to Series EE savings bonds compared with marketable Treasuries?",
+    "choices": [
+      "They trade freely in the secondary market",
+      "They are non-marketable, purchased at face value, with tax deferral until redemption",
+      "They pay monthly interest",
+      "They are exempt from federal tax always"
+    ],
+    "correctIndex": 1,
+    "explanation": "Savings bonds don't trade; interest accrues and is federally taxed only at redemption (possibly excluded for qualified education costs). State/local exempt like other Treasuries.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch6-q040",
+    "chapterId": 6,
+    "sectionTag": "6-5",
+    "question": "A customer sells a bond with a $30 semiannual coupon 60 days (30/360) after the last payment. The approximate accrued interest owed to the seller is:",
+    "choices": ["$5", "$10", "$20", "$30"],
+    "correctIndex": 1,
+    "explanation": "Semiannual $30 over 180 days = $0.1667/day × 60 days = $10. The buyer pays it and collects the full $30 at the next coupon.",
+    "difficulty": "hard"
+  }
+]

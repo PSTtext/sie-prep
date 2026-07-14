@@ -1,0 +1,58 @@
+{
+  "chapterId": 8,
+  "sections": [
+    {
+      "id": "8-1",
+      "blocks": [
+        { "type": "paragraph", "text": "An option is a contract on 100 shares of an underlying stock. The BUYER (holder, long) pays a premium for a RIGHT. The SELLER (writer, short) collects the premium and takes on an OBLIGATION if the buyer exercises. Every option question starts with sorting out those two roles. A derivative's value 'derives' from the underlying — the option itself raises no capital for the issuer and gives the holder no dividends or votes." },
+        { "type": "table", "caption": "The four basic positions", "headers": ["Position", "Right / obligation", "Outlook", "Max gain", "Max loss"], "rows": [
+          ["Long call", "Right to BUY at strike", "Bullish", "Unlimited", "Premium"],
+          ["Short call", "Obligated to SELL at strike", "Bearish/neutral", "Premium", "Unlimited (if uncovered)"],
+          ["Long put", "Right to SELL at strike", "Bearish", "Strike − premium", "Premium"],
+          ["Short put", "Obligated to BUY at strike", "Bullish/neutral", "Premium", "Strike − premium"]
+        ] },
+        { "type": "keyTerm", "term": "In / at / out of the money", "definition": "Calls are in the money when market price is ABOVE the strike; puts when market is BELOW the strike. 'In the money' ignores the premium — it's purely strike vs market. Intrinsic value = the in-the-money amount (never negative); the rest of the premium is time value, which decays to zero at expiration." },
+        { "type": "example", "title": "Example", "text": "With XYZ at $53, an XYZ 50 call is in the money by $3 (intrinsic value $3). If its premium is $4.50, time value is $1.50. An XYZ 55 put is in the money by $2. The 50 call buyer breaks even at $54.50 — strike plus premium. At expiration an option is worth exactly its intrinsic value; out-of-the-money options expire worthless." },
+        { "type": "heading", "level": 3, "text": "Breakevens, exercise, and the OCC" },
+        { "type": "paragraph", "text": "Breakevens: for calls, strike + premium (both buyer and writer — same number, opposite hopes). For puts, strike − premium. Exercise runs through the Options Clearing Corporation (OCC), which issues, guarantees, and standardizes all listed options — the writer who gets assigned is chosen from the pool (random or FIFO at the firm, never 'largest position first'). Equity options are American-style (exercisable any time); most index options are European-style (exercise only at expiration), and index options settle in CASH, not shares." },
+        { "type": "paragraph", "text": "Standard terms: one contract = 100 shares; equity options expire on the third Friday of the expiration month; standard expirations run up to 9 months (longer-dated LEAPS run up to 39 months). A premium of 4.50 means $450 per contract. Contracts adjust for splits and stock dividends (a 2-for-1 split turns one 60-strike contract into two 30-strike contracts) but NOT for ordinary cash dividends. Buyers of options must receive the Options Disclosure Document (ODD) at or before account approval, and a designated options principal must approve the account before the first trade." },
+        { "type": "examTip", "text": "Call UP, put DOWN: calls go in the money when the stock rises above the strike, puts when it falls below. Only the uncovered (naked) call writer faces unlimited risk — the exam's favorite 'riskiest position.' And exercise gives the holder stock in two ways: exercising a call means BUYING at the strike; being assigned on a put means BUYING at the strike." }
+      ]
+    },
+    {
+      "id": "8-2",
+      "blocks": [
+        { "type": "paragraph", "text": "The SIE keeps strategies simple: single positions plus the two covered/income plays. Buy calls to profit from a rise with limited, leveraged risk — control of 100 shares for a few hundred dollars. Buy puts to profit from a fall — or to protect a stock you own. Write options to generate income when you expect the stock to sit still. Time works FOR the writer and AGAINST the buyer: every day that passes melts time value." },
+        { "type": "keyTerm", "term": "Covered call", "definition": "Own 100 shares AND write a call against them. The premium adds income and cushions small declines; the trade-off is capping upside at the strike. The most conservative option-writing strategy — the obligation to deliver is already covered by the shares." },
+        { "type": "example", "title": "Example — covered call", "text": "Own 100 XYZ at $48; write an XYZ 50 call for a $2 premium. Stock at $55 at expiration: shares are called away at $50 — you net $50 − $48 + $2 = $4/share and miss the rest of the rally. Stock at $47: the call expires, you keep the $2, effective cost basis now $46. Breakeven: $46 (cost − premium). Max gain: $4/share; max loss: $46/share if the stock goes to zero." },
+        { "type": "paragraph", "text": "The naked (uncovered) call writer has no shares to deliver. If the stock doubles, they must buy at market to sell at the strike — theoretically unlimited loss, which is why naked call writing requires the highest account approval level. A naked put writer's worst case is the stock going to zero: they must buy worthless stock at the strike, losing strike − premium. A cash-secured put writer sets aside the strike price in cash — a way to get paid while waiting to buy a stock cheaper." },
+        { "type": "example", "title": "Example — long put", "text": "Buy an ABC 60 put for $3 with ABC at $61. ABC falls to $50: exercise to sell at $60 what you can buy at $50 — $10 intrinsic minus $3 premium = $7/share profit ($700). Maximum gain if ABC hits zero: $60 − $3 = $5,700. Maximum loss either way: the $300 premium. Compare a short seller: same bearish view, but unlimited risk and margin required." },
+        { "type": "table", "caption": "Pick the strategy", "headers": ["Investor outlook", "Strategy"], "rows": [
+          ["Strongly bullish, limited cash, max leverage", "Buy calls"],
+          ["Strongly bearish, limited risk", "Buy puts"],
+          ["Neutral, owns stock, wants income", "Write covered calls"],
+          ["Neutral-to-bullish, wants income, would buy the stock lower", "Write (cash-secured) puts"],
+          ["Expects volatility but unsure of direction", "Buy a straddle (call + put, same strike)"]
+        ] },
+        { "type": "paragraph", "text": "One step beyond the basics that occasionally appears: a long straddle (buy a call AND a put, same strike/expiration) profits from a BIG move in either direction — the risk is both premiums if the stock sits still. A short straddle collects both premiums betting on no movement, with unlimited risk on the call side." },
+        { "type": "examTip", "text": "Buyers of options: maximum loss = premium, always. Writers: maximum gain = premium, always. If the question asks 'most you can lose' for any long option, the answer is what you paid. Most options expire unexercised — buyers usually close by selling, and positions can always be closed with an offsetting trade instead of exercised." }
+      ]
+    },
+    {
+      "id": "8-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Hedging means buying insurance for an existing position. The rule of thumb: to hedge, BUY the option that profits when your position loses. Long stock is hurt by a fall — buy a put. Short stock is hurt by a rise — buy a call. Writing an option against a position only earns premium income; it never fully protects." },
+        { "type": "keyTerm", "term": "Protective put", "definition": "Long stock + long put. The put guarantees a selling price (the strike) no matter how far the stock falls — a price floor, for the cost of the premium. Maximum loss: (stock cost − strike) + premium. Sometimes called 'married put' when bought with the stock." },
+        { "type": "example", "title": "Example — protective put", "text": "Own 100 DEF at $80; buy a DEF 75 put for $2. Worst case: DEF collapses to $40, you exercise and sell at $75. Loss = ($80 − $75) + $2 = $7/share instead of $40. If DEF rallies to $95, the put expires and your gain is $15 − $2 = $13/share — insurance you didn't need but were glad to have. Breakeven on the combined position: $82." },
+        { "type": "paragraph", "text": "A short seller borrowed and sold stock, hoping to repurchase lower. Their nightmare is a rally — losses are unlimited. Buying a call caps the repurchase price at the strike: maximum loss becomes (strike − sale price) + premium. Writing options against a position ('covered' writing) only cushions by the premium — it does NOT establish a floor or ceiling. Full protection requires BUYING the option." },
+        { "type": "table", "caption": "Hedge matchups", "headers": ["Position", "Risk", "Best hedge (protection)", "Income only (partial)"], "rows": [
+          ["Long stock", "Price falls", "Buy a put", "Write a covered call"],
+          ["Short stock", "Price rises", "Buy a call", "Write a put"]
+        ] },
+        { "type": "example", "title": "Example — hedging a short", "text": "Short 100 GHI at $60; buy a GHI 65 call for $3. GHI spikes to $90: exercise the call, buy at $65, cover the short. Loss = ($65 − $60) + $3 = $8/share — instead of $33 and still climbing." },
+        { "type": "paragraph", "text": "Beyond single stocks, the same logic scales up: a portfolio manager fearing a market drop can buy broad index puts (cash-settled) instead of selling every holding; an exporter expecting foreign-currency payments can hedge with currency options; a bond manager can hedge rate risk with yield-based or Treasury options. The instrument changes; the rule doesn't — buy the option that pays when your position hurts." },
+        { "type": "examTip", "text": "'Best protection' = BUY an option (put protects long stock; call protects short stock). 'Generate income' = WRITE an option. If the question says both protection and income, protection wins the 'best hedge' phrasing every time. A collar (own stock + buy put + write call) does both: floor from the put, the call premium pays for it, upside capped." }
+      ]
+    }
+  ]
+}

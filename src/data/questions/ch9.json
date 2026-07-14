@@ -1,0 +1,447 @@
+[
+  {
+    "id": "ch9-q001",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "Section 529 college savings plan earnings are:",
+    "choices": [
+      "always taxable when withdrawn",
+      "federally tax-free when used for qualified education expenses",
+      "deductible from federal income tax when contributed",
+      "taxed annually as they accrue"
+    ],
+    "correctIndex": 1,
+    "explanation": "529 contributions are after-tax (federally), but earnings grow tax-deferred and withdrawals for qualified education costs are federal tax-free. Many states add their own deductions for residents.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q002",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "Who retains control of 529 plan assets?",
+    "choices": [
+      "the beneficiary at age 18",
+      "the account owner (typically the donor)",
+      "the state",
+      "the plan's fund manager"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unlike UGMA/UTMA accounts, the 529 owner keeps control — and may change the beneficiary to another family member or take non-qualified withdrawals (taxes plus 10% penalty on earnings).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q003",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "529 plans and other municipal fund securities are sold with which disclosure document?",
+    "choices": [
+      "a prospectus",
+      "an official statement (program disclosure document)",
+      "a trust indenture",
+      "Form ADV"
+    ],
+    "correctIndex": 1,
+    "explanation": "Municipal fund securities (529s, ABLE accounts, LGIPs) are municipal securities regulated under MSRB rules and sold with an official statement rather than a prospectus.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q004",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "A customer buying an out-of-state 529 plan should first consider:",
+    "choices": [
+      "whether her home state offers tax benefits she would forgo",
+      "whether FINRA guarantees the plan",
+      "the plan's SIPC coverage",
+      "the beneficiary's credit score"
+    ],
+    "correctIndex": 0,
+    "explanation": "Many states give deductions/credits only for their own plans. Reps must disclose that out-of-state purchases may sacrifice home-state tax benefits — a heavily tested point.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q005",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "An ABLE account is designed to provide tax-advantaged savings for:",
+    "choices": [
+      "any retiree",
+      "individuals with disabilities that began before a statutory age, without jeopardizing most public benefits",
+      "college professors",
+      "first-time home buyers"
+    ],
+    "correctIndex": 1,
+    "explanation": "ABLE accounts let eligible individuals with disabilities save with 529-style tax treatment while generally preserving means-tested benefits like SSI (within limits) and Medicaid.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q006",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "The chief tax advantage of a direct participation program (DPP) is:",
+    "choices": [
+      "tax-free income",
+      "flow-through of both income and losses to investors",
+      "guaranteed depreciation refunds",
+      "exemption from securities laws"
+    ],
+    "correctIndex": 1,
+    "explanation": "Limited partnerships avoid entity-level tax: income, gains, losses, deductions, and credits pass through to partners. Losses are generally passive — usable only against passive income.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q007",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "In a limited partnership, unlimited liability for partnership debts falls on the:",
+    "choices": ["limited partners", "general partner", "all investors equally", "the sponsor's custodian"],
+    "correctIndex": 1,
+    "explanation": "The GP manages the business and bears unlimited liability. Limited partners risk only their investment — but lose that protection if they take management control.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q008",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "The most significant non-tax risk of DPP investments is:",
+    "choices": [
+      "daily price volatility",
+      "illiquidity — no ready secondary market",
+      "excessive diversification",
+      "SIPC exclusion"
+    ],
+    "correctIndex": 1,
+    "explanation": "LP interests rarely trade; investors should expect to hold to dissolution. Suitability requires ability to bear illiquidity, and often accreditation-style financial standards.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q009",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "Which oil and gas program carries the HIGHEST risk with the largest potential deductions?",
+    "choices": [
+      "Income (producing wells) program",
+      "Exploratory (wildcat) drilling program",
+      "Developmental program",
+      "Royalty program"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wildcatting drills unproven land — most dry holes, biggest intangible drilling cost deductions, highest reward if successful. Income programs buy proven production: lowest risk, least deductions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q010",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "An order of liquidation priority in a failed limited partnership places limited partners:",
+    "choices": [
+      "first, before all creditors",
+      "after secured and general creditors but before the general partner",
+      "last, after the general partner",
+      "equal with secured lenders"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dissolution priority: secured creditors, other creditors, limited partners, and the general partner last.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch9-q011",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "Hedge funds differ from mutual funds in that hedge funds:",
+    "choices": [
+      "must register under the Investment Company Act",
+      "are lightly regulated private pools using leverage, shorting, and derivatives, generally for accredited investors",
+      "offer daily redemption at NAV",
+      "cannot charge performance fees"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hedge funds are typically private placements exempt from 1940 Act registration, open to accredited/qualified investors, with lock-ups and performance fees (classically '2 and 20').",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q012",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "A 'fund of hedge funds' registered and sold to retail investors still exposes them to:",
+    "choices": [
+      "layered fees and underlying illiquid strategies",
+      "FDIC-insured losses",
+      "unlimited liability",
+      "margin calls from the underlying funds"
+    ],
+    "correctIndex": 0,
+    "explanation": "Funds of funds add a second fee layer on top of underlying fund fees, and liquidity remains limited. Registration doesn't remove strategy risk.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q013",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "A structured product such as an equity-linked note (ELN) exposes the investor to:",
+    "choices": [
+      "the credit risk of the issuing bank",
+      "no risk if linked to an index",
+      "FDIC coverage of market losses",
+      "unlimited upside always"
+    ],
+    "correctIndex": 0,
+    "explanation": "Structured notes are unsecured debt of the issuer: if the bank fails, 'principal protection' fails with it (Lehman notes are the classic example). Caps, participation rates, and illiquidity are additional constraints.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q014",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "An exchange-traded note (ETN) differs from an ETF in that the ETN:",
+    "choices": [
+      "holds a portfolio of the underlying securities",
+      "is an unsecured debt obligation tracking an index, with issuer credit risk",
+      "pays guaranteed dividends",
+      "cannot be sold before maturity"
+    ],
+    "correctIndex": 1,
+    "explanation": "ETNs hold nothing — they're promises by the issuer to pay index-linked returns. ETF investors own fund shares backed by actual assets; ETN holders are creditors.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q015",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "Local government investment pools (LGIPs) are established by:",
+    "choices": [
+      "broker-dealers for retail clients",
+      "states/municipalities for government entities to invest short-term funds",
+      "the Federal Reserve",
+      "credit unions"
+    ],
+    "correctIndex": 1,
+    "explanation": "LGIPs are municipal fund securities letting government entities pool cash for short-term investment — not offered to the retail public.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch9-q016",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "A prepaid tuition 529 plan primarily protects against:",
+    "choices": [
+      "market risk of equity investing",
+      "rising tuition costs by locking in today's rates",
+      "the beneficiary not attending college",
+      "state budget deficits"
+    ],
+    "correctIndex": 1,
+    "explanation": "Prepaid plans purchase future tuition credits at current prices — an inflation hedge on tuition, typically limited to in-state public institutions with residency requirements.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q017",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "Which document establishes a limited partnership and is filed with the state?",
+    "choices": [
+      "the subscription agreement",
+      "the certificate of limited partnership",
+      "the official statement",
+      "Form 10-K"
+    ],
+    "correctIndex": 1,
+    "explanation": "The certificate of limited partnership is the public filing creating the LP. The partnership agreement governs internal affairs; investors apply via the subscription agreement (GP signs to accept).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch9-q018",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "An investor in a real estate DPP may receive which tax benefit unavailable to a REIT shareholder?",
+    "choices": [
+      "pass-through of operating losses",
+      "tax-free dividends",
+      "exemption from capital gains",
+      "unlimited deduction against salary"
+    ],
+    "correctIndex": 0,
+    "explanation": "DPPs pass losses through (usable against passive income); REITs pass through income only. Note passive-loss rules still limit using DPP losses against active wages.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q019",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "Which investor is generally eligible to invest directly in a traditional hedge fund?",
+    "choices": [
+      "any customer with a margin account",
+      "an accredited investor meeting income/net worth standards",
+      "any IRA owner",
+      "minors through custodial accounts"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hedge funds sold under Reg D require accredited (often 'qualified purchaser') status. High minimums, lock-ups, and limited disclosure make them unsuitable for ordinary retail investors.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q020",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "A principal-protected structured note guarantees return of principal:",
+    "choices": [
+      "unconditionally, like an insured deposit",
+      "only if held to maturity AND the issuer remains solvent",
+      "daily",
+      "through SIPC"
+    ],
+    "correctIndex": 1,
+    "explanation": "Protection applies at maturity and depends entirely on issuer creditworthiness. Selling early can realize losses; SIPC covers missing assets at failed brokers, not issuer defaults.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q021",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "Non-qualified withdrawals of 529 earnings incur:",
+    "choices": [
+      "no tax consequences",
+      "ordinary income tax plus a 10% penalty on the earnings portion",
+      "a 50% penalty",
+      "loss of the entire account"
+    ],
+    "correctIndex": 1,
+    "explanation": "Earnings withdrawn for non-qualified purposes are taxed as ordinary income plus 10% penalty; contributions (basis) come out tax-free.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q022",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "Evaluating a DPP investment should focus FIRST on:",
+    "choices": [
+      "the tax write-offs",
+      "the economic viability of the underlying business",
+      "the sponsor's advertising",
+      "the state of registration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Economic soundness comes before tax benefits — programs sold primarily as tax shelters draw IRS abusive-shelter scrutiny and often fail on merit.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q023",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "The typical hedge fund fee structure of '2 and 20' means:",
+    "choices": [
+      "2% front load and 20% deferred load",
+      "2% of assets annually plus 20% of profits",
+      "2% of profits and 20% of assets",
+      "$2 per trade and $20 per month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Management fee (2% of AUM) plus performance/incentive fee (20% of gains, often over a high-water mark) — far costlier than mutual funds.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q024",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "'Recourse' versus 'non-recourse' debt matters to limited partners because recourse debt:",
+    "choices": [
+      "cannot exist in partnerships",
+      "adds to a partner's basis and personal repayment obligation if signed for",
+      "is always the GP's sole responsibility",
+      "eliminates passive-loss limits"
+    ],
+    "correctIndex": 1,
+    "explanation": "Partners are personally liable for recourse debt they assume, which also increases basis (allowing more loss deductions). Non-recourse debt generally adds basis only in real estate programs.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch9-q025",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "Which feature commonly limits the upside of an index-linked structured product?",
+    "choices": [
+      "a participation rate or cap on index gains",
+      "FDIC insurance",
+      "daily compounding",
+      "the issuer's dividend policy"
+    ],
+    "correctIndex": 0,
+    "explanation": "Caps and participation rates (e.g., 80% of index gains, max 10%) truncate upside — part of the price paid for downside buffers. Investors also usually forgo dividends.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q026",
+    "chapterId": 9,
+    "sectionTag": "9-1",
+    "question": "Contributions to a 529 plan are treated for federal gift-tax purposes as:",
+    "choices": [
+      "exempt from gift tax entirely",
+      "gifts qualifying for the annual exclusion, with a special 5-year front-loading election",
+      "taxable income to the beneficiary",
+      "deductible charitable gifts"
+    ],
+    "correctIndex": 1,
+    "explanation": "529 contributions are completed gifts; donors may elect to front-load five years of annual exclusions at once — a unique estate-planning feature.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch9-q027",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "Depletion deductions would be found in which DPP?",
+    "choices": [
+      "equipment leasing",
+      "oil and gas programs",
+      "residential real estate",
+      "movie production"
+    ],
+    "correctIndex": 1,
+    "explanation": "Depletion recognizes the exhaustion of natural resources (oil, gas, minerals). Real estate uses depreciation; leasing programs depreciate equipment.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch9-q028",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "Hedge fund 'lock-up' provisions:",
+    "choices": [
+      "guarantee performance",
+      "restrict investor withdrawals for a stated initial period",
+      "lock in management fees",
+      "prevent the fund from using leverage"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lock-ups (often a year or more, plus redemption gates and notice periods) let managers hold illiquid positions — investors must be able to tolerate the illiquidity.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch9-q029",
+    "chapterId": 9,
+    "sectionTag": "9-2",
+    "question": "Crossover point in a limited partnership refers to when:",
+    "choices": [
+      "the program begins generating taxable income exceeding deductions",
+      "the GP is replaced",
+      "units begin exchange trading",
+      "investors' liability becomes unlimited"
+    ],
+    "correctIndex": 0,
+    "explanation": "Early years often produce sheltering losses; at crossover, income exceeds write-offs and partners owe tax — possibly without matching cash distributions ('phantom income').",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch9-q030",
+    "chapterId": 9,
+    "sectionTag": "9-3",
+    "question": "Which customer profile fits a market-linked CD with a 6-year term and principal protection at maturity?",
+    "choices": [
+      "an investor needing monthly income now",
+      "a conservative investor with no need for the funds for six years who accepts capped, uncertain returns",
+      "a day trader",
+      "a customer expecting to withdraw within a year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Market-linked CDs suit patient, conservative money: FDIC coverage of principal (within limits) if held to maturity, but returns are capped/uncertain and early exit can lose principal.",
+    "difficulty": "medium"
+  }
+]

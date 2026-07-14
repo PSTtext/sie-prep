@@ -1,0 +1,177 @@
+{
+  "finraSections": [
+    { "id": 1, "title": "Knowledge of Capital Markets", "weightPct": 16 },
+    { "id": 2, "title": "Understanding Products and Their Risks", "weightPct": 44 },
+    { "id": 3, "title": "Trading, Customer Accounts and Prohibited Activities", "weightPct": 31 },
+    { "id": 4, "title": "Overview of the Regulatory Framework", "weightPct": 9 }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Regulatory Entities, Agencies & Market Participants",
+      "finraSection": 1,
+      "summary": "The SEC, FINRA, other SROs, the Fed, SIPC, FDIC, and the roles of broker-dealers, investment advisers, market makers, custodians, and transfer agents.",
+      "sections": [
+        { "id": "1-1", "title": "The SEC and Federal Regulators", "blocks": [] },
+        { "id": "1-2", "title": "FINRA and Other SROs", "blocks": [] },
+        { "id": "1-3", "title": "The Federal Reserve, SIPC & FDIC", "blocks": [] },
+        { "id": "1-4", "title": "Market Participants: Broker-Dealers & Investment Advisers", "blocks": [] },
+        { "id": "1-5", "title": "Market Makers, Custodians & Transfer Agents", "blocks": [] }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Market Structure",
+      "finraSection": 1,
+      "summary": "Primary, secondary, third, and fourth markets; exchanges vs OTC; dark pools.",
+      "sections": [
+        { "id": "2-1", "title": "Primary vs Secondary Markets", "blocks": [] },
+        { "id": "2-2", "title": "Exchanges and OTC Markets", "blocks": [] },
+        { "id": "2-3", "title": "Third & Fourth Markets and Dark Pools", "blocks": [] }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Economic Factors",
+      "finraSection": 1,
+      "summary": "Monetary vs fiscal policy, the business cycle, interest rates, yield curves, and currency effects.",
+      "sections": [
+        { "id": "3-1", "title": "Monetary vs Fiscal Policy", "blocks": [] },
+        { "id": "3-2", "title": "The Business Cycle", "blocks": [] },
+        { "id": "3-3", "title": "Interest Rates & Yield Curves", "blocks": [] },
+        { "id": "3-4", "title": "Currency & International Effects", "blocks": [] }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Offerings",
+      "finraSection": 1,
+      "summary": "IPOs, secondary offerings, Reg D private placements, Rule 144, shelf registration, and underwriting roles.",
+      "sections": [
+        { "id": "4-1", "title": "IPOs and the Registration Process", "blocks": [] },
+        { "id": "4-2", "title": "Secondary Offerings & Shelf Registration", "blocks": [] },
+        { "id": "4-3", "title": "Exempt Offerings: Reg D and Rule 144", "blocks": [] },
+        { "id": "4-4", "title": "Underwriting Roles", "blocks": [] }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Equity Securities",
+      "finraSection": 2,
+      "summary": "Common and preferred stock, rights, warrants, ADRs, dividends, and splits.",
+      "sections": [
+        { "id": "5-1", "title": "Common Stock", "blocks": [] },
+        { "id": "5-2", "title": "Preferred Stock", "blocks": [] },
+        { "id": "5-3", "title": "Rights, Warrants & ADRs", "blocks": [] },
+        { "id": "5-4", "title": "Dividends & Stock Splits", "blocks": [] }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Debt Instruments",
+      "finraSection": 2,
+      "summary": "Treasuries, municipal GO vs revenue bonds, corporates, and bond math: price/yield, accrued interest, call features.",
+      "sections": [
+        { "id": "6-1", "title": "Bond Basics & Bond Math", "blocks": [] },
+        { "id": "6-2", "title": "U.S. Treasury Securities", "blocks": [] },
+        { "id": "6-3", "title": "Municipal Bonds: GO vs Revenue", "blocks": [] },
+        { "id": "6-4", "title": "Corporate Bonds & Call Features", "blocks": [] },
+        { "id": "6-5", "title": "Price/Yield Relationships & Accrued Interest", "blocks": [] }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Packaged Products",
+      "finraSection": 2,
+      "summary": "Mutual funds, closed-end funds, ETFs, UITs, REITs, variable annuities, share classes and fees.",
+      "sections": [
+        { "id": "7-1", "title": "Mutual Funds & Share Classes", "blocks": [] },
+        { "id": "7-2", "title": "Closed-End Funds, ETFs & UITs", "blocks": [] },
+        { "id": "7-3", "title": "REITs", "blocks": [] },
+        { "id": "7-4", "title": "Variable Annuities", "blocks": [] }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Options",
+      "finraSection": 2,
+      "summary": "Calls and puts, buyer/seller rights and obligations, basic strategies, and hedging.",
+      "sections": [
+        { "id": "8-1", "title": "Calls & Puts: Rights and Obligations", "blocks": [] },
+        { "id": "8-2", "title": "Basic Options Strategies", "blocks": [] },
+        { "id": "8-3", "title": "Hedging with Options", "blocks": [] }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Other Products",
+      "finraSection": 2,
+      "summary": "Municipal fund securities/529s, DPPs, hedge funds, and structured products.",
+      "sections": [
+        { "id": "9-1", "title": "Municipal Fund Securities & 529 Plans", "blocks": [] },
+        { "id": "9-2", "title": "Direct Participation Programs", "blocks": [] },
+        { "id": "9-3", "title": "Hedge Funds & Structured Products", "blocks": [] }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Investment Risks",
+      "finraSection": 2,
+      "summary": "Market, credit, inflation, liquidity, political, currency, reinvestment, capital, and concentration risk.",
+      "sections": [
+        { "id": "10-1", "title": "Systematic Risks: Market, Interest Rate & Inflation", "blocks": [] },
+        { "id": "10-2", "title": "Credit, Liquidity & Capital Risk", "blocks": [] },
+        { "id": "10-3", "title": "Political, Currency & Reinvestment Risk", "blocks": [] },
+        { "id": "10-4", "title": "Concentration Risk & Diversification", "blocks": [] }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Trading",
+      "finraSection": 3,
+      "summary": "Order types, bid/ask, T+1 settlement, corporate actions, and trade capacity: agency vs principal.",
+      "sections": [
+        { "id": "11-1", "title": "Order Types & the Bid/Ask Spread", "blocks": [] },
+        { "id": "11-2", "title": "Settlement (T+1) & Trade Processing", "blocks": [] },
+        { "id": "11-3", "title": "Corporate Actions", "blocks": [] },
+        { "id": "11-4", "title": "Trade Capacity: Agency vs Principal", "blocks": [] }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Customer Accounts",
+      "finraSection": 3,
+      "summary": "Account types, cash vs margin, Reg T basics, KYC/suitability, UGMA/UTMA, retirement accounts and tax treatment.",
+      "sections": [
+        { "id": "12-1", "title": "Account Types & Registrations", "blocks": [] },
+        { "id": "12-2", "title": "Cash vs Margin Accounts & Reg T", "blocks": [] },
+        { "id": "12-3", "title": "KYC & Suitability", "blocks": [] },
+        { "id": "12-4", "title": "UGMA/UTMA Custodial Accounts", "blocks": [] },
+        { "id": "12-5", "title": "Retirement Accounts & Tax Treatment", "blocks": [] }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Prohibited Activities",
+      "finraSection": 3,
+      "summary": "Insider trading, market manipulation, front running, churning, selling away, AML/BSA, SARs, and CTRs.",
+      "sections": [
+        { "id": "13-1", "title": "Insider Trading & Market Manipulation", "blocks": [] },
+        { "id": "13-2", "title": "Front Running, Churning & Selling Away", "blocks": [] },
+        { "id": "13-3", "title": "AML, BSA, SARs & CTRs", "blocks": [] }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Regulatory Framework",
+      "finraSection": 4,
+      "summary": "Securities Acts of 1933/1934, registration and CE requirements, U4/U5, statutory disqualification, communications rules, and Reg BI.",
+      "sections": [
+        { "id": "14-1", "title": "Securities Acts of 1933 & 1934", "blocks": [] },
+        { "id": "14-2", "title": "Registration, U4/U5 & Continuing Education", "blocks": [] },
+        { "id": "14-3", "title": "Statutory Disqualification", "blocks": [] },
+        { "id": "14-4", "title": "Communications Rules & Reg BI", "blocks": [] }
+      ]
+    }
+  ]
+}

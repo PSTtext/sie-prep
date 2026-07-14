@@ -1,0 +1,557 @@
+[
+  {
+    "id": "ch5-q001",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Common stockholders have all of the following rights EXCEPT the right to:",
+    "choices": [
+      "vote for directors",
+      "receive dividends when declared",
+      "compel the company to pay a dividend",
+      "a residual claim in liquidation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dividends are payable only when declared by the board — shareholders cannot compel them. Voting, declared dividends, preemptive rights (if granted), and last-in-line liquidation claims are standard.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q002",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "In a corporate liquidation, common stockholders are paid:",
+    "choices": [
+      "before bondholders",
+      "before preferred stockholders",
+      "last, after all creditors and preferred holders",
+      "at par value"
+    ],
+    "correctIndex": 2,
+    "explanation": "Priority: secured creditors, unsecured creditors (including bondholders and taxes/wages), preferred stock, then common — the residual claim. Limited liability caps the loss at the investment.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q003",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "A shareholder owns 300 shares and four directors are being elected. Under statutory voting, the shareholder may cast:",
+    "choices": [
+      "1,200 votes for one candidate",
+      "up to 300 votes per director seat",
+      "600 votes for two candidates only",
+      "no votes without attending the meeting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Statutory voting: one vote per share per seat — 300 votes max for each of the four seats. Cumulative voting would allow pooling all 1,200 on one candidate, which benefits minority holders.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q004",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Treasury stock is:",
+    "choices": [
+      "stock issued by the U.S. Treasury",
+      "authorized but never issued stock",
+      "stock reacquired by the issuing corporation; it carries no vote and pays no dividend",
+      "stock held in a customer's margin account"
+    ],
+    "correctIndex": 2,
+    "explanation": "Treasury stock = issued shares bought back by the company. It loses voting rights and dividends and reduces shares outstanding (often boosting EPS).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q005",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "Which feature of preferred stock allows unpaid dividends to accumulate and be paid before any common dividend?",
+    "choices": ["participating", "cumulative", "callable", "convertible"],
+    "correctIndex": 1,
+    "explanation": "Cumulative preferred accrues missed dividends (arrears) that must be paid in full before common holders receive anything. Straight (non-cumulative) preferred loses skipped dividends.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q006",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "Preferred stock prices are MOST sensitive to:",
+    "choices": [
+      "changes in interest rates",
+      "the company's sales growth",
+      "stock splits",
+      "trading volume"
+    ],
+    "correctIndex": 0,
+    "explanation": "With its fixed dividend, preferred behaves like a perpetual bond — when rates rise, preferred prices fall. Its equity kicker is limited unless convertible.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q007",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "A 6% $100-par preferred stock is trading at $80. Its current yield is:",
+    "choices": ["6.0%", "7.5%", "4.8%", "8.0%"],
+    "correctIndex": 1,
+    "explanation": "Current yield = annual dividend ÷ market price = $6 ÷ $80 = 7.5%. Price below par pushes yield above the stated rate — the inverse price/yield relationship.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q008",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "Preemptive rights entitle an existing shareholder to:",
+    "choices": [
+      "buy new shares before the public to maintain proportionate ownership",
+      "sell shares back to the issuer at par",
+      "convert common to preferred",
+      "vote twice in board elections"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rights offerings let current holders subscribe to new shares (usually below market, ~30-45 day life) so their ownership percentage isn't diluted.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q009",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "Compared with rights, warrants:",
+    "choices": [
+      "are shorter-term and issued below market price",
+      "are longer-term and issued with an exercise price above the current market",
+      "pay dividends",
+      "carry voting rights"
+    ],
+    "correctIndex": 1,
+    "explanation": "Warrants are long-term (often years, sometimes perpetual) with strike prices set above market at issuance — typically attached as sweeteners to bond or preferred offerings. Rights are short-term and below market.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q010",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "An American Depositary Receipt (ADR) facilitates:",
+    "choices": [
+      "U.S. investors trading foreign company shares in dollars on U.S. markets",
+      "foreign investors buying U.S. Treasuries",
+      "tax-free international transfers",
+      "currency speculation only"
+    ],
+    "correctIndex": 0,
+    "explanation": "ADRs are U.S.-traded receipts for foreign shares held by a depositary bank. They trade and pay dividends in dollars, but holders still bear currency risk on the underlying.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q011",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "Which risk remains for a U.S. investor in an ADR even though it trades in U.S. dollars?",
+    "choices": ["currency risk", "settlement in foreign currency", "loss of SIPC coverage", "prohibition on dividends"],
+    "correctIndex": 0,
+    "explanation": "Dividends and values are converted from the home currency, so exchange-rate moves still affect returns. ADR holders also typically cannot vote directly and may face foreign withholding tax on dividends.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q012",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "A company declares a 2-for-1 stock split. An investor holding 100 shares at $80 will then hold:",
+    "choices": [
+      "200 shares at $40",
+      "100 shares at $160",
+      "50 shares at $160",
+      "200 shares at $80"
+    ],
+    "correctIndex": 0,
+    "explanation": "Splits change share count and price proportionately; total value ($8,000) is unchanged. Forward splits lower the price to broaden appeal; reverse splits raise it.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q013",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "A 5% stock dividend on a 200-share position means the investor receives:",
+    "choices": [
+      "10 additional shares, with the market price adjusting downward",
+      "$10 in cash",
+      "10 shares at no price adjustment",
+      "5 additional shares"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stock dividends add shares (200 × 5% = 10) while the price adjusts down so total value is initially unchanged; the holder's cost basis per share is also adjusted down.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q014",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "To receive a declared cash dividend, a purchaser in a regular-way trade must buy the stock:",
+    "choices": [
+      "on the ex-dividend date",
+      "before the ex-dividend date",
+      "on the payable date",
+      "any time before the payable date"
+    ],
+    "correctIndex": 1,
+    "explanation": "With T+1 settlement, the ex-date equals the record date: buying on or after the ex-date means settling after the record date — too late. Buy before the ex-date to be a holder of record.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q015",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "On the ex-dividend date, a stock's opening price is typically:",
+    "choices": [
+      "reduced by the dividend amount",
+      "increased by the dividend amount",
+      "unchanged",
+      "reduced by twice the dividend"
+    ],
+    "correctIndex": 0,
+    "explanation": "New buyers no longer receive the dividend, so the market marks the price down by roughly the dividend amount at the open of the ex-date.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q016",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "The maximum loss for a common stockholder is:",
+    "choices": [
+      "unlimited",
+      "the amount invested",
+      "the par value of the shares",
+      "twice the amount invested"
+    ],
+    "correctIndex": 1,
+    "explanation": "Limited liability: shareholders can lose their entire investment but are never liable for corporate debts beyond it. (Unlimited loss potential belongs to short sellers.)",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q017",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Which of the following typically has the GREATEST long-term protection against inflation?",
+    "choices": ["Common stock", "Fixed-rate corporate bonds", "Straight preferred stock", "Bank CDs"],
+    "correctIndex": 0,
+    "explanation": "Equities historically outpace inflation because earnings and dividends can grow with prices — the classic reason to hold stock for long horizons. Fixed-income payments lose purchasing power.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q018",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "Participating preferred stock entitles the holder to:",
+    "choices": [
+      "convert into bonds",
+      "receive additional dividends beyond the stated rate when declared",
+      "vote cumulatively",
+      "redeem shares at will"
+    ],
+    "correctIndex": 1,
+    "explanation": "Participating preferred can share in extra dividends alongside common when the board declares them — on top of its stated preference.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q019",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "An issuer would most likely call its outstanding preferred stock when:",
+    "choices": [
+      "interest rates have risen",
+      "interest rates have fallen below the stock's stated dividend rate",
+      "its common stock splits",
+      "the preferred trades at a deep discount"
+    ],
+    "correctIndex": 1,
+    "explanation": "Falling rates let the issuer refinance: call the high-dividend preferred and reissue at today's lower rates — the same logic as calling bonds. Call risk hurts investors when rates drop.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q020",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "Convertible preferred stock generally offers a ___ dividend rate than comparable straight preferred because:",
+    "choices": [
+      "higher; conversion adds risk",
+      "lower; the conversion privilege has value",
+      "higher; it lacks liquidity",
+      "identical; conversion is irrelevant to pricing"
+    ],
+    "correctIndex": 1,
+    "explanation": "The right to convert into common is valuable, so investors accept a lower stated dividend. The preferred also tends to track the common's price when conversion is near the money.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q021",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "A proxy is BEST described as:",
+    "choices": [
+      "a limited power of attorney to vote a shareholder's shares",
+      "a dividend reinvestment plan",
+      "a stock certificate replacement",
+      "an order ticket"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shareholders who don't attend meetings vote by proxy. Proxy materials for listed companies are regulated under the 1934 Act and must be forwarded to beneficial owners.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q022",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "Which dividend dates are set by the board of directors?",
+    "choices": [
+      "Declaration, record, and payable dates",
+      "Only the ex-date",
+      "Declaration and ex-date",
+      "Record and ex-date"
+    ],
+    "correctIndex": 0,
+    "explanation": "The board sets declaration, record, and payable dates. The ex-date is set by the market/exchange rules based on the record date and the settlement cycle.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q023",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "Qualified cash dividends received by an individual investor are taxed:",
+    "choices": [
+      "as ordinary income in all cases",
+      "at preferential long-term capital gains rates",
+      "not at all",
+      "only when reinvested"
+    ],
+    "correctIndex": 1,
+    "explanation": "Qualified dividends (holding-period requirements met) are taxed at the lower capital-gains rates. Dividends are taxable whether taken in cash or reinvested.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q024",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Authorized stock refers to:",
+    "choices": [
+      "the maximum shares a company may issue under its charter",
+      "shares currently owned by investors",
+      "shares repurchased by the issuer",
+      "shares held by institutions"
+    ],
+    "correctIndex": 0,
+    "explanation": "The corporate charter authorizes a maximum share count. Issued = sold to investors; outstanding = issued minus treasury. Increasing authorized shares requires shareholder approval.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q025",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "A company has 10 million shares issued and 1 million shares of treasury stock. Shares outstanding equal:",
+    "choices": ["11 million", "10 million", "9 million", "1 million"],
+    "correctIndex": 2,
+    "explanation": "Outstanding = issued − treasury = 10M − 1M = 9M. Only outstanding shares vote and receive dividends.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q026",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "A right typically allows the holder to buy new shares at a price:",
+    "choices": [
+      "above the current market price",
+      "below the current market price",
+      "equal to par value",
+      "set by FINRA"
+    ],
+    "correctIndex": 1,
+    "explanation": "Subscription rights are priced below market to encourage exercise during their short life. Holders may exercise, sell the rights, or let them expire.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q027",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "Warrants are frequently issued:",
+    "choices": [
+      "attached to bond offerings as a sweetener to lower the coupon",
+      "to replace dividends",
+      "by the SEC to reward investors",
+      "only to employees"
+    ],
+    "correctIndex": 0,
+    "explanation": "Attaching warrants makes a debt or preferred offering more attractive, letting the issuer pay a lower rate. Detached warrants often trade separately.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q028",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "A reverse split (1-for-10) would MOST likely be executed to:",
+    "choices": [
+      "reduce the market price per share",
+      "raise the per-share price, often to maintain exchange listing",
+      "increase total market capitalization",
+      "dilute existing shareholders"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reverse splits shrink share count and raise per-share price — commonly to escape penny-stock status or satisfy listing standards. Total value is unchanged.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q029",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "In dividend priority, which is paid FIRST?",
+    "choices": [
+      "Common stock dividends",
+      "Preferred stock dividends",
+      "Warrant holder distributions",
+      "Rights holder distributions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Preferred means preference: dividends (and liquidation) come ahead of common. Warrants and rights receive no dividends at all.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q030",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "A cumulative preferred stock ($100 par, 5%) skipped its dividend entirely last year. Before common holders can receive any dividend this year, the preferred holder must first receive:",
+    "choices": ["$5", "$10", "$15", "nothing — skipped dividends are lost"],
+    "correctIndex": 1,
+    "explanation": "Arrears ($5 from last year) plus the current $5 = $10 per share must be paid before any common dividend. Non-cumulative preferred would forfeit the missed year.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q031",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Penny stocks are defined generally as unlisted equities priced below:",
+    "choices": ["$1", "$5", "$10", "$25"],
+    "correctIndex": 1,
+    "explanation": "Penny stocks are non-exchange-listed equities under $5. SEC rules require special suitability determinations, disclosures, and account statements for solicited penny-stock trades.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q032",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Which of the following investors most needs to be warned about the risks of low-priced, thinly traded equities?",
+    "choices": [
+      "A speculator with high risk tolerance and experience",
+      "A retiree seeking preservation of capital who was cold-called about a 'sure thing'",
+      "An institution running a diversified small-cap fund",
+      "A trader hedging with listed options"
+    ],
+    "correctIndex": 1,
+    "explanation": "Penny stocks carry liquidity risk, wide spreads, and fraud potential — plainly unsuitable for a capital-preservation investor, and 'sure thing' claims are themselves red flags.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q033",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "A sponsored ADR differs from an unsponsored ADR in that the sponsored ADR:",
+    "choices": [
+      "is created with the foreign issuer's cooperation and typically provides shareholder communications",
+      "never pays dividends",
+      "trades only OTC",
+      "eliminates currency risk"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sponsored ADRs involve an agreement with the issuer (required for exchange listing) and better disclosure/communication. Unsponsored ADRs are bank-created and trade OTC.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch5-q034",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "An investor buys stock at $50, and after a 25% stock dividend the price adjusts. The investor's adjusted cost basis per share is:",
+    "choices": ["$50", "$40", "$62.50", "$37.50"],
+    "correctIndex": 1,
+    "explanation": "Total basis is unchanged; per-share basis = $50 ÷ 1.25 = $40. Stock dividends and splits adjust basis per share, not total basis — no tax due until sale.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch5-q035",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Blue-chip stocks are BEST described as shares of:",
+    "choices": [
+      "new technology ventures",
+      "large, established companies with records of stable earnings and dividends",
+      "companies in bankruptcy",
+      "any stock in an index"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blue chips are seasoned, financially strong leaders — lower risk within equities, suitable cores for growth-and-income objectives.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q036",
+    "chapterId": 5,
+    "sectionTag": "5-2",
+    "question": "Adjustable-rate preferred stock resets its dividend based on:",
+    "choices": [
+      "the common dividend",
+      "a benchmark interest rate such as the T-bill rate",
+      "the CPI only",
+      "board discretion each week"
+    ],
+    "correctIndex": 1,
+    "explanation": "The dividend adjusts periodically to a reference rate, which keeps the price relatively stable near par — trading rate risk for income variability.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q037",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "A warrant to buy stock at $40 is outstanding while the stock trades at $32. The warrant's intrinsic value is:",
+    "choices": ["$8", "zero", "$40", "$32"],
+    "correctIndex": 1,
+    "explanation": "Intrinsic value = market price − exercise price when positive; here $32 − $40 is negative, so intrinsic value is zero. Any market price the warrant commands is time value.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch5-q038",
+    "chapterId": 5,
+    "sectionTag": "5-4",
+    "question": "Which corporate action requires shareholder approval?",
+    "choices": [
+      "Declaring a cash dividend",
+      "A stock split",
+      "Repurchasing shares for treasury",
+      "Paying bond interest"
+    ],
+    "correctIndex": 1,
+    "explanation": "Splits change the authorized-share structure in the charter and require shareholder approval. Dividends and buybacks are board decisions; bond interest is a contractual obligation.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch5-q039",
+    "chapterId": 5,
+    "sectionTag": "5-1",
+    "question": "Growth stocks typically feature:",
+    "choices": [
+      "high dividend payouts",
+      "earnings reinvested in the business and little or no dividend",
+      "guaranteed appreciation",
+      "low price-to-earnings ratios"
+    ],
+    "correctIndex": 1,
+    "explanation": "Growth companies plow earnings back into expansion, so investors look for capital appreciation rather than income — usually at higher P/E multiples and higher volatility.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch5-q040",
+    "chapterId": 5,
+    "sectionTag": "5-3",
+    "question": "Rank the following from SHORTEST to LONGEST typical life: rights, warrants, common stock.",
+    "choices": [
+      "rights → warrants → common stock",
+      "warrants → rights → common stock",
+      "common stock → rights → warrants",
+      "rights → common stock → warrants"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rights last weeks (30-45 days); warrants run years; common stock is perpetual. A handy exam ordering.",
+    "difficulty": "easy"
+  }
+]

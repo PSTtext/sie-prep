@@ -1,0 +1,70 @@
+{
+  "chapterId": 14,
+  "sections": [
+    {
+      "id": "14-1",
+      "blocks": [
+        { "type": "paragraph", "text": "Two statutes anchor everything on this exam. The Securities Act of 1933 — the 'paper act' — governs the PRIMARY market: registration of new issues, prospectus delivery, and exemptions (Chapter 4). The Securities Exchange Act of 1934 — the 'people act' — governs the SECONDARY market and everyone in it." },
+        { "type": "table", "caption": "1933 vs 1934 at a glance", "headers": ["", "Securities Act of 1933", "Securities Exchange Act of 1934"], "rows": [
+          ["Market", "Primary (new issues)", "Secondary (trading)"],
+          ["Governs", "Registration, prospectuses, exempt offerings", "Exchanges, broker-dealers, reps"],
+          ["Created", "Disclosure regime", "The SEC itself"],
+          ["Key provisions", "Full & fair disclosure; liability for misstatements", "Antifraud (10b-5), margin (Reg T authority), proxies, insider reporting, market manipulation"]
+        ] },
+        { "type": "paragraph", "text": "The 1934 Act requires public companies to file ongoing reports (10-K annual, 10-Q quarterly, 8-K material events — all public on EDGAR), regulates proxy solicitation, requires anyone acquiring 5%+ of a public company to file a 13D, and makes corporate insiders (officers, directors, 10% owners) report their trades and disgorge short-swing profits taken within six months. Its Rule 10b-5 is THE antifraud weapon — deployed against insider trading and manipulation alike, in ANY securities transaction, exempt securities included. Fraud is never exempt." },
+        { "type": "keyTerm", "term": "The other landmark acts", "definition": "Trust Indenture Act of 1939: corporate bonds over the threshold need an indenture and independent trustee protecting bondholders. Investment Company Act of 1940: mutual funds, closed-end funds, UITs — registration, 75-5-10 diversification, board rules. Investment Advisers Act of 1940: advisers register and owe fiduciary duty. Securities Investor Protection Act of 1970: created SIPC. Insider Trading Act of 1988: treble damages. PATRIOT Act 2001: AML program requirements." },
+        { "type": "example", "title": "Example", "text": "A company's IPO prospectus omits a pending lawsuit — 1933 Act liability for the issuer and underwriters. Two years later its CFO trades ahead of a bad 10-Q — a 1934 Act (10b-5) violation. Same company, different act for each market." },
+        { "type": "paragraph", "text": "One more definitional anchor: a 'security' under the Howey test is an investment of money in a common enterprise with an expectation of profit from the efforts of others. That sweeps in stocks, bonds, options, fund shares, variable annuities, and investment contracts — and excludes fixed annuities, whole life insurance, and commodities themselves." },
+        { "type": "examTip", "text": "1933 = new issues and prospectuses. 1934 = SEC, trading, antifraud, margin, proxies, insider reports. If the question says 'created the SEC,' the answer is 1934 — a favorite distractor is 1933. And antifraud rules reach EVERY security, even exempt ones like munis." }
+      ]
+    },
+    {
+      "id": "14-2",
+      "blocks": [
+        { "type": "paragraph", "text": "People who sell securities register with FINRA through their firm on Form U4, which discloses ten years of employment history, five years of residences, and any disciplinary events — all fingerprinted, all kept current (most amendments within 30 days; some serious events faster). The information feeds the CRD (Central Registration Depository). Leaving the firm triggers a Form U5 within 30 days, stating the reason; the rep must receive a copy, and the next employer will see it." },
+        { "type": "keyTerm", "term": "SIE + top-off structure", "definition": "The SIE is a prerequisite exam open to anyone 18+ — no firm sponsorship needed, valid for FOUR YEARS. To register as a representative you also need a firm-sponsored 'top-off' exam (Series 7 for general securities, Series 6 for investment company products and variable contracts). Registered rep status lapses TWO years after leaving the industry; the Maintaining Qualifications Program (MQP) can extend it to five with annual continuing education." },
+        { "type": "paragraph", "text": "Continuing education has two prongs. REGULATORY element: FINRA-delivered training due ANNUALLY (by December 31) for every registered person. FIRM element: annual training the firm designs from its own needs analysis, covering its products and rules. Failing the regulatory element makes the registration INACTIVE — no commissions, no rep activity, until complete. Reps who are inactive too long are administratively terminated." },
+        { "type": "table", "caption": "Who must register?", "headers": ["Person", "Registered rep?"], "rows": [
+          ["Takes orders or recommends securities", "Yes"],
+          ["Solicits new accounts or trains reps", "Yes"],
+          ["Clerical staff, no securities functions", "No"],
+          ["Silent partner/officer with no securities role", "Exempt from rep registration"],
+          ["Supervises reps or approves accounts/communications", "Yes — as a PRINCIPAL (e.g., Series 24)"],
+          ["Foreign associate (no U.S. business)", "Special category"]
+        ] },
+        { "type": "example", "title": "Example", "text": "A college senior passes the SIE with no sponsor. Three years later a firm hires her, files her U4, and sponsors the Series 7 — her SIE is still valid (four-year window). Her colleague who left the industry in 2023 must requalify in 2025 unless he enrolled in MQP within two years of his U5." },
+        { "type": "paragraph", "text": "Two adjacent facts the exam likes: firms must conduct a background investigation of every U4 applicant (including verifying the past three years of employment), and a rep's registration belongs to the FIRM relationship — you can't be registered without one (parking a registration at a firm where you don't actually work is a violation)." },
+        { "type": "examTip", "text": "The clock speeds: SIE valid 4 years; registration lapses 2 years after U5 (MQP extends to 5); U4/U5 filings within 30 days; regulatory CE annually by December 31. Fingerprints and disclosure questions live on the U4 — lying on it is itself a violation and can be statutorily disqualifying." }
+      ]
+    },
+    {
+      "id": "14-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Not everyone may enter or stay in the industry. A person subject to STATUTORY DISQUALIFICATION cannot associate with a member firm without special permission — the firm must sponsor an eligibility proceeding (Form MC-400) and win FINRA/SEC approval, with heightened supervision if granted." },
+        { "type": "keyTerm", "term": "Statutory disqualification triggers", "definition": "Conviction (or guilty/no-contest plea) within the past TEN YEARS of ANY felony, or of a securities- or money-related MISDEMEANOR (theft, forgery, bribery, embezzlement, fraudulent conversion); plus bars/expulsions by a securities regulator or SRO, willful securities-law violations, court injunctions from the business, and certain false statements on applications." },
+        { "type": "example", "title": "Example", "text": "An applicant pleaded guilty to felony DUI eight years ago — statutorily disqualified (any felony, ten-year window). Another was convicted of misdemeanor shoplifting nine years ago — also disqualified (theft misdemeanor). A third had a misdemeanor disorderly-conduct charge — NOT disqualifying: it's neither a felony nor money/securities-related. All three events must still be disclosed on the U4." },
+        { "type": "heading", "level": 3, "text": "Discipline and disputes" },
+        { "type": "paragraph", "text": "Distinguish disqualification from discipline. FINRA's Department of Enforcement prosecutes rule violations under the Code of Procedure; sanctions range from censure, fines, and suspension to bar and firm expulsion — never prison. Respondents can settle (AWC — acceptance, waiver and consent), litigate before a hearing panel, and appeal to the National Adjudicatory Council, then the SEC, then federal court. Customer complaints in writing must be kept on file and reported through the firm's quarterly complaint filings; serious ones become U4 disclosure events." },
+        { "type": "paragraph", "text": "Monetary DISPUTES go to arbitration under the Code of Arbitration: mandatory between industry parties, and binding on customers who signed a pre-dispute arbitration agreement (the standard account agreement includes one, which must be highlighted and a copy sent to the customer). Awards are final — no appeal — and unpaid arbitration awards can suspend a rep. Class actions are the carve-out: they stay in court. Simplified arbitration handles small claims on the papers." },
+        { "type": "keyTerm", "term": "BrokerCheck", "definition": "FINRA's free public database of registration, employment, and disciplinary history for firms and reps — sourced from the CRD. Firms must tell customers about BrokerCheck annually (typically on statements) and include a reference in their website." },
+        { "type": "examTip", "text": "The disqualification test: ANY felony, or a money/securities MISDEMEANOR, within 10 years. Ordinary misdemeanors don't disqualify — but everything must be disclosed on the U4. Arbitration awards are final and binding; there is no appeal. FINRA can fine, suspend, censure, bar — never imprison." }
+      ]
+    },
+    {
+      "id": "14-4",
+      "blocks": [
+        { "type": "paragraph", "text": "FINRA sorts member communications by audience, and the audience determines the approval regime. All communications must be fair, balanced, and not misleading — no exaggerated claims, no predictions or projections of performance, risks disclosed alongside benefits, and no implying FINRA or SEC endorsement of anything." },
+        { "type": "table", "caption": "FINRA communication categories", "headers": ["Category", "Audience", "Approval required"], "rows": [
+          ["Retail communication", "More than 25 retail investors in 30 days (ads, websites, social posts, form letters, seminars)", "Principal approval BEFORE use (generally)"],
+          ["Correspondence", "25 or fewer retail investors in 30 days", "Firm review/supervision — no pre-approval"],
+          ["Institutional communication", "Institutional investors only ($50M+ entities, banks, funds, plans)", "Firm procedures — no pre-approval"]
+        ] },
+        { "type": "example", "title": "Example", "text": "A rep drafts an email about a bond strategy. Sent to 20 clients: correspondence — subject to review procedures. Sent to 60 clients: retail communication — a principal must approve it FIRST. Posted on public social media: retail communication, same pre-approval, and it's a firm record either way. His off-the-cuff replies in the comment thread: interactive — treated like correspondence, but still supervised and retained." },
+        { "type": "paragraph", "text": "Special cases: a new firm's retail communications file with FINRA 10 days BEFORE first use for its first year; new mutual-fund retail pieces and options communications face filing/approval requirements (options ads before the ODD are tightly restricted); performance projections are banned (a mutual fund may show past performance with standardized 1/5/10-year periods and disclaimers); testimonials need disclosures about qualifications and any compensation; rankings need their context. Communications are records — retained three years, first two easily accessible." },
+        { "type": "keyTerm", "term": "Regulation S-P & privacy", "definition": "Firms must deliver a privacy notice at account opening and annually, and give customers the right to OPT OUT of sharing nonpublic personal information with unaffiliated third parties. Reg S-P also demands administrative, technical, and physical safeguards for customer records — and Regulation S-ID requires red-flag programs against identity theft." },
+        { "type": "paragraph", "text": "Reg BI (Chapter 12) supplies the recommendation standard, and Form CRS — a short relationship summary of services, fees, conflicts, and disciplinary history — must reach every retail customer at or before the earliest of a recommendation, an order, or account opening, and again when materially updated. Telemarketing under the Telephone Consumer Protection Act: cold calls only 8 a.m.–9 p.m. in the CUSTOMER'S time zone, honor the firm-specific and national do-not-call lists (national entries don't expire; firm-list entries last five years), identify yourself, the firm, and a contact number, and never send unsolicited faxes. Exceptions: existing customers, express written invitation, and calls from nonprofits." },
+        { "type": "examTip", "text": "The magic number is 25 retail investors in 30 days: more = retail communication (pre-approval); fewer = correspondence. Cold-call window: 8 a.m.–9 p.m., customer's time zone. Existing customers and prior express invitation are DNC exceptions. Retention: 3 years, first 2 accessible. Nothing may ever suggest FINRA approves or endorses a firm, a rep, or a security." }
+      ]
+    }
+  ]
+}

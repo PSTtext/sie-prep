@@ -1,0 +1,557 @@
+[
+  {
+    "id": "ch2-q001",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "A corporation sells 5 million new shares to investors through an underwriting syndicate, with proceeds going to the corporation. This transaction occurs in the:",
+    "choices": ["secondary market", "primary market", "third market", "fourth market"],
+    "correctIndex": 1,
+    "explanation": "Primary market transactions are sales of new securities where proceeds go to the issuer. Once those shares later trade between investors, that trading is the secondary market.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q002",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "In a secondary market transaction, the seller of the securities is:",
+    "choices": ["the issuing corporation", "an investor", "the underwriter", "the transfer agent"],
+    "correctIndex": 1,
+    "explanation": "Secondary market = investor-to-investor trading; the issuer receives nothing. Exchange and OTC trading of outstanding shares is all secondary market activity.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q003",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "An investor buys shares in an IPO and sells them two days later on the exchange for a profit. The purchase and the sale occurred, respectively, in the:",
+    "choices": [
+      "primary market; secondary market",
+      "secondary market; primary market",
+      "primary market; primary market",
+      "fourth market; third market"
+    ],
+    "correctIndex": 0,
+    "explanation": "Buying new shares from the issuer (via underwriters) is a primary market transaction. Reselling them on an exchange to another investor is a secondary market transaction.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q004",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Trading on the NYSE is BEST characterized as occurring in a(n):",
+    "choices": [
+      "negotiated market",
+      "auction market with a central location or system",
+      "primary market",
+      "interdealer quotation system"
+    ],
+    "correctIndex": 1,
+    "explanation": "Exchanges are auction (double-auction) markets where buyers and sellers compete and orders interact centrally. The OTC market, by contrast, is a negotiated, decentralized dealer market.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q005",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Which of the following BEST describes the over-the-counter (OTC) market?",
+    "choices": [
+      "A physical trading floor where specialists match orders",
+      "A decentralized network of dealers negotiating prices",
+      "A market limited to municipal bonds",
+      "A market where only new issues trade"
+    ],
+    "correctIndex": 1,
+    "explanation": "OTC trading happens through a dealer network negotiating over electronic systems and phones, with market makers quoting prices — no central floor. Equities, most bonds, and currencies trade OTC.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q006",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "Exchange-listed securities trading in the OTC market constitute the:",
+    "choices": ["primary market", "third market", "fourth market", "gray market"],
+    "correctIndex": 1,
+    "explanation": "The third market is OTC trading of exchange-listed securities, commonly by institutions seeking off-exchange execution. The fourth market is direct institution-to-institution trading without a broker-dealer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q007",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "Two institutional investors trade a large block of stock directly with each other through an electronic communication network, without using a broker-dealer. This is a transaction in the:",
+    "choices": ["third market", "fourth market", "primary market", "auction market"],
+    "correctIndex": 1,
+    "explanation": "Direct institution-to-institution trading (often via ECNs) with no broker-dealer intermediary is the fourth market.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q008",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "A dark pool is BEST described as:",
+    "choices": [
+      "an exchange facility that displays all orders publicly",
+      "a trading venue where orders are not displayed before execution",
+      "an illegal off-market trading scheme",
+      "the after-hours session of a national exchange"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dark pools are legal alternative trading systems with no pre-trade quote display, letting institutions work large blocks without moving the market. Executions are still reported after the trade.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q009",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "The main reason an institution routes a large sell order to a dark pool rather than a lit exchange is to:",
+    "choices": [
+      "avoid reporting the trade to regulators",
+      "minimize market impact by hiding the order from public view",
+      "obtain a government-guaranteed price",
+      "avoid paying for the securities until month end"
+    ],
+    "correctIndex": 1,
+    "explanation": "Displaying a huge order would push the price against the seller. Dark pools hide pre-trade interest, reducing market impact. Post-trade reporting is still required — regulation is not avoided.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q010",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Securities of companies that do not meet exchange listing standards would most likely trade:",
+    "choices": [
+      "on the NYSE",
+      "through OTC quotation services such as the OTC Markets tiers",
+      "only in the primary market",
+      "exclusively through dark pools"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unlisted equities trade OTC via quotation platforms (OTCQX, OTCQB, Pink). These carry lower listing standards — and often thinner liquidity and less disclosure than exchange-listed issues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q011",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "Which of the following is a primary market transaction?",
+    "choices": [
+      "An investor sells 100 shares of listed stock on an exchange",
+      "A municipality sells a new general obligation bond issue to an underwriting syndicate for public distribution",
+      "A market maker sells stock from inventory to a retail customer",
+      "Two hedge funds cross a block trade in a dark pool"
+    ],
+    "correctIndex": 1,
+    "explanation": "The new municipal bond issue raises capital for the issuer — a primary market transaction. All the others are trades of outstanding securities between investors or dealers (secondary market).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q012",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "An electronic communication network (ECN) primarily:",
+    "choices": [
+      "underwrites new issues",
+      "automatically matches buy and sell orders, often permitting after-hours trading",
+      "guarantees settlement of all trades",
+      "sets listing standards for issuers"
+    ],
+    "correctIndex": 1,
+    "explanation": "ECNs are electronic systems that match customer orders directly, charging access fees, and are a common venue for extended-hours trading. They do not underwrite, guarantee, or list securities.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q013",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "A customer entering an order during an after-hours trading session should understand that, compared with regular hours, extended-hours trading typically involves:",
+    "choices": [
+      "greater liquidity and narrower spreads",
+      "less liquidity and wider spreads",
+      "guaranteed execution at the closing price",
+      "no price volatility"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fewer participants trade after hours, so liquidity is thinner, spreads are wider, and prices can be more volatile. Firms must disclose these extended-hours risks.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q014",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "Which statement about the relationship between primary and secondary markets is TRUE?",
+    "choices": [
+      "Issuers receive proceeds from both markets",
+      "A liquid secondary market makes investors more willing to buy new issues in the primary market",
+      "Secondary trading is regulated by the Securities Act of 1933",
+      "Primary market prices are set by supply and demand on exchanges"
+    ],
+    "correctIndex": 1,
+    "explanation": "Investors buy new issues more readily when they know they can resell easily — secondary market liquidity supports primary market capital formation. The 1933 Act covers new issues; the 1934 Act covers trading.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q015",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "The 'inside market' in an OTC stock refers to the:",
+    "choices": [
+      "highest bid and lowest ask among all market makers",
+      "lowest bid and highest ask among all market makers",
+      "average of all quotes",
+      "price available only to firm insiders"
+    ],
+    "correctIndex": 0,
+    "explanation": "The inside market (NBBO concept) is the best available prices: highest bid and lowest offer across market makers. The difference is the inside spread.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q016",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Which of the following trades almost exclusively OTC rather than on an exchange?",
+    "choices": [
+      "Large-cap NYSE-listed common stocks",
+      "Most corporate and municipal bonds",
+      "Listed index options",
+      "NYSE-listed preferred stock"
+    ],
+    "correctIndex": 1,
+    "explanation": "Debt markets are dealer markets: most corporate and municipal bonds trade OTC through dealer networks rather than on exchanges. Listed options trade on options exchanges.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q017",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "Trades executed in a dark pool are:",
+    "choices": [
+      "exempt from trade reporting",
+      "reported to the consolidated tape after execution",
+      "reported only to the SEC annually",
+      "never disclosed to anyone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dark pools lack pre-trade transparency, but executions must still be reported to the tape promptly after the trade. Post-trade transparency is preserved.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q018",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "An issuer's investment banker advises on all of the following in a primary offering EXCEPT:",
+    "choices": [
+      "the type of security to offer",
+      "the offering price",
+      "the timing of the offering",
+      "the price at which the stock will trade in five years"
+    ],
+    "correctIndex": 3,
+    "explanation": "Investment bankers advise on structure, pricing, and timing of new issues. No one can determine future market prices — secondary market forces set those.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q019",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "A designated market maker (DMM) on the NYSE is responsible for:",
+    "choices": [
+      "maintaining a fair and orderly market in assigned securities",
+      "underwriting all new NYSE listings",
+      "regulating member firms' advertising",
+      "clearing all NYSE trades"
+    ],
+    "correctIndex": 0,
+    "explanation": "DMMs (successors to specialists) commit capital to maintain fair and orderly trading in their assigned stocks, providing liquidity especially at the open and close.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q020",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "Which venue offers pre-trade quote transparency?",
+    "choices": [
+      "A dark pool ATS",
+      "A national securities exchange's displayed order book",
+      "The fourth market generally",
+      "A private negotiation between two institutions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lit exchanges display quotes and depth before trades occur. Dark pools and direct institutional trading intentionally lack pre-trade display.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q021",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "Capital formation — companies and governments raising money to fund operations — is the economic function of the:",
+    "choices": ["secondary market", "primary market", "third market", "repo market"],
+    "correctIndex": 1,
+    "explanation": "The primary market channels investor capital to issuers through new securities offerings. Secondary markets provide the liquidity and price discovery that make investors willing to supply that capital.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q022",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Nasdaq is BEST described as a(n):",
+    "choices": [
+      "physical auction floor",
+      "electronic exchange where competing market makers post quotes",
+      "quotation service for unlisted penny stocks only",
+      "clearing agency"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nasdaq is a fully electronic exchange using a competing market-maker (dealer) structure rather than a single auction floor. Multiple market makers quote each listed security.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q023",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Which of the following statements about listing standards is TRUE?",
+    "choices": [
+      "OTC quotation tiers impose stricter standards than the NYSE",
+      "Exchanges impose financial and governance standards that listed companies must maintain",
+      "Once listed, a company can never be delisted",
+      "Listing guarantees a minimum stock price"
+    ],
+    "correctIndex": 1,
+    "explanation": "Exchanges set initial and continued listing standards (share price, market cap, governance). Companies failing to maintain them face delisting — after which shares typically trade OTC.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q024",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "An alternative trading system (ATS) differs from a registered exchange in that an ATS:",
+    "choices": [
+      "is regulated as a broker-dealer rather than as an exchange",
+      "need not report trades",
+      "may only trade bonds",
+      "is operated by the SEC"
+    ],
+    "correctIndex": 0,
+    "explanation": "ATSs (including dark pools and many ECNs) register as broker-dealers and operate under Regulation ATS instead of registering as exchanges. Trade reporting still applies.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch2-q025",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "A follow-on (additional issue) offering by a company that is already public takes place in the:",
+    "choices": ["secondary market", "primary market", "third market", "fourth market"],
+    "correctIndex": 1,
+    "explanation": "Any offering of NEW shares by the issuer — IPO or follow-on — is a primary market transaction because the issuer receives the proceeds. Don't confuse 'already-public company' with 'secondary market.'",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q026",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "In a registered secondary offering, selling shareholders (not the company) offer large blocks of stock to the public. The proceeds go to:",
+    "choices": [
+      "the issuing corporation",
+      "the selling shareholders",
+      "the underwriters only",
+      "the exchange"
+    ],
+    "correctIndex": 1,
+    "explanation": "In a secondary distribution, existing holders (founders, early investors) sell their shares; they — not the issuer — receive the proceeds. A combined (split) offering includes both new and existing shares.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q027",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Market makers in an OTC security are compensated primarily by:",
+    "choices": [
+      "commissions charged to both parties",
+      "the spread between their bid and ask prices",
+      "listing fees from issuers",
+      "12b-1 fees"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dealers buy at the bid and sell at the ask, earning the spread. Commissions are agency compensation; listing fees go to exchanges; 12b-1 fees relate to mutual funds.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q028",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "Which of the following investors is MOST likely to use the fourth market?",
+    "choices": [
+      "A retail investor buying 10 shares",
+      "A pension fund trading blocks directly with an insurance company",
+      "A day trader using a margin account",
+      "A customer of an introducing broker-dealer"
+    ],
+    "correctIndex": 1,
+    "explanation": "The fourth market is direct institution-to-institution trading without broker-dealer intermediaries — practical only for large, sophisticated institutions like pension funds and insurers.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q029",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "The consolidated tape provides:",
+    "choices": [
+      "real-time last-sale reports for exchange-listed securities across all venues",
+      "quotes for unregistered private placements",
+      "a record of primary market allocations",
+      "broker-dealer financial statements"
+    ],
+    "correctIndex": 0,
+    "explanation": "The consolidated tape aggregates last-sale (trade) data for listed securities from every market center — exchanges, OTC, and dark venues — giving the market post-trade transparency.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q030",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "Which of the following BEST describes price discovery?",
+    "choices": [
+      "The process by which underwriters set an IPO price",
+      "The interaction of buyers and sellers in the secondary market establishing current prices",
+      "The SEC's review of a registration statement",
+      "A transfer agent's valuation of certificates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Price discovery is the market mechanism: continuous interaction of supply and demand in secondary trading sets prices that inform investors and issuers alike.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q031",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "A stock is quoted 20.00 – 20.05. A customer market order to buy would most likely execute at:",
+    "choices": ["20.00", "20.05", "20.025", "the previous close"],
+    "correctIndex": 1,
+    "explanation": "Customers buy at the ask (offer) and sell at the bid. The ask here is 20.05. The 5-cent difference is the spread.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q032",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Which characteristic distinguishes an auction market from a negotiated market?",
+    "choices": [
+      "Prices result from competing public orders interacting rather than dealer quotes",
+      "Only bonds may trade",
+      "It has no regulation",
+      "Trades settle in cash the same day"
+    ],
+    "correctIndex": 0,
+    "explanation": "In an auction market, public buy and sell orders compete and interact directly (price-time priority). In a negotiated (dealer) market, prices come from market-maker quotes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q033",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "Regulators require dark pools to report executions promptly primarily to preserve:",
+    "choices": [
+      "pre-trade anonymity",
+      "post-trade transparency for the overall market",
+      "issuer confidentiality",
+      "fixed commission rates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Even without displayed quotes, prompt trade reporting keeps the consolidated tape complete so all investors see actual transaction prices and volume — post-trade transparency.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q034",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "Which of the following parties is essential to a primary offering but has no role in ordinary secondary market trades?",
+    "choices": ["The underwriter", "The market maker", "The clearing corporation", "The custodian"],
+    "correctIndex": 0,
+    "explanation": "Underwriters distribute new issues for issuers — a primary market function. Market makers, clearing corporations, and custodians operate in the secondary market's trading and settlement flow.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q035",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "A company is delisted from a national exchange for failing to meet continued listing standards. Its shares will most likely:",
+    "choices": [
+      "cease to exist",
+      "continue trading in the OTC market",
+      "be repurchased by the exchange",
+      "convert to bonds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Delisting ends exchange trading, not the company's existence. Shares typically move to OTC quotation tiers, usually with reduced liquidity and visibility.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch2-q036",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "A block trade is generally defined as an order of at least:",
+    "choices": ["100 shares", "1,000 shares", "10,000 shares (or $200,000 value)", "1 million shares"],
+    "correctIndex": 2,
+    "explanation": "The traditional block threshold is 10,000 shares or about $200,000 in market value. Blocks are the typical business of third-market firms, dark pools, and institutional desks.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q037",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Regulation NMS's trade-through rules are designed to ensure that customer orders in NMS stocks are executed:",
+    "choices": [
+      "only on the exchange where the stock is listed",
+      "at prices no worse than the best displayed protected quotes",
+      "without any commission",
+      "in dark pools whenever possible"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reg NMS prohibits trading through better-priced protected quotations displayed on other venues, tying the fragmented market together around the best displayed prices (NBBO).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch2-q038",
+    "chapterId": 2,
+    "sectionTag": "2-1",
+    "question": "Which of the following would NOT raise new capital for an issuer?",
+    "choices": [
+      "An IPO of common stock",
+      "A follow-on offering of newly issued shares",
+      "A registered secondary distribution by early investors",
+      "A new bond issue sold to the public"
+    ],
+    "correctIndex": 2,
+    "explanation": "A secondary distribution sells existing shareholders' stock — proceeds go to the sellers, not the company. The other three place newly created securities and fund the issuer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch2-q039",
+    "chapterId": 2,
+    "sectionTag": "2-2",
+    "question": "Payment for order flow refers to:",
+    "choices": [
+      "compensation a broker receives for routing customer orders to a particular market maker or venue",
+      "interest charged in a margin account",
+      "the fee an issuer pays underwriters",
+      "SEC transaction fees"
+    ],
+    "correctIndex": 0,
+    "explanation": "Market makers and venues may pay retail brokers for routing order flow to them. It's legal but must be disclosed, and the broker still owes customers best execution.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch2-q040",
+    "chapterId": 2,
+    "sectionTag": "2-3",
+    "question": "Which sequence correctly ranks trading venues from MOST to LEAST pre-trade transparency?",
+    "choices": [
+      "Dark pool → lit exchange → fourth market",
+      "Lit exchange → dark pool → private institutional negotiation",
+      "Fourth market → dark pool → lit exchange",
+      "All venues offer identical transparency"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lit exchanges display full order books; dark pools display nothing pre-trade but report afterward; direct private negotiations have the least visibility of all.",
+    "difficulty": "medium"
+  }
+]

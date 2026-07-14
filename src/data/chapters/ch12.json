@@ -1,0 +1,92 @@
+{
+  "chapterId": 12,
+  "sections": [
+    {
+      "id": "12-1",
+      "blocks": [
+        { "type": "paragraph", "text": "Opening an account starts with the new account form: name, address, DOB, Social Security number, plus employment, income, net worth, objectives, and risk tolerance. Under the Customer Identification Program (CIP — a PATRIOT Act requirement), the firm must verify identity and check names against the OFAC sanctions list. The customer's signature is NOT required to open a cash account; a principal must approve every new account, and the firm must send account-record information to the customer within 30 days and every 36 months after." },
+        { "type": "table", "caption": "Ownership registrations", "headers": ["Registration", "Key feature", "At death"], "rows": [
+          ["Individual", "One owner; only that person (or POA) gives orders", "To the estate"],
+          ["JTWROS", "Equal owners", "Passes to survivor(s), bypassing probate"],
+          ["Tenants in common (TIC)", "Unequal percentages allowed", "Decedent's share to their ESTATE"],
+          ["Transfer on death (TOD)", "Individual account + named beneficiary", "Directly to beneficiary, no probate"],
+          ["Community property", "Married couples, certain states", "Half to estate/spouse per state law"]
+        ] },
+        { "type": "paragraph", "text": "In any joint account, EITHER party may enter orders, but checks must be payable to ALL names in the registration — mailing a check to one joint owner in one name is a violation. Corporate accounts need a corporate resolution naming who can trade (plus the charter/bylaws if margin); partnership accounts need the partnership agreement; trust accounts follow the trust document. Fiduciary accounts (trustee, guardian, executor) generally follow the prudent-investor rule and prohibit speculation and margin unless expressly authorized." },
+        { "type": "paragraph", "text": "When an individual account holder dies, the firm cancels open orders, freezes the account, and awaits estate documents (death certificate, letters testamentary) — a power of attorney dies with the customer. Third-party trading authority must be written: limited POA (trading only) or full POA (trading plus withdrawals); a durable POA survives the grantor's incapacity, none survives death." },
+        { "type": "keyTerm", "term": "Discretionary account", "definition": "The customer gives WRITTEN authorization (power of attorney) letting the rep choose the Asset, Action, or Amount. Every discretionary order is marked discretionary and requires prompt principal review; the account gets frequent supervisory review for churning. Choosing only time or price is NOT discretion." },
+        { "type": "example", "title": "Example", "text": "'Buy 200 shares of whatever chip stock looks best' — discretion (asset choice) — requires written authorization first. 'Buy 200 Intel whenever the price looks right today' — time/price only — not discretion, good for that day." },
+        { "type": "keyTerm", "term": "Numbered account", "definition": "An account identified by number for privacy — permitted only with a signed customer statement of ownership on file. Accounts can never be truly anonymous." },
+        { "type": "paragraph", "text": "Moving an account between firms runs through ACATS: the receiving firm submits the customer's signed transfer instruction, the carrying firm validates within one business day and transfers within three. During validation the old firm freezes the account and cancels open orders. Customers of introducing firms remember: the statements and the assets sit at the clearing firm." },
+        { "type": "examTip", "text": "JTWROS = survivor takes all (spouses); TIC = estate gets the share (business partners, unequal stakes). The three A's of discretion: if the rep picks the Asset, the Action (buy/sell), or the Amount, written authority is required BEFORE the trade. Time/price alone = not discretionary." }
+      ]
+    },
+    {
+      "id": "12-2",
+      "blocks": [
+        { "type": "paragraph", "text": "A cash account is the default: pay in full by the Reg T deadline (S+2), own everything outright. Anyone can open one — including the fiduciary and custodial accounts that margin is closed to. A margin account borrows part of the purchase price from the firm, using the securities as collateral. Margin magnifies buying power — and losses." },
+        { "type": "keyTerm", "term": "Regulation T", "definition": "The Federal Reserve rule governing broker-dealer credit. Initial margin: 50% of a purchase. It also defines which securities are marginable (exchange-listed and most Nasdaq stocks yes; new issues not for 30 days; non-marginable securities must be paid in full). Exchange/FINRA rules add minimum maintenance: 25% equity for long accounts, 30% for short." },
+        { "type": "paragraph", "text": "Two documents matter. The credit agreement (required) discloses loan terms and interest (tied to the broker call rate). The hypothecation agreement (required) pledges the customer's securities as collateral — the firm may repledge (rehypothecate) up to 140% of the debit balance to fund the loan at its bank. The loan consent form (OPTIONAL) lets the firm lend the customer's shares to short sellers." },
+        { "type": "example", "title": "Example — margin math", "text": "Buy $20,000 of stock in a margin account: deposit $10,000 (Reg T 50%); the firm lends $10,000 (the debit balance). Equity = market value − debit. If the stock rises to $30,000, equity = $20,000 — the gain is all the customer's. If it falls to $12,000, equity is $2,000 — 16.7%, below 25% maintenance, triggering a maintenance call for $1,000 (to restore equity to 25% of $12,000 = $3,000)." },
+        { "type": "example", "title": "Example — the maintenance trigger shortcut", "text": "A long account hits exactly 25% equity when market value = debit ÷ 0.75. With a $10,000 debit, the account is at maintenance when value falls to $13,333. Below that, a call goes out — payable promptly, or the firm sells securities of ITS choosing." },
+        { "type": "paragraph", "text": "Leverage cuts both ways: gains AND losses are magnified versus a cash purchase, plus the customer pays interest on the debit. Firms must deliver a margin disclosure statement at account opening and annually, warning that securities can be sold without notice to meet a call, the customer isn't entitled to choose which securities are sold or to extra time, and losses can exceed the deposit. Short sales can ONLY happen in a margin account — the borrowed shares make it inherently a credit transaction." },
+        { "type": "keyTerm", "term": "Minimum equity", "definition": "FINRA requires $2,000 minimum equity to open a margin position (or 100% of the purchase if less than $2,000 — never more than the purchase price). Pattern day traders (4+ day trades in 5 business days) face a $25,000 minimum." },
+        { "type": "examTip", "text": "Required signatures: credit + hypothecation. Optional: loan consent. No margin for: retirement accounts, UGMA/UTMA custodial accounts (and new issues for 30 days). Reg T = 50% initial; industry maintenance = 25% long / 30% short; $2,000 to open; $25,000 for pattern day traders." }
+      ]
+    },
+    {
+      "id": "12-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Know Your Customer (KYC) obligates the firm to learn the essential facts about every customer at opening and to keep them current. Suitability builds on it: FINRA Rule 2111 requires a reasonable basis to believe a recommendation fits the customer — based on age, financial situation, tax status, objectives, time horizon, liquidity needs, risk tolerance, and other holdings. The rule covers recommended strategies too, including the recommendation to HOLD." },
+        { "type": "table", "caption": "The three suitability obligations", "headers": ["Obligation", "Question it answers"], "rows": [
+          ["Reasonable-basis", "Is this product suitable for ANYONE? (firm must understand it)"],
+          ["Customer-specific", "Is it suitable for THIS customer's profile?"],
+          ["Quantitative", "Is the PATTERN of trading excessive, even if each trade looks fine?"]
+        ] },
+        { "type": "keyTerm", "term": "Regulation Best Interest (Reg BI)", "definition": "The SEC standard for broker-dealer recommendations to retail customers: act in the customer's best interest without placing the firm's interest first. Four obligations — Disclosure, Care, Conflict of interest, Compliance — plus delivery of Form CRS (customer relationship summary) at or before the recommendation or account opening." },
+        { "type": "example", "title": "Example", "text": "A 78-year-old on fixed income asks about growth. Recommending a non-traded REIT with a 7% commission fails Reg BI's care obligation twice: illiquidity mismatched to her needs, and a cheaper suitable alternative existed. Recommending it because it pays the firm more is precisely the conflict Reg BI targets." },
+        { "type": "paragraph", "text": "If a customer refuses to provide profile information, the firm may still accept UNSOLICITED orders — it just can't make recommendations (many firms mark such trades 'unsolicited' as protection). Institutional customers can waive customer-specific suitability if they affirm independent judgment. Investment advisers, remember, owe the higher fiduciary standard at all times; Reg BI applies to broker-dealers at the moment of recommendation." },
+        { "type": "keyTerm", "term": "Senior protections", "definition": "Firms must make reasonable efforts to obtain a TRUSTED CONTACT PERSON for every account, and under FINRA Rule 2165 may place a temporary hold on disbursements (not trades) when financial exploitation of a 'specified adult' (65+, or an adult with impairments) is suspected — initially up to 15 business days, extendable while investigating." },
+        { "type": "paragraph", "text": "Privacy rounds out account duties: Regulation S-P requires a privacy notice at opening and annually, plus an opt-out before sharing nonpublic personal information with unaffiliated third parties. And under FINRA Rule 3210, an associated person needs the employer's prior written consent to open a brokerage account at another firm." },
+        { "type": "examTip", "text": "Reg BI's four obligations: Disclosure, Care, Conflict, Compliance. Form CRS goes to retail customers. Quantitative suitability is the anti-churning prong — pattern, not single trades. Trusted contact = ask for one; Rule 2165 hold = disbursements only, exploitation suspected." }
+      ]
+    },
+    {
+      "id": "12-4",
+      "blocks": [
+        { "type": "paragraph", "text": "UGMA/UTMA custodial accounts hold irrevocable gifts to a minor. One custodian manages one account for one minor; the minor is the beneficial owner, and the account uses the MINOR'S Social Security number — unearned income above small thresholds is taxed under kiddie-tax rules at the parents' rate." },
+        { "type": "keyTerm", "term": "Irrevocable gift", "definition": "Once given, the donor cannot take it back or attach conditions ('it's for college only' is unenforceable). Anyone may give, in any amount (gift tax may apply above the annual exclusion); the custodian may be the donor or someone else. Securities gifts transfer at market value; the minor takes the donor's cost basis." },
+        { "type": "paragraph", "text": "Custodian rules: invest prudently (no margin, no short sales, no uncovered options; covered calls generally OK), reinvest cash productively, and use the assets only for the minor's benefit — but the custodian may not be compensated for managing it (reasonable expenses excepted) and may never commingle the assets with their own. When the minor reaches the age of majority/transfer (18-21+, varies by state; UTMA allows delay to 25 in some states), the assets transfer outright — the former minor can spend them on anything." },
+        { "type": "example", "title": "Example", "text": "Grandma gifts $30,000 of stock into an UTMA for a 10-year-old, naming Dad custodian. Dad manages it conservatively; dividends are taxed to the child under kiddie-tax rules. At the state's transfer age the account re-registers in the (now) young adult's name — beach trip or tuition, it's legally his choice. Grandma could never have reclaimed it. If the minor dies first, the assets go to the minor's estate — not back to Grandma." },
+        { "type": "table", "caption": "UGMA/UTMA vs 529 (the classic pairing)", "headers": ["", "UGMA/UTMA", "529 plan"], "rows": [
+          ["Control", "Custodian until majority, then the CHILD", "Donor keeps control forever"],
+          ["Revocable?", "No — irrevocable gift", "Yes — donor can reclaim (tax + penalty on earnings)"],
+          ["Use of funds", "Anything benefiting the minor; anything at majority", "Qualified education, or pay the penalty"],
+          ["Beneficiary change", "Never", "Yes, to family members"],
+          ["Financial aid impact", "Heavier (student asset)", "Lighter (parental asset)"],
+          ["Investments", "Any prudent securities", "Plan menu only, 2 changes/year"]
+        ] },
+        { "type": "examTip", "text": "One custodian, one minor, minor's SSN, no margin, gifts irrevocable, nominee registration (custodian FBO minor). UTMA extends the property types and can delay transfer beyond 18 — otherwise treat UGMA and UTMA the same on the exam." }
+      ]
+    },
+    {
+      "id": "12-5",
+      "blocks": [
+        { "type": "paragraph", "text": "Retirement accounts trade current access for tax advantage. The traditional versions deduct contributions now and tax everything on the way out; the Roth versions take after-tax money now and pay out tax-free. Which wins depends on the tax bracket today versus in retirement — high bracket now favors traditional; low bracket now favors Roth." },
+        { "type": "table", "caption": "Traditional vs Roth IRA", "headers": ["", "Traditional IRA", "Roth IRA"], "rows": [
+          ["Contributions", "Pre-tax (deductible if eligible)", "After-tax, never deductible"],
+          ["Eligibility", "Any earned income, any age", "Earned income under MAGI phase-out limits"],
+          ["Growth", "Tax-deferred", "Tax-free"],
+          ["Qualified withdrawals", "Taxed as ordinary income", "Tax-free (5-year rule + age 59½)"],
+          ["RMDs", "Begin at age 73", "None during the owner's lifetime"]
+        ] },
+        { "type": "paragraph", "text": "Shared IRA rules: contributions require EARNED income (wages and self-employment — not dividends, interest, or rents); annual limits with an age-50+ catch-up; contributions are due by the tax-filing deadline (no extensions); a spousal IRA lets a non-working spouse contribute based on the working spouse's income; early withdrawals before 59½ take a 10% penalty on top of tax (exceptions include death, disability, first home up to $10,000, and certain medical/education costs). Missing an RMD triggers a 25% excise tax on the shortfall (10% if corrected promptly). Deductibility of traditional contributions phases out for active participants in employer plans above income thresholds — but anyone with earned income can CONTRIBUTE." },
+        { "type": "keyTerm", "term": "Rollover vs transfer", "definition": "Trustee-to-trustee TRANSFER: funds move directly between custodians — unlimited, never touched, never taxed. ROLLOVER: the owner receives a check and has 60 DAYS to redeposit — limited to one IRA-to-IRA rollover per 12 months, with 20% withholding on employer-plan distributions paid to the owner (direct rollovers avoid the withholding)." },
+        { "type": "paragraph", "text": "Employer plans: 401(k) (elective salary deferrals, often matched — always take the match; Roth 401(k) option common), 403(b) for schools and nonprofits, 457 for government workers. Defined benefit pensions promise a payout formula — the EMPLOYER bears investment risk and the plan favors older, highly paid employees; defined contribution plans promise only the account balance — the EMPLOYEE bears the risk. Small-business flavors: SEP IRA (employer contributes a percentage for everyone, popular with the self-employed; high limits) and SIMPLE IRA (for employers with 100 or fewer employees — employee deferrals plus a required employer match; a 25% penalty applies to withdrawals in the first two years)." },
+        { "type": "keyTerm", "term": "ERISA", "definition": "The federal law governing PRIVATE-sector retirement plans: participation (age 21 + one year of service), vesting schedules for employer money, funding standards, non-discrimination, fiduciary duties, and beneficiary rules (spouse is automatic unless waived in writing). Government and church plans are exempt." },
+        { "type": "example", "title": "Example", "text": "A 40-year-old in the 32% bracket defers $10,000 into her 401(k): saves $3,200 in tax now, owes ordinary income tax at withdrawal. Her 25-year-old son in the 12% bracket funds a Roth IRA: no deduction now, but decades of growth come out tax-free — the right account for the LOW bracket today." },
+        { "type": "examTip", "text": "Roth: no RMDs, tax-free if qualified (5 years + 59½), MAGI limits apply. Traditional: RMDs at 73, 10% early-withdrawal penalty before 59½. Municipal bonds are the classic WRONG answer inside any retirement account — never shelter tax-free income in a tax-deferred wrapper. Defined benefit = employer risk; defined contribution = employee risk." }
+      ]
+    }
+  ]
+}

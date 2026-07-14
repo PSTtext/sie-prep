@@ -1,0 +1,61 @@
+{
+  "chapterId": 9,
+  "sections": [
+    {
+      "id": "9-1",
+      "blocks": [
+        { "type": "paragraph", "text": "Municipal fund securities are muni-issued investment pools that aren't bonds — chiefly 529 college savings plans, ABLE accounts, and local government investment pools (LGIPs). They're sold by prospectus-like 'official statements' (often called program disclosure documents) and regulated under MSRB rules, which is why reps selling 529s follow MSRB advertising and suitability standards." },
+        { "type": "keyTerm", "term": "529 college savings plan", "definition": "State-sponsored, tax-advantaged investing for education. Contributions are after-tax (federal); earnings grow tax-deferred and come out FEDERALLY TAX-FREE when used for qualified education expenses. Non-qualified withdrawals: earnings taxed as ordinary income plus a 10% penalty (the contribution portion comes back tax-free)." },
+        { "type": "paragraph", "text": "529 mechanics the exam tests: anyone can open one for any beneficiary regardless of income or age; the DONOR/account owner keeps control (unlike UGMA/UTMA); the beneficiary can be changed to another family member without tax; contribution limits are set by each state and are high (often $300,000+ aggregate per beneficiary). Qualified expenses cover college tuition, fees, room and board, books — plus up to $10,000 per year of K-12 tuition. Investment choices are typically age-based or static portfolios, and federal rules limit investment changes to twice per calendar year (plus on any beneficiary change)." },
+        { "type": "paragraph", "text": "Contributions are completed gifts eligible for the annual gift-tax exclusion — and a special election lets a donor front-load FIVE years of exclusions at once. Many states add a state tax deduction for contributions to their own plan, which is exactly why out-of-state sales require a suitability conversation." },
+        { "type": "example", "title": "Example", "text": "Grandpa contributes five years' worth of annual-exclusion gifts to his granddaughter's 529 in one year using five-year averaging — no gift tax. It grows from $85,000 to $120,000; every dollar withdrawn for her tuition is federal-tax-free. If she skipped college, he could switch the beneficiary to her brother — or withdraw and pay ordinary income tax plus 10% on the earnings only." },
+        { "type": "keyTerm", "term": "529 prepaid tuition plan", "definition": "Locks in TODAY'S tuition rates at (usually in-state public) colleges — a hedge against tuition inflation, not a market investment. Savings plans, by contrast, invest in mutual-fund-style portfolios and bear market risk. Prepaid plans may carry residency requirements." },
+        { "type": "keyTerm", "term": "ABLE account", "definition": "A 529-chassis account for disability-related expenses, available to individuals whose qualifying disability began before the qualifying age. Earnings are tax-free for qualified disability expenses, and balances up to a threshold don't jeopardize means-tested benefits like SSI and Medicaid. One ABLE account per beneficiary; the beneficiary is the owner." },
+        { "type": "examTip", "text": "529 vs UGMA: in a 529 the DONOR controls the money and can even take it back (taxes and penalty on earnings); in an UGMA the gift is irrevocable and the minor takes control at majority. Out-of-state 529 purchases may sacrifice the buyer's home-state tax deduction — a required suitability discussion, and MSRB rules govern the sale." }
+      ]
+    },
+    {
+      "id": "9-2",
+      "blocks": [
+        { "type": "paragraph", "text": "A direct participation program (DPP) — usually a limited partnership — passes income, gains, AND losses straight through to investors, escaping corporate tax entirely (no double taxation). Real estate, oil and gas, and equipment leasing are the classic programs. Investors receive a Schedule K-1 each year reporting their share of everything." },
+        { "type": "keyTerm", "term": "General vs limited partners", "definition": "The general partner (GP) manages the business, bears unlimited liability, and has a fiduciary duty to the partnership (the GP cannot compete with it or borrow from it). Limited partners (LPs) supply capital, can vote on major matters, sue the GP, and inspect books — but risk no more than their investment, as long as they stay OUT of day-to-day management." },
+        { "type": "paragraph", "text": "The flow-through of LOSSES is the tax hook: depreciation (real estate, equipment) and depletion (oil and gas) deductions can shelter partnership income, and intangible drilling costs (IDCs) in drilling programs are deductible early and heavily. But these are passive losses — deductible only against passive income, not wages or portfolio income. Investors subscribe via a subscription agreement (the GP's signature accepts them); the offering document for a private program is a PPM. Suitability standards are high because the money is typically locked up for years." },
+        { "type": "keyTerm", "term": "Illiquidity", "definition": "DPP interests have no real secondary market. Exiting early usually means selling at a steep discount — making illiquidity the risk the exam most wants you to name. Evaluate a DPP on economic viability first, tax benefits second." },
+        { "type": "table", "caption": "Oil & gas program types", "headers": ["Program", "Risk", "Reward profile"], "rows": [
+          ["Exploratory (wildcat)", "Highest", "Biggest strikes, most dry holes, large IDC write-offs"],
+          ["Developmental", "Moderate", "Drilling near proven reserves"],
+          ["Income", "Lowest", "Buys producing wells — immediate income, depletion allowance"],
+          ["Combination", "Blended", "Mixes the above"]
+        ] },
+        { "type": "table", "caption": "Real estate program types", "headers": ["Program", "Profile"], "rows": [
+          ["Raw land", "Pure appreciation play — no income, no depreciation, speculative"],
+          ["New construction", "Appreciation plus depreciation once built; construction risk"],
+          ["Existing properties", "Immediate rental income and depreciation; most conservative"],
+          ["Government-assisted housing", "Tax credits and subsidized income; social-policy driven"]
+        ] },
+        { "type": "example", "title": "Example", "text": "An LP invests $50,000 in a real estate program. Year one, depreciation produces a $10,000 passive loss — usable against passive income from another partnership, but not against his salary. Years later the partnership sells the property and the gain flows through on his K-1. His worst case all along: the $50,000 plus any recourse debt he signed for — that sum is his 'basis,' the ceiling on deductible losses." },
+        { "type": "paragraph", "text": "Dissolution follows a priority too: secured creditors, general creditors, limited partners, and the general partner last. And unlike a corporation, a partnership needs a finite life and restricted transferability to keep its tax status — you can't freely sell your interest; the GP must approve substitutions." },
+        { "type": "examTip", "text": "An LP who takes part in day-to-day management risks being treated as a general partner — and losing limited liability. Evaluate any DPP on ECONOMIC merit first; a program sold purely for tax benefits is an abusive shelter. K-1 = partnership flow-through; 1099 = ordinary investment income. REITs give income without loss flow-through; DPPs give both." }
+      ]
+    },
+    {
+      "id": "9-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Hedge funds are private, largely unregulated investment pools — organized as limited partnerships, exempt from the Investment Company Act under exclusions like 3(c)(1) and 3(c)(7), and open only to accredited or qualified investors. Managers can do what mutual funds can't: sell short, use heavy leverage and derivatives, concentrate positions, charge performance fees, and lock up investor money." },
+        { "type": "keyTerm", "term": "2-and-20", "definition": "The classic hedge fund fee: a 2% annual management fee PLUS 20% of profits (performance fee). Far costlier than mutual funds — and performance fees are prohibited for retail mutual funds." },
+        { "type": "paragraph", "text": "Key risks: illiquidity (lock-up periods and quarterly-at-best redemptions with notice requirements), opacity (limited disclosure — no daily NAV, no public portfolio), leverage, and manager risk. A fund of hedge funds is a REGISTERED closed-end fund that buys hedge funds — it opens the door to smaller investors but stacks a second layer of fees on top of the underlying funds' 2-and-20. Private equity funds work on a similar chassis but buy whole companies with multi-year capital commitments." },
+        { "type": "heading", "level": 3, "text": "Structured products and ETNs" },
+        { "type": "keyTerm", "term": "Structured product", "definition": "A pre-packaged note built by a bank — commonly a market-linked note paying a return tied to an index, sometimes with downside buffers or upside caps, often 'principal-protected.' It is an UNSECURED DEBT of the issuing bank: if the bank fails, the guarantee fails (credit risk), as Lehman Brothers noteholders learned in 2008." },
+        { "type": "example", "title": "Example", "text": "A 5-year principal-protected note promises return of principal plus 80% of any S&P 500 gain, capped at 40%. The 'protection' is only the issuing bank's promise — not FDIC, not SIPC. If the index gains 60%, the holder gets the 40% cap; the index's dividends never counted; and because the note barely trades, an early exit means a dealer bid well below model value." },
+        { "type": "paragraph", "text": "Exchange-traded notes (ETNs) are the listed cousin: unsecured bank debt tracking an index, tradable intraday with no coupon — the payoff comes at maturity or sale. Same credit-risk core — plus tracking risk, call/early-redemption risk, and liquidity risk. Despite trading like ETFs, ETNs own nothing: there's no portfolio behind them, only the issuer's promise." },
+        { "type": "table", "caption": "Alternative products — the risk that defines each", "headers": ["Product", "Defining risk"], "rows": [
+          ["Hedge fund", "Illiquidity + leverage + opacity (accredited only)"],
+          ["Fund of hedge funds", "Double fee layer (but registered)"],
+          ["Structured note", "Issuer credit risk + caps + illiquidity"],
+          ["ETN", "Issuer credit risk despite exchange listing"]
+        ] },
+        { "type": "examTip", "text": "Structured products and ETNs = the ISSUER'S credit risk, illiquidity, caps on upside. Hedge funds = accredited investors, lock-ups, 2-and-20. If the answer choice says 'guaranteed by the government' or 'FDIC insured,' it's wrong for both." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "chapterId": 7,
+  "sections": [
+    {
+      "id": "7-1",
+      "blocks": [
+        { "type": "paragraph", "text": "A mutual fund (open-end management company, registered under the Investment Company Act of 1940) pools investors' money into a professionally managed, diversified portfolio. It continuously issues NEW shares to buyers and redeems shares from sellers — the fund itself is always the counterparty. Shares never trade in the secondary market, which means every purchase is technically a primary offering and must be sold with a prospectus." },
+        { "type": "paragraph", "text": "The cast: a board of directors oversees the fund; an investment adviser manages the portfolio for a fee (the largest fund expense); a custodian bank holds the assets; a transfer agent handles shareholder records; and a distributor (underwriter/sponsor) sells the shares. To advertise itself as 'diversified,' a fund must meet the 75-5-10 test: 75% of assets invested so that no more than 5% sits in any one issuer and no position exceeds 10% of that issuer's voting shares." },
+        { "type": "keyTerm", "term": "Net asset value (NAV)", "definition": "(Fund assets − liabilities) ÷ shares outstanding, calculated once daily at the market close. All purchases and redemptions execute at the NEXT computed NAV — forward pricing. Orders received after the close get tomorrow's NAV." },
+        { "type": "paragraph", "text": "Buyers pay the public offering price (POP) = NAV + any sales charge. The maximum sales charge FINRA permits is 8.5% of the POP. Redemptions occur at NAV (less any redemption fee), with payment required within seven days." },
+        { "type": "example", "title": "Example — sales charge math", "text": "NAV $19.32, sales charge 5.5%. POP = NAV ÷ (1 − 0.055) = $19.32 ÷ 0.945 = $20.44. Note the charge is a percentage OF THE POP, so you divide — you don't just add 5.5% to NAV. On a $10,000 purchase, $550 goes to distribution and $9,450 goes to work. Reverse check: sales charge % = (POP − NAV) ÷ POP." },
+        { "type": "heading", "level": 3, "text": "Share classes and breakpoints" },
+        { "type": "table", "caption": "Share classes", "headers": ["Class", "Sales charge", "12b-1 fee", "Best for"], "rows": [
+          ["A", "Front-end load, reduced by breakpoints", "Low", "Large amounts, long horizons"],
+          ["B", "Back-end (CDSC) declining to zero, then converts to A", "Higher", "Rarely recommended today"],
+          ["C", "Level load — small ongoing charge, no conversion", "Higher, permanent", "Shorter horizons, smaller amounts"]
+        ] },
+        { "type": "keyTerm", "term": "Breakpoints", "definition": "Quantity discounts on Class A front-end loads (e.g., 5.5% under $50,000; 4.5% at $50,000+). A letter of intent (LOI) reaches a breakpoint with purchases over 13 months and can be backdated up to 90 days; rights of accumulation (ROA) count EXISTING holdings — including family and related accounts — toward it. Selling just below a breakpoint to earn more commission is a 'breakpoint sale,' a violation." },
+        { "type": "example", "title": "Example — LOI vs ROA", "text": "The $50,000 breakpoint cuts the load to 4.5%. An investor with $10,000 today signs an LOI to invest $50,000 within 13 months — every purchase gets the 4.5% rate now (shares are escrowed in case she falls short). Another investor already holding $45,000 uses ROA: his new $6,000 purchase crosses $50,000 in total assets, so the NEW money gets the reduced load." },
+        { "type": "examTip", "text": "The 8.5% maximum sales charge is only allowed if the fund offers breakpoints, rights of accumulation, and dividend reinvestment at NAV. And 12b-1 fees cover DISTRIBUTION/marketing — they are not management fees; a fund calling itself 'no-load' may charge a 12b-1 fee of no more than 0.25%." },
+        { "type": "heading", "level": 3, "text": "Suitability and taxes" },
+        { "type": "paragraph", "text": "Every buyer must receive a prospectus (the summary prospectus with the statutory one available on request). Suitability turns on objective (growth, income, balanced, sector, index, money market) and on costs: expense ratios compound against returns, and index funds usually carry the lowest. Exchanges within a fund family — while free of new sales charges — are still taxable events. Funds distribute dividends and capital gains annually; distributions are taxable whether taken in cash or reinvested (reinvestment does raise your cost basis)." },
+        { "type": "warning", "text": "Mutual fund traps to spot: 'selling dividends' (buying just before a distribution buys a tax bill), switching a customer between fund FAMILIES (new sales charge each time — needs strong justification), and comparing funds only by sales load while ignoring the expense ratio." }
+      ]
+    },
+    {
+      "id": "7-2",
+      "blocks": [
+        { "type": "paragraph", "text": "Closed-end funds are the mutual fund's exchange-traded cousin. A closed-end fund raises capital ONCE in an IPO, lists its fixed number of shares on an exchange, and never redeems them. Investors trade with each other at market prices — which can sit at a premium or discount to NAV, driven purely by supply and demand. Buyers pay commissions, not sales loads." },
+        { "type": "table", "caption": "Open-end vs closed-end", "headers": ["", "Open-end (mutual fund)", "Closed-end"], "rows": [
+          ["Shares", "Continuously issued & redeemed", "Fixed — one-time IPO"],
+          ["Trades", "With the fund at next NAV", "On an exchange, intraday"],
+          ["Price", "NAV + load", "Market price (premium or discount to NAV)"],
+          ["Fractional shares", "Yes", "Full shares only"],
+          ["Can investor short it / margin it?", "No", "Yes"],
+          ["May issue", "Common only", "Common, preferred, and bonds"]
+        ] },
+        { "type": "keyTerm", "term": "ETF", "definition": "Exchange-traded fund — typically an index-tracking fund that trades all day on an exchange like a stock. Bought on margin, sold short, priced continuously. Usually lower expense ratios and greater tax efficiency than comparable mutual funds; commissions apply per trade." },
+        { "type": "paragraph", "text": "ETF prices hug NAV because authorized participants can create and redeem large blocks ('creation units') in kind, arbitraging any gap away — unlike closed-end funds, where discounts can persist for years. The in-kind mechanism is also why ETFs rarely distribute capital gains: the fund doesn't have to sell holdings to meet redemptions." },
+        { "type": "warning", "text": "Leveraged ETFs (2x/3x the index's DAILY move) and inverse ETFs (opposite of the DAILY move) reset daily. Over weeks, compounding makes returns drift far from the stated multiple — in a volatile flat market a 2x fund can LOSE money while the index goes nowhere. They're short-term trading tools, unsuitable for buy-and-hold investors, and a reliable exam question." },
+        { "type": "keyTerm", "term": "Unit investment trust (UIT)", "definition": "A registered investment company holding a FIXED, unmanaged, supervised portfolio (often bonds) with a termination date. No board of directors, no investment adviser, no active trading — so no management fee. Investors buy redeemable 'units' and receive proportional income until the trust self-liquidates." },
+        { "type": "example", "title": "Example", "text": "A closed-end bond fund has a $10.00 NAV but trades at $8.90 — an 11% discount an investor can buy; no arbitrage forces it closed. The same day, an S&P 500 ETF trades within pennies of its NAV all session because creation units keep it tethered." },
+        { "type": "paragraph", "text": "Money market funds round out the family: open-end funds holding short-term debt, managed to a stable $1.00 NAV, with check-writing and no sales load. They are NOT insured or guaranteed — 'breaking the buck' is rare but possible — and their yields float with short-term rates." },
+        { "type": "examTip", "text": "'Trades at a discount to NAV' = closed-end fund. 'Fixed portfolio, self-liquidating, not managed' = UIT. 'Tracks an index, trades intraday, can be shorted' = ETF. 'Stable $1 NAV' = money market fund — stable by management, not by guarantee." }
+      ]
+    },
+    {
+      "id": "7-3",
+      "blocks": [
+        { "type": "paragraph", "text": "A real estate investment trust (REIT) lets ordinary investors own income-producing real estate — office towers, apartments, malls, warehouses — through an exchange-traded share. REITs are corporations (not investment companies) with special tax treatment earned by meeting strict tests." },
+        { "type": "keyTerm", "term": "REIT qualification", "definition": "At least 75% of assets in real estate, 75% of income from real estate, and — the big one — at least 90% of taxable income distributed to shareholders. Meet the tests and the REIT pays no corporate tax on distributed income (no double taxation on what it pays out)." },
+        { "type": "paragraph", "text": "That 90% payout makes REITs income vehicles with above-average dividend yields. But the tax break is one-sided: REIT dividends are generally taxed to the investor as ORDINARY income, not at qualified-dividend rates, and REITs do NOT pass losses through to investors (that's a DPP feature — Chapter 9)." },
+        { "type": "table", "caption": "REIT types", "headers": ["Type", "Owns", "Main risk"], "rows": [
+          ["Equity REIT", "Properties — earns rents and appreciation", "Property values, vacancies"],
+          ["Mortgage REIT", "Real estate loans — earns interest", "Interest-rate and credit risk"],
+          ["Hybrid", "Both", "Both"]
+        ] },
+        { "type": "example", "title": "Example", "text": "An equity REIT earns $100 million of taxable income and distributes $95 million. It pays no corporate tax on the distribution; a holder in the 24% bracket owes ordinary-income tax on her dividends. Her shares trade on the NYSE all day — liquid, unlike owning a building." },
+        { "type": "paragraph", "text": "Why buy them: current income, professional management, diversification into an asset class most investors can't buy directly, liquidity (for listed REITs), and a partial inflation hedge — rents and property values tend to rise with prices. Why be careful: rate-sensitive (their yields compete with bonds), sector-concentrated by definition, and dividends taxed as ordinary income." },
+        { "type": "warning", "text": "NON-TRADED (unlisted) REITs are a different animal: sold through reps with high upfront fees (often 7%+), years of illiquidity with limited redemption programs, and distributions that can include return of your own capital. They're a recurring subject of FINRA investor alerts and suitability enforcement — treat any question about them as a red-flag scenario." },
+        { "type": "examTip", "text": "REITs: 90% distribution, ordinary-income dividends, NO flow-through of losses. If an answer choice says a REIT passes losses to investors, it's confusing REITs with limited partnerships — and it's wrong. 'Mortgage REIT' + rising rates = falling value." }
+      ]
+    },
+    {
+      "id": "7-4",
+      "blocks": [
+        { "type": "paragraph", "text": "A variable annuity is an insurance contract wrapped around securities. Premiums buy accumulation units in separate-account subaccounts (stock and bond portfolios); the value fluctuates with the market — the investor, not the insurer, bears investment risk. Because of that, variable annuities are securities requiring BOTH securities registration (prospectus, Series-licensed rep) and state insurance licensing. Fixed annuities, whose insurer guarantees the payout from its general account, are insurance only — not securities; their main risk is inflation. Indexed annuities (returns tied to an index with caps and floors) are generally treated as insurance products too." },
+        { "type": "keyTerm", "term": "Separate account", "definition": "The insurer's investment account holding variable-annuity assets, kept apart from the insurer's general account and registered under the Investment Company Act of 1940. Subaccount choices work like mutual funds." },
+        { "type": "heading", "level": 3, "text": "Accumulation and annuitization" },
+        { "type": "paragraph", "text": "Two phases. Accumulation: money grows TAX-DEFERRED; no tax until withdrawal; you can contribute without IRS limits (it's not a qualified plan). Annuitization: accumulation units convert to a FIXED number of annuity units, and the insurer pays income — for life, if elected; the mortality guarantee means the insurer bears the risk you live 'too long.' Payment size varies with subaccount performance against an assumed interest rate (AIR): beat the AIR and the check rises; lag it and the check falls." },
+        { "type": "example", "title": "Example — AIR", "text": "AIR is 4%. If the separate account earns 7% this month, next month's payment RISES. If it earns exactly 4%, the payment stays level; below 4%, it falls — even if the return was positive. The comparison is always actual return vs AIR — not vs last month's return. (Number of annuity units never changes; their value does.)" },
+        { "type": "heading", "level": 3, "text": "Taxes, fees, and payout options" },
+        { "type": "paragraph", "text": "Taxes: earnings grow deferred, but withdrawals of earnings are taxed as ORDINARY income (never capital gains), and earnings withdrawn before age 59½ generally take a 10% penalty. Non-qualified annuity withdrawals are taxed LIFO — earnings out first, then untaxed return of the after-tax principal. Fees run high: mortality & expense (M&E) charges, administrative fees, subaccount expenses, and surrender charges that typically decline over 5-8 years. The death benefit guarantees heirs at least the amount invested." },
+        { "type": "table", "caption": "Payout options (highest to lowest monthly check)", "headers": ["Option", "Feature"], "rows": [
+          ["Straight life", "Largest payment — stops at death, nothing to heirs"],
+          ["Life with period certain", "Pays life, but a minimum of e.g. 10 years to a beneficiary"],
+          ["Joint and last survivor", "Smallest payment — pays until the SECOND death"]
+        ] },
+        { "type": "examTip", "text": "Suitability red flags the exam loves: recommending a variable annuity inside an IRA (the tax deferral is redundant), to someone who needs the money before 59½ or for a short horizon, or an exchange that restarts surrender charges. A 1035 exchange moves annuity-to-annuity (or life-to-annuity) tax-free — but watch those new surrender periods; churning 1035 exchanges is a classic violation." }
+      ]
+    }
+  ]
+}

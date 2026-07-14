@@ -1,0 +1,75 @@
+{
+  "chapterId": 11,
+  "sections": [
+    {
+      "id": "11-1",
+      "blocks": [
+        { "type": "paragraph", "text": "Every quote has two prices. The BID is what buyers (market makers) will pay — where a customer SELLS. The ASK (offer) is what sellers will accept — where a customer BUYS. The gap is the spread, and it narrows in liquid stocks and widens in thin ones. Quotes come with size: '20.00–20.05, 10 × 5' means 1,000 shares bid, 500 offered." },
+        { "type": "keyTerm", "term": "Market order", "definition": "Execute immediately at the best available price. Guarantees EXECUTION, not price. In a fast market, the fill can be far from the last quote you saw." },
+        { "type": "keyTerm", "term": "Limit order", "definition": "Execute at your price or better — buy limits at or below the limit, sell limits at or above. Guarantees PRICE, not execution: the market may never reach you, or trade at your price without filling you ('stock ahead' in the queue)." },
+        { "type": "heading", "level": 3, "text": "Stops and stop-limits" },
+        { "type": "paragraph", "text": "Stop orders are triggers. A stop becomes a MARKET order once the stock trades at or through the stop price. Sell stops sit BELOW the market — protecting a long position or a profit. Buy stops sit ABOVE the market — protecting a short seller or catching a breakout above resistance. A stop-limit becomes a LIMIT order at the trigger: no bad-price fills, but the order might not execute at all in a plunge." },
+        { "type": "table", "caption": "Where orders live", "headers": ["Order", "Placed", "Guarantees", "Typical use"], "rows": [
+          ["Buy limit", "Below market", "Price", "Buy a dip cheaply"],
+          ["Sell limit", "Above market", "Price", "Sell into a rally"],
+          ["Sell stop", "Below market", "Trigger only", "Protect a long position"],
+          ["Buy stop", "Above market", "Trigger only", "Protect a short position"]
+        ] },
+        { "type": "example", "title": "Example — sell stop in action", "text": "You bought at $40; the stock is $58. You enter a sell stop at $55. The stock prints $55 (trigger) and your market order fills at the next price — maybe $54.90, maybe $52 in a crash. A sell stop-limit 55 would refuse to sell below $55 — protection from a bad fill, but you could ride the stock to $45 unfilled." },
+        { "type": "example", "title": "Example — reading a trigger sequence", "text": "Sell stop 55, then the tape prints 55.10, 55, 54.80, 54.95. The 55 print triggers; the NEXT trade (54.80) is the fill. Two prices matter on every stop question: the trigger print and the execution print after it." },
+        { "type": "paragraph", "text": "Duration and qualifiers: a day order dies at the close; good-til-canceled (GTC) orders persist until filled or canceled (firms refresh them periodically). All-or-none (AON): fill entirely or not at all, no rush. Immediate-or-cancel (IOC): fill what you can now, cancel the rest. Fill-or-kill (FOK): fill entirely NOW or cancel. Not-held: the customer gives the floor broker time/price discretion — no discretionary account paperwork needed because the customer chose the security, action, and amount." },
+        { "type": "examTip", "text": "BLiSS: Buy Limits and Sell Stops go BELOW the market; Sell Limits and Buy Stops go above. Orders below the market (buy limits, sell stops) are reduced on the ex-dividend date unless marked DNR (do not reduce)." }
+      ]
+    },
+    {
+      "id": "11-2",
+      "blocks": [
+        { "type": "paragraph", "text": "A trade isn't done when it executes — it's done when it settles: cash and securities actually change hands. Since May 2024, regular-way settlement for stocks, corporate bonds, and municipal bonds is T+1 — trade date plus ONE business day. Ownership rights (like dividends) follow settlement, which is why the ex-date math in Chapter 5 works the way it does." },
+        { "type": "table", "caption": "Settlement cheat sheet", "headers": ["Security / trade", "Regular way"], "rows": [
+          ["Stocks, corporates, munis", "T+1"],
+          ["Government securities (Treasuries)", "T+1"],
+          ["Options (listed)", "T+1"],
+          ["Cash settlement (special)", "Same day"],
+          ["Regulation T payment deadline", "S+2 (trade date + 3 business days)"]
+        ] },
+        { "type": "keyTerm", "term": "Regulation T payment", "definition": "The Fed's deadline for customers to PAY: two business days after settlement (T+3 total under T+1 settlement). Miss it without an extension and the firm sells out the position and freezes the account for 90 days — trades then require cash up front. Small amounts (under $1,000) can be waived; firms can request extensions from FINRA for good cause." },
+        { "type": "example", "title": "Example", "text": "A customer buys stock Monday. The trade settles Tuesday (T+1); Reg T payment is due by Thursday (S+2). If she neither pays nor gets an extension, the position is sold out and the account is frozen for 90 days. During a freeze she can still buy — but only with money already in the account." },
+        { "type": "warning", "text": "Freeriding — buying securities and paying for them with the proceeds of selling those same securities — is prohibited in a cash account and triggers the 90-day freeze. Every share bought in a cash account must be paid for in full with money the customer actually has." },
+        { "type": "heading", "level": 3, "text": "Confirms, statements, and the plumbing" },
+        { "type": "paragraph", "text": "After execution, the firm sends a trade confirmation at or before completion of the transaction (settlement date), showing security, quantity, price, trade and settlement dates, capacity (agent or principal), and costs (commission, and markup when required). Account statements go out at least quarterly — monthly when there's activity or penny-stock positions. Behind the scenes, the DTCC's National Securities Clearing Corporation nets and guarantees trades between firms; the Depository Trust Company holds securities in book-entry ('street name') form." },
+        { "type": "keyTerm", "term": "Good delivery", "definition": "Securities delivered to settle a sale must be in good transferable form: round-lot-divisible certificates, properly endorsed or with a signed stock power. A 'DK' (don't know) is one firm rejecting an unrecognized trade for reconciliation. If a seller fails to deliver, the buyer can 'buy in' the securities and charge the seller." },
+        { "type": "examTip", "text": "Know the ladder: trade date → T+1 settlement → S+2 Reg T deadline → sell-out and 90-day freeze if unpaid. Cash settlement means SAME-DAY, both parties must agree, and it's the answer when a question needs money 'today.' Confirms by settlement; statements at least quarterly." }
+      ]
+    },
+    {
+      "id": "11-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Corporate actions change a security's terms, and holders find out via mandatory notices. Some need shareholder votes (splits, mergers); others are board-only (dividends, buybacks). Chapter 5 covered dividends and splits — here's the rest of the family." },
+        { "type": "keyTerm", "term": "Tender offer", "definition": "An offer to buy shareholders' stock directly — usually at a premium to market — open for a limited window (SEC rules require at least 20 business days). Shareholders individually choose to tender or hold. You may only tender shares you actually own (net long) — tendering short is a violation." },
+        { "type": "example", "title": "Example", "text": "Stock trades at $44; an acquirer tenders for any and all shares at $52 for 30 days. A holder of 1,000 shares who tenders receives $52,000 if the offer completes. If too few shares are tendered and the offer has a minimum condition, it can lapse — a reason the stock trades below $52 until closing. A partial tender oversubscribed gets prorated." },
+        { "type": "paragraph", "text": "Mergers and acquisitions swap or cash out shares on a set ratio ('each share becomes 0.75 acquirer shares'). Spin-offs distribute a subsidiary's stock to existing holders, splitting one company into two tickers with allocated cost basis. Rights offerings (Chapter 5) raise new equity from existing holders. Buybacks shrink the share count, boosting EPS. In each case, cost basis carries over or allocates — the action itself usually isn't a taxable event until shares are sold (cash mergers ARE taxable at closing)." },
+        { "type": "keyTerm", "term": "Forward vs reverse split", "definition": "Forward split (e.g., 2-for-1): more shares, lower price — often to improve marketability. Reverse split (e.g., 1-for-10): fewer shares, higher price — often to avoid delisting. Neither changes total value, and both require shareholder approval." },
+        { "type": "paragraph", "text": "On the ex-date of splits and stock dividends, open orders below the market are adjusted downward; the OCC also adjusts listed option contracts so holders are made whole (a 2-for-1 split turns one 60-strike call into two 30-strike calls; an odd split like 3-for-2 adjusts the share count per contract instead). Bondholders see corporate actions too: calls (Chapter 6) and exchange offers." },
+        { "type": "examTip", "text": "Tender offers: voluntary, per-shareholder, premium price, long shares only, minimum 20 business days. Reverse split: the 'avoid delisting' answer. And a cash buyout is taxable now; a stock-for-stock merger defers tax until you sell the new shares." }
+      ]
+    },
+    {
+      "id": "11-4",
+      "blocks": [
+        { "type": "paragraph", "text": "Chapter 1 introduced broker (agent) vs dealer (principal). At the trade level this is 'capacity,' it's disclosed on every confirmation, and it decides how the firm gets paid." },
+        { "type": "table", "caption": "Agency vs principal trades", "headers": ["", "Agency", "Principal"], "rows": [
+          ["Firm's role", "Middleman — matches buyer & seller", "Trades from its own inventory"],
+          ["Compensation", "Commission (disclosed)", "Markup or markdown (netted into price)"],
+          ["Firm's risk", "None", "Inventory risk"],
+          ["Confirmation shows", "Agent + commission", "Principal + markup (when required)"]
+        ] },
+        { "type": "example", "title": "Example", "text": "A customer buys 300 shares at $20. Agency: the firm finds a seller, charges $20 × 300 = $6,000 plus a $75 commission. Principal: the firm sells from inventory at $20.10 net — the $0.10 markup over the $20 inside market is its compensation. Charging BOTH a markup and a commission on one trade is a violation." },
+        { "type": "keyTerm", "term": "5% policy", "definition": "FINRA's fair-pricing guideline for secondary-market trades: commissions and markups should generally be fair and reasonable, with 5% a GUIDE — not a rule, not a safe harbor. Factors: security type and price, trade size, service provided, and availability. It does NOT apply to prospectus offerings (mutual funds, new issues) or municipal securities (MSRB has its own fair-pricing rule)." },
+        { "type": "paragraph", "text": "Markups on principal trades must be based on the current inside market, not what the dealer paid for the inventory — a dealer who overpaid can't pass the mistake along. Riskless principal — buying into inventory only to fill an already-received customer order — is compensated like a commission and disclosed. Proceeds transactions (sell one security, use the money to buy another) are treated as ONE trade for fair-pricing purposes." },
+        { "type": "heading", "level": 3, "text": "Best execution and short sales" },
+        { "type": "paragraph", "text": "Firms owe BEST EXECUTION: reasonable diligence to get the customer the most favorable price available under the circumstances, whatever the firm's capacity and regardless of any payment for order flow. Separately, Regulation SHO governs short sales: every sell order is marked 'long' or 'short,' and a short sale requires a locate — reasonable grounds to believe the shares can be borrowed for delivery — before the trade. Short sellers profit from declines, face unlimited risk, and must eventually buy back (cover)." },
+        { "type": "examTip", "text": "One capacity, one charge per trade. The 5% policy is a guideline covering commissions, markups, markdowns, AND proceeds trades — but never applies to securities sold by prospectus. 'Riskless principal' still prices like an agency trade. Short sale = borrowed shares + locate required + unlimited risk." }
+      ]
+    }
+  ]
+}

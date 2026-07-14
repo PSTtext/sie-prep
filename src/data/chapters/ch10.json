@@ -1,0 +1,70 @@
+{
+  "chapterId": 10,
+  "sections": [
+    {
+      "id": "10-1",
+      "blocks": [
+        { "type": "paragraph", "text": "Every investment risk on the SIE sorts into two buckets. Systematic risks hit the whole market — you cannot diversify them away. Unsystematic (non-systematic) risks are specific to one company or industry — diversification is exactly the cure. This section covers the big systematic three." },
+        { "type": "keyTerm", "term": "Market risk", "definition": "The risk that prices fall across the entire market, dragging even good companies down. Measured by beta: a beta of 1.0 moves with the market; 1.5 swings half again as hard; 0.5 is calmer. Diversifying among stocks doesn't help — they all fall together. Hedging (index puts) and asset allocation are the tools that do." },
+        { "type": "example", "title": "Example — beta", "text": "The market drops 10%. A beta-1.5 growth stock is expected to drop about 15%; a beta-0.6 utility about 6%. A short position flips the sign — negative-beta assets (rare) rise when the market falls. Beta measures only MARKET-related movement; a drug trial failure is not in beta." },
+        { "type": "keyTerm", "term": "Interest-rate risk", "definition": "The risk that rising rates push existing bond prices down. Hits hardest: long maturities and low coupons (remember Chapter 6 — the 30-year zero is the extreme case). Preferred stock and utility shares feel it too, because their fixed payouts compete with bond yields." },
+        { "type": "keyTerm", "term": "Inflation (purchasing-power) risk", "definition": "The risk that returns fail to outpace rising prices. The quiet killer of 'safe' investments: fixed-income and cash are most exposed; equities and real assets historically defend best; TIPS are the direct antidote. Real return = nominal return − inflation." },
+        { "type": "example", "title": "Example", "text": "A retiree holds a 30-year bond paying $40 per year. With 3% inflation, that $40 buys the equivalent of about $30 in a decade — no default, no missed payment, yet real income quietly shrank 25%. The 'safest' portfolio choice carried the biggest inflation risk." },
+        { "type": "paragraph", "text": "A fourth systematic cousin appears occasionally: event risk in the broad sense of wars, pandemics, and natural disasters that hit everything at once. The response is the same as market risk — allocation and hedging, not more stocks." },
+        { "type": "examTip", "text": "'Which risk CANNOT be diversified away?' — any of market, interest-rate, or inflation risk. If the recommended fix is diversification, the question is about UNsystematic risk (business, credit, concentration). Long-term Treasuries have no credit risk but plenty of interest-rate and inflation risk — 'risk-free' never means risk-free." }
+      ]
+    },
+    {
+      "id": "10-2",
+      "blocks": [
+        { "type": "keyTerm", "term": "Credit (default) risk", "definition": "The risk an issuer fails to pay interest or principal. Measured by ratings: BBB−/Baa3 and above is investment grade; below is high-yield ('junk'). Treasuries have essentially none; low-rated corporates and some munis have plenty. Downgrade risk is the milder version: the rating falls, the price follows, even without default." },
+        { "type": "paragraph", "text": "Credit risk is priced: the lower the rating, the higher the yield an issuer must pay. That's the risk-reward trade in its purest form — and why a portfolio of junk bonds is not an 'income' recommendation for a conservative retiree, whatever the yield. Watch rating boundaries: BBB− (S&P/Fitch) and Baa3 (Moody's) are the last investment-grade rungs; BB+/Ba1 starts junk." },
+        { "type": "keyTerm", "term": "Liquidity (marketability) risk", "definition": "The risk you can't sell quickly at a fair price. High: DPPs, non-traded REITs, thinly traded small-caps, some munis, structured notes, hedge funds. Low: Treasuries, listed large-cap stocks, ETFs. The classic symptom: a wide bid-ask spread." },
+        { "type": "keyTerm", "term": "Capital risk", "definition": "The risk of losing the money invested itself — without regard to inflation or income. Options buyers face it totally (a premium can go to zero); so do holders of unproven ventures. Mitigate by limiting position sizes and using guarantees or protective options where they exist." },
+        { "type": "example", "title": "Example", "text": "An investor puts $3,000 into call options (capital risk: can expire worthless), $50,000 into a non-traded REIT (liquidity risk: no exit for years), and $20,000 into BB-rated bonds yielding 8% (credit risk: that extra yield is default compensation). Three different risks — none of them 'market risk.'" },
+        { "type": "paragraph", "text": "Related flavors worth recognizing: business risk (a single company's management or product fails — unsystematic, diversifiable), financial risk (a company borrowed too much — its leverage magnifies trouble), and regulatory/legislative risk (a rule or tax-law change guts an industry, e.g., a tax-code change hitting munis). Call risk from Chapter 6 belongs in this bucket list too: the issuer takes your best bond away when rates fall." },
+        { "type": "examTip", "text": "Match the tell: 'rating downgrade' = credit risk. 'Wide spread / can't find a buyer' = liquidity risk. 'Could lose entire premium' = capital risk. 'One company's poor management' = business risk — the diversifiable one. 'Heavy debt load' = financial risk." }
+      ]
+    },
+    {
+      "id": "10-3",
+      "blocks": [
+        { "type": "keyTerm", "term": "Political / sovereign risk", "definition": "The risk that instability, expropriation, capital controls, or regime change destroys an investment's value — highest in emerging markets. Distinct from regulatory risk (rule changes in a stable system) and from legislative risk (tax-law changes)." },
+        { "type": "keyTerm", "term": "Currency (exchange-rate) risk", "definition": "The risk that foreign-currency moves erode dollar returns. Any international holding carries it — including ADRs, even though they trade in dollars (Chapter 5). A weakening foreign currency shrinks both the investment's dollar value and its dividends. Hedging with currency futures or options can offset it — at a cost." },
+        { "type": "example", "title": "Example", "text": "A U.S. investor buys a Japanese stock that gains 10% in yen. Over the same year the yen falls 15% against the dollar. Her dollar return is negative — the stock did its job; the currency took it back." },
+        { "type": "keyTerm", "term": "Reinvestment risk", "definition": "The risk that cash flows — coupons, called principal, maturing bonds, mortgage prepayments — must be reinvested at LOWER rates. Bites when rates fall; callable, high-coupon, and mortgage-backed bonds carry the most. Zero-coupon bonds are the escape: nothing to reinvest until maturity." },
+        { "type": "example", "title": "Example", "text": "A retiree's 7% bond is called when rates hit 4.5%. Her $1,000 principal comes back — and the best new bond pays $45 where she earned $70. That gap is reinvestment risk realized. Had she owned a zero maturing the year she needed the money, there'd have been no coupons to reinvest at all." },
+        { "type": "paragraph", "text": "Notice the mirror: interest-rate risk hurts when rates RISE (prices fall); reinvestment risk hurts when rates FALL (income shrinks). A laddered portfolio — maturities spread across years — splits the difference: each rung matures and reinvests at whatever rates then prevail, averaging the ride." },
+        { "type": "table", "caption": "Which way do rates hurt?", "headers": ["Rates move", "Risk triggered", "Who feels it most"], "rows": [
+          ["Up", "Interest-rate (price) risk", "Long-maturity, low-coupon bonds; zeros worst"],
+          ["Down", "Reinvestment risk + call risk", "High-coupon, callable, mortgage-backed bonds"],
+          ["Down", "Prepayment risk", "GNMA/MBS holders — principal returns early"]
+        ] },
+        { "type": "examTip", "text": "Zero-coupon bonds: MAXIMUM interest-rate (price) risk, ZERO reinvestment risk. The exam loves that pairing. And ADR questions about risk are currency-risk questions in disguise." }
+      ]
+    },
+    {
+      "id": "10-4",
+      "blocks": [
+        { "type": "keyTerm", "term": "Concentration risk", "definition": "Too much of a portfolio in one stock, sector, or asset class — so a single event does outsized damage. The classic case: an employee holding most of her 401(k) in employer stock, tying her savings AND her paycheck to one company." },
+        { "type": "paragraph", "text": "Diversification is the remedy for every unsystematic risk: spread holdings across companies, industries, asset classes, and geographies so no single failure is fatal. Correlation is the key word — diversification works best when assets DON'T move together. Twenty tech stocks is one bet, not twenty. Stocks and bonds pair well precisely because their returns often diverge; adding international and real assets diversifies further." },
+        { "type": "example", "title": "Example", "text": "Portfolio A: $200,000, all in one regional bank's stock. Portfolio B: $200,000 across an S&P 500 fund, a bond fund, an international fund, and a REIT. A banking scandal cuts the bank's shares 60% — Portfolio A loses $120,000; Portfolio B barely notices. Both still fell in the 2022-style broad selloff, though: diversification never removes MARKET risk." },
+        { "type": "heading", "level": 3, "text": "Building the remedy: allocation and rebalancing" },
+        { "type": "paragraph", "text": "Practical diversifiers the exam rewards: mutual funds and ETFs (instant diversification in one purchase), asset allocation across stocks/bonds/cash tuned to time horizon and risk tolerance, and rebalancing back to targets so winners don't quietly become concentrations. Longer horizons justify more equities (time to recover); short horizons and income needs argue for bonds and cash. Dollar-cost averaging — investing a fixed amount on a schedule — buys more shares when prices are low and produces an average cost per share below the average price." },
+        { "type": "table", "caption": "Risk vs remedy — the master table", "headers": ["Risk", "Type", "Primary mitigation"], "rows": [
+          ["Market", "Systematic", "Hedging (puts), asset allocation — NOT diversification"],
+          ["Interest rate", "Systematic", "Shorter maturities, higher coupons, laddering"],
+          ["Inflation", "Systematic", "Equities, TIPS, real assets"],
+          ["Credit", "Unsystematic", "Investment-grade quality, diversification"],
+          ["Business", "Unsystematic", "Diversification"],
+          ["Financial (leverage)", "Unsystematic", "Balance-sheet quality, diversification"],
+          ["Liquidity", "Unsystematic", "Marketable securities, position limits"],
+          ["Currency", "—", "Hedging, domestic allocation"],
+          ["Reinvestment", "—", "Zero-coupon bonds, laddering"],
+          ["Concentration", "Unsystematic", "Diversification, rebalancing"]
+        ] },
+        { "type": "examTip", "text": "Diversification cures unsystematic risk and does NOTHING for systematic risk. If a question shows a portfolio of one employer's stock, the answer is concentration risk — and the fix is diversify, whatever the employee's loyalty. If it shows a diversified portfolio still falling in a crash, that's market risk working as designed." }
+      ]
+    }
+  ]
+}

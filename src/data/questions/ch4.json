@@ -1,0 +1,577 @@
+[
+  {
+    "id": "ch4-q001",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "During the cooling-off period of a registered offering, underwriters may:",
+    "choices": [
+      "accept payment for shares",
+      "distribute a preliminary prospectus (red herring) and gather indications of interest",
+      "guarantee allocations to customers",
+      "publish research recommending the issue"
+    ],
+    "correctIndex": 1,
+    "explanation": "Between filing and effectiveness, no sales or payments may occur — only the red herring may circulate and non-binding indications of interest may be collected.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q002",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "A preliminary prospectus omits:",
+    "choices": [
+      "a description of the issuer's business",
+      "the final public offering price and effective date",
+      "risk factors",
+      "use of proceeds"
+    ],
+    "correctIndex": 1,
+    "explanation": "The red herring contains most disclosure but lacks the final price and effective date, which are set just before the offering goes effective.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q003",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "An IPO of common stock must be sold to investors with delivery of a:",
+    "choices": ["research report", "final prospectus", "Form U4", "trust indenture"],
+    "correctIndex": 1,
+    "explanation": "The Securities Act of 1933 requires purchasers in a registered public offering to receive the final prospectus no later than confirmation of sale.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q004",
+    "chapterId": 4,
+    "sectionTag": "4-2",
+    "question": "Shelf registration under Rule 415 allows a seasoned issuer to:",
+    "choices": [
+      "avoid registration entirely",
+      "register securities now and sell portions over up to three years as conditions warrant",
+      "sell only to accredited investors",
+      "bypass the prospectus delivery requirement"
+    ],
+    "correctIndex": 1,
+    "explanation": "A shelf registration lets the issuer 'put securities on the shelf' and take them down for sale over (generally) three years without new registration each time — timing flexibility.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q005",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "A private placement under Regulation D may be sold to an unlimited number of:",
+    "choices": [
+      "retail investors",
+      "accredited investors",
+      "non-accredited investors",
+      "foreign investors only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reg D (Rule 506(b)) permits unlimited accredited investors plus up to 35 sophisticated non-accredited investors. Accredited = income $200k+/$300k joint, $1M net worth ex-home, or certain entities/licenses.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q006",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Under Rule 144, a non-affiliate who has held restricted stock of a reporting company for more than six months may sell:",
+    "choices": [
+      "nothing without registration",
+      "freely, without volume limits",
+      "only 1% of shares outstanding per quarter",
+      "only with issuer permission"
+    ],
+    "correctIndex": 1,
+    "explanation": "Non-affiliates of reporting issuers can sell restricted stock freely after a six-month holding period. Volume limits (greater of 1% of outstanding or average weekly volume) apply to affiliates (control persons).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q007",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "In a firm-commitment underwriting, the risk of unsold shares is borne by the:",
+    "choices": ["issuer", "underwriters", "investors", "exchange"],
+    "correctIndex": 1,
+    "explanation": "Firm commitment: underwriters buy the entire issue from the issuer and resell it, acting as principals — unsold shares are their problem. In best efforts, the issuer keeps that risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q008",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "In a best-efforts underwriting, the underwriter acts as a(n):",
+    "choices": ["principal", "agent", "market maker", "specialist"],
+    "correctIndex": 1,
+    "explanation": "Best efforts means the underwriter sells what it can as the issuer's agent, without purchasing the issue itself. All-or-none and mini-max are best-efforts variants.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q009",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "Which of the following communications is permitted BEFORE a registration statement is filed?",
+    "choices": [
+      "A tombstone advertisement",
+      "Solicitation of orders",
+      "Generally, none regarding the offering (gun-jumping rules)",
+      "Distribution of the red herring"
+    ],
+    "correctIndex": 2,
+    "explanation": "In the pre-filing period, offers of the security are prohibited (gun-jumping). Tombstones and red herrings belong to the cooling-off period; sales only after effectiveness.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q010",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "A tombstone advertisement:",
+    "choices": [
+      "is an offer to sell securities",
+      "announces basic facts of an offering and is not an offer",
+      "replaces the prospectus",
+      "may only appear after the offering is fully sold"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tombstones state the issuer, security, amount, and syndicate members and explicitly note they are not offers — the prospectus remains the only offering document.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q011",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Which of the following investors is accredited under Regulation D?",
+    "choices": [
+      "An individual with $150,000 income for the last two years",
+      "An individual with a $1 million net worth excluding primary residence",
+      "Any retiree over 65",
+      "Anyone with a brokerage account over $100,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Accredited investors include individuals with $1M+ net worth (excluding the primary residence) or income of $200k ($300k joint) in each of the last two years, plus certain entities and license holders.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q012",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "The Securities Act of 1933 primarily requires:",
+    "choices": [
+      "registration of exchanges",
+      "full and fair disclosure in new issues via registration",
+      "licensing of registered representatives",
+      "reporting of insider trades"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 1933 Act — the 'paper act' — governs primary offerings: registration statements and prospectuses giving investors full and fair disclosure. The 1934 Act covers markets and people.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q013",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Which securities are EXEMPT from registration under the Securities Act of 1933?",
+    "choices": [
+      "Corporate common stock",
+      "U.S. government and municipal securities",
+      "Exchange-listed preferred stock",
+      "Corporate debentures"
+    ],
+    "correctIndex": 1,
+    "explanation": "Exempt securities include U.S. government, agency, and municipal issues, bank securities, commercial paper (≤270 days), and nonprofit issues. Corporate stock and bonds must register.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q014",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Commercial paper is exempt from 1933 Act registration if its maturity does not exceed:",
+    "choices": ["90 days", "180 days", "270 days", "1 year"],
+    "correctIndex": 2,
+    "explanation": "Corporate paper with a maturity of 270 days or less (sold for working capital) is an exempt security. Longer maturities would require registration.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q015",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "The manager of an underwriting syndicate is compensated through the:",
+    "choices": [
+      "management fee portion of the spread",
+      "selling concession only",
+      "SEC filing fee",
+      "12b-1 fee"
+    ],
+    "correctIndex": 0,
+    "explanation": "The underwriting spread splits into the manager's fee, the underwriting fee (syndicate risk), and the selling concession (to whoever sells). The manager's fee comes off the top of every share.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q016",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "Selling group members in an underwriting:",
+    "choices": [
+      "commit capital and share liability for unsold shares",
+      "sell shares for a concession without underwriting liability",
+      "must be members of the issuer's board",
+      "set the public offering price"
+    ],
+    "correctIndex": 1,
+    "explanation": "Selling group firms merely help distribute shares, earning the selling concession; they take no financial liability for the issue. Syndicate members bear the underwriting commitment.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q017",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "New issues sold in a public offering must be sold at:",
+    "choices": [
+      "the public offering price stated in the prospectus",
+      "whatever price each dealer negotiates",
+      "a discount to institutional buyers",
+      "the previous day's closing price"
+    ],
+    "correctIndex": 0,
+    "explanation": "All investors in a registered public offering pay the same fixed POP — no discounts, no markups. Price flexibility begins only in secondary trading.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q018",
+    "chapterId": 4,
+    "sectionTag": "4-2",
+    "question": "An issuer conducting a follow-on offering while its shares already trade publicly is conducting a(n):",
+    "choices": [
+      "initial public offering",
+      "additional primary offering",
+      "exempt offering automatically",
+      "fourth-market transaction"
+    ],
+    "correctIndex": 1,
+    "explanation": "A follow-on (subsequent/additional) primary offering issues new shares after the IPO — new capital to the issuer, requiring registration (often via shelf).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q019",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Restricted securities acquired in a private placement are typically evidenced by:",
+    "choices": [
+      "a legend on the certificate restricting transfer",
+      "a money-back guarantee",
+      "exchange listing",
+      "SIPC coverage letters"
+    ],
+    "correctIndex": 0,
+    "explanation": "Legended (restricted) stock cannot be resold publicly until Rule 144 conditions (holding period, and volume limits for affiliates) are met and the legend is removed.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q020",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "An affiliate (control person) selling company stock under Rule 144 may sell during any 90-day period no more than the GREATER of 1% of outstanding shares or:",
+    "choices": [
+      "the average weekly trading volume over the prior four weeks",
+      "10,000 shares",
+      "half their holdings",
+      "$1 million of stock"
+    ],
+    "correctIndex": 0,
+    "explanation": "Control stock volume limit: greater of 1% of shares outstanding or the average weekly volume of the preceding four weeks, per 90 days, with Form 144 filed.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q021",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "Which act is nicknamed the 'Truth in Securities' law?",
+    "choices": [
+      "Securities Exchange Act of 1934",
+      "Securities Act of 1933",
+      "Investment Advisers Act of 1940",
+      "Trust Indenture Act of 1939"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 1933 Act earned the nickname by requiring truthful, complete disclosure before new securities are sold to the public.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q022",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "The difference between the public offering price and the proceeds the issuer receives is the:",
+    "choices": ["commission", "underwriting spread", "markup", "concession"],
+    "correctIndex": 1,
+    "explanation": "The spread is the syndicate's total compensation: POP minus proceeds to the issuer. Its components are the manager's fee, underwriting fee, and selling concession.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q023",
+    "chapterId": 4,
+    "sectionTag": "4-2",
+    "question": "A standby underwriting is used in connection with a:",
+    "choices": [
+      "municipal competitive bid",
+      "rights offering, where the underwriter buys unsubscribed shares",
+      "best-efforts IPO",
+      "private placement"
+    ],
+    "correctIndex": 1,
+    "explanation": "In a rights offering, a standby underwriter commits (firm) to purchase any shares existing shareholders don't subscribe to — ensuring the issuer raises the full amount.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q024",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "An 'effective date' in a registered offering is the date when:",
+    "choices": [
+      "the issuer files with the SEC",
+      "the SEC permits sales of the issue to begin",
+      "the first trade settles",
+      "the syndicate account closes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Effectiveness ends the cooling-off period: the final prospectus is ready and actual sales (and payment) may begin at the POP.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q025",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Rule 147 provides a registration exemption for offerings:",
+    "choices": [
+      "to foreign investors",
+      "made and sold entirely within one state by a local issuer",
+      "of bank securities",
+      "under $5,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "The intrastate exemption covers issuers doing business in and selling only to residents of a single state — such issues may still require state (blue-sky) registration.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q026",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Regulation A+ (Reg A) offerings allow smaller issuers to:",
+    "choices": [
+      "raise capital publicly with scaled-down disclosure requirements",
+      "avoid all disclosure",
+      "sell only to institutions",
+      "list automatically on the NYSE"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reg A is a 'mini-registration' exemption with two tiers (up to $20M and $75M in 12 months), an offering circular instead of a full prospectus, and availability to the general public.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q027",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "In a Western (divided) syndicate account, a member that sells its entire allocation is liable for:",
+    "choices": [
+      "its proportionate share of any remaining unsold shares",
+      "nothing further",
+      "the entire unsold balance",
+      "the manager's fee"
+    ],
+    "correctIndex": 1,
+    "explanation": "Divided (Western) account: each member is responsible only for its own allocation. In an undivided (Eastern) account, members share liability for the unsold balance proportionately regardless of their own sales.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q028",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "Due diligence meetings held near the end of the cooling-off period serve to:",
+    "choices": [
+      "market the stock to retail customers",
+      "review the accuracy and completeness of the registration statement",
+      "allocate shares among syndicate members",
+      "set the first day's trading range"
+    ],
+    "correctIndex": 1,
+    "explanation": "Underwriters, counsel, and issuer officers verify the registration statement's accuracy — underwriters have liability for material misstatements, and due diligence is their defense.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q029",
+    "chapterId": 4,
+    "sectionTag": "4-2",
+    "question": "Which issuer would most likely use a shelf registration?",
+    "choices": [
+      "A private startup raising seed money",
+      "A well-known seasoned issuer planning periodic debt sales",
+      "A municipality issuing GOs",
+      "A first-time IPO issuer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Seasoned public issuers (especially WKSIs) use Rule 415 shelves to sell securities quickly when market windows open. Municipals are exempt; IPO issuers can't use shelves.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q030",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "Under FINRA Rule 5130, which of the following may purchase a new equity issue (IPO) at the offering price?",
+    "choices": [
+      "A registered representative's personal account",
+      "A portfolio manager buying for her own account",
+      "A restricted person's account",
+      "A customer with no industry affiliation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Restricted persons — FINRA members, their employees, and certain family and fiduciaries — may not buy new equity issues at the POP. Ordinary public customers may.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q031",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "The document establishing the agreement among underwriters, including the manager's authority, is the:",
+    "choices": [
+      "syndicate letter (agreement among underwriters)",
+      "trust indenture",
+      "registration statement",
+      "official statement"
+    ],
+    "correctIndex": 0,
+    "explanation": "The agreement among underwriters (syndicate agreement) governs the syndicate's internal terms. The underwriting agreement is between the manager and the issuer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q032",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "An issuer's registration statement contains a material misstatement. Which parties may investors sue under the 1933 Act?",
+    "choices": [
+      "Only the SEC",
+      "The issuer, its officers/directors, and the underwriters",
+      "Only the exchange listing the stock",
+      "No one — buyer beware"
+    ],
+    "correctIndex": 1,
+    "explanation": "Section 11 liability reaches the issuer, signing officers, directors, experts, and underwriters. Underwriters' defense is establishing they performed reasonable due diligence.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q033",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Securities sold under Regulation S are:",
+    "choices": [
+      "offered and sold outside the United States without SEC registration",
+      "sold only in one U.S. state",
+      "guaranteed by foreign governments",
+      "always listed on foreign exchanges"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reg S exempts offshore offerings to non-U.S. persons from registration. Resales into the U.S. face restrictions during a distribution compliance period.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q034",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Rule 144A permits the resale of restricted securities to:",
+    "choices": [
+      "any retail investor",
+      "qualified institutional buyers (QIBs) with at least $100 million in securities",
+      "family members of insiders",
+      "employees of the issuer"
+    ],
+    "correctIndex": 1,
+    "explanation": "144A creates a liquid institutional market for unregistered securities among QIBs — institutions managing $100M+ in securities. Retail investors are excluded.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q035",
+    "chapterId": 4,
+    "sectionTag": "4-2",
+    "question": "A registered secondary distribution differs from a primary offering in that:",
+    "choices": [
+      "no prospectus is required",
+      "the shares sold come from existing shareholders, not the issuer",
+      "the SEC guarantees the price",
+      "it can only occur on an exchange floor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Secondary distributions register existing holders' shares (often insiders or early investors) for public sale — proceeds go to sellers, and a prospectus is still required.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q036",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "Stabilizing bids by the managing underwriter are:",
+    "choices": [
+      "always prohibited as manipulation",
+      "permitted at or below the public offering price to support the new issue",
+      "permitted above the offering price to boost demand",
+      "required by the SEC"
+    ],
+    "correctIndex": 1,
+    "explanation": "Stabilization is the one sanctioned form of price support: bids at or below (never above) the POP, disclosed in the prospectus, to steady a new issue's aftermarket.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch4-q037",
+    "chapterId": 4,
+    "sectionTag": "4-2",
+    "question": "A company files a shelf registration for $500 million in debt. Six months later it sells $100 million of notes off the shelf. This 'takedown' requires:",
+    "choices": [
+      "an entirely new registration statement",
+      "a prospectus supplement rather than new registration",
+      "SEC re-approval of the shelf",
+      "shareholder approval"
+    ],
+    "correctIndex": 1,
+    "explanation": "Takedowns off an effective shelf are executed with a prospectus supplement describing the specific tranche — the speed advantage that makes shelves valuable.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q038",
+    "chapterId": 4,
+    "sectionTag": "4-4",
+    "question": "Which of the following typically results in the LOWEST risk to the underwriter?",
+    "choices": [
+      "Firm commitment",
+      "Standby underwriting",
+      "Best efforts",
+      "Bought deal"
+    ],
+    "correctIndex": 2,
+    "explanation": "In best efforts the underwriter is only an agent with no obligation to buy unsold shares — minimal capital risk. Firm commitments, standbys, and bought deals all put underwriter capital at risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch4-q039",
+    "chapterId": 4,
+    "sectionTag": "4-3",
+    "question": "Under Rule 506(c) of Regulation D, general solicitation is permitted provided that:",
+    "choices": [
+      "at least one purchaser is non-accredited",
+      "all purchasers are verified accredited investors",
+      "the offering stays under $1 million",
+      "no commissions are paid"
+    ],
+    "correctIndex": 1,
+    "explanation": "506(c) allows advertising the private placement, but the issuer must take reasonable steps to verify every buyer is accredited. 506(b) prohibits general solicitation but allows 35 sophisticated non-accredited buyers.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch4-q040",
+    "chapterId": 4,
+    "sectionTag": "4-1",
+    "question": "An investor asks a representative for 'the prospectus' for a stock that has traded publicly for ten years. The representative should explain that prospectus delivery applies to:",
+    "choices": [
+      "all secondary market trades forever",
+      "offerings of new securities, not ordinary secondary trading",
+      "exchange trades only",
+      "trades over $10,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Prospectuses accompany distributions of new issues under the 1933 Act. Ordinary secondary market trades of seasoned securities carry no prospectus requirement (issuer 1934 Act reports provide ongoing disclosure).",
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "chapterId": 6,
+  "sections": [
+    {
+      "id": "6-1",
+      "blocks": [
+        { "type": "paragraph", "text": "A bond is a loan. The investor is the lender; the issuer promises to pay interest (the coupon) on schedule and return the principal (par value, normally $1,000) at maturity. Bondholders are creditors, not owners — no vote, no dividends, but first claim in a liquidation. The bond's contract is the indenture; under the Trust Indenture Act of 1939, corporate issues over $50 million must appoint an independent trustee to enforce it for bondholders." },
+        { "type": "keyTerm", "term": "Coupon (nominal yield)", "definition": "The fixed annual interest rate stated on the bond, as a percentage of $1,000 par. A 5% bond pays $50 a year — almost always $25 every six months. This rate never changes, no matter what the bond's price does." },
+        { "type": "heading", "level": 3, "text": "Reading bond prices" },
+        { "type": "paragraph", "text": "Bond prices are quoted as a percentage of par: a corporate bond at 98½ costs $985; at 102 it costs $1,020. Corporates trade in eighths of a point (1 point = $10, so ⅛ = $1.25); government notes and bonds trade in 32nds. Below par = discount; above par = premium. Why would a bond move away from par? Interest rates (the big driver) and credit quality (the issuer's health)." },
+        { "type": "example", "title": "Example", "text": "A 6% corporate bond quoted at 95¼ costs $952.50 and still pays $60 a year. Its current yield is 60 ÷ 952.50 ≈ 6.3% — higher than the coupon because you paid less than par for the same $60." },
+        { "type": "heading", "level": 3, "text": "The four yields" },
+        { "type": "keyTerm", "term": "Yield to maturity (YTM)", "definition": "The total return if held to maturity: all coupons plus the gain (discount bond) or minus the loss (premium bond) as price pulls to par. The most complete yield measure, and the market's 'the yield' when unqualified." },
+        { "type": "keyTerm", "term": "Yield to call (YTC)", "definition": "Same idea as YTM but assuming the issuer calls the bond at the first call date and price. For premium bonds YTC is the lowest yield — which is why quotes use 'yield to worst.'" },
+        { "type": "table", "caption": "The yield ladder", "headers": ["Bond trades at", "Order (low → high)"], "rows": [
+          ["Discount (below par)", "Coupon < Current yield < YTM < YTC"],
+          ["Par", "All yields equal"],
+          ["Premium (above par)", "YTC < YTM < Current yield < Coupon"]
+        ] },
+        { "type": "example", "title": "Example — the ladder in numbers", "text": "An 8% bond trades at 90 (a discount). Coupon 8%; current yield 80 ÷ 900 = 8.9%; YTM higher still (~9.5%) because the holder also collects the $100 pull to par at maturity; YTC highest, because the same $100 gain arrives even sooner if called. Flip every arrow for a premium bond." },
+        { "type": "examTip", "text": "Discount bond: yields stack ABOVE the coupon. Premium bond: yields stack BELOW it — and yield-to-call is always the extreme end. If a question gives you a premium bond, the lowest number is YTC." }
+      ]
+    },
+    {
+      "id": "6-2",
+      "blocks": [
+        { "type": "paragraph", "text": "U.S. Treasury securities are direct obligations of the federal government — the benchmark for 'risk-free' credit. Default risk is essentially zero; what remains is interest-rate risk (very real on long maturities) and inflation/purchasing-power risk. Interest is subject to federal tax but EXEMPT from state and local tax. New Treasuries are sold at regular auctions; existing ones trade in the deepest, most liquid secondary market in the world." },
+        { "type": "table", "caption": "Marketable Treasuries", "headers": ["Security", "Maturity", "Interest", "Priced"], "rows": [
+          ["T-bills", "4 to 52 weeks", "None — sold at a discount", "Discount from par"],
+          ["T-notes", "2 to 10 years", "Semiannual coupon", "% of par, in 32nds"],
+          ["T-bonds", "20 or 30 years", "Semiannual coupon", "% of par, in 32nds"],
+          ["TIPS", "5, 10, 30 years", "Fixed rate on an inflation-adjusted principal", "Principal tracks CPI"],
+          ["STRIPS", "Varies", "Zero coupon — created by stripping coupons", "Deep discount"]
+        ] },
+        { "type": "example", "title": "Example — a quote in 32nds", "text": "A T-note quoted 98.16 means 98 and 16/32 percent of par: 98.5% × $1,000 = $985.00. The '.16' is thirty-seconds, not decimals — a classic trap. A quote of 101.08 is 101¼ = $1,012.50." },
+        { "type": "keyTerm", "term": "TIPS", "definition": "Treasury Inflation-Protected Securities. The principal adjusts with CPI; the fixed coupon rate applies to the adjusted principal, so interest payments rise with inflation. At maturity you receive the greater of adjusted or original par. The annual principal adjustment is taxable in the year it occurs — more phantom income." },
+        { "type": "heading", "level": 3, "text": "Zeros and phantom income" },
+        { "type": "paragraph", "text": "Zero-coupon bonds (T-bills, STRIPS, corporate zeros) pay no interest along the way — the return is the pull from discount price to par. That makes them the MOST price-volatile bonds for a given maturity, ideal for a known future goal (college in 15 years) but rough to hold through rate spikes. Taxable zeros also generate 'phantom income': accreted interest taxed yearly even though no cash arrives — which is why zeros fit best inside tax-deferred accounts." },
+        { "type": "heading", "level": 3, "text": "Agencies and mortgage-backed securities" },
+        { "type": "paragraph", "text": "Beyond Treasuries sit the agencies. GNMA (Ginnie Mae) mortgage-backed pass-throughs are the only agency securities backed by the full faith and credit of the U.S. government; FNMA (Fannie Mae) and FHLMC (Freddie Mac) are government-sponsored enterprises — implied support, not a guarantee. Pass-throughs pay MONTHLY, and each payment mixes interest with a return of principal. Their signature hazard is prepayment risk — homeowners refinance when rates fall, returning principal exactly when reinvestment rates are worst; extension risk is the mirror image when rates rise and prepayments slow. CMOs slice mortgage pools into tranches with different payment priorities to redistribute those risks." },
+        { "type": "examTip", "text": "Treasury interest: federal-taxable, state-exempt. GNMA: fully taxable at every level AND the only true full-faith-and-credit agency — a double trap. T-bills are always quoted on a discount-yield basis — the quote is a yield, so the higher 'bid' number represents the LOWER price. Agency pass-throughs pay monthly, not semiannually." }
+      ]
+    },
+    {
+      "id": "6-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Municipal bonds are issued by states, cities, and their authorities and agencies. Their signature feature is tax treatment: interest is exempt from federal income tax, and usually from state tax too if you live in the issuing state (triple-exempt for territories like Puerto Rico). The trade-off is a lower stated yield — munis make sense for investors in HIGH tax brackets, and never inside an already-tax-deferred account like an IRA. Note: only the INTEREST is tax-free; capital gains on selling a muni are fully taxable." },
+        { "type": "keyTerm", "term": "Tax-equivalent yield", "definition": "Muni yield ÷ (1 − tax bracket). It converts a tax-free yield into the taxable yield you'd need to match it. The reverse (taxable yield × (1 − bracket)) gives the after-tax yield of a corporate for comparison." },
+        { "type": "example", "title": "Example", "text": "An investor in the 32% bracket compares a 4% muni to a 5.5% corporate. Tax-equivalent yield = 4% ÷ (1 − 0.32) = 5.88%. The muni wins. For a 12%-bracket investor: 4% ÷ 0.88 = 4.55% — the corporate wins. Bracket decides." },
+        { "type": "table", "caption": "GO vs revenue bonds", "headers": ["", "General obligation (GO)", "Revenue"], "rows": [
+          ["Backed by", "Issuer's full faith, credit & taxing power", "Earnings of a specific project (tolls, water fees)"],
+          ["Voter approval", "Usually required", "Not required"],
+          ["Analyze", "Tax base, property values, debt per capita", "Feasibility study, debt service coverage ratio"],
+          ["Typical risk", "Lower", "Higher (project must earn its keep)"]
+        ] },
+        { "type": "paragraph", "text": "GO bonds are repaid from taxes — property (ad valorem) taxes for local issuers; income and sales taxes for states. Revenue bonds are often issued by authorities (turnpike, airport, water & sewer) and carry covenants — promises to maintain rates high enough to cover debt service (a rate covenant), maintain the facility, and stay insured. A double-barreled bond is backed by project revenue AND taxing power, and is rated like a GO. Industrial development revenue bonds (IDRs) are backed by a private corporation's lease payments — their credit rating is the corporation's, and their interest may be taxable under the AMT for some holders." },
+        { "type": "keyTerm", "term": "Short-term muni notes", "definition": "TANs, RANs, BANs, and GANs — Tax, Revenue, Bond, and Grant Anticipation Notes — bridge financing until the anticipated money arrives. Rated MIG 1-3 by Moody's (MIG 1 is best)." },
+        { "type": "paragraph", "text": "Muni disclosure works differently from corporates: municipal issuers are exempt from SEC registration, so there's no prospectus. Instead, buyers of new issues receive an official statement, and the MSRB's EMMA website is the public repository for offering documents, continuing disclosures, and trade prices. Some munis carry private bond insurance (AGM, BAM) — insured bonds trade on the insurer's credit." },
+        { "type": "examTip", "text": "GO = taxes, needs voter approval, analyzed by tax base. Revenue = user fees, no vote needed, analyzed by debt service coverage. The higher the tax bracket, the more attractive the muni — that's the suitability answer nearly every time. And munis + IRA = wrong: never shelter income that's already tax-free." }
+      ]
+    },
+    {
+      "id": "6-4",
+      "blocks": [
+        { "type": "paragraph", "text": "Corporate bonds carry real credit risk, so security matters. Secured bonds pledge specific collateral: mortgage bonds (real estate), equipment trust certificates (airplanes, railcars), collateral trust certificates (securities the issuer owns). Unsecured debentures rest only on the issuer's full faith and credit — and subordinated debentures stand behind even those. Guaranteed bonds are backed by a third party, typically a parent company. Income (adjustment) bonds, used by companies in reorganization, pay interest only if earned — never suitable for income investors." },
+        { "type": "table", "caption": "Liquidation priority", "headers": ["Rank", "Claim"], "rows": [
+          ["1", "Secured creditors (mortgage bonds, ETCs)"],
+          ["2", "General creditors incl. debentures (and unpaid wages/taxes rank ahead of them)"],
+          ["3", "Subordinated debentures"],
+          ["4", "Preferred stockholders"],
+          ["5", "Common stockholders"]
+        ] },
+        { "type": "keyTerm", "term": "Ratings", "definition": "Investment grade: BBB−/Baa3 or better (S&P/Moody's). Below that: high-yield ('junk') — higher coupons for higher default risk. Ratings measure DEFAULT risk only — not interest-rate risk, not market risk. Downgrades hit prices; the risk of one is 'credit/downgrade risk.'" },
+        { "type": "heading", "level": 3, "text": "Call and put features" },
+        { "type": "paragraph", "text": "Call features let the issuer redeem bonds early, almost always after rates FALL, so it can refinance cheaply — like a homeowner refinancing a mortgage. Investors get the bond taken away just when its coupon looks best, then face reinvesting at lower rates. Compensations: callable bonds pay higher coupons, often include call protection (a no-call period of, say, 10 years), and may pay a call premium above par. Sinking-fund provisions require the issuer to set money aside to retire bonds on schedule — good for safety." },
+        { "type": "example", "title": "Example", "text": "An 8% bond issued when rates were high is callable at 102 after 2030. Rates drop to 5%; the issuer calls, paying $1,020. The investor pockets the premium but must now reinvest at 5% — reinvestment risk realized. Puttable bonds flip the option: the HOLDER can force early redemption at par, valuable when rates RISE. Callable bonds also stop appreciating much above the call price — 'price compression.'" },
+        { "type": "keyTerm", "term": "Convertible bond", "definition": "Exchangeable into a fixed number of common shares (ratio = par ÷ conversion price). Lower coupon in exchange for equity upside; the bond's price tracks the stock once conversion value exceeds straight-bond value. Conversion itself is not a taxable event." },
+        { "type": "example", "title": "Example — convertible math", "text": "A bond convertible at $40 converts into $1,000 ÷ $40 = 25 shares. Stock at $44: conversion value 25 × $44 = $1,100, so the bond can't trade far below $1,100. Parity price of the stock for a bond trading at $1,150 = $1,150 ÷ 25 = $46." },
+        { "type": "examTip", "text": "Issuers call when rates FALL; holders put when rates RISE. Convertibles = lower coupon + equity upside + anti-dilution adjustments for splits. And 'debenture' means UNSECURED — backed by promise, not collateral." }
+      ]
+    },
+    {
+      "id": "6-5",
+      "blocks": [
+        { "type": "paragraph", "text": "The single most tested relationship in fixed income: bond prices and interest rates move in OPPOSITE directions. Rates rise, existing bonds' fixed coupons look stingy, prices fall. Rates fall, old coupons look generous, prices rise. The coupon never changes — the price does all the adjusting." },
+        { "type": "keyTerm", "term": "Duration / volatility rules", "definition": "Price sensitivity to rate changes rises with LONGER maturity and LOWER coupon. Most volatile: long-term zero-coupon bonds (duration equals maturity). Least: short-term high-coupon bonds. Duration is the single number that combines both effects." },
+        { "type": "example", "title": "Example", "text": "Rates jump 1%. A 2-year 8% bond barely moves; a 30-year zero gets crushed. If you expect rates to fall, buy long-maturity, low-coupon bonds to maximize gains; if you fear rate rises, stay short and high-coupon. Bond ladders and barbells spread maturities to manage both rate and reinvestment risk." },
+        { "type": "heading", "level": 3, "text": "Accrued interest" },
+        { "type": "paragraph", "text": "When a bond trades between coupon dates, the buyer pays the price PLUS accrued interest — the seller earned it by holding the bond since the last payment, and the buyer recoups it at the next full coupon. Corporate and municipal bonds accrue on a 30/360 calendar (every month counts 30 days); government notes and bonds use actual/365 days. Interest accrues from the last payment date UP TO but not including the settlement date. Accrued interest is taxable to the seller as interest income." },
+        { "type": "example", "title": "Example — accrued interest", "text": "A 6% corporate bond ($60/year, $30 semiannually) last paid interest 60 days ago (30/360 count) and settles today. Accrued = $60 × 60/360 = $10. The buyer pays price + $10 now and receives the full $30 next coupon date — netting the $20 they actually earned." },
+        { "type": "keyTerm", "term": "Trading flat", "definition": "Trading without accrued interest. Income bonds, defaulted bonds, and zero-coupon bonds all trade flat — there's no current interest to accrue." },
+        { "type": "heading", "level": 3, "text": "Premium and discount over time" },
+        { "type": "paragraph", "text": "Hold a bond to maturity and its price walks to par no matter where it started. Premium bonds amortize down; discount bonds accrete up. Tax wrinkle worth knowing: an original issue discount (OID) on a corporate bond is taxed as interest as it accretes each year, while a market-discount gain is taxed at sale or maturity. Municipal OID accretes tax-free; municipal premium must be amortized with no deduction." },
+        { "type": "examTip", "text": "Corporates/munis accrue 30/360; Treasuries accrue actual days. Zeros, income bonds, and bonds in default trade FLAT. And whenever a question says rates moved, first write the arrow: rates ↑ prices ↓ — then check maturity (longer = bigger move) and coupon (lower = bigger move)." }
+      ]
+    }
+  ]
+}

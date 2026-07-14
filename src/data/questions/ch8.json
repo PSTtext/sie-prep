@@ -1,0 +1,537 @@
+[
+  {
+    "id": "ch8-q001",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "The buyer of a call option has the:",
+    "choices": [
+      "obligation to buy the underlying stock",
+      "right to buy the underlying stock at the strike price",
+      "right to sell the underlying stock",
+      "obligation to sell the underlying stock"
+    ],
+    "correctIndex": 1,
+    "explanation": "Buyers (holders) get rights; sellers (writers) take obligations. Call = right to buy; put = right to sell. The writer of a call is obligated to sell if assigned.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q002",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "The writer of a put option is obligated, if assigned, to:",
+    "choices": [
+      "sell stock at the strike",
+      "buy stock at the strike price",
+      "deliver cash equal to the premium",
+      "buy stock at the market price"
+    ],
+    "correctIndex": 1,
+    "explanation": "A put writer must buy the stock at the strike if the holder exercises. Put writers profit when the stock stays at or above the strike (keeping the premium).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q003",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "An investor buys 1 XYZ Jan 50 call at 3. The maximum loss is:",
+    "choices": ["$300", "$5,000", "$4,700", "unlimited"],
+    "correctIndex": 0,
+    "explanation": "Option buyers can lose only the premium: 3 × 100 shares = $300. Maximum gain on a long call is unlimited; breakeven is 53.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q004",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "An investor writes 1 ABC Oct 40 put at 2. The breakeven point is:",
+    "choices": ["42", "40", "38", "36"],
+    "correctIndex": 2,
+    "explanation": "Put breakeven = strike − premium = 40 − 2 = 38 (same for buyer and writer). The writer profits above 38; maximum gain is the $200 premium.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q005",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "With XYZ trading at $47, an XYZ 45 call is:",
+    "choices": ["out of the money", "at the money", "in the money by 2", "in the money by 45"],
+    "correctIndex": 2,
+    "explanation": "Calls are in the money when market > strike: 47 − 45 = $2 of intrinsic value. Moneyness ignores the premium paid.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q006",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "With stock at $30, a 35 put has intrinsic value of:",
+    "choices": ["zero", "$5", "$35", "$30"],
+    "correctIndex": 1,
+    "explanation": "Puts are in the money when market < strike: 35 − 30 = $5. Put value rises as the stock falls.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q007",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "An option premium consists of:",
+    "choices": [
+      "intrinsic value plus time value",
+      "strike price plus commission",
+      "dividends plus interest",
+      "intrinsic value only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Premium = intrinsic value (if any) + time value. At expiration, time value decays to zero and only intrinsic value remains.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q008",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "Which position has UNLIMITED potential loss?",
+    "choices": [
+      "Long call",
+      "Long put",
+      "Uncovered (naked) call writer",
+      "Covered call writer"
+    ],
+    "correctIndex": 2,
+    "explanation": "A naked call writer must deliver stock they don't own — as the stock rises without limit, so does the loss. It's the riskiest basic options position.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q009",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "An investor who is bullish on a stock but wants limited risk and leverage would most appropriately:",
+    "choices": ["buy a put", "buy a call", "write a naked call", "sell the stock short"],
+    "correctIndex": 1,
+    "explanation": "Long calls profit from a rise with risk capped at the premium — the classic limited-risk bullish speculation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q010",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "An investor owns 100 shares of XYZ at $52 and writes 1 XYZ 55 call at 2. This strategy is BEST described as:",
+    "choices": [
+      "a protective put",
+      "a covered call generating income and limited upside",
+      "a naked call",
+      "a straddle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Owning the stock covers the call. The writer earns the $200 premium, gives up gains above 55, and gets only $2 of downside cushion — income, partial protection.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q011",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "In the covered call position above (stock at 52, short 55 call at 2), the maximum gain is:",
+    "choices": ["$200", "$300", "$500", "unlimited"],
+    "correctIndex": 2,
+    "explanation": "If called away at 55: gain on stock (55 − 52 = $300) + premium ($200) = $500. Covered calls cap the upside at strike + premium − cost.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch8-q012",
+    "chapterId": 8,
+    "sectionTag": "8-3",
+    "question": "An investor holding a large appreciated stock position who fears a near-term decline but wants to keep the stock should:",
+    "choices": [
+      "buy protective puts",
+      "write naked calls",
+      "buy more stock",
+      "buy calls"
+    ],
+    "correctIndex": 0,
+    "explanation": "A protective put is insurance: it sets a floor at the strike (minus premium) while retaining upside. Cost of protection is the premium.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q013",
+    "chapterId": 8,
+    "sectionTag": "8-3",
+    "question": "A short seller wanting to hedge against a rising market should:",
+    "choices": ["buy a put", "buy a call", "write a call", "write a put"],
+    "correctIndex": 1,
+    "explanation": "Short stock loses if the price rises; a long call caps that upside risk at the strike. (Long stock hedges with puts; short stock hedges with calls.)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q014",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "Standard equity options expire:",
+    "choices": [
+      "on the first Friday of the month",
+      "on the third Friday of the expiration month",
+      "at year end",
+      "whenever the holder chooses"
+    ],
+    "correctIndex": 1,
+    "explanation": "Standard monthly listed options cease trading on the third Friday of the expiration month. One contract covers 100 shares.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q015",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "The Options Clearing Corporation (OCC):",
+    "choices": [
+      "issues and guarantees listed options contracts",
+      "sets stock prices",
+      "regulates option advertising only",
+      "insures investors against losses"
+    ],
+    "correctIndex": 0,
+    "explanation": "The OCC is issuer and guarantor of listed options, eliminating counterparty risk between buyers and writers. It doesn't protect against market losses.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q016",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "Before an options account's first trade, the customer must receive the:",
+    "choices": [
+      "options disclosure document (Characteristics and Risks of Standardized Options)",
+      "fund prospectus",
+      "trust indenture",
+      "annual report"
+    ],
+    "correctIndex": 0,
+    "explanation": "The ODD must be delivered at or before account approval; the account needs approval by a registered options principal, and the customer signs the options agreement within 15 days.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q017",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "Maximum gain for the buyer of a put is:",
+    "choices": [
+      "unlimited",
+      "strike price minus premium (stock falling to zero)",
+      "the premium",
+      "strike plus premium"
+    ],
+    "correctIndex": 1,
+    "explanation": "A stock can only fall to zero, so a long put's best case is (strike − premium) × 100. Only long calls (and short stock losses) are unlimited.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q018",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "A customer buys 1 XYZ Jun 60 call at 4 when XYZ is $58. At expiration XYZ is $62. Ignoring commissions, the result is a:",
+    "choices": ["$200 loss", "$200 gain", "$400 gain", "breakeven"],
+    "correctIndex": 0,
+    "explanation": "Intrinsic value at expiration = 62 − 60 = $2; paid 4. Net: 2 − 4 = −$2 × 100 = $200 loss. Breakeven was 64.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q019",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "Writing a put is an appropriate strategy for an investor who is:",
+    "choices": [
+      "strongly bearish",
+      "neutral to bullish and willing to buy the stock at the strike",
+      "seeking unlimited profit",
+      "hedging a long stock position"
+    ],
+    "correctIndex": 1,
+    "explanation": "Put writers keep the premium if the stock stays at/above the strike, and effectively buy at strike − premium if assigned — a way to earn income or acquire stock below today's price.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q020",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "American-style options may be exercised:",
+    "choices": [
+      "only at expiration",
+      "any time before expiration",
+      "only on Fridays",
+      "only with issuer consent"
+    ],
+    "correctIndex": 1,
+    "explanation": "American style (all listed equity options) permits exercise any time before expiration. European style (many index options) allows exercise only at expiration.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q021",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "Exercise settlement of an equity option delivers:",
+    "choices": [
+      "cash equal to intrinsic value",
+      "100 shares of the underlying stock, settling T+1",
+      "a new option contract",
+      "a futures contract"
+    ],
+    "correctIndex": 1,
+    "explanation": "Equity option exercise results in a stock trade at the strike (100 shares/contract), settling like any stock trade: T+1. Index options settle in cash.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q022",
+    "chapterId": 8,
+    "sectionTag": "8-3",
+    "question": "A portfolio manager holding a broad stock portfolio fears a market decline and wants a hedge without selling holdings. An appropriate hedge is buying:",
+    "choices": [
+      "index puts",
+      "index calls",
+      "individual stock calls",
+      "more index funds"
+    ],
+    "correctIndex": 0,
+    "explanation": "Broad index puts rise as the market falls, offsetting portfolio losses — portfolio insurance. Index options settle in cash.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q023",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "The maximum gain for a covered call writer occurs when the stock:",
+    "choices": [
+      "falls to zero",
+      "closes at or above the strike and the stock is called away",
+      "stays exactly at the purchase price",
+      "becomes worthless before expiration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Above the strike, the writer delivers at the strike, realizing the capped maximum: (strike − cost) + premium. Below cost − premium, losses begin.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q024",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "Which factor does NOT directly affect an option's premium?",
+    "choices": [
+      "Time to expiration",
+      "Underlying stock volatility",
+      "The stock price relative to the strike",
+      "The number of contracts outstanding (open interest)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Premiums reflect intrinsic value, time, volatility, rates, and dividends. Open interest measures activity/liquidity but doesn't determine the premium itself.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch8-q025",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "Buying a put on a stock the investor does NOT own is a strategy for profiting from:",
+    "choices": ["a price rise", "a price decline with limited risk", "dividends", "stable prices"],
+    "correctIndex": 1,
+    "explanation": "A long put is the limited-risk bearish speculation — cheaper and less risky than shorting stock, with loss capped at the premium.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q026",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "A customer writes an uncovered 50 put at 3. The stock falls to $30 at expiration and the put is exercised. The customer's loss is:",
+    "choices": ["$300", "$1,700", "$2,000", "$4,700"],
+    "correctIndex": 1,
+    "explanation": "Must buy at 50 stock worth 30 = $2,000 loss, minus $300 premium received = $1,700 net loss. Max loss on a naked put = (strike − premium) × 100 if the stock goes to zero.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch8-q027",
+    "chapterId": 8,
+    "sectionTag": "8-3",
+    "question": "The cost of hedging with a protective put effectively:",
+    "choices": [
+      "raises the position's breakeven by the premium paid",
+      "lowers the breakeven",
+      "eliminates all cost",
+      "guarantees a profit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Insurance isn't free: the stock must rise by the premium before the combined position profits. In exchange, downside is floored at strike − premium.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q028",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "'Sell 1 XYZ Apr 55 call, opening' means the customer is:",
+    "choices": [
+      "closing an existing long call",
+      "establishing a new short call position",
+      "exercising a call",
+      "buying stock"
+    ],
+    "correctIndex": 1,
+    "explanation": "Opening transactions establish positions (buy-open = long; sell-open = short/written). Closing transactions offset existing positions.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q029",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "Which strategy generates income in a flat market with the LEAST risk?",
+    "choices": [
+      "Writing naked calls",
+      "Writing covered calls",
+      "Buying straddles",
+      "Buying calls"
+    ],
+    "correctIndex": 1,
+    "explanation": "Covered call writing earns premiums against owned stock — the conservative income overlay. Naked calls also earn premiums but with unlimited risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q030",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "A call is 'at the money' when:",
+    "choices": [
+      "market price equals the strike price",
+      "the premium is zero",
+      "market exceeds strike",
+      "it has only time value remaining after expiration"
+    ],
+    "correctIndex": 0,
+    "explanation": "At the money = market equals strike (for both calls and puts). Any premium on an at-the-money option is entirely time value.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q031",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "As expiration approaches, the time value of an option:",
+    "choices": [
+      "increases",
+      "decays toward zero, accelerating near expiration",
+      "stays constant",
+      "converts to intrinsic value"
+    ],
+    "correctIndex": 1,
+    "explanation": "Time decay (theta) erodes option premiums — a headwind for buyers and the writer's ally. At expiration only intrinsic value remains.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q032",
+    "chapterId": 8,
+    "sectionTag": "8-3",
+    "question": "A wheat farmer worried about falling prices before harvest is analogous to an equity investor who should:",
+    "choices": ["buy calls", "buy puts", "write puts", "do nothing"],
+    "correctIndex": 1,
+    "explanation": "Hedging an owned asset against price declines = buying puts (the right to sell at a set price). Producers hedge downside; users/consumers hedge upside with calls.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q033",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "The holder of a call does NOT receive which benefit of stock ownership?",
+    "choices": [
+      "Profit from price appreciation",
+      "Dividends and voting rights",
+      "Leverage",
+      "Limited risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Option holders aren't shareholders: no dividends, no votes. (Strike prices are adjusted for splits and stock dividends, but not for ordinary cash dividends.)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q034",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "An investor buys 1 XYZ 50 call at 2 and XYZ rises to $60 at expiration. The return on the exercise-and-sell (ignoring commissions) is:",
+    "choices": ["$800 profit", "$1,000 profit", "$200 loss", "$500 profit"],
+    "correctIndex": 0,
+    "explanation": "Intrinsic value 10 − premium 2 = 8 × 100 = $800 — a 400% return on $200, illustrating options leverage versus buying 100 shares outright.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q035",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "Option contract adjustments are made for:",
+    "choices": [
+      "cash dividends",
+      "stock splits and stock dividends",
+      "earnings announcements",
+      "analyst downgrades"
+    ],
+    "correctIndex": 1,
+    "explanation": "The OCC adjusts strikes/contract size for splits, stock dividends, and similar corporate actions. Regular cash dividends do NOT trigger adjustments.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q036",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "Which single-option position is most appropriate for an investor who believes a stock will stay flat or rise slightly and wants income now?",
+    "choices": [
+      "Long call",
+      "Long put",
+      "Short (covered) call against owned stock",
+      "Long straddle"
+    ],
+    "correctIndex": 2,
+    "explanation": "Covered calls monetize a neutral-to-mildly-bullish view via premium income. Long options need movement to profit; straddles need big movement.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q037",
+    "chapterId": 8,
+    "sectionTag": "8-3",
+    "question": "Hedging reduces which of the following?",
+    "choices": [
+      "Both potential losses and potential gains",
+      "Only losses",
+      "Only gains",
+      "Transaction costs"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hedges are trade-offs: protective puts cost premium (raising breakeven); covered calls cap upside. Risk reduction comes at the price of return potential.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch8-q038",
+    "chapterId": 8,
+    "sectionTag": "8-1",
+    "question": "An investor 'closes' a short option position by:",
+    "choices": [
+      "buying the same series (buy-to-close)",
+      "selling more contracts",
+      "exercising the option",
+      "waiting for assignment only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Writers exit by purchasing the identical series in a closing transaction, ending the obligation. Holders close by selling. Writers cannot exercise.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch8-q039",
+    "chapterId": 8,
+    "sectionTag": "8-2",
+    "question": "With stock at $65 at expiration, an investor short 1 naked 60 call written at 5 has a:",
+    "choices": ["breakeven result", "$500 gain", "$500 loss", "$1,000 loss"],
+    "correctIndex": 0,
+    "explanation": "Assigned: deliver at 60 stock worth 65 = $500 loss, offset exactly by the $500 premium — breakeven at strike + premium = 65.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch8-q040",
+    "chapterId": 8,
+    "sectionTag": "8-3",
+    "question": "Which is TRUE of using options rather than stock for speculation?",
+    "choices": [
+      "Options require more capital",
+      "Options offer leverage but can expire worthless, losing 100% of the premium",
+      "Options carry no risk",
+      "Option profits are tax-exempt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Leverage cuts both ways: small capital controls 100 shares, but an out-of-the-money option at expiration is a total loss of premium — a frequent outcome buyers must accept.",
+    "difficulty": "easy"
+  }
+]

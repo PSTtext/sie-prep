@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ch10-q001",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "Which risk CANNOT be eliminated through diversification?",
+    "choices": ["business risk", "systematic (market) risk", "default risk", "regulatory risk of one issuer"],
+    "correctIndex": 1,
+    "explanation": "Systematic risk — the whole market falling — affects all securities and survives diversification. Nonsystematic risks (business, credit, single-issuer events) can be diversified away.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q002",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "The risk that rising prices erode the purchasing power of fixed payments is:",
+    "choices": ["credit risk", "inflation (purchasing power) risk", "liquidity risk", "call risk"],
+    "correctIndex": 1,
+    "explanation": "Inflation risk hits fixed-income hardest — a bond's fixed coupons buy less over time. Equities and TIPS are the standard mitigants.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q003",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "Interest-rate risk MOST affects which investment?",
+    "choices": [
+      "long-term bonds",
+      "money market funds",
+      "floating-rate notes",
+      "T-bills"
+    ],
+    "correctIndex": 0,
+    "explanation": "Price sensitivity to rate changes grows with maturity/duration. Short-term and floating-rate instruments barely move.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q004",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "The risk that a bond issuer fails to pay interest or principal is:",
+    "choices": ["market risk", "credit (default) risk", "reinvestment risk", "currency risk"],
+    "correctIndex": 1,
+    "explanation": "Credit risk is issuer nonpayment — measured by ratings (AAA→D). Investors demand higher yields (credit spreads) as compensation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q005",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "An investor owning a thinly traded small-cap stock who must sell quickly at a steep discount is experiencing:",
+    "choices": ["liquidity (marketability) risk", "inflation risk", "call risk", "systematic risk"],
+    "correctIndex": 0,
+    "explanation": "Liquidity risk is the inability to sell quickly at fair value. Thin markets, DPPs, non-traded REITs, and munis carry it; Treasuries and large-caps have the least.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q006",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "Capital risk is BEST defined as the risk of:",
+    "choices": [
+      "losing the invested principal",
+      "taxes rising",
+      "missing dividend payments",
+      "currency devaluation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Capital risk is losing some or all of the original investment — highest for options buyers (premiums expire) and speculative securities without guarantees.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q007",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "A U.S. investor's emerging-market bonds plunge after the country imposes capital controls. This illustrates:",
+    "choices": ["political (sovereign) risk", "reinvestment risk", "prepayment risk", "inflation risk"],
+    "correctIndex": 0,
+    "explanation": "Political risk covers government actions — expropriation, capital controls, instability — and is the signature added risk of emerging-market investing.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q008",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "A retiree's bond is called after rates fell. Her problem reinvesting the proceeds at comparable yield is:",
+    "choices": ["reinvestment risk", "credit risk", "market risk", "regulatory risk"],
+    "correctIndex": 0,
+    "explanation": "Reinvestment risk — cash flows returning when rates are low — accompanies call risk and amortizing securities. Zero-coupon bonds avoid it until maturity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q009",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "Which security has NO reinvestment risk if held to maturity?",
+    "choices": [
+      "a 20-year corporate bond paying semiannual coupons",
+      "a zero-coupon Treasury (STRIPS)",
+      "a GNMA pass-through",
+      "a callable municipal bond"
+    ],
+    "correctIndex": 1,
+    "explanation": "Zeroes pay nothing until maturity — no coupons to reinvest, so the YTM at purchase is locked in (at the cost of maximum price volatility beforehand).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q010",
+    "chapterId": 10,
+    "sectionTag": "10-4",
+    "question": "An employee holds 90% of her portfolio in her employer's stock. Her PRIMARY risk is:",
+    "choices": ["concentration (nonsystematic) risk", "systematic risk", "inflation risk", "currency risk"],
+    "correctIndex": 0,
+    "explanation": "Concentration in one issuer — worse when it's also the source of her paycheck — is classic diversifiable risk. Diversification across issuers/sectors is the cure.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q011",
+    "chapterId": 10,
+    "sectionTag": "10-4",
+    "question": "Diversification reduces portfolio risk MOST effectively when the assets combined are:",
+    "choices": [
+      "perfectly positively correlated",
+      "weakly or negatively correlated",
+      "all in one sector",
+      "all long-term bonds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Low or negative correlation means assets don't fall together — the mathematical engine of diversification. Same-sector holdings move together and diversify little.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q012",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "Beta measures a stock's:",
+    "choices": [
+      "credit quality",
+      "volatility relative to the overall market",
+      "dividend yield",
+      "liquidity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Beta gauges systematic risk: 1.0 moves with the market, >1 amplifies it, <1 dampens it. High-beta stocks suit aggressive investors.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q013",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "During a broad market crash, a well-diversified stock portfolio will most likely:",
+    "choices": [
+      "be unaffected",
+      "decline, because diversification does not remove market risk",
+      "rise",
+      "convert to bonds automatically"
+    ],
+    "correctIndex": 1,
+    "explanation": "Diversification defends against single-issuer disasters, not against the entire market falling. Hedging (e.g., index puts) or asset allocation addresses systematic risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q014",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "Which investment carries the LEAST credit risk?",
+    "choices": [
+      "high-yield corporate bonds",
+      "U.S. Treasury notes",
+      "BBB corporate debentures",
+      "emerging-market sovereign debt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Treasuries are backed by the full faith and credit of the U.S. government — the benchmark 'risk-free' credit. They still carry interest-rate and inflation risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q015",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "Currency risk is a concern for an investor holding:",
+    "choices": [
+      "U.S. Treasury bonds only",
+      "foreign securities or ADRs",
+      "domestic CDs",
+      "U.S. municipal bonds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Any investment whose value or income converts from another currency bears exchange-rate risk — including ADRs despite their dollar trading.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q016",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "Legislative (regulatory) risk refers to the possibility that:",
+    "choices": [
+      "a law or rule change adversely affects an investment's value",
+      "an issuer defaults",
+      "markets close early",
+      "a broker fails"
+    ],
+    "correctIndex": 0,
+    "explanation": "Changes in tax law, tariffs, or industry regulation can reprice whole sectors — e.g., losing a tax subsidy. Distinct from political risk abroad.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q017",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "Which asset best hedges long-term inflation risk?",
+    "choices": ["fixed annuities", "long-term bonds", "common stocks and TIPS", "money market funds"],
+    "correctIndex": 2,
+    "explanation": "Equities' earnings can grow with prices, and TIPS adjust principal by CPI. Fixed-payment assets lose purchasing power in inflation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q018",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "Prepayment risk in mortgage-backed securities intensifies when:",
+    "choices": [
+      "interest rates rise",
+      "interest rates fall and homeowners refinance",
+      "home prices fall",
+      "the Fed tightens"
+    ],
+    "correctIndex": 1,
+    "explanation": "Falling rates trigger refinancing waves; MBS holders get principal back early and must reinvest at lower yields — prepayment plus reinvestment risk together.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q019",
+    "chapterId": 10,
+    "sectionTag": "10-4",
+    "question": "A portfolio 100% invested in bank-sector stocks across ten different banks is still exposed to:",
+    "choices": [
+      "no risk — it holds ten issuers",
+      "sector concentration risk",
+      "currency risk primarily",
+      "prepayment risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ten holdings in one industry move together on sector shocks. True diversification spans industries, asset classes, and geographies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q020",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "Timing risk refers to:",
+    "choices": [
+      "buying or selling at inopportune points in market cycles",
+      "settlement failures",
+      "late dividend payments",
+      "option expiration dates"
+    ],
+    "correctIndex": 0,
+    "explanation": "Even sound investments bought at peaks or sold at troughs disappoint. Dollar-cost averaging is the standard retail mitigation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q021",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "Rank from HIGHEST to LOWEST liquidity:",
+    "choices": [
+      "listed large-cap stock → municipal bond → DPP interest",
+      "DPP interest → municipal bond → listed stock",
+      "municipal bond → DPP → listed stock",
+      "all are equal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Exchange-listed large-caps trade instantly; munis trade dealer-to-dealer with wider spreads; DPP interests have essentially no secondary market.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q022",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "Call risk primarily hurts investors because:",
+    "choices": [
+      "bonds are called when rates rise",
+      "high-coupon income ends early, replaced at lower prevailing rates",
+      "call prices are below market",
+      "calls extend maturity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Issuers call when rates fall; investors lose the above-market coupon and reinvest at worse yields. Callable bonds compensate with higher initial yields and call protection periods.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q023",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "Which portfolio change REDUCES systematic risk exposure?",
+    "choices": [
+      "adding more tech stocks",
+      "shifting a portion from equities into Treasury bills",
+      "concentrating in one high-quality issuer",
+      "moving from 20 stocks to 40 stocks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Only changing asset allocation (or hedging) cuts market risk. Adding more stocks — however many — still leaves full equity market exposure.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch10-q024",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "A bond fund's prospectus warns that lower-rated holdings may be hard to sell in stressed markets. This combines credit risk with:",
+    "choices": ["liquidity risk", "currency risk", "call risk", "timing risk"],
+    "correctIndex": 0,
+    "explanation": "Junk bonds' dealer markets thin out in crises — prices gap down on small volume. Credit and liquidity risk frequently travel together.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q025",
+    "chapterId": 10,
+    "sectionTag": "10-4",
+    "question": "Which action BEST addresses nonsystematic risk?",
+    "choices": [
+      "buying index puts",
+      "spreading investments across many issuers and industries",
+      "shortening bond maturities",
+      "increasing cash reserves"
+    ],
+    "correctIndex": 1,
+    "explanation": "Issuer- and industry-specific risk is exactly what broad diversification removes. Hedging and duration management target systematic and rate risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q026",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "An investor 'reaches for yield' by swapping Treasuries into long-term junk bonds. She has increased all of the following EXCEPT:",
+    "choices": ["credit risk", "liquidity risk", "interest-rate risk", "purchasing power risk relative to before"],
+    "correctIndex": 3,
+    "explanation": "Higher nominal yields actually improve the inflation cushion slightly; what she piled on is credit, liquidity, and (with long maturity) rate risk. Higher yield always means higher risk somewhere.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch10-q027",
+    "chapterId": 10,
+    "sectionTag": "10-3",
+    "question": "Which investor faces the GREATEST currency risk?",
+    "choices": [
+      "a U.S. investor in an S&P 500 index fund",
+      "a U.S. investor in unhedged international bond funds",
+      "a homeowner with a fixed mortgage",
+      "a T-bill holder"
+    ],
+    "correctIndex": 1,
+    "explanation": "Foreign-currency bonds add exchange-rate swings on top of rate and credit risk; 'unhedged' means the fund doesn't offset them.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q028",
+    "chapterId": 10,
+    "sectionTag": "10-2",
+    "question": "Business risk is BEST described as the risk that:",
+    "choices": [
+      "an individual company's operations fail or underperform",
+      "the entire market declines",
+      "rates rise",
+      "the dollar weakens"
+    ],
+    "correctIndex": 0,
+    "explanation": "Business (operational) risk — bad management, competition, product failure — is issuer-specific and diversifiable, unlike market risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch10-q029",
+    "chapterId": 10,
+    "sectionTag": "10-4",
+    "question": "Asset allocation differs from security selection in that allocation decides:",
+    "choices": [
+      "which individual stocks to buy",
+      "the mix among asset classes (stocks/bonds/cash) fitting objectives and risk tolerance",
+      "which broker executes trades",
+      "the tax lot method"
+    ],
+    "correctIndex": 1,
+    "explanation": "Allocation sets the class mix — the dominant driver of portfolio risk/return; selection picks securities within each class. Rebalancing maintains the target mix.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch10-q030",
+    "chapterId": 10,
+    "sectionTag": "10-1",
+    "question": "A customer unwilling to accept ANY fluctuation of principal should be directed toward:",
+    "choices": [
+      "growth stocks",
+      "long-term bonds",
+      "insured bank deposits and Treasury bills",
+      "high-yield bond funds"
+    ],
+    "correctIndex": 2,
+    "explanation": "Only cash equivalents and insured deposits avoid principal fluctuation — at the cost of inflation risk. Matching risk tolerance to product is the suitability core.",
+    "difficulty": "easy"
+  }
+]

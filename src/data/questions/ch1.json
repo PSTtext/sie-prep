@@ -1,0 +1,557 @@
+[
+  {
+    "id": "ch1-q001",
+    "chapterId": 1,
+    "sectionTag": "1-1",
+    "question": "The SEC declares a new issue's registration statement effective. This means that the SEC has:",
+    "choices": [
+      "approved the security as a suitable investment",
+      "verified the accuracy of all statements in the prospectus",
+      "cleared the issue for sale, without endorsing the security",
+      "guaranteed investors against loss of principal"
+    ],
+    "correctIndex": 2,
+    "explanation": "An effective registration means disclosure requirements were met — the SEC never approves, endorses, or guarantees a security, and it does not verify accuracy (the issuer is liable for that).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q002",
+    "chapterId": 1,
+    "sectionTag": "1-2",
+    "question": "Which of the following organizations is a self-regulatory organization (SRO) funded by its members rather than a government agency?",
+    "choices": ["FINRA", "SEC", "Federal Reserve Board", "U.S. Treasury"],
+    "correctIndex": 0,
+    "explanation": "FINRA is an SRO: a membership organization that writes and enforces rules for broker-dealers under SEC oversight. The SEC, the Fed, and the Treasury are government bodies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q003",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "A customer holds $400,000 in securities and $300,000 in cash at a broker-dealer that fails. Under SIPC, the customer is covered for:",
+    "choices": [
+      "$700,000 total",
+      "$500,000 total, including up to $250,000 in cash",
+      "$400,000 in securities only",
+      "$250,000 total"
+    ],
+    "correctIndex": 1,
+    "explanation": "SIPC covers up to $500,000 per separate customer, of which no more than $250,000 may be cash. Here: $400,000 securities + $100,000 of the cash = $500,000; the remaining $200,000 cash becomes a general creditor claim.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q004",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "FDIC insurance protects which of the following?",
+    "choices": [
+      "Mutual fund shares purchased at a bank branch",
+      "Bank deposit accounts up to $250,000 per depositor, per bank",
+      "Securities held in a brokerage account",
+      "Losses from market declines in a bank-managed portfolio"
+    ],
+    "correctIndex": 1,
+    "explanation": "FDIC insures bank deposits (checking, savings, CDs) up to $250,000 per depositor, per insured bank, per ownership category. It never covers securities or market losses — even when products are sold at a bank.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q005",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "A firm that effects securities transactions for the accounts of others and may also trade for its own account is BEST described as a:",
+    "choices": [
+      "transfer agent",
+      "investment adviser",
+      "broker-dealer",
+      "custodian"
+    ],
+    "correctIndex": 2,
+    "explanation": "Acting for others' accounts is the broker function; trading its own account is the dealer function. A firm doing both is a broker-dealer. Investment advisers give advice for compensation; they don't execute as principals.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q006",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "Under the Investment Advisers Act of 1940, which of the following is generally required to register as an investment adviser?",
+    "choices": [
+      "A broker-dealer whose advice is solely incidental to its brokerage business",
+      "A publisher of a general-circulation financial newspaper",
+      "A firm compensated specifically for providing securities advice",
+      "An accountant whose investment advice is incidental to her practice"
+    ],
+    "correctIndex": 2,
+    "explanation": "The three-part test: advice about securities, as a business, for compensation. Broker-dealers (incidental advice), lawyers/accountants/teachers/engineers (incidental), and bona fide publishers are excluded.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch1-q007",
+    "chapterId": 1,
+    "sectionTag": "1-5",
+    "question": "Which market participant maintains firm two-sided quotes and stands ready to buy and sell a security for its own account?",
+    "choices": ["Market maker", "Transfer agent", "Introducing broker", "Investment adviser"],
+    "correctIndex": 0,
+    "explanation": "A market maker is a dealer that publishes firm bid and ask quotes and commits capital to trade from its own inventory, providing liquidity. Transfer agents maintain shareholder records; they don't trade.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q008",
+    "chapterId": 1,
+    "sectionTag": "1-5",
+    "question": "Recording changes of security ownership and replacing lost or stolen certificates are functions of the:",
+    "choices": ["registrar", "custodian", "market maker", "transfer agent"],
+    "correctIndex": 3,
+    "explanation": "The transfer agent cancels old certificates, issues new ones, maintains the ownership record, and handles lost/stolen/destroyed certificates. The registrar audits that shares outstanding never exceed those authorized.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q009",
+    "chapterId": 1,
+    "sectionTag": "1-1",
+    "question": "The SEC was created under which of the following federal acts?",
+    "choices": [
+      "Securities Act of 1933",
+      "Securities Exchange Act of 1934",
+      "Investment Company Act of 1940",
+      "Trust Indenture Act of 1939"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Securities Exchange Act of 1934 created the SEC and regulates the secondary market. The 1933 Act (passed a year earlier) governs new issues but did not create the Commission.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q010",
+    "chapterId": 1,
+    "sectionTag": "1-1",
+    "question": "Which of the following actions is within the SEC's enforcement powers?",
+    "choices": [
+      "Sentencing a violator to prison",
+      "Bringing civil actions and referring criminal cases to the Department of Justice",
+      "Setting the federal funds rate",
+      "Insuring customer brokerage accounts"
+    ],
+    "correctIndex": 1,
+    "explanation": "The SEC has civil enforcement power — injunctions, fines, industry bars — and refers criminal matters to the DOJ. Only courts impose prison sentences; the Fed sets rate policy; SIPC handles account protection.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q011",
+    "chapterId": 1,
+    "sectionTag": "1-1",
+    "question": "A state securities regulator operates under laws commonly known as:",
+    "choices": [
+      "blue-sky laws",
+      "prudent man statutes",
+      "safe harbor provisions",
+      "the Uniform Practice Code"
+    ],
+    "correctIndex": 0,
+    "explanation": "State securities statutes are called blue-sky laws (administered under the Uniform Securities Act framework). Issuers and registered persons may need to register at the state level in addition to federal requirements.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q012",
+    "chapterId": 1,
+    "sectionTag": "1-2",
+    "question": "Which of the following is NOT a self-regulatory organization?",
+    "choices": ["FINRA", "MSRB", "Cboe (Chicago Board Options Exchange)", "SEC"],
+    "correctIndex": 3,
+    "explanation": "The SEC is a federal government agency that oversees the SROs. FINRA, the MSRB, and national exchanges like the Cboe are SROs that write rules for their members subject to SEC approval.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q013",
+    "chapterId": 1,
+    "sectionTag": "1-2",
+    "question": "The MSRB writes rules governing municipal securities dealers, but it does NOT:",
+    "choices": [
+      "set standards for municipal advertising",
+      "enforce its own rules",
+      "regulate quotations in municipal securities",
+      "require professional qualification exams"
+    ],
+    "correctIndex": 1,
+    "explanation": "The MSRB has no enforcement arm. Its rules are enforced by FINRA (for broker-dealers) and by bank regulators (for bank dealers). Also note: the MSRB regulates dealers and advisors, never municipal issuers themselves.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch1-q014",
+    "chapterId": 1,
+    "sectionTag": "1-2",
+    "question": "A registered representative's firm is expelled from FINRA membership. To continue conducting securities business with the public, the firm must:",
+    "choices": [
+      "register directly with the SEC as its sole regulator",
+      "cease conducting securities business as a broker-dealer with public customers",
+      "join the MSRB instead",
+      "operate under state registration only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Virtually all broker-dealers doing public securities business must be FINRA members. Expulsion from the SRO effectively ends the firm's ability to operate as a broker-dealer with the public.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q015",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "Which body sets monetary policy for the United States?",
+    "choices": [
+      "The Federal Reserve's Federal Open Market Committee",
+      "Congress",
+      "The U.S. Treasury",
+      "The SEC"
+    ],
+    "correctIndex": 0,
+    "explanation": "The FOMC conducts monetary policy — chiefly open-market operations that influence the federal funds rate. Congress controls fiscal policy (taxing and spending); the Treasury issues federal debt.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q016",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "SIPC protection applies when a:",
+    "choices": [
+      "customer's portfolio loses value in a market decline",
+      "broker-dealer becomes insolvent and customer assets are missing",
+      "bank holding customer CDs fails",
+      "mutual fund's NAV falls below its offering price"
+    ],
+    "correctIndex": 1,
+    "explanation": "SIPC is liquidation insurance for failed broker-dealers, restoring missing customer securities and cash within limits. It never covers market losses; failed banks are FDIC territory.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q017",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "A married couple holds a joint brokerage account, and each spouse also has an individual account at the same failed broker-dealer. For SIPC purposes, the coverage applies to:",
+    "choices": [
+      "one combined $500,000 limit for the household",
+      "each account as a separate customer, each with its own $500,000 limit",
+      "only the joint account",
+      "only the two individual accounts"
+    ],
+    "correctIndex": 1,
+    "explanation": "SIPC covers each separate capacity as a distinct customer: his account, her account, and the joint account each get up to $500,000 of protection (max $250,000 cash each).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch1-q018",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "Which of the following items in a customer's account is NOT covered by SIPC?",
+    "choices": [
+      "Common stock held in street name",
+      "Corporate bonds",
+      "Cash awaiting reinvestment",
+      "Commodity futures contracts"
+    ],
+    "correctIndex": 3,
+    "explanation": "SIPC covers securities and cash held at a broker-dealer. Commodity futures contracts and (with limited exceptions) currency positions are not securities and are excluded from SIPC protection.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q019",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "An introducing broker-dealer differs from a clearing (carrying) firm in that the introducing firm:",
+    "choices": [
+      "holds customer funds and securities itself",
+      "accepts customer orders but passes execution, settlement, and custody to the clearing firm",
+      "acts only as a market maker",
+      "settles trades directly with the DTCC"
+    ],
+    "correctIndex": 1,
+    "explanation": "An introducing firm handles the customer relationship and order-taking while a clearing/carrying firm executes, settles, and holds customer assets. Customers of introducing firms receive statements from the clearing firm.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q020",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "Which of the following persons is most likely excluded from the definition of 'broker' under the Exchange Act?",
+    "choices": [
+      "A firm executing customer stock orders for commissions",
+      "A bank effecting securities transactions solely for its trust customers under bank exemptions",
+      "A firm soliciting options orders from retail investors",
+      "An electronic platform matching customer equity orders for a fee"
+    ],
+    "correctIndex": 1,
+    "explanation": "Banks acting within specific statutory exemptions (e.g., trust department activity) are excluded from broker-dealer registration. Anyone effecting securities transactions for others as a business generally must register.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch1-q021",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "A registered investment adviser charges clients 1% of assets under management and also earns commissions executing their trades through its affiliated broker-dealer. This dual compensation:",
+    "choices": [
+      "is prohibited in all cases",
+      "is permitted if the conflict is disclosed to clients",
+      "requires the adviser to drop its advisory registration",
+      "is permitted only for institutional clients"
+    ],
+    "correctIndex": 1,
+    "explanation": "Advisers are fiduciaries; conflicts of interest such as dual compensation must be fully disclosed (typically in Form ADV). Disclosure, not prohibition, is the general standard.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q022",
+    "chapterId": 1,
+    "sectionTag": "1-5",
+    "question": "The bid price displayed by a market maker represents the price at which the market maker will:",
+    "choices": [
+      "sell to a customer",
+      "buy from a customer",
+      "cross two customer orders",
+      "underwrite a new issue"
+    ],
+    "correctIndex": 1,
+    "explanation": "The bid is what the dealer pays to buy; the ask (offer) is what the dealer charges to sell. Customers sell at the bid and buy at the ask — the spread is the market maker's compensation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q023",
+    "chapterId": 1,
+    "sectionTag": "1-5",
+    "question": "Which entity's primary function is safekeeping customer securities and settling institutional trades?",
+    "choices": ["A custodian bank", "A market maker", "An underwriter", "A registrar"],
+    "correctIndex": 0,
+    "explanation": "Custodians (often banks) hold assets for safekeeping — common for institutions, mutual funds, and advisory accounts. Registrars verify share counts; market makers trade; underwriters distribute new issues.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q024",
+    "chapterId": 1,
+    "sectionTag": "1-5",
+    "question": "The Depository Trust & Clearing Corporation (DTCC) primarily serves the securities markets by:",
+    "choices": [
+      "regulating broker-dealer sales practices",
+      "providing centralized clearing, settlement, and custody of securities",
+      "setting margin requirements",
+      "insuring customer accounts against fraud"
+    ],
+    "correctIndex": 1,
+    "explanation": "DTCC and its subsidiaries (NSCC, DTC) clear and settle trades and hold securities in book-entry form, reducing counterparty risk. It is market infrastructure, not a regulator or insurer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q025",
+    "chapterId": 1,
+    "sectionTag": "1-1",
+    "question": "An investor claims she relied on the SEC's review of a prospectus as proof the offering was low-risk. A representative should explain that any suggestion the SEC has passed on the merits of an issue is:",
+    "choices": [
+      "accurate for registered offerings",
+      "accurate only for exchange-listed offerings",
+      "a violation — such claims are prohibited",
+      "acceptable if the registration is effective"
+    ],
+    "correctIndex": 2,
+    "explanation": "Stating or implying that the SEC has approved or passed on the merits of an issue is expressly unlawful. The required prospectus disclaimer makes this exact point.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q026",
+    "chapterId": 1,
+    "sectionTag": "1-2",
+    "question": "FINRA's authority extends to all of the following EXCEPT:",
+    "choices": [
+      "registered representatives of member firms",
+      "member broker-dealer firms",
+      "municipal securities issuers",
+      "associated persons of member firms"
+    ],
+    "correctIndex": 2,
+    "explanation": "FINRA regulates its member firms and their associated persons. Issuers — municipal or corporate — are not FINRA members and are outside its jurisdiction (municipal issuers are largely exempt from registration entirely).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q027",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "Which of the following is a function of the U.S. Treasury Department rather than the Federal Reserve?",
+    "choices": [
+      "Conducting open-market operations",
+      "Issuing federal government debt securities",
+      "Setting the discount rate",
+      "Setting reserve requirements for banks"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Treasury issues T-bills, notes, and bonds to fund the government. Open-market operations, the discount rate, and reserve requirements are all Federal Reserve monetary policy tools.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q028",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "A firm acting in an agency capacity on a customer trade is compensated by:",
+    "choices": ["a markup", "a markdown", "a commission", "the spread"],
+    "correctIndex": 2,
+    "explanation": "Agents (brokers) charge commissions for arranging trades between parties. Dealers acting as principals earn markups (selling to customers), markdowns (buying from customers), or the spread.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q029",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "Which of the following would require registration as a broker-dealer?",
+    "choices": [
+      "An individual buying and selling stocks in her own account frequently",
+      "A firm regularly buying securities from and selling securities to customers from its own inventory",
+      "A corporation issuing its own common stock to investors",
+      "A bank trust department acting within its exemption"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trading with customers from inventory as a regular business is dealer activity requiring registration. Personal traders and issuers selling their own securities are not dealers; exempt bank activity is excluded.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch1-q030",
+    "chapterId": 1,
+    "sectionTag": "1-5",
+    "question": "The function of ensuring a corporation never has more shares outstanding than authorized belongs to the:",
+    "choices": ["transfer agent", "registrar", "custodian", "paying agent"],
+    "correctIndex": 1,
+    "explanation": "The registrar audits and accounts for shares outstanding versus authorized. The transfer agent processes ownership changes — the two functions are complementary and often performed by different institutions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q031",
+    "chapterId": 1,
+    "sectionTag": "1-2",
+    "question": "Rules proposed by FINRA become effective:",
+    "choices": [
+      "immediately upon board approval",
+      "after SEC review and approval",
+      "after a member vote only",
+      "after approval by the U.S. Treasury"
+    ],
+    "correctIndex": 1,
+    "explanation": "As an SRO, FINRA operates under SEC oversight — proposed rule changes are filed with and approved by the SEC before taking effect.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q032",
+    "chapterId": 1,
+    "sectionTag": "1-1",
+    "question": "Which act requires investment companies such as mutual funds to register with the SEC and abide by structural and disclosure rules?",
+    "choices": [
+      "Securities Act of 1933",
+      "Securities Exchange Act of 1934",
+      "Investment Company Act of 1940",
+      "Bank Secrecy Act"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Investment Company Act of 1940 governs the structure and operation of investment companies (open-end funds, closed-end funds, UITs). The 1933 Act covers new issues; the 1934 Act covers trading markets.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q033",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "If the Federal Reserve wants to stimulate a slowing economy, it would most likely:",
+    "choices": [
+      "sell Treasury securities in the open market",
+      "raise the discount rate",
+      "buy Treasury securities in the open market",
+      "raise reserve requirements"
+    ],
+    "correctIndex": 2,
+    "explanation": "Buying Treasuries injects money into the banking system, pushing rates down and encouraging lending — easing policy. Selling securities, raising the discount rate, or raising reserve requirements all tighten.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q034",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "A prime brokerage arrangement is designed primarily for:",
+    "choices": [
+      "retail investors with small accounts",
+      "hedge funds and other active institutional customers consolidating services at one firm while executing through many",
+      "municipal issuers",
+      "mutual fund shareholders"
+    ],
+    "correctIndex": 1,
+    "explanation": "Prime brokerage lets an institutional customer (commonly a hedge fund) custody assets, borrow, and clear at one prime broker while executing trades through multiple executing brokers.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ch1-q035",
+    "chapterId": 1,
+    "sectionTag": "1-5",
+    "question": "In a typical securities transaction, which party provides liquidity by committing its own capital?",
+    "choices": [
+      "The principal (dealer)",
+      "The agent (broker)",
+      "The transfer agent",
+      "The registrar"
+    ],
+    "correctIndex": 0,
+    "explanation": "A principal/dealer trades from its own account, putting firm capital at risk to provide liquidity. Agents merely arrange trades between other parties for a commission.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ch1-q036",
+    "chapterId": 1,
+    "sectionTag": "1-2",
+    "question": "Which SRO would write the rules governing a broker-dealer's sales of city general obligation bonds?",
+    "choices": ["FINRA", "MSRB", "The Federal Reserve", "The issuing municipality"],
+    "correctIndex": 1,
+    "explanation": "The MSRB writes rules for dealers and municipal advisors in municipal securities. FINRA enforces those rules on securities firms but does not write them; issuers themselves are exempt from most regulation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q037",
+    "chapterId": 1,
+    "sectionTag": "1-1",
+    "question": "Under the Securities Exchange Act of 1934, which of the following must register with the SEC?",
+    "choices": [
+      "National securities exchanges and broker-dealers",
+      "Municipal issuers",
+      "Fixed annuity providers",
+      "Bank savings products"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 1934 Act requires registration of exchanges, broker-dealers, and transfer agents, among others. Municipal issuers are exempt; fixed annuities and bank deposits are not securities.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q038",
+    "chapterId": 1,
+    "sectionTag": "1-3",
+    "question": "The federal funds rate is best described as the rate:",
+    "choices": [
+      "the Fed charges member banks for direct loans",
+      "banks charge each other for overnight loans of reserves",
+      "banks charge their best corporate customers",
+      "on newly issued 90-day T-bills"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fed funds is the overnight interbank rate on reserve balances — the FOMC's main policy target. The discount rate is what the Fed itself charges; the prime rate is for top bank customers.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q039",
+    "chapterId": 1,
+    "sectionTag": "1-4",
+    "question": "Which of the following best describes a fiduciary standard as applied to investment advisers?",
+    "choices": [
+      "Recommendations need only be suitable at the time made",
+      "The adviser must place clients' interests ahead of its own at all times",
+      "The adviser must guarantee account performance",
+      "The standard applies only to accounts over $1 million"
+    ],
+    "correctIndex": 1,
+    "explanation": "Advisers owe clients an ongoing fiduciary duty of loyalty and care — clients' interests come first, and conflicts must be disclosed or avoided. No one may guarantee performance.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ch1-q040",
+    "chapterId": 1,
+    "sectionTag": "1-5",
+    "question": "An institutional investor wants shares held in its own name segregated from the broker-dealer's assets. The entity that physically or electronically safeguards those positions is the:",
+    "choices": ["custodian", "market maker", "introducing broker", "underwriting syndicate"],
+    "correctIndex": 0,
+    "explanation": "Custodians safeguard client assets, keeping them segregated from firm assets — a core protection for institutions and advisory clients. The other parties execute, introduce, or distribute securities.",
+    "difficulty": "easy"
+  }
+]

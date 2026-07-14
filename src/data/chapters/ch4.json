@@ -1,0 +1,76 @@
+{
+  "chapterId": 4,
+  "sections": [
+    {
+      "id": "4-1",
+      "blocks": [
+        { "type": "paragraph", "text": "When a private company sells stock to the public for the first time, it runs an initial public offering (IPO) under the Securities Act of 1933 — the 'paper act' built on one idea: full and fair disclosure. The company (the issuer) hires investment banks (underwriters) and files a registration statement with the SEC." },
+        { "type": "keyTerm", "term": "Registration statement (S-1)", "definition": "The disclosure document filed with the SEC to register a public offering. It describes the business, its finances, management, risk factors, and how proceeds will be used. Part of it becomes the prospectus — the disclosure document that must be delivered to every buyer of the new issue." },
+        { "type": "heading", "level": 3, "text": "The three periods of registration" },
+        { "type": "paragraph", "text": "Registration unfolds in three periods. Pre-filing: no offers, no sales, no publicity about the deal — silence (an illegal early promotion is called 'gun jumping'). Cooling-off period (a minimum of roughly 20 days while the SEC reviews): the underwriters may distribute a preliminary prospectus (red herring), publish a bare-bones tombstone ad, and take non-binding indications of interest — but no sales, no money accepted, and no research reports or sales literature about the issue. Post-effective: the final prospectus exists, the price is set, and sales can happen." },
+        { "type": "keyTerm", "term": "Red herring", "definition": "The preliminary prospectus used during the cooling-off period. It has no final price and no effective date, and it carries a red-ink warning that the registration hasn't yet become effective. It gauges interest — it can't be used to sell." },
+        { "type": "table", "caption": "What's allowed when", "headers": ["Period", "Allowed", "Not allowed"], "rows": [
+          ["Pre-filing", "Nothing about the deal", "Offers, sales, hype ('gun jumping')"],
+          ["Cooling-off", "Red herring, tombstone, indications of interest, due diligence meeting", "Sales, accepting funds, sending research or sales literature"],
+          ["Post-effective", "Sales with final prospectus", "Altering the disclosure; claiming SEC approval"]
+        ] },
+        { "type": "paragraph", "text": "Near the end of the cooling-off period the underwriters hold a due diligence meeting — a final scrub of the disclosure among the issuer, underwriters, lawyers, and accountants — then the deal is priced and the registration goes effective. If the SEC finds the filing incomplete, it issues a deficiency letter, which stops the clock until the issuer cures the problem." },
+        { "type": "example", "title": "Example", "text": "During BrightLeaf's cooling-off period, a rep collects a customer's indication of interest for 500 shares at the expected $15-$17 range. That indication is not binding on either side. Only after the registration goes effective at $16 can the customer actually buy — and she must receive the final prospectus no later than with the confirmation." },
+        { "type": "examTip", "text": "An indication of interest is binding on NO ONE. And a tombstone ad is not an offer to sell — it's the only advertising permitted during cooling-off, limited to bare facts: issuer name, security, price range, and who to call for a prospectus." },
+        { "type": "heading", "level": 3, "text": "Aftermarket rules" },
+        { "type": "paragraph", "text": "Prospectus delivery doesn't stop at the offering: dealers must keep delivering the prospectus to aftermarket buyers for 25 days after the effective date when the stock lists on an exchange or Nasdaq (90 days for a non-listed IPO, 40 days for a non-listed follow-on). And under FINRA Rule 5130, industry insiders — member firms, their employees, and immediate family they support — are 'restricted persons' who may not buy shares of a common-stock IPO at the offering price." },
+        { "type": "warning", "text": "Remember from Chapter 1: SEC effectiveness is not approval. The final prospectus can never claim the SEC approved or verified anything — that misstatement is itself fraud. Every prospectus carries a disclaimer saying exactly this." }
+      ]
+    },
+    {
+      "id": "4-2",
+      "blocks": [
+        { "type": "paragraph", "text": "Public companies keep raising capital after the IPO. A follow-on (additional issue) offering sells NEW shares — primary, proceeds to the issuer, dilutes existing holders. A registered secondary distribution sells EXISTING shares held by insiders or early investors — the sellers get the money, share count unchanged. A combined (split) offering mixes both in one deal." },
+        { "type": "keyTerm", "term": "Shelf registration (Rule 415)", "definition": "Lets a seasoned issuer register a large block of securities once, then sell pieces 'off the shelf' over up to three years (two for some issuers) as market conditions allow — no new registration each time. Each takedown just needs a prospectus supplement." },
+        { "type": "example", "title": "Example", "text": "Meridian Utilities shelf-registers $2 billion of debt. Eight months later rates dip, and it sells $500 million of bonds off the shelf within days — a speed impossible if it had to start a fresh 20-day registration review." },
+        { "type": "paragraph", "text": "Well-known seasoned issuers (WKSIs — very large, established filers) get the most flexibility: their shelf registrations become effective automatically on filing. That's the reward for years of continuous 1934 Act reporting: the market already has the disclosure." },
+        { "type": "heading", "level": 3, "text": "Dilution and preemptive rights" },
+        { "type": "paragraph", "text": "Dilution is why shareholders care about follow-ons: issuing new shares shrinks each existing holder's ownership percentage and spreads earnings across more shares (lower EPS). That's also why common shareholders often hold preemptive rights (Chapter 5) — the right to buy new shares before the public and maintain their proportional stake, delivered mechanically through a rights offering." },
+        { "type": "example", "title": "Example — dilution math", "text": "You own 100,000 of 10 million shares — 1%. The company issues 2 million new shares in a follow-on you skip. You now own 100,000 of 12 million: 0.83%. With preemptive rights you'd have been offered 20,000 of the new shares (1% of 2 million) first, letting you stay at 1%." },
+        { "type": "examTip", "text": "New shares + issuer gets proceeds = primary (even for a 50-year-old company). Existing shares + selling shareholders get proceeds = secondary. A 'combined' or 'split' offering is both at once. Shelf registration = registered once, sold over up to three years." }
+      ]
+    },
+    {
+      "id": "4-3",
+      "blocks": [
+        { "type": "paragraph", "text": "Not every offering registers with the SEC. The 1933 Act exempts certain SECURITIES outright and certain TRANSACTIONS, where the security itself isn't special but the way it's sold avoids a public offering. Keep the two lists separate — it's a favorite exam distinction." },
+        { "type": "list", "items": [
+          "Exempt SECURITIES (never register): U.S. government and agency issues, municipal bonds, bank securities, short-term commercial paper and bankers' acceptances (270 days or less), securities of nonprofits, and insurance policies/fixed annuities (variable products are NOT exempt).",
+          "Exempt TRANSACTIONS (the sale avoids registration): Reg D private placements, Rule 147 intrastate offerings, Reg A+ small offerings, Reg S offshore sales, Rule 144A sales to QIBs."
+        ] },
+        { "type": "keyTerm", "term": "Regulation D private placement", "definition": "A transaction exemption for securities sold privately rather than publicly. Under Rule 506(b): unlimited accredited investors plus up to 35 non-accredited (but sophisticated) purchasers, no general solicitation or advertising. Rule 506(c) allows advertising — but then EVERY buyer must be accredited, and the issuer must take reasonable steps to verify it." },
+        { "type": "keyTerm", "term": "Accredited investor", "definition": "An individual with income over $200,000 ($300,000 joint) in each of the last two years with the same expectation this year, or net worth over $1 million EXCLUDING the primary residence — plus institutions, banks, insurance companies, and holders of certain licenses (Series 7, 65, 82)." },
+        { "type": "paragraph", "text": "Private placements typically deliver disclosure through a private placement memorandum (PPM) rather than a prospectus. Investors usually sign a subscription agreement and may be asked to attest to their accredited status. The securities they receive are 'restricted' — often stamped with a restrictive legend — and illiquid until an exemption for resale applies." },
+        { "type": "heading", "level": 3, "text": "Rule 144 — the exit door" },
+        { "type": "paragraph", "text": "Private-placement stock is restricted: bought unregistered, it can't be freely resold. Rule 144 is the exit door. Non-affiliates must hold restricted stock of a reporting company six months, then sell freely (12 months for non-reporting issuers). Affiliates (officers, directors, 10%+ owners) face volume limits every time they sell control stock: in any 90 days, no more than the GREATER of 1% of shares outstanding or the average weekly trading volume of the prior four weeks — and they file Form 144 at or before the sale." },
+        { "type": "example", "title": "Example — Rule 144 volume math", "text": "A director wants to sell shares of a company with 10 million shares outstanding. The last four weeks traded 120,000 / 100,000 / 90,000 / 90,000 shares — an average of 100,000. One percent of outstanding is 100,000, so the greater-of test allows 100,000 shares in the next 90 days. If average weekly volume had been 140,000, she could sell 140,000." },
+        { "type": "examTip", "text": "Keep the players straight: Reg D governs the private SALE; Rule 144 governs the RESALE. Restricted stock = how you acquired it (unregistered — holding period applies). Control stock = who you are (affiliate — volume limits apply). An affiliate's registered shares face volume limits but no holding period; a non-affiliate's restricted shares face a holding period but, after it, no limits." },
+        { "type": "paragraph", "text": "Other exempt transactions worth a glance: Rule 147/147A intrastate offerings (issuer doing business and all buyers in one state — resales to out-of-state buyers barred for six months), Regulation A+ small offerings (Tier 1 up to $20 million, Tier 2 up to $75 million, with a lighter 'offering circular' disclosure), Regulation S offshore sales to non-U.S. persons, and Rule 144A resales of unregistered securities among qualified institutional buyers (QIBs, $100 million+ under management)." }
+      ]
+    },
+    {
+      "id": "4-4",
+      "blocks": [
+        { "type": "paragraph", "text": "Underwriting is how the deal actually gets sold. The issuer picks a lead (managing) underwriter, which forms a syndicate of firms that sign the agreement among underwriters, share the risk, and split the selling. A selling group of additional firms may help distribute shares without capital at risk. The lead runs the book, allocates shares, and stabilizes the aftermarket if needed." },
+        { "type": "keyTerm", "term": "Firm commitment", "definition": "The syndicate BUYS the entire issue from the issuer and resells it to the public — acting as principal. Unsold shares are the underwriters' problem. The issuer is guaranteed its money. This is the standard structure for large corporate deals." },
+        { "type": "keyTerm", "term": "Best efforts", "definition": "The underwriter acts as the issuer's AGENT, selling what it can with no obligation to buy the rest. Variants: all-or-none (cancel unless every share sells) and mini-max (cancel unless a stated minimum sells). Investor funds sit in escrow until the contingency is met — if it fails, money goes back." },
+        { "type": "table", "caption": "Underwriting commitments", "headers": ["Type", "Underwriter capacity", "Who bears unsold risk"], "rows": [
+          ["Firm commitment", "Principal", "Underwriters"],
+          ["Best efforts", "Agent", "Issuer"],
+          ["All-or-none / mini-max", "Agent (contingent)", "Issuer — deal cancels if minimum unmet"],
+          ["Standby", "Principal (backstop)", "Underwriter buys unsubscribed rights shares"]
+        ] },
+        { "type": "heading", "level": 3, "text": "The spread and its pieces" },
+        { "type": "paragraph", "text": "The underwriting spread is the difference between what the public pays (the public offering price, or POP) and what the issuer receives. It splits three ways: the manager's fee (to the lead, the smallest piece per share but earned on every share), the underwriting fee (to syndicate members for capital risk), and the selling concession — the largest piece — to whoever actually sells the shares. A selling-group member earns only the concession; a reallowance is the small slice available to non-syndicate FINRA members who sell." },
+        { "type": "example", "title": "Example — the spread", "text": "POP $20.00, issuer receives $18.80: a $1.20 spread. Roughly, the manager might take $0.20, the underwriting fee $0.30, and the selling concession $0.70. A selling-group member earns only the $0.70 concession — it took no capital risk. Note the buyer pays no commission on a new issue; compensation is inside the POP." },
+        { "type": "paragraph", "text": "Municipal underwriting adds one vocabulary pair: negotiated (issuer picks the underwriter and negotiates terms — typical for revenue bonds) versus competitive (issuer publishes an official notice of sale and syndicates submit sealed bids; lowest interest cost wins — typical for GO bonds). Corporate deals are almost always negotiated." },
+        { "type": "examTip", "text": "Firm commitment = principal = underwriter risk. Best efforts = agent = issuer risk. If the question mentions escrowed customer funds, it's an all-or-none or mini-max deal. And IPO buyers pay the POP with no added commission — the spread is the underwriters' pay." }
+      ]
+    }
+  ]
+}
