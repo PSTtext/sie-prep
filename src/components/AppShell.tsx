@@ -342,7 +342,7 @@ export default function AppShell() {
             <span>14 chapters · 3 exam functions</span>
           </div>
           <div className="font-mono text-[10px] tracking-[0.14em] text-ink-500 uppercase">
-            SIE/PREP <span className="text-ink-700">v1.0</span> · © 2026 Jake
+            SIE/PREP <span className="text-ink-700">v1.1</span> · © 2026 Jake
             Jennings
           </div>
         </div>

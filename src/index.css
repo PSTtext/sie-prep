@@ -55,6 +55,13 @@
   --color-signal-100: #3a1210;
   --color-signal-50: #290c0a;
 
+  /* Chart — categorical series ramp (fixed order, CVD-validated on the
+     dark surface). Distinct from status colors: no pure red/green. */
+  --color-chart-1: #cc7d00; /* amber   — Section 1 */
+  --color-chart-2: #2f9dbf; /* cyan    — Section 2 */
+  --color-chart-3: #8f6fe4; /* violet  — Section 3 */
+  --color-chart-4: #c25a70; /* rose    — Section 4 */
+
   /* Everything is mono — terminal hardware doesn't switch typefaces. */
   --font-sans: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', monospace;
   --font-display: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', monospace;
@@ -137,6 +144,12 @@ html {
   --color-signal-600: #cc353c;
   --color-signal-100: #f9e2e3;
   --color-signal-50: #fdf1f1;
+
+  /* Chart series re-picked for the light surface (same hue order). */
+  --color-chart-1: #a86a00;
+  --color-chart-2: #0e83a6;
+  --color-chart-3: #7a55d6;
+  --color-chart-4: #b04862;
 }
 
 body {

@@ -1,8 +1,8 @@
 import { useRef, useState, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
-import Badge from '../components/Badge'
 import Button from '../components/Button'
 import Card from '../components/Card'
+import ActivityChart from '../components/ActivityChart'
 import ProgressBar from '../components/ProgressBar'
 import ScoreTrend from '../components/ScoreTrend'
 import { chapters, finraSections, getChapter } from '../data'
@@ -14,22 +14,62 @@ import { exportProgressFile, importProgressFile } from '../lib/backup'
 import {
   bestChapterScore,
   chapterReadFraction,
+  dailyActivity,
   daysUntilExam,
   overallProgressPct,
   readinessScore,
+  sectionDayChange,
   sectionReadiness,
-  strengthOf,
   suggestedWeeklyPace,
-  type Strength,
 } from '../lib/stats'
+import type { FinraSectionId } from '../types'
 
-const strengthStyle: Record<
-  Strength,
-  { label: string; badge: 'danger' | 'brass' | 'success'; bar: 'signal' | 'brass' | 'verdant' }
-> = {
-  weak: { label: '● Weak', badge: 'danger', bar: 'signal' },
-  developing: { label: '◐ Developing', badge: 'brass', bar: 'brass' },
-  strong: { label: '● Strong', badge: 'success', bar: 'verdant' },
+/** Trading-desk ticker symbols + short names for the four exam sections. */
+const sectionMeta: Record<FinraSectionId, { ticker: string; name: string }> = {
+  1: { ticker: 'MKT', name: 'Capital Markets' },
+  2: { ticker: 'PRD', name: 'Products & Risks' },
+  3: { ticker: 'TRD', name: 'Trading & Accounts' },
+  4: { ticker: 'REG', name: 'Regulatory Framework' },
+}
+
+/** Segmented block meter, terminal style. */
+function Meter({ value, label }: { value: number | null; label: string }) {
+  const cells = 16
+  const filled = value === null ? 0 : Math.round((value / 100) * cells)
+  return (
+    <div
+      role="meter"
+      aria-label={label}
+      aria-valuemin={0}
+      aria-valuemax={100}
+      aria-valuenow={value === null ? 0 : Math.round(value)}
+      className="flex items-center gap-[2px]"
+    >
+      {Array.from({ length: cells }, (_, i) => (
+        <span
+          key={i}
+          className={`h-2.5 w-[5px] ${i < filled ? 'bg-brass-600' : 'bg-ink-200'}`}
+        />
+      ))}
+    </div>
+  )
+}
+
+/** Signed day-change readout: green up, red down, grey when no basis. */
+function DayChange({ value }: { value: number | null }) {
+  if (value === null)
+    return <span className="font-mono text-xs text-ink-400">--</span>
+  const flat = Math.abs(value) < 0.05
+  return (
+    <span
+      className={`font-mono text-xs font-semibold tabular-nums ${
+        flat ? 'text-ink-500' : value > 0 ? 'text-verdant-600' : 'text-signal-600'
+      }`}
+    >
+      {value > 0 ? '+' : ''}
+      {value.toFixed(1)}%
+    </span>
+  )
 }
 
 function StatCell({
@@ -124,10 +164,12 @@ export default function Dashboard() {
   const days = daysUntilExam(progress)
   const pace = suggestedWeeklyPace(progress)
   const perSection = sectionReadiness(progress)
+  const dayChange = sectionDayChange(progress)
   const today = todayISO()
   const dueCount = allFlashcards.filter((c) =>
     isDue(progress.flashcards[c.id], today),
   ).length
+  const activity = dailyActivity(progress, 30)
   const lastRead = progress.lastRead && getChapter(progress.lastRead.chapterId)
   const lastReadSection = lastRead?.sections.find(
     (s) => s.id === progress.lastRead!.sectionId,
@@ -211,20 +253,21 @@ export default function Dashboard() {
       {/* Bloomberg-style panel grid: left = tables, right = trend/session */}
       <div className="grid grid-cols-1 items-start gap-4 xl:grid-cols-12">
         <div className="flex min-w-0 flex-col gap-4 xl:col-span-7">
-      {/* Per-section readiness table */}
+      {/* Portfolio: per-section mastery table */}
       <Card
-        title="Readiness by exam section"
-        titleRight={<span className="font-mono text-[10px] text-ink-500">RDNS</span>}
+        title="Portfolio — Exam Mastery"
+        titleRight={<span className="font-mono text-[10px] text-ink-500">PORT</span>}
         className="overflow-x-auto"
       >
         <table className="w-full font-mono text-[13px]">
           <thead>
             <tr className="t-label border-b border-paper-edge text-left text-ink-500">
-              <th className="px-4 py-2 font-semibold">Sec</th>
-              <th className="px-2 py-2 font-semibold">Weight</th>
-              <th className="px-2 py-2 font-semibold">Score</th>
+              <th className="px-4 py-2 font-semibold">Ticker</th>
+              <th className="px-2 py-2 font-semibold">Section</th>
+              <th className="px-2 py-2 font-semibold">Wt</th>
+              <th className="px-2 py-2 font-semibold">Mastery</th>
+              <th className="px-2 py-2 font-semibold">Day chg</th>
               <th className="hidden px-2 py-2 font-semibold sm:table-cell">Meter</th>
-              <th className="px-2 py-2 text-right font-semibold">Status</th>
               <th className="px-4 py-2 text-right font-semibold">
                 <span className="sr-only">Drill</span>
               </th>
@@ -233,38 +276,32 @@ export default function Dashboard() {
           <tbody>
             {finraSections.map((fs) => {
               const score = perSection[fs.id]
-              const strength = score !== null ? strengthOf(score) : null
-              const style = strength ? strengthStyle[strength] : null
+              const chg = dayChange[fs.id]
+              const meta = sectionMeta[fs.id]
               return (
                 <tr
                   key={fs.id}
                   className="border-b border-paper-edge last:border-b-0"
                 >
-                  <td className="max-w-64 px-4 py-2.5">
-                    <span className="text-ink-500">{fs.id}</span>
-                    <span className="ml-2 text-ink-900">{fs.title}</span>
+                  <td className="px-4 py-3 font-semibold text-ink-950">
+                    {meta.ticker}
                   </td>
-                  <td className="px-2 py-2.5 text-ink-600 tabular-nums">
+                  <td className="max-w-52 px-2 py-3 text-ink-700" title={fs.title}>
+                    {meta.name}
+                  </td>
+                  <td className="px-2 py-3 text-ink-500 tabular-nums">
                     {fs.weightPct}%
                   </td>
-                  <td className="px-2 py-2.5 font-semibold text-ink-950 tabular-nums">
-                    {score !== null ? `${Math.round(score)}` : '--'}
+                  <td className="px-2 py-3 font-semibold text-ink-950 tabular-nums">
+                    {score !== null ? `${score.toFixed(1)}%` : '--'}
                   </td>
-                  <td className="hidden w-40 px-2 py-2.5 sm:table-cell">
-                    <ProgressBar
-                      value={score ?? 0}
-                      tone={style?.bar ?? 'ink'}
-                      label={`${fs.title} readiness`}
-                    />
+                  <td className="px-2 py-3">
+                    <DayChange value={chg} />
                   </td>
-                  <td className="px-2 py-2.5 text-right">
-                    {style ? (
-                      <Badge tone={style.badge}>{style.label}</Badge>
-                    ) : (
-                      <Badge tone="neutral">○ No data</Badge>
-                    )}
+                  <td className="hidden px-2 py-3 sm:table-cell">
+                    <Meter value={score} label={`${meta.name} mastery`} />
                   </td>
-                  <td className="px-4 py-2.5 text-right">
+                  <td className="px-4 py-3 text-right">
                     <Link
                       to={`/drill/${fs.id}`}
                       className="font-mono text-[11px] font-semibold whitespace-nowrap text-brass-600 hover:underline"
@@ -277,6 +314,15 @@ export default function Dashboard() {
             })}
           </tbody>
         </table>
+      </Card>
+
+      {/* 30-day study volume */}
+      <Card
+        title="Activity — 30d study volume"
+        titleRight={<span className="font-mono text-[10px] text-ink-500">ACTV</span>}
+        className="p-4"
+      >
+        <ActivityChart days={activity} />
       </Card>
 
       {/* Chapter list */}
@@ -325,8 +371,68 @@ export default function Dashboard() {
       </Card>
         </div>
 
-        {/* Right column: trend, session, data */}
+        {/* Right column: risk, trend, session, data */}
         <div className="flex min-w-0 flex-col gap-4 xl:col-span-5">
+          <Card
+            title="Risk — Exam Readiness"
+            titleRight={<span className="font-mono text-[10px] text-ink-500">RISK</span>}
+            className="p-5"
+          >
+            {readiness !== null ? (
+              <div className="flex flex-wrap items-center gap-6">
+                {/* Conic dial: readiness vs the 70 pass line */}
+                <div
+                  role="meter"
+                  aria-label="Overall exam readiness"
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                  aria-valuenow={Math.round(readiness)}
+                  className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full"
+                  style={{
+                    background: `conic-gradient(var(--color-brass-600) 0% ${readiness}%, var(--color-ink-200) ${readiness}% 100%)`,
+                  }}
+                >
+                  <div className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-paper-raised">
+                    <span className="t-readout text-2xl text-brass-600">
+                      {Math.round(readiness)}
+                    </span>
+                  </div>
+                </div>
+                <dl className="min-w-0 flex-1 font-mono text-[12px] leading-7">
+                  <div className="flex items-baseline justify-between gap-6">
+                    <dt className="text-ink-500 uppercase">Readiness</dt>
+                    <dd
+                      className={`font-semibold tabular-nums ${
+                        readiness >= 70 ? 'text-verdant-600' : 'text-brass-600'
+                      }`}
+                    >
+                      {readiness.toFixed(1)}%
+                    </dd>
+                  </div>
+                  <div className="flex items-baseline justify-between gap-6">
+                    <dt className="text-ink-500 uppercase">Pass line</dt>
+                    <dd className="text-ink-900 tabular-nums">70.0%</dd>
+                  </div>
+                  <div className="flex items-baseline justify-between gap-6">
+                    <dt className="text-ink-500 uppercase">Margin</dt>
+                    <dd
+                      className={`font-semibold tabular-nums ${
+                        readiness >= 70 ? 'text-verdant-600' : 'text-signal-600'
+                      }`}
+                    >
+                      {readiness >= 70 ? '+' : ''}
+                      {(readiness - 70).toFixed(1)} pts
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            ) : (
+              <div className="py-6 text-center font-mono text-xs tracking-[0.3em] text-ink-500 uppercase">
+                ── no data ──
+              </div>
+            )}
+          </Card>
+
           <Card
             title="Practice exam trend"
             titleRight={

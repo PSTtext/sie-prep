@@ -49,13 +49,18 @@ export function allQuizResults(progress: UserProgress): QuizResult[] {
 export function sectionReadiness(
   progress: UserProgress,
 ): Record<FinraSectionId, number | null> {
+  return sectionReadinessFrom(allQuizResults(progress))
+}
+
+function sectionReadinessFrom(
+  results: QuizResult[],
+): Record<FinraSectionId, number | null> {
   const out: Record<FinraSectionId, number | null> = {
     1: null,
     2: null,
     3: null,
     4: null,
   }
-  const results = allQuizResults(progress)
   for (const id of [1, 2, 3, 4] as FinraSectionId[]) {
     const touched = results
       .filter((r) => (r.sectionBreakdown[id]?.total ?? 0) > 0)
@@ -86,6 +91,33 @@ export function readinessScore(progress: UserProgress): number | null {
     weightSum += fs.weightPct
   }
   return weightSum > 0 ? weighted / weightSum : null
+}
+
+/**
+ * Per-section day change: today's readiness minus readiness as of the start
+ * of today (i.e. what today's attempts moved the number by). Null when there
+ * is no basis for a change (no prior data or no activity today).
+ */
+export function sectionDayChange(
+  progress: UserProgress,
+): Record<FinraSectionId, number | null> {
+  const all = allQuizResults(progress)
+  const today = localISODate(new Date())
+  const before = all.filter(
+    (r) => localISODate(new Date(r.completedAt)) < today,
+  )
+  const cur = sectionReadinessFrom(all)
+  const prev = sectionReadinessFrom(before)
+  const out: Record<FinraSectionId, number | null> = {
+    1: null,
+    2: null,
+    3: null,
+    4: null,
+  }
+  for (const id of [1, 2, 3, 4] as FinraSectionId[]) {
+    if (cur[id] !== null && prev[id] !== null) out[id] = cur[id]! - prev[id]!
+  }
+  return out
 }
 
 export type Strength = 'weak' | 'developing' | 'strong'
@@ -124,6 +156,55 @@ export function suggestedWeeklyPace(progress: UserProgress): number | null {
   const remaining = unreadSectionCount(progress)
   if (remaining === 0) return null
   return Math.ceil((remaining / days) * 7)
+}
+
+/** One day's question volume, split by FINRA section. */
+export interface DayActivity {
+  /** Local ISO date (yyyy-mm-dd). */
+  date: string
+  bySection: Record<FinraSectionId, number>
+  total: number
+}
+
+function localISODate(d: Date): string {
+  const y = d.getFullYear()
+  const m = String(d.getMonth() + 1).padStart(2, '0')
+  const day = String(d.getDate()).padStart(2, '0')
+  return `${y}-${m}-${day}`
+}
+
+/**
+ * Questions answered per day over the trailing `days` window (oldest first),
+ * split by FINRA section. Every day is present, so charts get a full axis.
+ */
+export function dailyActivity(progress: UserProgress, days = 30): DayActivity[] {
+  const byDate = new Map<string, Record<FinraSectionId, number>>()
+  for (const r of allQuizResults(progress)) {
+    const date = localISODate(new Date(r.completedAt))
+    let rec = byDate.get(date)
+    if (!rec) {
+      rec = { 1: 0, 2: 0, 3: 0, 4: 0 }
+      byDate.set(date, rec)
+    }
+    for (const id of [1, 2, 3, 4] as FinraSectionId[]) {
+      rec[id] += r.sectionBreakdown[id]?.total ?? 0
+    }
+  }
+  const today = new Date()
+  today.setHours(0, 0, 0, 0)
+  const out: DayActivity[] = []
+  for (let i = days - 1; i >= 0; i--) {
+    const d = new Date(today)
+    d.setDate(d.getDate() - i)
+    const date = localISODate(d)
+    const bySection = byDate.get(date) ?? { 1: 0, 2: 0, 3: 0, 4: 0 }
+    out.push({
+      date,
+      bySection,
+      total: bySection[1] + bySection[2] + bySection[3] + bySection[4],
+    })
+  }
+  return out
 }
 
 /** Whole days from today until the exam date (negative if past). */
