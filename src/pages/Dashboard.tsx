@@ -214,7 +214,7 @@ export default function Dashboard() {
           </span>
         }
         code="DASH"
-        className="mb-4 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
+        className="mb-5 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
       >
         <StatCell
           label="Material"
@@ -384,7 +384,7 @@ export default function Dashboard() {
       <Card
         title="Chapters"
         code="CHPT"
-        className="max-h-64 overflow-y-auto"
+        className="max-h-80 overflow-y-auto"
       >
         {chapters.map((ch) => {
           const readPct = chapterReadFraction(progress, ch) * 100
