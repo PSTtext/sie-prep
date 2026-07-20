@@ -199,7 +199,7 @@ export default function Dashboard() {
   )
 
   return (
-    <div>
+    <div className="flex flex-col gap-4">
       {/* Stat strip in a titled terminal panel (mockup: Overview / DASH) */}
       <Card
         title="Overview"
@@ -214,7 +214,7 @@ export default function Dashboard() {
           </span>
         }
         code="DASH"
-        className="mb-4 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
+        className="flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
       >
         <StatCell
           label="Material"

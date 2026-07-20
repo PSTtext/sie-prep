@@ -17,23 +17,24 @@
    output.
    ------------------------------------------------------------------ */
 @theme {
-  /* Ink — text ramp. Cool blue-greys on the blue-black ground. */
-  --color-ink-950: #f4f6f7;
-  --color-ink-900: #dfe4e8;
-  --color-ink-800: #c3cbd1;
-  --color-ink-700: #a5aeb8;
-  --color-ink-600: #8b98a3;
-  --color-ink-500: #75828d;
-  --color-ink-400: #67737d;
-  --color-ink-300: #2c3844;
-  --color-ink-200: #202b36;
-  --color-ink-100: #1a232e;
-  --color-ink-50: #151d26;
+  /* Ink — text ramp. Pure neutral greys on the graphite ground. */
+  --color-ink-950: #f5f6f6;
+  --color-ink-900: #e2e4e5;
+  --color-ink-800: #c7cacc;
+  --color-ink-700: #a8acaf;
+  --color-ink-600: #8e9296;
+  --color-ink-500: #787c80;
+  --color-ink-400: #6a6e72;
+  --color-ink-300: #33373b;
+  --color-ink-200: #26292d;
+  --color-ink-100: #1f2225;
+  --color-ink-50: #191c1e;
 
-  /* Paper — blue-black terminal ground with visibly raised panels */
-  --color-paper: #0a0e12;
-  --color-paper-raised: #10161d;
-  --color-paper-edge: #26313d;
+  /* Paper — neutral graphite terminal ground: true greys, zero tint,
+     so every colored accent does the talking. Visibly raised panels. */
+  --color-paper: #0c0d0e;
+  --color-paper-raised: #141618;
+  --color-paper-edge: #2b2f33;
 
   /* Verdant — ticker green, strictly for up / pass / progress data */
   --color-verdant-700: #5adc8c;
@@ -96,12 +97,12 @@
   --shadow-inset-edge: inset 0 0 0 1px var(--color-paper-edge);
 
   /* Shell — sidebar surface (slightly deeper than the page) */
-  --color-shell-950: #050505;
-  --color-shell-900: #111110;
-  --color-shell-800: #1d1d1b;
-  --color-shell-500: #6b6b64;
-  --color-shell-300: #a3a39b;
-  --color-shell-200: #c6c6bf;
+  --color-shell-950: #070808;
+  --color-shell-900: #101112;
+  --color-shell-800: #1b1d1f;
+  --color-shell-500: #696d70;
+  --color-shell-300: #a0a3a6;
+  --color-shell-200: #c4c7c9;
 }
 
 /* Terminal density: a tighter base size so the UI reads as a compact
@@ -177,7 +178,8 @@ body {
   font-variant-numeric: tabular-nums;
   /* Faint ambient glow so the glass panels have depth to sit over. */
   background-image:
-    radial-gradient(60rem 40rem at 75% -10%, rgb(77 184 216 / 0.07), transparent 60%),
+    radial-gradient(60rem 40rem at 75% -10%, rgb(255 255 255 / 0.04), transparent 60%),
+    radial-gradient(55rem 40rem at 110% 60%, rgb(77 184 216 / 0.04), transparent 60%),
     radial-gradient(50rem 35rem at -10% 110%, rgb(255 160 40 / 0.05), transparent 60%);
   background-attachment: fixed;
 }
