@@ -43,7 +43,7 @@ function Meter({
   label: string
   colorVar: string
 }) {
-  const cells = 16
+  const cells = 12
   const filled = value === null ? 0 : Math.round((value / 100) * cells)
   return (
     <span
@@ -214,7 +214,7 @@ export default function Dashboard() {
           </span>
         }
         code="DASH"
-        className="mb-5 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
+        className="mb-7 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
       >
         <StatCell
           label="Material"
@@ -288,8 +288,8 @@ export default function Dashboard() {
       </Card>
 
       {/* Bloomberg-style panel grid: left = tables, right = trend/session */}
-      <div className="grid grid-cols-1 items-start gap-4 xl:grid-cols-12">
-        <div className="flex min-w-0 flex-col gap-4 xl:col-span-7">
+      <div className="grid grid-cols-1 items-start gap-x-7 gap-y-5 xl:grid-cols-12">
+        <div className="flex min-w-0 flex-col gap-5 xl:col-span-7">
       {/* Portfolio: per-section mastery table */}
       <Card
         title="Portfolio — Exam Mastery"
@@ -307,7 +307,7 @@ export default function Dashboard() {
               <th className="hidden px-2 py-2 font-semibold whitespace-nowrap lg:table-cell">
                 Meter
               </th>
-              <th className="hidden px-2 py-2 font-semibold whitespace-nowrap xl:table-cell">
+              <th className="hidden px-2 py-2 font-semibold whitespace-nowrap 2xl:table-cell">
                 Status
               </th>
               <th className="px-4 py-2 text-right font-semibold">
@@ -332,7 +332,7 @@ export default function Dashboard() {
                     {meta.ticker}
                   </td>
                   <td
-                    className="max-w-52 px-2 py-3 text-ink-800 italic whitespace-nowrap"
+                    className="max-w-40 truncate px-2 py-3 text-ink-800 italic"
                     title={fs.title}
                   >
                     {meta.name}
@@ -353,7 +353,7 @@ export default function Dashboard() {
                       colorVar={`--color-chart-${fs.id}`}
                     />
                   </td>
-                  <td className="hidden px-2 py-3 whitespace-nowrap xl:table-cell">
+                  <td className="hidden px-2 py-3 whitespace-nowrap 2xl:table-cell">
                     <PassStatus value={score} />
                   </td>
                   <td className="px-4 py-3 text-right">
@@ -427,7 +427,7 @@ export default function Dashboard() {
         </div>
 
         {/* Right column: risk, trend, session, data */}
-        <div className="flex min-w-0 flex-col gap-4 xl:col-span-5">
+        <div className="flex min-w-0 flex-col gap-5 xl:col-span-5">
           <Card
             title="Risk — Exam Readiness"
             code="RISK"
