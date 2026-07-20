@@ -214,7 +214,7 @@ export default function Dashboard() {
           </span>
         }
         code="DASH"
-        className="mb-7 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
+        className="mb-4 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
       >
         <StatCell
           label="Material"
@@ -267,9 +267,8 @@ export default function Dashboard() {
                 />
               </label>
               {pace !== null && (
-                <span className="mt-1 block text-brass-600">
-                  pace: ~{pace} section{pace === 1 ? '' : 's'}/week to finish
-                  reading
+                <span className="mt-1 block text-brass-600 whitespace-nowrap">
+                  pace: ~{pace} section{pace === 1 ? '' : 's'}/wk
                 </span>
               )}
             </span>
@@ -288,8 +287,8 @@ export default function Dashboard() {
       </Card>
 
       {/* Bloomberg-style panel grid: left = tables, right = trend/session */}
-      <div className="grid grid-cols-1 items-start gap-x-7 gap-y-5 xl:grid-cols-12">
-        <div className="flex min-w-0 flex-col gap-5 xl:col-span-7">
+      <div className="grid grid-cols-1 items-start gap-4 xl:grid-cols-12">
+        <div className="flex min-w-0 flex-col gap-4 xl:col-span-7">
       {/* Portfolio: per-section mastery table */}
       <Card
         title="Portfolio — Exam Mastery"
@@ -427,7 +426,7 @@ export default function Dashboard() {
         </div>
 
         {/* Right column: risk, trend, session, data */}
-        <div className="flex min-w-0 flex-col gap-5 xl:col-span-5">
+        <div className="flex min-w-0 flex-col gap-4 xl:col-span-5">
           <Card
             title="Risk — Exam Readiness"
             code="RISK"
