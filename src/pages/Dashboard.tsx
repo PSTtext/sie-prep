@@ -180,25 +180,22 @@ export default function Dashboard() {
 
   return (
     <div>
-      <header className="mb-6 flex flex-wrap items-end justify-between gap-3">
-        <div>
-          <div className="t-label text-brass-600">Overview</div>
-          <h1 className="font-display mt-1 text-2xl font-semibold tracking-tight text-ink-950">
-            Dashboard
-          </h1>
-        </div>
-        <div className="font-mono text-[11px] tracking-wide text-ink-500 uppercase">
-          {new Date().toLocaleDateString(undefined, {
-            weekday: 'short',
-            month: 'short',
-            day: 'numeric',
-            year: 'numeric',
-          })}
-        </div>
-      </header>
-
-      {/* Stat strip */}
-      <Card className="mb-4 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0">
+      {/* Stat strip in a titled terminal panel (mockup: Overview / DASH) */}
+      <Card
+        title="Overview"
+        titleRight={
+          <span className="font-mono text-[10px] text-ink-500 uppercase">
+            {new Date().toLocaleDateString(undefined, {
+              weekday: 'short',
+              month: 'short',
+              day: 'numeric',
+              year: 'numeric',
+            })}{' '}
+            · DASH
+          </span>
+        }
+        className="mb-4 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
+      >
         <StatCell
           label="Material"
           value={`${Math.round(overall)}%`}
