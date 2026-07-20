@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Button from '../components/Button'
 import Card from '../components/Card'
 import ActivityChart from '../components/ActivityChart'
+import EmptyState from '../components/EmptyState'
 import ProgressBar from '../components/ProgressBar'
 import ScoreTrend from '../components/ScoreTrend'
 import { chapters, finraSections, getChapter } from '../data'
@@ -32,10 +33,12 @@ const sectionMeta: Record<FinraSectionId, { ticker: string; name: string }> = {
   4: { ticker: 'REG', name: 'Regulatory Framework' },
 }
 
-/** Segmented block meter, terminal style. */
+/** Segmented block meter, terminal style. Colored by pass-line status
+    (verdant ≥70, brass below) so brass stays the chrome/action color. */
 function Meter({ value, label }: { value: number | null; label: string }) {
   const cells = 16
   const filled = value === null ? 0 : Math.round((value / 100) * cells)
+  const fill = value !== null && value >= 70 ? 'bg-verdant-600' : 'bg-brass-600'
   return (
     <div
       role="meter"
@@ -48,7 +51,7 @@ function Meter({ value, label }: { value: number | null; label: string }) {
       {Array.from({ length: cells }, (_, i) => (
         <span
           key={i}
-          className={`h-2.5 w-[5px] ${i < filled ? 'bg-brass-600' : 'bg-ink-200'}`}
+          className={`h-2.5 w-[5px] ${i < filled ? fill : 'bg-ink-200'}`}
         />
       ))}
     </div>
@@ -220,13 +223,22 @@ export default function Dashboard() {
           tone={days !== null && days <= 7 ? 'warn' : 'default'}
           sub={
             <span className="block">
-              <label className="flex items-center gap-2">
-                exam date
+              {/* Unset exam date is a first-run setup action — promote it. */}
+              <label
+                className={`flex items-center gap-2 ${
+                  progress.examDate
+                    ? ''
+                    : 'w-fit cursor-pointer border border-brass-600 px-2 py-1 font-semibold tracking-[0.08em] text-brass-600 uppercase hover:bg-brass-50'
+                }`}
+              >
+                {progress.examDate ? 'exam date' : '▸ Set exam date'}
                 <input
                   type="date"
                   value={progress.examDate ?? ''}
                   onChange={(e) => setExamDate(e.target.value || undefined)}
-                  className="border border-paper-edge bg-paper px-1.5 py-0.5 font-mono text-[11px] text-ink-800 focus:outline-2 focus:outline-brass-600"
+                  className={`border border-paper-edge bg-paper px-1.5 py-0.5 font-mono text-[11px] text-ink-800 focus:outline-2 focus:outline-brass-600 ${
+                    progress.examDate ? '' : 'max-w-28'
+                  }`}
                 />
               </label>
               {pace !== null && (
@@ -244,7 +256,7 @@ export default function Dashboard() {
           tone={dueCount > 0 ? 'warn' : 'up'}
           sub={
             <Link to="/flashcards" className="text-brass-600 hover:underline">
-              {dueCount > 0 ? '→ open flashcards' : 'all caught up'}
+              {dueCount > 0 ? '▸ Open flashcards' : 'all caught up'}
             </Link>
           }
         />
@@ -306,7 +318,7 @@ export default function Dashboard() {
                       to={`/drill/${fs.id}`}
                       className="font-mono text-[11px] font-semibold whitespace-nowrap text-brass-600 hover:underline"
                     >
-                      Drill →
+                      ▸ Drill
                     </Link>
                   </td>
                 </tr>
@@ -389,11 +401,19 @@ export default function Dashboard() {
                   aria-valuenow={Math.round(readiness)}
                   className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full"
                   style={{
-                    background: `conic-gradient(var(--color-brass-600) 0% ${readiness}%, var(--color-ink-200) ${readiness}% 100%)`,
+                    background: `conic-gradient(${
+                      readiness >= 70
+                        ? 'var(--color-verdant-600)'
+                        : 'var(--color-brass-600)'
+                    } 0% ${readiness}%, var(--color-ink-200) ${readiness}% 100%)`,
                   }}
                 >
                   <div className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-paper-raised">
-                    <span className="t-readout text-2xl text-brass-600">
+                    <span
+                      className={`t-readout text-2xl ${
+                        readiness >= 70 ? 'text-verdant-600' : 'text-brass-600'
+                      }`}
+                    >
                       {Math.round(readiness)}
                     </span>
                   </div>
@@ -427,9 +447,7 @@ export default function Dashboard() {
                 </dl>
               </div>
             ) : (
-              <div className="py-6 text-center font-mono text-xs tracking-[0.3em] text-ink-500 uppercase">
-                ── no data ──
-              </div>
+              <EmptyState action={{ to: '/exam', text: 'Take a practice exam' }} />
             )}
           </Card>
 
@@ -447,9 +465,7 @@ export default function Dashboard() {
             {progress.examHistory.length > 0 ? (
               <ScoreTrend attempts={progress.examHistory} />
             ) : (
-              <div className="py-8 text-center font-mono text-xs tracking-[0.3em] text-ink-500 uppercase">
-                ── no data ──
-              </div>
+              <EmptyState action={{ to: '/exam', text: 'Take a practice exam' }} />
             )}
           </Card>
 
@@ -463,7 +479,7 @@ export default function Dashboard() {
                 className="flex items-center justify-between gap-4 px-4 py-3 transition-colors hover:bg-ink-50"
               >
                 <div className="min-w-0">
-                  <span className="t-label text-brass-600">Resume ›</span>
+                  <span className="t-label text-brass-600">▸ Resume</span>
                   <span className="ml-3 font-mono text-sm font-semibold text-ink-950">
                     CH{String(lastRead.id).padStart(2, '0')}
                   </span>
@@ -477,9 +493,10 @@ export default function Dashboard() {
                 </span>
               </Link>
             ) : (
-              <div className="py-6 text-center font-mono text-xs tracking-[0.3em] text-ink-500 uppercase">
-                ── no session ──
-              </div>
+              <EmptyState
+                label="no session"
+                action={{ to: '/chapters', text: 'Start reading' }}
+              />
             )}
           </Card>
 

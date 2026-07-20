@@ -105,7 +105,8 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
     )
   }
   return (
-    <div>
+    // Long-form study prose reads in Inter; chrome/data stay mono.
+    <div className="font-sans text-[15px] leading-relaxed">
       {blocks.map((b, i) => (
         <Block key={i} block={b} />
       ))}

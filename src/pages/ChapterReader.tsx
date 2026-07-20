@@ -103,15 +103,16 @@ export default function ChapterReader() {
   }
 
   return (
-    <div className="-mx-10 -my-8">
+    // Negative margins mirror the shell's responsive padding exactly.
+    <div className="-mx-4 -mt-4 -mb-8 sm:-mx-6 lg:-mx-8 lg:-mt-6">
       {/* Sticky top bar */}
-      <div className="sticky top-0 z-10 border-b border-paper-edge bg-paper/95 px-10 py-3 backdrop-blur">
+      <div className="sticky top-0 z-10 border-b border-paper-edge bg-paper/95 px-4 py-3 backdrop-blur sm:px-6 lg:px-8">
         <div className="mx-auto flex max-w-5xl items-center gap-4">
           <Link
             to="/chapters"
-            className="shrink-0 text-sm font-medium text-ink-500 hover:text-ink-800"
+            className="shrink-0 font-mono text-[11px] font-semibold tracking-[0.14em] text-brass-600 uppercase hover:underline"
           >
-            ← Chapters
+            ◂ Chapters
           </Link>
           <div className="min-w-0 flex-1">
             <div className="truncate text-sm font-semibold text-ink-900">
@@ -127,7 +128,7 @@ export default function ChapterReader() {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-5xl gap-8 px-10 py-8">
+      <div className="mx-auto flex max-w-5xl gap-8 px-4 py-8 sm:px-6 lg:px-8">
         {/* Section sidebar */}
         <aside className="w-60 shrink-0">
           <nav className="sticky top-20 flex flex-col gap-0.5">

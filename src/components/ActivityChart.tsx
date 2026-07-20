@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import EmptyState from './EmptyState'
 import type { FinraSectionId } from '../types'
 import type { DayActivity } from '../lib/stats'
 
@@ -38,11 +39,7 @@ export default function ActivityChart({ days }: ActivityChartProps) {
   const total = days.reduce((n, d) => n + d.total, 0)
 
   if (total === 0) {
-    return (
-      <div className="py-8 text-center font-mono text-xs tracking-[0.3em] text-ink-500 uppercase">
-        ── no activity yet ──
-      </div>
-    )
+    return <EmptyState label="no activity yet" />
   }
 
   let lastActive = -1
