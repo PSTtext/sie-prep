@@ -33,44 +33,64 @@ const sectionMeta: Record<FinraSectionId, { ticker: string; name: string }> = {
   4: { ticker: 'REG', name: 'Regulatory Framework' },
 }
 
-/** Segmented block meter, terminal style. Colored by pass-line status
-    (verdant ≥70, brass below) so brass stays the chrome/action color. */
-function Meter({ value, label }: { value: number | null; label: string }) {
+/** ASCII block meter (█░), colored by section identity. */
+function Meter({
+  value,
+  label,
+  colorVar,
+}: {
+  value: number | null
+  label: string
+  colorVar: string
+}) {
   const cells = 16
   const filled = value === null ? 0 : Math.round((value / 100) * cells)
-  const fill = value !== null && value >= 70 ? 'bg-verdant-600' : 'bg-brass-600'
   return (
-    <div
+    <span
       role="meter"
       aria-label={label}
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={value === null ? 0 : Math.round(value)}
-      className="flex items-center gap-[2px]"
+      className="font-mono text-[12px] tracking-[0.05em] whitespace-nowrap"
     >
-      {Array.from({ length: cells }, (_, i) => (
-        <span
-          key={i}
-          className={`h-2.5 w-[5px] ${i < filled ? fill : 'bg-ink-200'}`}
-        />
-      ))}
-    </div>
+      <span style={{ color: `var(${colorVar})` }}>{'█'.repeat(filled)}</span>
+      <span className="text-ink-200">{'░'.repeat(cells - filled)}</span>
+    </span>
   )
 }
 
-/** Signed day-change readout: green up, red down, grey when no basis. */
+/** P&L-style day change: +x.x green, (x.x) red, grey when no basis. */
 function DayChange({ value }: { value: number | null }) {
   if (value === null)
-    return <span className="font-mono text-xs text-ink-400">--</span>
+    return <span className="font-mono text-xs text-ink-500">--</span>
   const flat = Math.abs(value) < 0.05
   return (
     <span
-      className={`font-mono text-xs font-semibold tabular-nums ${
+      className={`font-mono text-[13px] font-semibold tabular-nums ${
         flat ? 'text-ink-500' : value > 0 ? 'text-verdant-600' : 'text-signal-600'
       }`}
     >
-      {value > 0 ? '+' : ''}
-      {value.toFixed(1)}%
+      {value < -0.05 ? `(${Math.abs(value).toFixed(1)})` : `+${value.toFixed(1)}`}
+    </span>
+  )
+}
+
+/** P&L status word: ▲ PASS / ▼ BELOW / NO DATA. */
+function PassStatus({ value }: { value: number | null }) {
+  if (value === null)
+    return (
+      <span className="font-mono text-[11px] font-bold text-ink-500">
+        NO DATA
+      </span>
+    )
+  return value >= 70 ? (
+    <span className="font-mono text-[11px] font-bold tracking-[0.06em] text-verdant-600">
+      ▲ PASS
+    </span>
+  ) : (
+    <span className="font-mono text-[11px] font-bold tracking-[0.06em] text-signal-600">
+      ▼ BELOW
     </span>
   )
 }
@@ -94,9 +114,9 @@ function StatCell({
         : 'text-ink-950'
   return (
     <div className="flex-1 px-5 py-4">
-      <div className="t-label text-ink-500">{label}</div>
+      <div className="t-label text-ink-600">{label}</div>
       <div
-        className={`font-display mt-1 text-2xl font-semibold tabular-nums sm:text-3xl ${toneClass}`}
+        className={`font-display mt-1 text-4xl font-bold tabular-nums sm:text-[2.75rem] sm:leading-none ${toneClass}`}
       >
         {value}
       </div>
@@ -125,7 +145,7 @@ function DataCard() {
   return (
     <Card
       title="Your data"
-      titleRight={<span className="font-mono text-[10px] text-ink-500">DATA</span>}
+      code="DATA"
       className="p-5"
     >
       <p className="mb-4 text-sm text-ink-600">
@@ -190,10 +210,10 @@ export default function Dashboard() {
               month: 'short',
               day: 'numeric',
               year: 'numeric',
-            })}{' '}
-            · DASH
+            })}
           </span>
         }
+        code="DASH"
         className="mb-4 flex flex-col divide-y divide-paper-edge sm:flex-row sm:divide-x sm:divide-y-0"
       >
         <StatCell
@@ -207,11 +227,19 @@ export default function Dashboard() {
           value={readiness !== null ? `${Math.round(readiness)}%` : '--'}
           tone={readiness !== null ? (readiness >= 70 ? 'up' : 'warn') : 'default'}
           sub={
-            readiness !== null
-              ? readiness >= 70
-                ? '▲ above pass line (70)'
-                : '▼ below pass line (70)'
-              : 'take a test to populate'
+            readiness !== null ? (
+              <span
+                className={`font-semibold ${
+                  readiness >= 70 ? 'text-verdant-600' : 'text-signal-600'
+                }`}
+              >
+                {readiness >= 70 ? '▲ PASS' : '▼ BELOW'} ·{' '}
+                {readiness >= 70 ? '+' : ''}
+                {(readiness - 70).toFixed(1)} vs pass line
+              </span>
+            ) : (
+              'take a test to populate'
+            )
           }
         />
         <StatCell
@@ -265,7 +293,7 @@ export default function Dashboard() {
       {/* Portfolio: per-section mastery table */}
       <Card
         title="Portfolio — Exam Mastery"
-        titleRight={<span className="font-mono text-[10px] text-ink-500">PORT</span>}
+        code="PORT"
         className="overflow-x-auto"
       >
         <table className="w-full font-mono text-[13px]">
@@ -277,6 +305,7 @@ export default function Dashboard() {
               <th className="px-2 py-2 font-semibold">Mastery</th>
               <th className="px-2 py-2 font-semibold">Day chg</th>
               <th className="hidden px-2 py-2 font-semibold sm:table-cell">Meter</th>
+              <th className="hidden px-2 py-2 font-semibold md:table-cell">Status</th>
               <th className="px-4 py-2 text-right font-semibold">
                 <span className="sr-only">Drill</span>
               </th>
@@ -292,23 +321,36 @@ export default function Dashboard() {
                   key={fs.id}
                   className="border-b border-paper-edge last:border-b-0"
                 >
-                  <td className="px-4 py-3 font-semibold text-ink-950">
+                  <td
+                    className="px-4 py-3 font-bold"
+                    style={{ color: `var(--color-chart-${fs.id})` }}
+                  >
                     {meta.ticker}
                   </td>
-                  <td className="max-w-52 px-2 py-3 text-ink-700" title={fs.title}>
+                  <td
+                    className="max-w-52 px-2 py-3 text-ink-800 italic"
+                    title={fs.title}
+                  >
                     {meta.name}
                   </td>
-                  <td className="px-2 py-3 text-ink-500 tabular-nums">
+                  <td className="px-2 py-3 text-ink-600 tabular-nums">
                     {fs.weightPct}%
                   </td>
-                  <td className="px-2 py-3 font-semibold text-ink-950 tabular-nums">
-                    {score !== null ? `${score.toFixed(1)}%` : '--'}
+                  <td className="px-2 py-3 text-[15px] font-bold text-ink-950 tabular-nums">
+                    {score !== null ? score.toFixed(1) : '--'}
                   </td>
                   <td className="px-2 py-3">
                     <DayChange value={chg} />
                   </td>
                   <td className="hidden px-2 py-3 sm:table-cell">
-                    <Meter value={score} label={`${meta.name} mastery`} />
+                    <Meter
+                      value={score}
+                      label={`${meta.name} mastery`}
+                      colorVar={`--color-chart-${fs.id}`}
+                    />
+                  </td>
+                  <td className="hidden px-2 py-3 md:table-cell">
+                    <PassStatus value={score} />
                   </td>
                   <td className="px-4 py-3 text-right">
                     <Link
@@ -328,7 +370,7 @@ export default function Dashboard() {
       {/* 30-day study volume */}
       <Card
         title="Activity — 30d study volume"
-        titleRight={<span className="font-mono text-[10px] text-ink-500">ACTV</span>}
+        code="ACTV"
         className="p-4"
       >
         <ActivityChart days={activity} />
@@ -337,7 +379,7 @@ export default function Dashboard() {
       {/* Chapter list */}
       <Card
         title="Chapters"
-        titleRight={<span className="font-mono text-[10px] text-ink-500">CHPT</span>}
+        code="CHPT"
         className="max-h-[26rem] overflow-y-auto"
       >
         {chapters.map((ch) => {
@@ -384,7 +426,7 @@ export default function Dashboard() {
         <div className="flex min-w-0 flex-col gap-4 xl:col-span-5">
           <Card
             title="Risk — Exam Readiness"
-            titleRight={<span className="font-mono text-[10px] text-ink-500">RISK</span>}
+            code="RISK"
             className="p-5"
           >
             {readiness !== null ? (
@@ -401,17 +443,20 @@ export default function Dashboard() {
                     background: `conic-gradient(${
                       readiness >= 70
                         ? 'var(--color-verdant-600)'
-                        : 'var(--color-brass-600)'
+                        : 'var(--color-signal-600)'
                     } 0% ${readiness}%, var(--color-ink-200) ${readiness}% 100%)`,
                   }}
                 >
-                  <div className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-paper-raised">
+                  <div className="flex h-[4.5rem] w-[4.5rem] flex-col items-center justify-center rounded-full bg-paper-raised">
+                    <span className="t-readout text-2xl text-ink-950">
+                      {Math.round(readiness)}
+                    </span>
                     <span
-                      className={`t-readout text-2xl ${
-                        readiness >= 70 ? 'text-verdant-600' : 'text-brass-600'
+                      className={`font-mono text-[9px] font-bold tracking-[0.15em] ${
+                        readiness >= 70 ? 'text-verdant-600' : 'text-signal-600'
                       }`}
                     >
-                      {Math.round(readiness)}
+                      {readiness >= 70 ? 'PASS' : 'BELOW'}
                     </span>
                   </div>
                 </div>
@@ -451,12 +496,13 @@ export default function Dashboard() {
           <Card
             title="Practice exam trend"
             titleRight={
-              <span className="font-mono text-[10px] text-ink-500">
-                {progress.examHistory.length > 0
-                  ? `${progress.examHistory.length} ATT`
-                  : 'TRND'}
-              </span>
+              progress.examHistory.length > 0 ? (
+                <span className="font-mono text-[10px] text-ink-600">
+                  {progress.examHistory.length} ATT
+                </span>
+              ) : undefined
             }
+            code="TRND"
             className="p-4"
           >
             {progress.examHistory.length > 0 ? (
@@ -468,7 +514,7 @@ export default function Dashboard() {
 
           <Card
             title="Session"
-            titleRight={<span className="font-mono text-[10px] text-ink-500">SESS</span>}
+            code="SESS"
           >
             {lastRead && lastReadSection ? (
               <Link

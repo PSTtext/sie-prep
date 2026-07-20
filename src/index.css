@@ -17,70 +17,82 @@
    output.
    ------------------------------------------------------------------ */
 @theme {
-  /* Ink — text ramp. Neutral warm greys (no blue cast) on true black. */
-  --color-ink-950: #f2f2ef;
-  --color-ink-900: #e2e2dd;
-  --color-ink-800: #c6c6bf;
-  --color-ink-700: #a3a39b;
-  --color-ink-600: #98988f;
-  --color-ink-500: #84847c;
-  --color-ink-400: #7a7a72;
-  --color-ink-300: #3b3b37;
-  --color-ink-200: #2b2b28;
-  --color-ink-100: #1d1d1b;
-  --color-ink-50: #151513;
+  /* Ink — text ramp. Cool blue-greys on the blue-black ground. */
+  --color-ink-950: #f4f6f7;
+  --color-ink-900: #dfe4e8;
+  --color-ink-800: #c3cbd1;
+  --color-ink-700: #a5aeb8;
+  --color-ink-600: #8b98a3;
+  --color-ink-500: #75828d;
+  --color-ink-400: #67737d;
+  --color-ink-300: #2c3844;
+  --color-ink-200: #202b36;
+  --color-ink-100: #1a232e;
+  --color-ink-50: #151d26;
 
-  /* Paper — the terminal surfaces: hard black, hairline grey edges */
-  --color-paper: #000000;
-  --color-paper-raised: #0a0a09;
-  --color-paper-edge: #30302b;
+  /* Paper — blue-black terminal ground with visibly raised panels */
+  --color-paper: #0a0e12;
+  --color-paper-raised: #10161d;
+  --color-paper-edge: #26313d;
 
   /* Verdant — ticker green, strictly for up / pass / progress data */
-  --color-verdant-700: #55e089;
-  --color-verdant-600: #27c75f;
-  --color-verdant-500: #18a84c;
-  --color-verdant-400: #128a3e;
-  --color-verdant-100: #0b2e18;
-  --color-verdant-50: #072111;
+  --color-verdant-700: #5adc8c;
+  --color-verdant-600: #2fd06c;
+  --color-verdant-500: #1cb257;
+  --color-verdant-400: #159146;
+  --color-verdant-100: #0b3320;
+  --color-verdant-50: #072416;
 
-  /* Brass — terminal amber: the identity color (chrome, actions, labels) */
-  --color-brass-700: #ffb42e;
-  --color-brass-600: #ff9f0a;
-  --color-brass-500: #e08800;
-  --color-brass-100: #3a2a08;
-  --color-brass-50: #291d05;
+  /* Brass — terminal amber: interactive only (buttons, links, active) */
+  --color-brass-700: #ffb84d;
+  --color-brass-600: #ffa028;
+  --color-brass-500: #f09010;
+  --color-brass-100: #3a2c10;
+  --color-brass-50: #2a2210;
+
+  /* Cyan — informational chrome: panel titles, tickers, kbd hints */
+  --color-cyan-700: #7ccbe4;
+  --color-cyan-600: #4db8d8;
+  --color-cyan-500: #2e94b4;
+  --color-cyan-400: #2e7f99;
+  --color-cyan-100: #10303c;
+  --color-cyan-50: #0c2430;
 
   /* Signal — ticker red (down / fail) */
-  --color-signal-700: #ff6a60;
-  --color-signal-600: #f43b30;
-  --color-signal-100: #3a1210;
-  --color-signal-50: #290c0a;
+  --color-signal-700: #ff7d75;
+  --color-signal-600: #ff5f56;
+  --color-signal-100: #3d1512;
+  --color-signal-50: #2b0e0c;
 
-  /* Chart — categorical series ramp (fixed order, CVD-validated on the
-     dark surface). Distinct from status colors: no pure red/green. */
-  --color-chart-1: #cc7d00; /* amber   — Section 1 */
-  --color-chart-2: #2f9dbf; /* cyan    — Section 2 */
-  --color-chart-3: #8f6fe4; /* violet  — Section 3 */
-  --color-chart-4: #c25a70; /* rose    — Section 4 */
+  /* Chart — categorical series ramp doubles as section identity colors. */
+  --color-chart-1: #ffa028; /* amber  — Section 1 MKT */
+  --color-chart-2: #4db8d8; /* cyan   — Section 2 PRD */
+  --color-chart-3: #a78bfa; /* violet — Section 3 TRD */
+  --color-chart-4: #f472b6; /* pink   — Section 4 REG */
 
   /* Mono for chrome/data/display; Inter for long-form chapter prose. */
   --font-sans: 'Inter Variable', 'Inter', system-ui, sans-serif;
   --font-display: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', monospace;
   --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', monospace;
 
-  /* Sharp corners everywhere — flatten Tailwind's default radius scale. */
-  --radius-xs: 1px;
-  --radius-sm: 1px;
-  --radius-md: 2px;
-  --radius-lg: 2px;
-  --radius-xl: 2px;
-  --radius-2xl: 2px;
-  --radius-card: 2px;
-  --radius-pill: 2px;
+  /* iOS-style continuous rounding on panels and controls. */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-card: 16px;
+  --radius-pill: 999px;
 
-  /* Flat surfaces: hairline borders carry the structure, not shadows. */
-  --shadow-card: 0 0 0 0 transparent;
-  --shadow-card-hover: 0 0 0 1px var(--color-ink-400);
+  /* Glass panels: soft depth + a faint top highlight. */
+  --shadow-card:
+    inset 0 1px 0 rgb(255 255 255 / 0.06),
+    0 8px 24px rgb(0 0 0 / 0.35);
+  --shadow-card-hover:
+    inset 0 1px 0 rgb(255 255 255 / 0.09),
+    0 0 0 1px var(--color-ink-400),
+    0 10px 28px rgb(0 0 0 / 0.4);
   --shadow-inset-edge: inset 0 0 0 1px var(--color-paper-edge);
 
   /* Shell — sidebar surface (slightly deeper than the page) */
@@ -112,21 +124,21 @@ html {
 .light {
   color-scheme: light;
 
-  --color-ink-950: #171715;
-  --color-ink-900: #23231f;
-  --color-ink-800: #35352f;
-  --color-ink-700: #4e4e46;
-  --color-ink-600: #5d5d54;
-  --color-ink-500: #67675e;
-  --color-ink-400: #71716a;
-  --color-ink-300: #bebeb3;
-  --color-ink-200: #d8d8cd;
-  --color-ink-100: #e9e9e0;
-  --color-ink-50: #f1f1ea;
+  --color-ink-950: #131920;
+  --color-ink-900: #1f2831;
+  --color-ink-800: #333f4b;
+  --color-ink-700: #48555f;
+  --color-ink-600: #57646f;
+  --color-ink-500: #616e79;
+  --color-ink-400: #6b7883;
+  --color-ink-300: #b4bfc9;
+  --color-ink-200: #cdd6dd;
+  --color-ink-100: #dfe6ec;
+  --color-ink-50: #eaeff3;
 
-  --color-paper: #f6f5f0;
-  --color-paper-raised: #fdfdfa;
-  --color-paper-edge: #d9d7cc;
+  --color-paper: #f2f5f7;
+  --color-paper-raised: #fdfdfe;
+  --color-paper-edge: #ccd6dd;
 
   --color-verdant-700: #0b6b43;
   --color-verdant-600: #0e8654;
@@ -135,11 +147,18 @@ html {
   --color-verdant-100: #d7f2e4;
   --color-verdant-50: #eaf9f2;
 
-  --color-brass-700: #8a5600;
-  --color-brass-600: #a86a00;
-  --color-brass-500: #c68104;
+  --color-brass-700: #8f5700;
+  --color-brass-600: #b06e00;
+  --color-brass-500: #cc8404;
   --color-brass-100: #f5e7c8;
   --color-brass-50: #faf3e0;
+
+  --color-cyan-700: #0e6c88;
+  --color-cyan-600: #12809f;
+  --color-cyan-500: #2496b5;
+  --color-cyan-400: #4aaac4;
+  --color-cyan-100: #d8eef5;
+  --color-cyan-50: #e9f6fa;
 
   --color-signal-700: #a52a30;
   --color-signal-600: #cc353c;
@@ -147,15 +166,20 @@ html {
   --color-signal-50: #fdf1f1;
 
   /* Chart series re-picked for the light surface (same hue order). */
-  --color-chart-1: #a86a00;
-  --color-chart-2: #0e83a6;
+  --color-chart-1: #b06e00;
+  --color-chart-2: #12809f;
   --color-chart-3: #7a55d6;
-  --color-chart-4: #b04862;
+  --color-chart-4: #c2447e;
 }
 
 body {
   @apply bg-paper font-mono text-ink-800 antialiased;
   font-variant-numeric: tabular-nums;
+  /* Faint ambient glow so the glass panels have depth to sit over. */
+  background-image:
+    radial-gradient(60rem 40rem at 75% -10%, rgb(77 184 216 / 0.07), transparent 60%),
+    radial-gradient(50rem 35rem at -10% 110%, rgb(255 160 40 / 0.05), transparent 60%);
+  background-attachment: fixed;
 }
 
 /* Faint CRT scanlines over everything — imperceptible until you look. */

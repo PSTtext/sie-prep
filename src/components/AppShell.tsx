@@ -5,6 +5,7 @@ import { applyTheme, getTheme, type Theme } from '../lib/theme'
 // Loaded on first open so the search index (questions + content) stays out of
 // the main bundle.
 const SearchPalette = lazy(() => import('./SearchPalette'))
+const TickerTape = lazy(() => import('./TickerTape'))
 
 const navItems = [
   { to: '/', label: 'Dashboard', code: 'DASH' },
@@ -310,8 +311,12 @@ export default function AppShell() {
       )}
 
       <main
-        className={`flex flex-1 flex-col bg-paper pt-14 lg:pt-0 ${mainMargin} transition-[margin] duration-150`}
+        className={`flex flex-1 flex-col pt-14 lg:pt-0 ${mainMargin} transition-[margin] duration-150`}
       >
+        {/* Bloomberg-style tape across the top of the work area */}
+        <Suspense fallback={null}>
+          <TickerTape />
+        </Suspense>
         <div className="flex-1 px-4 pt-4 pb-8 sm:px-6 lg:px-8 lg:pt-6">
           <div key={location.pathname} className="animate-page mx-auto max-w-7xl">
             <Suspense
