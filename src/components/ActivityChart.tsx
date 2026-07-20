@@ -18,7 +18,7 @@ const SERIES: Record<FinraSectionId, { label: string; color: string }> = {
   4: { label: 'REG Regulatory', color: 'var(--color-chart-4)' },
 }
 
-const PLOT_H = 132
+const PLOT_H = 96
 
 function shortDate(iso: string): string {
   const [y, m, d] = iso.split('-').map(Number)

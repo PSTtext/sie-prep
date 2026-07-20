@@ -113,7 +113,7 @@ function StatCell({
         ? 'text-brass-600'
         : 'text-ink-950'
   return (
-    <div className="flex-1 px-5 py-4">
+    <div className="flex-1 px-5 py-3">
       <div className="t-label text-ink-600">{label}</div>
       <div
         className={`font-display mt-1 text-4xl font-bold tabular-nums sm:text-[2.75rem] sm:leading-none ${toneClass}`}
@@ -299,13 +299,17 @@ export default function Dashboard() {
         <table className="w-full font-mono text-[13px]">
           <thead>
             <tr className="t-label border-b border-paper-edge text-left text-ink-500">
-              <th className="px-4 py-2 font-semibold">Ticker</th>
-              <th className="px-2 py-2 font-semibold">Section</th>
-              <th className="px-2 py-2 font-semibold">Wt</th>
-              <th className="px-2 py-2 font-semibold">Mastery</th>
-              <th className="px-2 py-2 font-semibold">Day chg</th>
-              <th className="hidden px-2 py-2 font-semibold sm:table-cell">Meter</th>
-              <th className="hidden px-2 py-2 font-semibold md:table-cell">Status</th>
+              <th className="px-4 py-2 font-semibold whitespace-nowrap">Ticker</th>
+              <th className="px-2 py-2 font-semibold whitespace-nowrap">Section</th>
+              <th className="px-2 py-2 font-semibold whitespace-nowrap">Wt</th>
+              <th className="px-2 py-2 font-semibold whitespace-nowrap">Mastery</th>
+              <th className="px-2 py-2 font-semibold whitespace-nowrap">Chg</th>
+              <th className="hidden px-2 py-2 font-semibold whitespace-nowrap lg:table-cell">
+                Meter
+              </th>
+              <th className="hidden px-2 py-2 font-semibold whitespace-nowrap xl:table-cell">
+                Status
+              </th>
               <th className="px-4 py-2 text-right font-semibold">
                 <span className="sr-only">Drill</span>
               </th>
@@ -328,7 +332,7 @@ export default function Dashboard() {
                     {meta.ticker}
                   </td>
                   <td
-                    className="max-w-52 px-2 py-3 text-ink-800 italic"
+                    className="max-w-52 px-2 py-3 text-ink-800 italic whitespace-nowrap"
                     title={fs.title}
                   >
                     {meta.name}
@@ -339,17 +343,17 @@ export default function Dashboard() {
                   <td className="px-2 py-3 text-[15px] font-bold text-ink-950 tabular-nums">
                     {score !== null ? score.toFixed(1) : '--'}
                   </td>
-                  <td className="px-2 py-3">
+                  <td className="px-2 py-3 whitespace-nowrap">
                     <DayChange value={chg} />
                   </td>
-                  <td className="hidden px-2 py-3 sm:table-cell">
+                  <td className="hidden px-2 py-3 lg:table-cell">
                     <Meter
                       value={score}
                       label={`${meta.name} mastery`}
                       colorVar={`--color-chart-${fs.id}`}
                     />
                   </td>
-                  <td className="hidden px-2 py-3 md:table-cell">
+                  <td className="hidden px-2 py-3 whitespace-nowrap xl:table-cell">
                     <PassStatus value={score} />
                   </td>
                   <td className="px-4 py-3 text-right">
@@ -380,7 +384,7 @@ export default function Dashboard() {
       <Card
         title="Chapters"
         code="CHPT"
-        className="max-h-[26rem] overflow-y-auto"
+        className="max-h-64 overflow-y-auto"
       >
         {chapters.map((ch) => {
           const readPct = chapterReadFraction(progress, ch) * 100

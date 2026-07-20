@@ -233,14 +233,14 @@ export default function AppShell() {
     })
   }
 
-  const sidebarWidth = collapsed ? 'w-16' : 'w-60'
-  const mainMargin = collapsed ? 'lg:ml-16' : 'lg:ml-60'
+  const sidebarWidth = collapsed ? 'lg:w-16' : 'lg:w-60'
 
   return (
     <div className="flex min-h-screen">
-      {/* Desktop sidebar */}
+      {/* Desktop sidebar: sticky flex child, so main content can never
+          underlap it in any collapsed/expanded state. */}
       <aside
-        className={`fixed inset-y-0 left-0 hidden flex-col border-r border-paper-edge bg-paper-raised transition-[width] duration-150 lg:flex ${sidebarWidth}`}
+        className={`sticky top-0 z-30 hidden h-screen shrink-0 flex-col overflow-y-auto border-r border-paper-edge bg-paper-raised transition-[width] duration-150 lg:flex ${sidebarWidth}`}
       >
         <SidebarContent
           collapsed={collapsed}
@@ -311,7 +311,7 @@ export default function AppShell() {
       )}
 
       <main
-        className={`flex flex-1 flex-col pt-14 lg:pt-0 ${mainMargin} transition-[margin] duration-150`}
+        className="flex min-w-0 flex-1 flex-col pt-14 lg:pt-0"
       >
         {/* Bloomberg-style tape across the top of the work area */}
         <Suspense fallback={null}>
