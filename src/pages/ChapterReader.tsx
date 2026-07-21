@@ -33,6 +33,11 @@ export default function ChapterReader() {
   }, [chapter?.id])
 
   const [index, setIndex] = useState(initialIndex)
+  // Section list is collapsible so reading text can use the full width;
+  // starts open on desktop, collapsed on narrow/portrait screens.
+  const [navOpen, setNavOpen] = useState(
+    () => window.matchMedia('(min-width: 768px)').matches,
+  )
   // Reset position when navigating to a different chapter (render-time adjust).
   const [prevChapterId, setPrevChapterId] = useState(chapter?.id)
   if (chapter && prevChapterId !== chapter.id) {
@@ -114,6 +119,13 @@ export default function ChapterReader() {
           >
             ◂ Chapters
           </Link>
+          <button
+            onClick={() => setNavOpen((o) => !o)}
+            aria-expanded={navOpen}
+            className="shrink-0 rounded-md border border-paper-edge px-2 py-1 font-mono text-[11px] font-semibold tracking-[0.14em] text-ink-600 uppercase transition-colors hover:bg-ink-50 hover:text-ink-900"
+          >
+            {navOpen ? '✕ Sections' : '☰ Sections'}
+          </button>
           <div className="min-w-0 flex-1">
             <div className="truncate text-sm font-semibold text-ink-900">
               Ch {chapter.id}: {chapter.title}
@@ -128,17 +140,25 @@ export default function ChapterReader() {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-5xl gap-8 px-4 py-8 sm:px-6 lg:px-8">
-        {/* Section sidebar */}
-        <aside className="w-60 shrink-0">
-          <nav className="sticky top-20 flex flex-col gap-0.5">
-            {chapter.sections.map((s, i) => {
+      <div className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-8 sm:px-6 md:flex-row md:gap-8 lg:px-8">
+        {/* Section sidebar (collapsible; stacks above the text on mobile) */}
+        {navOpen && (
+          <aside className="w-full shrink-0 md:w-60">
+            <nav className="flex flex-col gap-0.5 md:sticky md:top-20">
+              {chapter.sections.map((s, i) => {
               const read = !!progress.readSections[s.id]
               const active = i === index
               return (
                 <button
                   key={s.id}
-                  onClick={() => goTo(i)}
+                  onClick={() => {
+                    goTo(i)
+                    // On narrow screens, collapse after picking so the
+                    // text gets the full width back.
+                    if (!window.matchMedia('(min-width: 768px)').matches) {
+                      setNavOpen(false)
+                    }
+                  }}
                   className={`flex items-start gap-2 rounded-lg px-3 py-2 text-left text-sm transition-colors ${
                     active
                       ? 'bg-ink-100 font-semibold text-ink-950'
@@ -159,9 +179,10 @@ export default function ChapterReader() {
                   <span className="sr-only">{read ? '(read)' : ''}</span>
                 </button>
               )
-            })}
-          </nav>
-        </aside>
+              })}
+            </nav>
+          </aside>
+        )}
 
         {/* Main column */}
         <article className="min-w-0 max-w-prose flex-1">
