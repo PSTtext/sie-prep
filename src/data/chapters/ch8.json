@@ -51,7 +51,22 @@
         ] },
         { "type": "example", "title": "Example — hedging a short", "text": "Short 100 GHI at $60; buy a GHI 65 call for $3. GHI spikes to $90: exercise the call, buy at $65, cover the short. Loss = ($65 − $60) + $3 = $8/share — instead of $33 and still climbing." },
         { "type": "paragraph", "text": "Beyond single stocks, the same logic scales up: a portfolio manager fearing a market drop can buy broad index puts (cash-settled) instead of selling every holding; an exporter expecting foreign-currency payments can hedge with currency options; a bond manager can hedge rate risk with yield-based or Treasury options. The instrument changes; the rule doesn't — buy the option that pays when your position hurts." },
-        { "type": "examTip", "text": "'Best protection' = BUY an option (put protects long stock; call protects short stock). 'Generate income' = WRITE an option. If the question says both protection and income, protection wins the 'best hedge' phrasing every time. A collar (own stock + buy put + write call) does both: floor from the put, the call premium pays for it, upside capped." }
+        { "type": "example", "title": "Example — index option settlement", "text": "A manager buys an SPX 5000 put. The index settles at 4950 at exercise: the option is 50 points in the money, and with a $100 multiplier the writer pays the holder 50 × $100 = $5,000 in CASH — no shares change hands, and the settlement value is based on the index at exercise, not at the end of the day the contract was bought. Index options settle next business day; most are European-style (exercise only at expiration), though they can be TRADED any day." },
+        { "type": "paragraph", "text": "Currency options follow the same hedging cross as Chapter 3's trade flows: a U.S. importer owing euros fears a RISING euro, so it buys euro calls; a U.S. exporter expecting euro payments fears a FALLING euro, so it buys euro puts. (Mnemonic: EPIC — Exporters buy Puts, Importers buy Calls.) There are no listed options on the U.S. dollar itself in U.S. markets — you trade options on the foreign currency." },
+        { "type": "examTip", "text": "'Best protection' = BUY an option (put protects long stock; call protects short stock). 'Generate income' = WRITE an option. If the question says both protection and income, protection wins the 'best hedge' phrasing every time. A collar (own stock + buy put + write call) does both: floor from the put, the call premium pays for it, upside capped." },
+        { "type": "heading", "level": 3, "text": "Chapter 8 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Buyers have rights and risk only the premium; writers have obligations and can earn only the premium.",
+          "Call up, put down: calls are in the money above the strike, puts below. Intrinsic value never counts the premium.",
+          "Breakevens: calls = strike + premium; puts = strike − premium — same number for buyer and writer.",
+          "The uncovered call writer has unlimited risk — the exam's 'riskiest position.' Covered calls are the most conservative writing strategy (income, capped upside).",
+          "Hedges are BOUGHT: long stock → buy a put; short stock → buy a call. Writing only cushions by the premium.",
+          "The OCC issues and guarantees listed options; equity options are American-style; index options are European-style and settle in CASH ($100 multiplier).",
+          "Currency hedges: EPIC — Exporters buy Puts, Importers buy Calls (on the foreign currency; no options on the USD itself).",
+          "Contracts adjust for splits and stock dividends, never for cash dividends. One contract = 100 shares; expiration = third Friday; LEAPS to 39 months.",
+          "Straddle = call + put same strike: long profits from a BIG move either way; short bets on stillness with unlimited risk.",
+          "ODD before account approval; options principal approves the account before the first trade."
+        ] }
       ]
     }
   ]

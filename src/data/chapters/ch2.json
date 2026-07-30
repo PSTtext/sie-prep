@@ -39,7 +39,16 @@
         { "type": "heading", "level": 3, "text": "ECNs and extended hours" },
         { "type": "paragraph", "text": "Electronic communication networks (ECNs) are electronic systems that match customer orders automatically for a fee — agency-only, no inventory — and they are the main venue for pre-market and after-hours trading. Regular exchange hours are 9:30 a.m. to 4:00 p.m. Eastern; outside them, firms must disclose the extended-hours risks to customers: thinner liquidity, wider spreads, sharper volatility, prices that may not reflect the next regular-session open, and competition from institutions with better information." },
         { "type": "warning", "text": "Extended-hours trading disclosures are testable as a list: lower liquidity, higher volatility, wider spreads, price uncertainty vs the regular session, and (on some systems) limit-order-only handling. If a question describes an investor surprised by a bad after-hours fill, the missing step was this risk disclosure." },
-        { "type": "paragraph", "text": "All completed trades, wherever executed — exchange, ECN, OTC, or dark pool — are reported to the consolidated tape, the real-time public record of last-sale prices. Equity trades away from exchanges are reported through FINRA's Trade Reporting Facilities (TRFs); corporate and agency bond trades are reported through TRACE; municipal bond trades through the MSRB's EMMA/RTRS system." }
+        { "type": "paragraph", "text": "All completed trades, wherever executed — exchange, ECN, OTC, or dark pool — are reported to the consolidated tape, the real-time public record of last-sale prices. Equity trades away from exchanges are reported through FINRA's Trade Reporting Facilities (TRFs); corporate and agency bond trades are reported through TRACE; municipal bond trades through the MSRB's EMMA/RTRS system." },
+        { "type": "heading", "level": 3, "text": "Market indices — the market's scoreboards" },
+        { "type": "table", "caption": "The major indices", "headers": ["Index", "Tracks", "Weighting"], "rows": [
+          ["Dow Jones Industrial Average (DJIA)", "30 large U.S. blue-chip companies — the oldest and most quoted", "PRICE-weighted (higher-priced stocks move it more)"],
+          ["S&P 500", "500 large-cap U.S. companies — the professional benchmark for 'the market'", "Market-cap weighted"],
+          ["Nasdaq Composite", "All Nasdaq-listed stocks — technology-heavy", "Market-cap weighted"],
+          ["Russell 2000", "2,000 SMALL-cap U.S. companies", "Market-cap weighted"],
+          ["MSCI EAFE", "Developed international markets (Europe, Australasia, Far East)", "Market-cap weighted"]
+        ] },
+        { "type": "examTip", "text": "Narrow vs broad: the Dow is only 30 stocks (narrow); the S&P 500 is the broad large-cap benchmark and the base for most index funds. 'Small-cap benchmark' = Russell 2000. The DJIA is the exam's lone PRICE-weighted index — every other major index weights by market cap." }
       ]
     },
     {
@@ -57,7 +66,20 @@
         { "type": "keyTerm", "term": "Block trade", "definition": "Traditionally 10,000+ shares or roughly $200,000+ in value — the institutional order size that third-market firms and dark pools exist to handle." },
         { "type": "example", "title": "Example", "text": "An insurance company wants to sell 500,000 shares of a listed industrial. Routed to a dark pool, the order quietly crosses against another institution's buy interest at a price near the NBBO midpoint. The tape shows the print after execution — the market never saw it coming." },
         { "type": "examTip", "text": "Rank pre-trade transparency: lit exchange (full order book) → dark pool (nothing before, reported after) → direct private negotiation (least visible). 'No pre-trade display, still reports trades' = dark pool. 'Institutions trading with NO intermediary' = fourth market." },
-        { "type": "paragraph", "text": "One connective concept: whatever the venue, best execution applies. A firm routing customer orders must regularly and rigorously evaluate where it can get the most favorable terms reasonably available — price, speed, and likelihood of execution — and payment for order flow it receives must be disclosed and can never justify an inferior fill." }
+        { "type": "paragraph", "text": "One connective concept: whatever the venue, best execution applies. A firm routing customer orders must regularly and rigorously evaluate where it can get the most favorable terms reasonably available — price, speed, and likelihood of execution — and payment for order flow it receives must be disclosed and can never justify an inferior fill." },
+        { "type": "heading", "level": 3, "text": "Chapter 2 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Primary market: issuer gets the proceeds (1933 Act). Secondary: investors trade with each other (1934 Act). Follow the money.",
+          "Follow-on offering = primary (new shares); secondary distribution = insiders' existing shares.",
+          "Exchanges are auction markets with listing standards; OTC is a negotiated dealer market. Most bonds trade OTC.",
+          "NBBO = highest bid + lowest ask across all venues. Customers buy at the ask, sell at the bid.",
+          "First market: listed on exchange. Second: unlisted OTC. Third: LISTED stock trading OTC. Fourth: institution-to-institution direct.",
+          "Dark pools show no quotes pre-trade but must report every trade to the tape afterward — legal, SEC-regulated under Reg ATS.",
+          "ECNs are agency-only electronic matchers — the main extended-hours venue; extended-hours risks (thin liquidity, wide spreads, volatility) must be disclosed.",
+          "Trade reporting: equities off-exchange → TRF; corporate bonds → TRACE; munis → EMMA.",
+          "DJIA = 30 stocks, price-weighted; S&P 500 = broad benchmark, cap-weighted; Russell 2000 = small-cap.",
+          "Best execution applies on every venue; payment for order flow must be disclosed."
+        ] }
       ]
     }
   ]

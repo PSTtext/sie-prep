@@ -44,7 +44,20 @@
         { "type": "keyTerm", "term": "Structuring", "definition": "Breaking cash deposits into sub-$10,000 pieces to dodge CTR filing — itself a federal crime even if the money is clean, and a classic SAR trigger. Three $4,000 cash deposits in a day aggregate to $12,000: CTR territory." },
         { "type": "example", "title": "Example", "text": "A new customer wires in $95,000, buys and sells liquid stocks for a week with no apparent strategy, then wires the balance to a third-party account offshore. No single step is illegal — the PATTERN (rapid movement, no economic purpose, third-party disbursement) demands a SAR within 30 days, and no one may tell the customer it was filed." },
         { "type": "paragraph", "text": "Supporting rules: CIP identity verification at account opening (Chapter 12), OFAC list screening against sanctioned persons and countries (matches must be blocked and reported — OFAC is about sanctions, not suspicion), enhanced due diligence for foreign correspondent and private-banking accounts (with a hard ban on foreign shell banks), and FinCEN 314(a) information sharing between law enforcement and firms. Records of CTRs and SARs are kept FIVE years. Red flags worth naming: customers indifferent to cost or risk, accounts used as a pass-through, refusal to identify beneficial owners, and activity wildly inconsistent with the stated business." },
-        { "type": "examTip", "text": "Numbers to burn in: CTR = cash OVER $10,000, 15 days. SAR = $5,000+ and suspicious, 30 days, absolute secrecy. Placement → layering → integration. Structuring is a crime even if the money is clean. AML program pillars: written program, AML officer, annual independent audit, training." }
+        { "type": "examTip", "text": "Numbers to burn in: CTR = cash OVER $10,000, 15 days. SAR = $5,000+ and suspicious, 30 days, absolute secrecy. Placement → layering → integration. Structuring is a crime even if the money is clean. AML program pillars: written program, AML officer, annual independent audit, training." },
+        { "type": "heading", "level": 3, "text": "Chapter 13 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Insider trading = trading (or tipping) on material nonpublic information; tipper and tippee both liable; avoiding a loss counts the same as making a profit.",
+          "Civil penalty: up to 3× the profit gained or loss avoided; criminal: up to 20 years. Section 16 insiders: no short sales of own stock, short-swing profits (6 months) returned.",
+          "Manipulation tells: same beneficial owner both sides = wash trade; 3:59 print = marking the close; orders meant to cancel = spoofing. Stabilization is the only legal price support.",
+          "Front running: firm/personal orders NEVER go ahead of a customer's order or a pending research report.",
+          "Churning is judged by the PATTERN (turnover, cost-to-equity) — individually suitable trades don't excuse it; reverse churning is parking a buy-and-hold client in a fee account.",
+          "Notice vs approval: OBA = written NOTICE; selling away for compensation = written APPROVAL.",
+          "Sharing with a customer: allowed only with firm + customer approval, proportionate to contribution (family excepted). Guaranteeing against loss: NEVER allowed.",
+          "Gifts: $100 per person per year; entertainment must be reasonable and attended.",
+          "AML stages: placement → layering → integration. CTR: cash over $10,000, filed in 15 days. SAR: $5,000+ suspicious, 30 days, never tell the customer.",
+          "Structuring (splitting deposits under $10k) is itself a crime; OFAC matches are blocked and reported; records kept 5 years."
+        ] }
       ]
     }
   ]

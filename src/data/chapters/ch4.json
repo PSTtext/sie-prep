@@ -69,7 +69,20 @@
         { "type": "paragraph", "text": "The underwriting spread is the difference between what the public pays (the public offering price, or POP) and what the issuer receives. It splits three ways: the manager's fee (to the lead, the smallest piece per share but earned on every share), the underwriting fee (to syndicate members for capital risk), and the selling concession — the largest piece — to whoever actually sells the shares. A selling-group member earns only the concession; a reallowance is the small slice available to non-syndicate FINRA members who sell." },
         { "type": "example", "title": "Example — the spread", "text": "POP $20.00, issuer receives $18.80: a $1.20 spread. Roughly, the manager might take $0.20, the underwriting fee $0.30, and the selling concession $0.70. A selling-group member earns only the $0.70 concession — it took no capital risk. Note the buyer pays no commission on a new issue; compensation is inside the POP." },
         { "type": "paragraph", "text": "Municipal underwriting adds one vocabulary pair: negotiated (issuer picks the underwriter and negotiates terms — typical for revenue bonds) versus competitive (issuer publishes an official notice of sale and syndicates submit sealed bids; lowest interest cost wins — typical for GO bonds). Corporate deals are almost always negotiated." },
-        { "type": "examTip", "text": "Firm commitment = principal = underwriter risk. Best efforts = agent = issuer risk. If the question mentions escrowed customer funds, it's an all-or-none or mini-max deal. And IPO buyers pay the POP with no added commission — the spread is the underwriters' pay." }
+        { "type": "examTip", "text": "Firm commitment = principal = underwriter risk. Best efforts = agent = issuer risk. If the question mentions escrowed customer funds, it's an all-or-none or mini-max deal. And IPO buyers pay the POP with no added commission — the spread is the underwriters' pay." },
+        { "type": "heading", "level": 3, "text": "Chapter 4 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Registration periods: pre-filing (silence), cooling-off (~20 days: red herring, tombstone, indications only), post-effective (sell with final prospectus).",
+          "Indications of interest bind no one; tombstones are the only cooling-off advertising; no sales or funds until effective.",
+          "Prospectus delivery in the aftermarket: 25 days (listed IPO), 90 days (non-listed IPO), 40 days (non-listed follow-on).",
+          "FINRA Rule 5130: industry 'restricted persons' can't buy common-stock IPOs at the POP.",
+          "Exempt SECURITIES: governments, munis, bank issues, sub-270-day commercial paper, nonprofits, fixed insurance. Exempt TRANSACTIONS: Reg D, Rule 147, Reg A+, Reg S, 144A.",
+          "Reg D 506(b): unlimited accredited + 35 sophisticated non-accredited, no advertising. 506(c): advertising OK but ALL buyers accredited and verified.",
+          "Accredited: $200k/$300k income or $1M net worth excluding the home.",
+          "Rule 144: non-affiliates hold restricted stock 6 months; affiliates sell max of greater of 1% outstanding or 4-week average weekly volume per 90 days.",
+          "Shelf registration (Rule 415): register once, sell for up to 3 years.",
+          "Firm commitment = principal/underwriter risk; best efforts = agent/issuer risk; standby backstops a rights offering. Spread pieces: manager's fee < underwriting fee < selling concession."
+        ] }
       ]
     }
   ]

@@ -75,7 +75,20 @@
         { "type": "example", "title": "Example — split math", "text": "You own 100 shares at $60 (cost basis $50): position worth $6,000. After a 3-for-2 split you own 150 shares at $40, basis $33.33 — still $6,000 of stock, still $5,000 of total basis. After a 1-for-5 REVERSE split, 100 shares at $2 become 20 shares at $10. Forward splits (and stock dividends over a threshold) require a shareholder vote; the board alone declares cash and stock dividends." },
         { "type": "keyTerm", "term": "Current yield (stock)", "definition": "Annual dividend ÷ current market price. A stock at $50 paying $0.50 quarterly yields (0.50 × 4) ÷ 50 = 4%. If the price falls and the dividend holds, yield rises — yield and price move inversely here too." },
         { "type": "example", "title": "Example — total return", "text": "Buy at $50; a year later the stock is $54 and paid $2 of dividends. Total return = (4 gain + 2 income) ÷ 50 = 12%. The exam distinguishes yield (income only) from total return (income plus appreciation)." },
-        { "type": "examTip", "text": "DERP: Declaration, Ex-date, Record, Payable — and under T+1, E and R land on the same day. Splits and stock dividends are NOT taxable events; they just re-slice the same pie and lower your per-share basis. Cash dividends ARE taxable in the year received." }
+        { "type": "examTip", "text": "DERP: Declaration, Ex-date, Record, Payable — and under T+1, E and R land on the same day. Splits and stock dividends are NOT taxable events; they just re-slice the same pie and lower your per-share basis. Cash dividends ARE taxable in the year received." },
+        { "type": "heading", "level": 3, "text": "Chapter 5 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Outstanding = issued − treasury. Treasury stock: no vote, no dividend; buybacks raise EPS.",
+          "Shareholders vote on directors, splits, new share issues — never on dividends (board declares those).",
+          "Cumulative voting favors small shareholders; statutory favors large.",
+          "Liquidation ladder: secured creditors → wages/taxes → general creditors → subordinated debt → preferred → common (last, always).",
+          "Preferred = fixed dividend on $100 par, no maturity, interest-rate sensitive. Cumulative preferred collects ALL arrears before common gets a dime.",
+          "Convertible math: ratio = par ÷ conversion price; parity = ratio × common price.",
+          "Rights: short-term, to existing holders, priced BELOW market. Warrants: long-term sweeteners, priced ABOVE market at issue.",
+          "ADRs = foreign stock in dollars; the risk they keep is CURRENCY risk; holders usually don't vote and have no preemptive rights.",
+          "Ex-date = record date under T+1; buy BEFORE the ex-date to get the dividend; the price drops by the dividend that morning.",
+          "Splits and stock dividends: not taxable, total value unchanged, per-share basis adjusts. 'Selling dividends' is a violation."
+        ] }
       ]
     }
   ]

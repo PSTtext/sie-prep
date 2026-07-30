@@ -63,7 +63,88 @@
         { "type": "paragraph", "text": "Special cases: a new firm's retail communications file with FINRA 10 days BEFORE first use for its first year; new mutual-fund retail pieces and options communications face filing/approval requirements (options ads before the ODD are tightly restricted); performance projections are banned (a mutual fund may show past performance with standardized 1/5/10-year periods and disclaimers); testimonials need disclosures about qualifications and any compensation; rankings need their context. Communications are records — retained three years, first two easily accessible." },
         { "type": "keyTerm", "term": "Regulation S-P & privacy", "definition": "Firms must deliver a privacy notice at account opening and annually, and give customers the right to OPT OUT of sharing nonpublic personal information with unaffiliated third parties. Reg S-P also demands administrative, technical, and physical safeguards for customer records — and Regulation S-ID requires red-flag programs against identity theft." },
         { "type": "paragraph", "text": "Reg BI (Chapter 12) supplies the recommendation standard, and Form CRS — a short relationship summary of services, fees, conflicts, and disciplinary history — must reach every retail customer at or before the earliest of a recommendation, an order, or account opening, and again when materially updated. Telemarketing under the Telephone Consumer Protection Act: cold calls only 8 a.m.–9 p.m. in the CUSTOMER'S time zone, honor the firm-specific and national do-not-call lists (national entries don't expire; firm-list entries last five years), identify yourself, the firm, and a contact number, and never send unsolicited faxes. Exceptions: existing customers, express written invitation, and calls from nonprofits." },
-        { "type": "examTip", "text": "The magic number is 25 retail investors in 30 days: more = retail communication (pre-approval); fewer = correspondence. Cold-call window: 8 a.m.–9 p.m., customer's time zone. Existing customers and prior express invitation are DNC exceptions. Retention: 3 years, first 2 accessible. Nothing may ever suggest FINRA approves or endorses a firm, a rep, or a security." }
+        { "type": "heading", "level": 3, "text": "Penny stock rules" },
+        { "type": "paragraph", "text": "Penny stocks — unlisted (OTC) equities trading below $5 per share — get their own SEC cold-calling regime because they're the classic vehicle for boiler-room fraud. Before a SOLICITED penny stock trade, the firm must give the customer a risk disclosure document, disclose the current quote and the firm's compensation, and — for new penny-stock customers — obtain a signed, written suitability statement based on the customer's financial profile. Accounts holding penny stocks receive MONTHLY statements showing each position's market value." },
+        { "type": "keyTerm", "term": "Established customer exemption", "definition": "The suitability-statement requirement is waived for an ESTABLISHED customer — one who has held an account with the firm for over a year (with a deposit), or who has made three or more penny stock purchases of different issuers on different days. Established customers still get the risk disclosures — only the signed suitability statement is excused. Unsolicited trades are exempt from the suitability-statement rule entirely." },
+        { "type": "examTip", "text": "Penny stock = unlisted AND under $5. Solicited first-time buyers must SIGN a suitability statement; established customers (1+ year account or 3 prior penny-stock buys) are exempt from the statement, not the disclosures. Unsolicited orders need no suitability statement. Monthly account statements are required while penny stocks are held." },
+        { "type": "examTip", "text": "The magic number is 25 retail investors in 30 days: more = retail communication (pre-approval); fewer = correspondence. Cold-call window: 8 a.m.–9 p.m., customer's time zone. Existing customers and prior express invitation are DNC exceptions. Retention: 3 years, first 2 accessible. Nothing may ever suggest FINRA approves or endorses a firm, a rep, or a security." },
+        { "type": "heading", "level": 3, "text": "Chapter 14 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "1933 Act = primary market, prospectuses. 1934 Act = secondary market, created the SEC, antifraud (10b-5 reaches EVERY security, even exempt ones).",
+          "Howey test for 'security': money + common enterprise + expected profit + efforts of others. Fixed annuities and whole life are OUT.",
+          "SIE valid 4 years; registration lapses 2 years after leaving (MQP extends to 5); U4/U5 within 30 days; regulatory CE annually by Dec 31 — miss it and you go inactive.",
+          "Statutory disqualification: ANY felony, or a money/securities misdemeanor, within 10 years — plus bars, expulsions, and injunctions.",
+          "FINRA can censure, fine, suspend, bar — never imprison. Arbitration awards are final and binding; class actions stay in court.",
+          "Communications: >25 retail investors/30 days = retail (principal pre-approval); ≤25 = correspondence; institutional = firm procedures. Retained 3 years.",
+          "No performance predictions ever; fund performance shows standardized 1/5/10-year figures.",
+          "Penny stocks: unlisted + under $5; solicited new customers sign a suitability statement; established customers (1 year or 3 prior buys) exempt from the statement only.",
+          "Cold calls 8 a.m.–9 p.m. customer's time; honor DNC lists (firm list 5 years, national never expires).",
+          "Reg S-P: privacy notice + opt-out; BrokerCheck is free and must be pointed out annually."
+        ] }
+      ]
+    },
+    {
+      "id": "14-5",
+      "blocks": [
+        { "type": "paragraph", "text": "Every number the SIE actually tests, in one place. Drill this table in your final week — most 'hard' SIE questions are just one of these numbers wearing a story." },
+        { "type": "table", "caption": "Protection & account numbers", "headers": ["Item", "Number"], "rows": [
+          ["SIPC coverage", "$500,000 per separate capacity / $250,000 cash max"],
+          ["FDIC coverage", "$250,000 per depositor, per bank, per ownership category"],
+          ["Reg T initial margin", "50% — payment due S+2 (T+3 total)"],
+          ["Maintenance margin", "25% long / 30% short"],
+          ["Margin minimum equity", "$2,000 (pattern day trader: $25,000)"],
+          ["Unpaid Reg T call", "Sell-out + 90-day freeze"],
+          ["Rule 2165 senior hold", "15 business days on disbursements (extendable)"],
+          ["Account record to customer", "Within 30 days of opening, every 36 months after"]
+        ] },
+        { "type": "table", "caption": "Offering & product numbers", "headers": ["Item", "Number"], "rows": [
+          ["Cooling-off period", "Minimum ~20 days"],
+          ["Aftermarket prospectus delivery", "25 days listed IPO / 90 days non-listed IPO / 40 days non-listed follow-on"],
+          ["Reg D 506(b)", "Unlimited accredited + 35 non-accredited"],
+          ["Accredited investor", "$200k single / $300k joint income, or $1M net worth ex-home"],
+          ["QIB (Rule 144A)", "$100 million+ managed"],
+          ["Rule 144 holding period", "6 months (reporting issuer); affiliates: greater of 1% or 4-week avg volume per 90 days"],
+          ["Shelf registration", "Up to 3 years"],
+          ["Reg A+ tiers", "$20M Tier 1 / $75M Tier 2"],
+          ["Commercial paper exemption", "270 days or less"],
+          ["Max mutual fund sales charge", "8.5% of POP"],
+          ["Diversified fund test", "75-5-10"],
+          ["LOI window", "13 months, backdated up to 90 days"],
+          ["Fund redemption payment", "7 days"],
+          ["REIT distribution test", "90% of taxable income"],
+          ["Options: contract / expiration / LEAPS", "100 shares / 3rd Friday, up to 9 months / up to 39 months"],
+          ["529 investment changes", "Twice per calendar year"],
+          ["Penny stock", "Unlisted + under $5; established customer = 1 year or 3 prior buys"]
+        ] },
+        { "type": "table", "caption": "Trading & settlement numbers", "headers": ["Item", "Number"], "rows": [
+          ["Regular-way settlement", "T+1 (stocks, corporates, munis, governments, options)"],
+          ["Cash settlement", "Same day, both parties agree"],
+          ["Circuit breakers (S&P 500)", "−7%/−13% = 15-min halt (before 3:25 p.m.); −20% = closed for the day"],
+          ["Tender offer minimum", "20 business days"],
+          ["SEC trading suspension", "Up to 10 business days"],
+          ["5% policy", "A GUIDE for secondary-market fairness — not prospectus offerings or munis"],
+          ["Account statements", "At least quarterly (monthly with activity or penny stocks)"],
+          ["ACATS", "Validate 1 business day, transfer 3"]
+        ] },
+        { "type": "table", "caption": "Regulatory & conduct numbers", "headers": ["Item", "Number"], "rows": [
+          ["SIE validity", "4 years"],
+          ["Registration lapse after U5", "2 years (MQP extends to 5)"],
+          ["U4/U5 filings", "30 days"],
+          ["Regulatory CE", "Annually by December 31"],
+          ["Statutory disqualification lookback", "10 years"],
+          ["Retail communication threshold", "More than 25 retail investors in 30 days"],
+          ["Communication retention", "3 years, first 2 accessible"],
+          ["New firm filing with FINRA", "10 days BEFORE first use, first year"],
+          ["Gift limit", "$100 per person per year"],
+          ["Insider trading civil penalty", "3× profit gained or loss avoided; criminal up to 20 years"],
+          ["Short-swing profit window", "6 months"],
+          ["CTR", "Cash over $10,000 in a day — file within 15 days"],
+          ["SAR", "$5,000+ suspicious — file within 30 days, never disclose"],
+          ["AML/CTR/SAR record retention", "5 years"],
+          ["Cold-call window", "8 a.m.–9 p.m., customer's time zone (firm DNC list: 5 years)"],
+          ["Options agreement return", "Within 15 days of account approval"]
+        ] },
+        { "type": "examTip", "text": "Final-week drill: cover the right-hand column and recite. The exam rarely tests a number in isolation — it wraps it in a scenario. When a question feels long, find the number hiding inside it first." }
       ]
     }
   ]

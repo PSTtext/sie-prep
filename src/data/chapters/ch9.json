@@ -54,7 +54,20 @@
           ["Structured note", "Issuer credit risk + caps + illiquidity"],
           ["ETN", "Issuer credit risk despite exchange listing"]
         ] },
-        { "type": "examTip", "text": "Structured products and ETNs = the ISSUER'S credit risk, illiquidity, caps on upside. Hedge funds = accredited investors, lock-ups, 2-and-20. If the answer choice says 'guaranteed by the government' or 'FDIC insured,' it's wrong for both." }
+        { "type": "examTip", "text": "Structured products and ETNs = the ISSUER'S credit risk, illiquidity, caps on upside. Hedge funds = accredited investors, lock-ups, 2-and-20. If the answer choice says 'guaranteed by the government' or 'FDIC insured,' it's wrong for both." },
+        { "type": "heading", "level": 3, "text": "Chapter 9 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "529 savings plans: donor keeps control, can change the beneficiary within the family, earnings federal-tax-free for qualified education (+$10k/yr K-12 tuition); non-qualified earnings = ordinary income + 10% penalty.",
+          "529 gifting: annual exclusion applies, and five years can be front-loaded at once. Out-of-state plans may forfeit a home-state deduction — a required suitability point (MSRB rules govern sales).",
+          "Prepaid tuition locks today's rates; savings plans bear market risk. ABLE accounts: disability expenses, benefits-protected, beneficiary-owned.",
+          "DPPs (limited partnerships) flow through income AND losses — the only product that does; losses are passive-only. K-1, not 1099.",
+          "GP: manages, unlimited liability, fiduciary. LP: capital only — manage day-to-day and you risk GP treatment.",
+          "DPP defining risk: ILLIQUIDITY. Evaluate economics first, tax benefits second. Dissolution: creditors → LPs → GP last.",
+          "Oil & gas: exploratory riskiest (IDC write-offs), income programs safest (depletion). Raw land: appreciation only, no depreciation.",
+          "Hedge funds: accredited/qualified only, unregistered, lock-ups, 2-and-20. Fund of hedge funds: registered but double fees.",
+          "Structured notes and ETNs are UNSECURED BANK DEBT: 'principal protection' is only the issuer's promise — credit risk plus caps plus illiquidity.",
+          "ETNs own no portfolio; they trade like ETFs but pay the issuer's promise at maturity."
+        ] }
       ]
     }
   ]

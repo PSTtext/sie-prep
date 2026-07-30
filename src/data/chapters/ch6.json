@@ -76,7 +76,19 @@
         { "type": "example", "title": "Example", "text": "An 8% bond issued when rates were high is callable at 102 after 2030. Rates drop to 5%; the issuer calls, paying $1,020. The investor pockets the premium but must now reinvest at 5% — reinvestment risk realized. Puttable bonds flip the option: the HOLDER can force early redemption at par, valuable when rates RISE. Callable bonds also stop appreciating much above the call price — 'price compression.'" },
         { "type": "keyTerm", "term": "Convertible bond", "definition": "Exchangeable into a fixed number of common shares (ratio = par ÷ conversion price). Lower coupon in exchange for equity upside; the bond's price tracks the stock once conversion value exceeds straight-bond value. Conversion itself is not a taxable event." },
         { "type": "example", "title": "Example — convertible math", "text": "A bond convertible at $40 converts into $1,000 ÷ $40 = 25 shares. Stock at $44: conversion value 25 × $44 = $1,100, so the bond can't trade far below $1,100. Parity price of the stock for a bond trading at $1,150 = $1,150 ÷ 25 = $46." },
-        { "type": "examTip", "text": "Issuers call when rates FALL; holders put when rates RISE. Convertibles = lower coupon + equity upside + anti-dilution adjustments for splits. And 'debenture' means UNSECURED — backed by promise, not collateral." }
+        { "type": "examTip", "text": "Issuers call when rates FALL; holders put when rates RISE. Convertibles = lower coupon + equity upside + anti-dilution adjustments for splits. And 'debenture' means UNSECURED — backed by promise, not collateral." },
+        { "type": "heading", "level": 3, "text": "Money market instruments" },
+        { "type": "paragraph", "text": "The money market is the short-term (one year or less) debt market — where corporations, banks, and governments park and borrow cash. Money market instruments are high-quality, highly liquid, and low-return: safety and liquidity are the point. The exam tests four instruments plus the T-bills you've already met." },
+        { "type": "table", "caption": "Money market instruments", "headers": ["Instrument", "Issuer", "Key facts"], "rows": [
+          ["Commercial paper", "Corporations (highest credit quality)", "Unsecured promissory note, 270 days or less (exempt from 1933 Act registration), sold at a discount — no coupon"],
+          ["Negotiable (jumbo) CD", "Banks", "$100,000+ minimum (typically $1 million), CAN be traded in the secondary market before maturity, pays interest; FDIC covers only up to $250,000"],
+          ["Banker's acceptance (BA)", "Banks (on behalf of importers/exporters)", "Time draft financing INTERNATIONAL TRADE — the 'import/export' answer. Sold at a discount, 270 days or less"],
+          ["Repurchase agreement (repo)", "Dealers/banks (and the Fed)", "Overnight-to-short-term sale of securities with an agreement to buy back at a higher price — a collateralized loan"],
+          ["T-bills", "U.S. Treasury", "4-52 weeks, sold at a discount — the benchmark risk-free money market instrument"]
+        ] },
+        { "type": "example", "title": "Example", "text": "A U.S. importer's bank guarantees payment to a foreign exporter with a time draft due in 90 days. The exporter doesn't want to wait, so it sells the draft at a discount today — that traded instrument is a banker's acceptance. Meanwhile, a corporation needing 60-day cash issues commercial paper at 98.9, repaying par at maturity — the discount is the buyer's interest." },
+        { "type": "paragraph", "text": "Two related terms: Eurodollars are U.S.-dollar deposits held in banks OUTSIDE the United States (nothing to do with the euro currency), and Eurodollar bonds are dollar-denominated bonds issued outside the U.S. Both trade free of most U.S. regulation, which the exam occasionally flags as their distinguishing feature." },
+        { "type": "examTip", "text": "Money market matchups: 'international trade financing' = banker's acceptance. 'Unsecured corporate note, 270 days, discount' = commercial paper. '$1 million bank deposit that trades' = negotiable CD. 'Dollars deposited in a London bank' = Eurodollars. All are money market instruments because they mature in one year or less." }
       ]
     },
     {
@@ -91,7 +103,27 @@
         { "type": "keyTerm", "term": "Trading flat", "definition": "Trading without accrued interest. Income bonds, defaulted bonds, and zero-coupon bonds all trade flat — there's no current interest to accrue." },
         { "type": "heading", "level": 3, "text": "Premium and discount over time" },
         { "type": "paragraph", "text": "Hold a bond to maturity and its price walks to par no matter where it started. Premium bonds amortize down; discount bonds accrete up. Tax wrinkle worth knowing: an original issue discount (OID) on a corporate bond is taxed as interest as it accretes each year, while a market-discount gain is taxed at sale or maturity. Municipal OID accretes tax-free; municipal premium must be amortized with no deduction." },
-        { "type": "examTip", "text": "Corporates/munis accrue 30/360; Treasuries accrue actual days. Zeros, income bonds, and bonds in default trade FLAT. And whenever a question says rates moved, first write the arrow: rates ↑ prices ↓ — then check maturity (longer = bigger move) and coupon (lower = bigger move)." }
+        { "type": "examTip", "text": "Corporates/munis accrue 30/360; Treasuries accrue actual days. Zeros, income bonds, and bonds in default trade FLAT. And whenever a question says rates moved, first write the arrow: rates ↑ prices ↓ — then check maturity (longer = bigger move) and coupon (lower = bigger move)." },
+        { "type": "table", "caption": "Bond taxation recap — who taxes what", "headers": ["Security", "Federal tax on interest", "State/local tax"], "rows": [
+          ["Corporate bonds", "Taxable", "Taxable"],
+          ["U.S. Treasuries & most agencies", "Taxable", "EXEMPT"],
+          ["GNMA/FNMA/FHLMC pass-throughs", "Taxable", "Taxable (the reverse trap)"],
+          ["Municipal bonds", "EXEMPT", "Usually exempt in-state (capital gains always taxable)"]
+        ] },
+        { "type": "heading", "level": 3, "text": "Chapter 6 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Rates up, prices down — always. Longest maturity + lowest coupon = biggest move; long zeros are the extreme.",
+          "Yield ladder: discount bond → coupon < CY < YTM < YTC; premium bond reverses it (YTC lowest = 'yield to worst').",
+          "T-bills: discount, no coupon, 4-52 weeks. Notes/bonds: semiannual coupons, quoted in 32nds. TIPS: principal tracks CPI.",
+          "Treasury interest: state-tax exempt. GNMA: fully taxable but the ONLY full-faith-and-credit agency. Pass-throughs pay monthly; prepayment risk bites when rates fall.",
+          "Munis: federal-tax-free interest; best for HIGH brackets; never in an IRA. Tax-equivalent yield = muni yield ÷ (1 − bracket).",
+          "GO bonds: taxes + voter approval + tax-base analysis. Revenue bonds: user fees + no vote + debt-service coverage.",
+          "Secured (mortgage/ETC) > debentures > subordinated debs > preferred > common. Debenture = UNSECURED.",
+          "Investment grade stops at BBB−/Baa3; below is junk. Ratings measure default risk only.",
+          "Issuers call when rates FALL (callables pay more, price-compress near the call); holders put when rates RISE. Conversion ratio = par ÷ conversion price.",
+          "Accrued interest: corporates/munis 30/360, Treasuries actual days; zeros, income bonds, and defaulted bonds trade flat.",
+          "Money markets (≤1 year): commercial paper 270 days unsecured discount; BAs finance imports/exports; negotiable CDs trade; Eurodollars = dollars deposited abroad."
+        ] }
       ]
     }
   ]

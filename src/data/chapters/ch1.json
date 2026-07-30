@@ -125,6 +125,19 @@
           ["Institutional (FINRA comms)", "Banks, funds, plans; $50M+ entities", "Institutional communications need no pre-approval"],
           ["Accredited investor", "$200k/$300k income or $1M net worth (ex-home)", "May buy private placements (Reg D)"],
           ["QIB", "$100M+ securities managed (institutions only)", "May trade restricted securities under Rule 144A"]
+        ] },
+        { "type": "heading", "level": 3, "text": "Chapter 1 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "SEC = government agency; requires disclosure, never approves or guarantees any security.",
+          "SEC enforcement is civil only — prison requires DOJ criminal prosecution. It can suspend trading 10 business days.",
+          "FINRA, MSRB, and exchanges are SROs — industry bodies, not government. MSRB writes rules but never enforces them (FINRA/bank regulators do) and never regulates issuers.",
+          "SIPC: $500,000 per separate capacity, max $250,000 cash — broker-dealer failure only, never market losses. Not a government agency.",
+          "FDIC: $250,000 per depositor per bank — bank deposits only, never securities, even those sold in a bank.",
+          "Broker = agent = commission; dealer = principal = markup/markdown. One capacity, one charge per trade.",
+          "Investment advisers (ABC test: Advice + Business + Compensation) owe a FIDUCIARY duty; broker-dealers owe Reg BI at the moment of recommendation.",
+          "Transfer agent records ownership; registrar makes sure outstanding never exceeds authorized.",
+          "Carrying firm holds assets and sends statements; introducing firm has the relationship only.",
+          "Futures and commodities = CFTC, not SEC — and not covered by SIPC."
         ] }
       ]
     }

@@ -36,6 +36,7 @@
         { "type": "heading", "level": 3, "text": "Cyclical, defensive, and growth" },
         { "type": "paragraph", "text": "Cyclical industries (autos, airlines, homebuilders, steel, luxury goods) swing hard with the cycle because their purchases can be postponed. Defensive industries (utilities, food, pharmaceuticals, tobacco, alcohol) hold steady because people buy them in any economy. Growth industries (technology) expand faster than the economy in most conditions. Counter-cyclical businesses — think discount retailers — can actually improve in downturns." },
         { "type": "keyTerm", "term": "Inflation, deflation, stagflation", "definition": "Inflation: rising general price level, measured by the Consumer Price Index (CPI). Deflation: falling prices, typical of severe recessions. Stagflation: the ugly combination of stagnant growth/high unemployment WITH high inflation — hard to fix because the cures conflict." },
+        { "type": "paragraph", "text": "Two CPI refinements worth a sentence: 'core' CPI strips out volatile food and energy prices to show the underlying trend (headline CPI includes them), and real economic figures are nominal figures minus inflation — real GDP, real interest rates, real returns. When a question contrasts 'nominal' and 'real,' subtract inflation." },
         { "type": "heading", "level": 3, "text": "Indicators: leading, coincident, lagging" },
         { "type": "paragraph", "text": "Economic indicators come in three flavors. Leading indicators move BEFORE the economy: stock prices (the S&P 500), building permits, initial (new) unemployment claims, consumer expectations, manufacturers' new orders, average weekly manufacturing hours, and the interest-rate spread. Coincident indicators move WITH it: nonfarm payrolls, personal income, industrial production, manufacturing and trade sales. Lagging indicators confirm AFTER the fact: average duration of unemployment, the prime rate, outstanding consumer credit, and unit labor costs." },
         { "type": "table", "caption": "Indicator sorting — the exam's favorites", "headers": ["Leading (predict)", "Coincident (confirm now)", "Lagging (confirm after)"], "rows": [
@@ -82,7 +83,20 @@
         { "type": "keyTerm", "term": "Balance of payments", "definition": "The ledger of all money flowing into and out of a country. Its largest component is the current account, dominated by the balance of trade (exports vs imports). More imports than exports = trade deficit (a debit balance); more exports = surplus." },
         { "type": "paragraph", "text": "Interest rates link back in: higher U.S. rates attract foreign capital chasing yield, which increases demand for dollars and strengthens the currency. That's why Fed tightening tends to lift the dollar — and squeeze U.S. exporters. A weak domestic currency, meanwhile, tends to shrink a trade deficit because exports get cheaper and imports get dearer." },
         { "type": "keyTerm", "term": "Currency (exchange-rate) risk", "definition": "The risk that exchange-rate moves reduce the dollar value of a foreign investment. A U.S. investor holding European stocks loses purchasing power when the euro weakens against the dollar — even if the stocks themselves are flat. ADRs (Chapter 5) carry this risk too." },
-        { "type": "examTip", "text": "Memorize the cross: WEAK dollar helps EXPORTS (and hurts imports); STRONG dollar helps IMPORTS (and hurts exports). The exam loves phrasing this from the foreign buyer's perspective to trip you up. For a U.S. investor abroad: strong FOREIGN currency is good, weak foreign currency is bad." }
+        { "type": "examTip", "text": "Memorize the cross: WEAK dollar helps EXPORTS (and hurts imports); STRONG dollar helps IMPORTS (and hurts exports). The exam loves phrasing this from the foreign buyer's perspective to trip you up. For a U.S. investor abroad: strong FOREIGN currency is good, weak foreign currency is bad." },
+        { "type": "heading", "level": 3, "text": "Chapter 3 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Monetary policy = the Fed (FOMC); fiscal policy = Congress and the President. Never the reverse.",
+          "Fed buys securities → money supply up → rates down → bond prices up. Reverse every arrow for Fed selling.",
+          "The discount rate is the only rate the Fed SETS; the fed funds rate is a market rate it targets — and the most volatile/most watched.",
+          "Rate order, low to high: fed funds → discount → broker call → prime.",
+          "Cycle order: expansion → peak → contraction → trough. Recession = 2+ quarters of falling GDP.",
+          "Leading indicators predict (stock prices, building permits, jobless claims); lagging confirm (prime rate, duration of unemployment).",
+          "Cyclical = autos/airlines; defensive = food/utilities/pharma; counter-cyclical = discount retailers.",
+          "Inverted yield curve (short above long) = recession warning. Widening credit spreads = fear.",
+          "Weak dollar helps U.S. exporters; strong dollar helps importers and U.S. tourists abroad.",
+          "Real return = nominal return − inflation; core CPI excludes food and energy."
+        ] }
       ]
     }
   ]

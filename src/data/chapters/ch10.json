@@ -63,7 +63,20 @@
           ["Reinvestment", "—", "Zero-coupon bonds, laddering"],
           ["Concentration", "Unsystematic", "Diversification, rebalancing"]
         ] },
-        { "type": "examTip", "text": "Diversification cures unsystematic risk and does NOTHING for systematic risk. If a question shows a portfolio of one employer's stock, the answer is concentration risk — and the fix is diversify, whatever the employee's loyalty. If it shows a diversified portfolio still falling in a crash, that's market risk working as designed." }
+        { "type": "examTip", "text": "Diversification cures unsystematic risk and does NOTHING for systematic risk. If a question shows a portfolio of one employer's stock, the answer is concentration risk — and the fix is diversify, whatever the employee's loyalty. If it shows a diversified portfolio still falling in a crash, that's market risk working as designed." },
+        { "type": "heading", "level": 3, "text": "Chapter 10 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Systematic (market, interest-rate, inflation) = can't diversify away; hedge or allocate instead. Unsystematic (business, credit, liquidity, concentration) = diversification is the cure.",
+          "Beta measures market sensitivity: 1.5 swings harder than the market, 0.5 calmer.",
+          "Interest-rate risk hurts when rates RISE; reinvestment and call risk hurt when rates FALL — mirror images.",
+          "Zeros: maximum price risk, ZERO reinvestment risk — the exam's favorite pairing.",
+          "Inflation risk quietly kills 'safe' fixed income; equities, real assets, and TIPS defend.",
+          "Credit risk = ratings: BBB−/Baa3 is the investment-grade floor; higher yield is default compensation.",
+          "Liquidity risk tells: wide bid-ask spread, DPPs, non-traded REITs, thin small-caps.",
+          "Currency risk rides along with ANY foreign holding — including ADRs.",
+          "Concentration: employer stock in the 401(k) is the classic case. Correlation is what makes diversification work — 20 tech stocks are one bet.",
+          "Dollar-cost averaging: fixed dollars on a schedule → average cost below average price. Laddering splits rate and reinvestment risk."
+        ] }
       ]
     }
   ]

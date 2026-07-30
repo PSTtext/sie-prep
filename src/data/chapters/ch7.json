@@ -76,7 +76,20 @@
           ["Life with period certain", "Pays life, but a minimum of e.g. 10 years to a beneficiary"],
           ["Joint and last survivor", "Smallest payment — pays until the SECOND death"]
         ] },
-        { "type": "examTip", "text": "Suitability red flags the exam loves: recommending a variable annuity inside an IRA (the tax deferral is redundant), to someone who needs the money before 59½ or for a short horizon, or an exchange that restarts surrender charges. A 1035 exchange moves annuity-to-annuity (or life-to-annuity) tax-free — but watch those new surrender periods; churning 1035 exchanges is a classic violation." }
+        { "type": "examTip", "text": "Suitability red flags the exam loves: recommending a variable annuity inside an IRA (the tax deferral is redundant), to someone who needs the money before 59½ or for a short horizon, or an exchange that restarts surrender charges. A 1035 exchange moves annuity-to-annuity (or life-to-annuity) tax-free — but watch those new surrender periods; churning 1035 exchanges is a classic violation." },
+        { "type": "heading", "level": 3, "text": "Chapter 7 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Mutual funds: forward pricing at next NAV, redeemable in 7 days, always sold by prospectus, max load 8.5% of POP (only with breakpoints/ROA/reinvestment at NAV).",
+          "POP = NAV ÷ (1 − load). Divide, don't add.",
+          "Class A: front-load + breakpoints (LOI 13 months, backdated 90 days; ROA counts existing holdings). Class C: level load for short horizons. Breakpoint sales are a violation.",
+          "12b-1 fees pay for DISTRIBUTION; 'no-load' means 12b-1 ≤ 0.25%. Diversified = 75-5-10.",
+          "Closed-end funds: fixed shares, trade on exchanges at premiums or DISCOUNTS to NAV — 'trades below NAV' = closed-end.",
+          "ETFs: intraday trading, margin, shorting, low costs, tax-efficient via in-kind creation units. Leveraged/inverse ETFs reset DAILY — unsuitable to buy and hold.",
+          "UIT: fixed, unmanaged, self-liquidating — no board, no adviser, no management fee.",
+          "REITs: 90% payout, ordinary-income dividends, NO loss pass-through. Non-traded REITs = illiquidity red flag.",
+          "Variable annuity: separate account, investor bears risk, both insurance and securities registration. Fixed annuity: general account, inflation risk, insurance only.",
+          "Annuity taxes: earnings deferred, withdrawals ordinary income, LIFO, 10% penalty pre-59½. Payment rises only when the separate account beats the AIR. Straight life pays the most."
+        ] }
       ]
     }
   ]

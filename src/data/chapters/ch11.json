@@ -38,7 +38,10 @@
         { "type": "heading", "level": 3, "text": "Confirms, statements, and the plumbing" },
         { "type": "paragraph", "text": "After execution, the firm sends a trade confirmation at or before completion of the transaction (settlement date), showing security, quantity, price, trade and settlement dates, capacity (agent or principal), and costs (commission, and markup when required). Account statements go out at least quarterly — monthly when there's activity or penny-stock positions. Behind the scenes, the DTCC's National Securities Clearing Corporation nets and guarantees trades between firms; the Depository Trust Company holds securities in book-entry ('street name') form." },
         { "type": "keyTerm", "term": "Good delivery", "definition": "Securities delivered to settle a sale must be in good transferable form: round-lot-divisible certificates, properly endorsed or with a signed stock power. A 'DK' (don't know) is one firm rejecting an unrecognized trade for reconciliation. If a seller fails to deliver, the buyer can 'buy in' the securities and charge the seller." },
-        { "type": "examTip", "text": "Know the ladder: trade date → T+1 settlement → S+2 Reg T deadline → sell-out and 90-day freeze if unpaid. Cash settlement means SAME-DAY, both parties must agree, and it's the answer when a question needs money 'today.' Confirms by settlement; statements at least quarterly." }
+        { "type": "examTip", "text": "Know the ladder: trade date → T+1 settlement → S+2 Reg T deadline → sell-out and 90-day freeze if unpaid. Cash settlement means SAME-DAY, both parties must agree, and it's the answer when a question needs money 'today.' Confirms by settlement; statements at least quarterly." },
+        { "type": "heading", "level": 3, "text": "Trading halts and circuit breakers" },
+        { "type": "paragraph", "text": "Markets have emergency brakes. Market-wide circuit breakers trigger on drops in the S&P 500 from the prior close: a 7% decline (Level 1) or 13% decline (Level 2) halts ALL equity trading for 15 minutes (no halt if the drop happens after 3:25 p.m.); a 20% decline (Level 3) closes the markets for the rest of the day. Separately, individual stocks pause under Limit Up-Limit Down (LULD) bands when their price moves too far too fast, and an exchange or the SEC can halt a single stock pending material news — a regulatory halt that applies across every venue while it lasts." },
+        { "type": "examTip", "text": "Circuit breaker levels: 7% and 13% = 15-minute halt (before 3:25 p.m.); 20% = markets closed for the day. The percentages measure the S&P 500 against the PRIOR day's close. A news-pending halt on one stock is a regulatory halt — trading in that stock stops on every market at once." }
       ]
     },
     {
@@ -68,7 +71,20 @@
         { "type": "paragraph", "text": "Markups on principal trades must be based on the current inside market, not what the dealer paid for the inventory — a dealer who overpaid can't pass the mistake along. Riskless principal — buying into inventory only to fill an already-received customer order — is compensated like a commission and disclosed. Proceeds transactions (sell one security, use the money to buy another) are treated as ONE trade for fair-pricing purposes." },
         { "type": "heading", "level": 3, "text": "Best execution and short sales" },
         { "type": "paragraph", "text": "Firms owe BEST EXECUTION: reasonable diligence to get the customer the most favorable price available under the circumstances, whatever the firm's capacity and regardless of any payment for order flow. Separately, Regulation SHO governs short sales: every sell order is marked 'long' or 'short,' and a short sale requires a locate — reasonable grounds to believe the shares can be borrowed for delivery — before the trade. Short sellers profit from declines, face unlimited risk, and must eventually buy back (cover)." },
-        { "type": "examTip", "text": "One capacity, one charge per trade. The 5% policy is a guideline covering commissions, markups, markdowns, AND proceeds trades — but never applies to securities sold by prospectus. 'Riskless principal' still prices like an agency trade. Short sale = borrowed shares + locate required + unlimited risk." }
+        { "type": "examTip", "text": "One capacity, one charge per trade. The 5% policy is a guideline covering commissions, markups, markdowns, AND proceeds trades — but never applies to securities sold by prospectus. 'Riskless principal' still prices like an agency trade. Short sale = borrowed shares + locate required + unlimited risk." },
+        { "type": "heading", "level": 3, "text": "Chapter 11 recap — if you remember nothing else" },
+        { "type": "list", "items": [
+          "Market order guarantees execution; limit order guarantees price. Stops are triggers that become market orders (stop-limits become limits).",
+          "BLiSS: Buy Limits and Sell Stops live BELOW the market; sell limits and buy stops above. Open orders below market reduce on the ex-date unless DNR.",
+          "Stop questions have two prices: the trigger print, then the next trade is the fill.",
+          "Regular-way settlement: T+1 for stocks, corporates, munis, governments, and options. Cash settlement = same day, both parties agree.",
+          "Reg T payment: S+2 (T+3 total). Unpaid = sell-out + 90-day freeze. Freeriding (paying with sale proceeds of the same shares) triggers the freeze too.",
+          "Circuit breakers: S&P 500 −7%/−13% = 15-minute halt (before 3:25 p.m.); −20% = closed for the day.",
+          "Tender offers: voluntary, premium price, minimum 20 business days, long shares only. Cash mergers taxable now; stock-for-stock defers.",
+          "Agency = commission; principal = markup from the INSIDE market, not dealer cost. Never both on one trade.",
+          "5% policy: a fairness guide, not a rule — never applies to prospectus offerings or munis.",
+          "Reg SHO short sales: mark the order, locate the borrow first; unlimited risk; margin account required."
+        ] }
       ]
     }
   ]
